@@ -1,1 +1,44 @@
-aW1wb3J0IHsgcmVhY3RpdmUsIHJlZiB9IGZyb20gJ3Z1ZSc7DQoNCi8vIOaKiiBXQi5zZXR0aW5ncyDnmoTov5DooYzmnJ/lr7nosaHljIXoo4XkuLrlk43lupTlvI/jgIINCi8vIOazqOaEj++8mumAu+i+keWxgu+8iGNvcmUvZW5naW5lcy9wcmVzZXRz77yJ5Lya55u05o6l5L+u5pS55Y6f5aeL5a+56LGhIFdCLnNldHRpbmdzLlPvvIwNCi8vIOS4jeS8muinpuWPkSBWdWUg55qE5YaZ5YWl6Zm36Zix44CC5Zug5q2k5rOo5YaMIFdCLnNldHRpbmdzLm9uQ2hhbmdl77yIc2V0L3NhdmUg5pe26Kem5Y+R77yJ77yMDQovLyDlnKjlm57osIPph4zmiorljp/lp4vorr7nva7mlbTkvZPlkIzmraXov5vlk43lupTlvI/ku6PnkIbvvIznoa7kv50gVUkg5Yi35paw44CCDQpsZXQgX1MgPSBudWxsOw0KbGV0IF90aWNrID0gbnVsbDsNCg0KZXhwb3J0IGZ1bmN0aW9uIHVzZVNldHRpbmdzKCkgew0KICBpZiAoIV9TKSB7DQogICAgX1MgPSByZWFjdGl2ZSh3aW5kb3cuV0Iuc2V0dGluZ3MuYWxsKCkpOw0KICAgIF90aWNrID0gcmVmKDApOw0KICAgIHdpbmRvdy5XQi5zZXR0aW5ncy5vbkNoYW5nZSgoKSA9PiBzeW5jKCkpOw0KICB9DQogIGNvbnN0IHNldHRpbmdzID0gX1M7DQoNCiAgZnVuY3Rpb24gc3luYygpIHsNCiAgICBPYmplY3QuYXNzaWduKF9TLCB3aW5kb3cuV0Iuc2V0dGluZ3MuYWxsKCkpOw0KICAgIF90aWNrLnZhbHVlKys7DQogIH0NCg0KICBmdW5jdGlvbiB1cGRhdGUoa2V5LCB2YWwpIHsNCiAgICBzZXR0aW5nc1trZXldID0gdmFsOw0KICAgIHdpbmRvdy5XQi5zZXR0aW5ncy5zYXZlKGtleSk7IC8vIOinpuWPkSBvbkNoYW5nZSAtPiBzeW5jDQogIH0NCg0KICBmdW5jdGlvbiB0b2dnbGUoa2V5KSB7DQogICAgc2V0dGluZ3Nba2V5XSA9ICFzZXR0aW5nc1trZXldOw0KICAgIHdpbmRvdy5XQi5zZXR0aW5ncy5zYXZlKGtleSk7DQogIH0NCg0KICAvLyDmibnph4/mm7TmlrDlubbokL3nm5jvvIjnlKjkuo7pooTorr7lr7nosaHmlbTkvZPmm7/mjaLnrYnlnLrmma/vvIkNCiAgZnVuY3Rpb24gc2F2ZUtleXMoa2V5cykgew0KICAgIHdpbmRvdy5XQi5zZXR0aW5ncy5zYXZlKGtleXMpOw0KICB9DQoNCiAgLy8g6YC76L6R5bGC5Zyo5Luj55CG5LmL5aSW5L+u5pS56K6+572u5ZCO77yI5aaC5Liq5Yir5pyq6Kem5Y+RIG9uQ2hhbmdlIOeahOmihOiuvuaTjeS9nO+8ie+8jOaJi+WKqOWQjOatpeS4gOasoQ0KICBmdW5jdGlvbiByZWZyZXNoKCkgew0KICAgIHN5bmMoKTsNCiAgfQ0KDQogIHJldHVybiB7IHNldHRpbmdzLCB1cGRhdGUsIHRvZ2dsZSwgc2F2ZUtleXMsIHJlZnJlc2gsIHRpY2s6IF90aWNrIH07DQp9DQo=
+import { reactive, ref } from 'vue';
+
+// 把 WB.settings 的运行期对象包装为响应式。
+// 注意：逻辑层（core/engines/presets）会直接修改原始对象 WB.settings.S，
+// 不会触发 Vue 的写入陷阱。因此注册 WB.settings.onChange（set/save 时触发），
+// 在回调里把原始设置整体同步进响应式代理，确保 UI 刷新。
+let _S = null;
+let _tick = null;
+
+export function useSettings() {
+  if (!_S) {
+    _S = reactive(window.WB.settings.all());
+    _tick = ref(0);
+    window.WB.settings.onChange(() => sync());
+  }
+  const settings = _S;
+
+  function sync() {
+    Object.assign(_S, window.WB.settings.all());
+    _tick.value++;
+  }
+
+  function update(key, val) {
+    settings[key] = val;
+    window.WB.settings.save(key); // 触发 onChange -> sync
+  }
+
+  function toggle(key) {
+    settings[key] = !settings[key];
+    window.WB.settings.save(key);
+  }
+
+  // 批量更新并落盘（用于预设对象整体替换等场景）
+  function saveKeys(keys) {
+    window.WB.settings.save(keys);
+  }
+
+  // 逻辑层在代理之外修改设置后（如个别未触发 onChange 的预设操作），手动同步一次
+  function refresh() {
+    sync();
+  }
+
+  return { settings, update, toggle, saveKeys, refresh, tick: _tick };
+}

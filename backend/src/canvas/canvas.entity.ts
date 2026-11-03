@@ -1,1 +1,17 @@
-aW1wb3J0IHsgRW50aXR5LCBQcmltYXJ5Q29sdW1uLCBDb2x1bW4gfSBmcm9tICd0eXBlb3JtJzsNCg0KLy8g55S75biD77ya5q+P5byg55S75biD5LiA6KGMDQpARW50aXR5KCdjYW52YXMnKQ0KZXhwb3J0IGNsYXNzIENhbnZhcyB7DQogIEBQcmltYXJ5Q29sdW1uKHsgdHlwZTogJ3ZhcmNoYXInLCBsZW5ndGg6IDE2MCB9KQ0KICBpZDogc3RyaW5nOw0KDQogIEBDb2x1bW4oJ3ZhcmNoYXInLCB7IGxlbmd0aDogMjU1LCBudWxsYWJsZTogdHJ1ZSB9KQ0KICB0aXRsZTogc3RyaW5nOw0KDQogIEBDb2x1bW4oJ2JpZ2ludCcsIHsgbnVsbGFibGU6IHRydWUgfSkNCiAgdXBkYXRlZF9hdDogbnVtYmVyOw0KDQogIEBDb2x1bW4oJ2pzb24nLCB7IG51bGxhYmxlOiB0cnVlIH0pDQogIGRhdGE6IFJlY29yZDxzdHJpbmcsIGFueT47DQp9DQo=
+import { Entity, PrimaryColumn, Column } from 'typeorm';
+
+// 画布：每张画布一行
+@Entity('canvas')
+export class Canvas {
+  @PrimaryColumn({ type: 'varchar', length: 160 })
+  id: string;
+
+  @Column('varchar', { length: 255, nullable: true })
+  title: string;
+
+  @Column('bigint', { nullable: true })
+  updated_at: number;
+
+  @Column('json', { nullable: true })
+  data: Record<string, any>;
+}

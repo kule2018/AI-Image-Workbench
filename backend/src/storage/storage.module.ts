@@ -1,1 +1,9 @@
-aW1wb3J0IHsgTW9kdWxlIH0gZnJvbSAnQG5lc3Rqcy9jb21tb24nOw0KaW1wb3J0IHsgU3RvcmFnZUNvbnRyb2xsZXIgfSBmcm9tICcuL3N0b3JhZ2UuY29udHJvbGxlcic7DQppbXBvcnQgeyBMaWJyYXJ5TW9kdWxlIH0gZnJvbSAnLi4vbGlicmFyeS9saWJyYXJ5Lm1vZHVsZSc7DQoNCkBNb2R1bGUoew0KICBpbXBvcnRzOiBbTGlicmFyeU1vZHVsZV0sDQogIGNvbnRyb2xsZXJzOiBbU3RvcmFnZUNvbnRyb2xsZXJdLA0KfSkNCmV4cG9ydCBjbGFzcyBTdG9yYWdlTW9kdWxlIHt9DQo=
+import { Module } from '@nestjs/common';
+import { StorageController } from './storage.controller';
+import { LibraryModule } from '../library/library.module';
+
+@Module({
+  imports: [LibraryModule],
+  controllers: [StorageController],
+})
+export class StorageModule {}

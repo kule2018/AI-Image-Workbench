@@ -1,1 +1,54 @@
-aW1wb3J0IHsgTW9kdWxlIH0gZnJvbSAnQG5lc3Rqcy9jb21tb24nOw0KaW1wb3J0IHsgVHlwZU9ybU1vZHVsZSB9IGZyb20gJ0BuZXN0anMvdHlwZW9ybSc7DQppbXBvcnQgeyBTZXJ2ZVN0YXRpY01vZHVsZSB9IGZyb20gJ0BuZXN0anMvc2VydmUtc3RhdGljJzsNCmltcG9ydCAqIGFzIGZzIGZyb20gJ2ZzJzsNCmltcG9ydCB7IFNldHRpbmdzIH0gZnJvbSAnLi9zZXR0aW5ncy9zZXR0aW5ncy5lbnRpdHknOw0KaW1wb3J0IHsgSGlzdG9yeUl0ZW0gfSBmcm9tICcuL2hpc3RvcnkvaGlzdG9yeS5lbnRpdHknOw0KaW1wb3J0IHsgQ2FudmFzIH0gZnJvbSAnLi9jYW52YXMvY2FudmFzLmVudGl0eSc7DQppbXBvcnQgeyBMaWJyYXJ5SXRlbSB9IGZyb20gJy4vbGlicmFyeS9saWJyYXJ5LmVudGl0eSc7DQoNCmltcG9ydCB7IFNldHRpbmdzTW9kdWxlIH0gZnJvbSAnLi9zZXR0aW5ncy9zZXR0aW5ncy5tb2R1bGUnOw0KaW1wb3J0IHsgSGlzdG9yeU1vZHVsZSB9IGZyb20gJy4vaGlzdG9yeS9oaXN0b3J5Lm1vZHVsZSc7DQppbXBvcnQgeyBDYW52YXNNb2R1bGUgfSBmcm9tICcuL2NhbnZhcy9jYW52YXMubW9kdWxlJzsNCmltcG9ydCB7IExpYnJhcnlNb2R1bGUgfSBmcm9tICcuL2xpYnJhcnkvbGlicmFyeS5tb2R1bGUnOw0KaW1wb3J0IHsgUHJveHlNb2R1bGUgfSBmcm9tICcuL3Byb3h5L3Byb3h5Lm1vZHVsZSc7DQppbXBvcnQgeyBTdG9yYWdlTW9kdWxlIH0gZnJvbSAnLi9zdG9yYWdlL3N0b3JhZ2UubW9kdWxlJzsNCmltcG9ydCB7IEJhY2t1cE1vZHVsZSB9IGZyb20gJy4vYmFja3VwL2JhY2t1cC5tb2R1bGUnOw0KaW1wb3J0IHsgQXBwSW5mb01vZHVsZSB9IGZyb20gJy4vYXBwLWluZm8vYXBwLWluZm8ubW9kdWxlJzsNCmltcG9ydCB7IEZpbGVzTW9kdWxlIH0gZnJvbSAnLi9maWxlcy9maWxlcy5tb2R1bGUnOw0KaW1wb3J0IHsgQ29tZnlXc01vZHVsZSB9IGZyb20gJy4vY29tZnktd3MvY29tZnktd3MubW9kdWxlJzsNCg0KY29uc3QgZnJvbnRlbmREaXN0ID0gcHJvY2Vzcy5lbnYuRlJPTlRFTkRfRElTVA0KICA/IChmcy5leGlzdHNTeW5jKHByb2Nlc3MuZW52LkZST05URU5EX0RJU1QpID8gcHJvY2Vzcy5lbnYuRlJPTlRFTkRfRElTVCA6IG51bGwpDQogIDogKGZzLmV4aXN0c1N5bmMoJy4uL2Zyb250ZW5kL2Rpc3QnKSA/ICcuLi9mcm9udGVuZC9kaXN0JyA6IG51bGwpOw0KDQpATW9kdWxlKHsNCiAgaW1wb3J0czogWw0KICAgIFR5cGVPcm1Nb2R1bGUuZm9yUm9vdCh7DQogICAgICB0eXBlOiAnbXlzcWwnLA0KICAgICAgaG9zdDogcHJvY2Vzcy5lbnYuREJfSE9TVCB8fCAnMTI3LjAuMC4xJywNCiAgICAgIHBvcnQ6IHBhcnNlSW50KHByb2Nlc3MuZW52LkRCX1BPUlQgfHwgJzMzMDYnLCAxMCksDQogICAgICB1c2VybmFtZTogcHJvY2Vzcy5lbnYuREJfVVNFUiB8fCAncm9vdCcsDQogICAgICBwYXNzd29yZDogcHJvY2Vzcy5lbnYuREJfUEFTU1dPUkQgfHwgJycsDQogICAgICBkYXRhYmFzZTogcHJvY2Vzcy5lbnYuREJfTkFNRSB8fCAnYWlfaW1hZ2Vfd29ya2JlbmNoJywNCiAgICAgIGNoYXJzZXQ6ICd1dGY4bWI0JywNCiAgICAgIGVudGl0aWVzOiBbU2V0dGluZ3MsIEhpc3RvcnlJdGVtLCBDYW52YXMsIExpYnJhcnlJdGVtXSwNCiAgICAgIHN5bmNocm9uaXplOiB0cnVlLCAvLyDlvIDlj5HmnJ/oh6rliqjlu7rooajvvJvnlJ/kuqfor7fmlLnkuLogZmFsc2Ug5bm26L+B56e7DQogICAgICBhdXRvTG9hZEVudGl0aWVzOiB0cnVlLA0KICAgIH0pLA0KICAgIC4uLihmcm9udGVuZERpc3QNCiAgICAgID8gW1NlcnZlU3RhdGljTW9kdWxlLmZvclJvb3QoeyByb290UGF0aDogZnJvbnRlbmREaXN0LCBleGNsdWRlOiBbJy9hcGkvKC4qKScsICcvb3V0cHV0LyguKiknLCAnL2xpYnJhcnkvKC4qKSddIH0pXQ0KICAgICAgOiBbXSksDQogICAgU2V0dGluZ3NNb2R1bGUsDQogICAgSGlzdG9yeU1vZHVsZSwNCiAgICBDYW52YXNNb2R1bGUsDQogICAgTGlicmFyeU1vZHVsZSwNCiAgICBQcm94eU1vZHVsZSwNCiAgICBTdG9yYWdlTW9kdWxlLA0KICAgIEJhY2t1cE1vZHVsZSwNCiAgICBBcHBJbmZvTW9kdWxlLA0KICAgIEZpbGVzTW9kdWxlLA0KICAgIENvbWZ5V3NNb2R1bGUsDQogIF0sDQp9KQ0KZXhwb3J0IGNsYXNzIEFwcE1vZHVsZSB7fQ0K
+import { Module } from '@nestjs/common';
+import { TypeOrmModule } from '@nestjs/typeorm';
+import { ServeStaticModule } from '@nestjs/serve-static';
+import * as fs from 'fs';
+import { Settings } from './settings/settings.entity';
+import { HistoryItem } from './history/history.entity';
+import { Canvas } from './canvas/canvas.entity';
+import { LibraryItem } from './library/library.entity';
+
+import { SettingsModule } from './settings/settings.module';
+import { HistoryModule } from './history/history.module';
+import { CanvasModule } from './canvas/canvas.module';
+import { LibraryModule } from './library/library.module';
+import { ProxyModule } from './proxy/proxy.module';
+import { StorageModule } from './storage/storage.module';
+import { BackupModule } from './backup/backup.module';
+import { AppInfoModule } from './app-info/app-info.module';
+import { FilesModule } from './files/files.module';
+import { ComfyWsModule } from './comfy-ws/comfy-ws.module';
+
+const frontendDist = process.env.FRONTEND_DIST
+  ? (fs.existsSync(process.env.FRONTEND_DIST) ? process.env.FRONTEND_DIST : null)
+  : (fs.existsSync('../frontend/dist') ? '../frontend/dist' : null);
+
+@Module({
+  imports: [
+    TypeOrmModule.forRoot({
+      type: 'mysql',
+      host: process.env.DB_HOST || '127.0.0.1',
+      port: parseInt(process.env.DB_PORT || '3306', 10),
+      username: process.env.DB_USER || 'root',
+      password: process.env.DB_PASSWORD || '',
+      database: process.env.DB_NAME || 'ai_image_workbench',
+      charset: 'utf8mb4',
+      entities: [Settings, HistoryItem, Canvas, LibraryItem],
+      synchronize: true, // 开发期自动建表；生产请改为 false 并迁移
+      autoLoadEntities: true,
+    }),
+    ...(frontendDist
+      ? [ServeStaticModule.forRoot({ rootPath: frontendDist, exclude: ['/api/(.*)', '/output/(.*)', '/library/(.*)'] })]
+      : []),
+    SettingsModule,
+    HistoryModule,
+    CanvasModule,
+    LibraryModule,
+    ProxyModule,
+    StorageModule,
+    BackupModule,
+    AppInfoModule,
+    FilesModule,
+    ComfyWsModule,
+  ],
+})
+export class AppModule {}

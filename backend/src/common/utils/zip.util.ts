@@ -1,1 +1,97 @@
-aW1wb3J0IHsgaW5mbGF0ZVJhd1N5bmMsIGRlZmxhdGVSYXdTeW5jIH0gZnJvbSAnemxpYic7DQppbXBvcnQgeyBjcmMzMiB9IGZyb20gJy4vY3JjMzIudXRpbCc7DQoNCmV4cG9ydCBpbnRlcmZhY2UgWmlwRW50cnkgew0KICBuYW1lOiBzdHJpbmc7DQogIGRhdGE6IEJ1ZmZlcjsNCiAgc3RvcmU/OiBib29sZWFuOw0KfQ0KDQovLyBlbnRyaWVzOiBbe25hbWUsIGRhdGEsIGRpcj99XSAtPiBCdWZmZXLvvIhERUZMQVRFL1NUT1JF77yM57uT5p6E5LiO5paH55Sf5Zu+5bel5YW3Mi4wIOWkh+S7veWMheS4gOiHtO+8iQ0KZXhwb3J0IGZ1bmN0aW9uIHppcENyZWF0ZShlbnRyaWVzOiBaaXBFbnRyeVtdKTogQnVmZmVyIHsNCiAgY29uc3QgY2h1bmtzOiBCdWZmZXJbXSA9IFtdOw0KICBjb25zdCBjZW50cmFsOiBCdWZmZXJbXSA9IFtdOw0KICBsZXQgb2Zmc2V0ID0gMDsNCiAgY29uc3Qgbm93RCA9IG5ldyBEYXRlKCk7DQogIGNvbnN0IGRvc1RpbWUgPSAoKG5vd0QuZ2V0SG91cnMoKSA8PCAxMSkgfCAobm93RC5nZXRNaW51dGVzKCkgPDwgNSkgfCAobm93RC5nZXRTZWNvbmRzKCkgLyAyKSkgJiAweEZGRkY7DQogIGNvbnN0IGRvc0RhdGUgPSAoKChub3dELmdldEZ1bGxZZWFyKCkgLSAxOTgwKSA8PCA5KSB8ICgobm93RC5nZXRNb250aCgpICsgMSkgPDwgNSkgfCBub3dELmdldERhdGUoKSkgJiAweEZGRkY7DQoNCiAgZm9yIChjb25zdCBlIG9mIGVudHJpZXMpIHsNCiAgICBjb25zdCBuYW1lQnVmID0gQnVmZmVyLmZyb20oZS5uYW1lLCAndXRmLTgnKTsNCiAgICBjb25zdCBkYXRhID0gZS5kYXRhIHx8IEJ1ZmZlci5hbGxvYygwKTsNCiAgICBjb25zdCBjcmMgPSBjcmMzMihkYXRhKTsNCiAgICBsZXQgbWV0aG9kID0gOCwgcGF5bG9hZCA9IGRhdGE7DQogICAgaWYgKGRhdGEubGVuZ3RoID09PSAwIHx8IGUuc3RvcmUpIHsgbWV0aG9kID0gMDsgcGF5bG9hZCA9IGRhdGE7IH0NCiAgICBlbHNlIHsNCiAgICAgIHRyeSB7IHBheWxvYWQgPSBkZWZsYXRlUmF3U3luYyhkYXRhLCB7IGxldmVsOiA2IH0pOyB9IGNhdGNoIChlcnIpIHsgbWV0aG9kID0gMDsgcGF5bG9hZCA9IGRhdGE7IH0NCiAgICAgIGlmIChwYXlsb2FkLmxlbmd0aCA+PSBkYXRhLmxlbmd0aCkgeyBtZXRob2QgPSAwOyBwYXlsb2FkID0gZGF0YTsgfQ0KICAgIH0NCiAgICBjb25zdCBsb2NhbCA9IEJ1ZmZlci5hbGxvYygzMCk7DQogICAgbG9jYWwud3JpdGVVSW50MzJMRSgweDA0MDM0YjUwLCAwKTsNCiAgICBsb2NhbC53cml0ZVVJbnQxNkxFKDIwLCA0KTsNCiAgICBsb2NhbC53cml0ZVVJbnQxNkxFKDB4MDgwMCwgNik7DQogICAgbG9jYWwud3JpdGVVSW50MTZMRShtZXRob2QsIDgpOw0KICAgIGxvY2FsLndyaXRlVUludDE2TEUoZG9zVGltZSwgMTApOw0KICAgIGxvY2FsLndyaXRlVUludDE2TEUoZG9zRGF0ZSwgMTIpOw0KICAgIGxvY2FsLndyaXRlVUludDMyTEUoY3JjLCAxNCk7DQogICAgbG9jYWwud3JpdGVVSW50MzJMRShwYXlsb2FkLmxlbmd0aCwgMTgpOw0KICAgIGxvY2FsLndyaXRlVUludDMyTEUoZGF0YS5sZW5ndGgsIDIyKTsNCiAgICBsb2NhbC53cml0ZVVJbnQxNkxFKG5hbWVCdWYubGVuZ3RoLCAyNik7DQogICAgbG9jYWwud3JpdGVVSW50MTZMRSgwLCAyOCk7DQogICAgY2h1bmtzLnB1c2gobG9jYWwsIG5hbWVCdWYsIHBheWxvYWQpOw0KDQogICAgY29uc3QgY2VuID0gQnVmZmVyLmFsbG9jKDQ2KTsNCiAgICBjZW4ud3JpdGVVSW50MzJMRSgweDAyMDE0YjUwLCAwKTsNCiAgICBjZW4ud3JpdGVVSW50MTZMRSgyMCwgNCk7DQogICAgY2VuLndyaXRlVUludDE2TEUoMjAsIDYpOw0KICAgIGNlbi53cml0ZVVJbnQxNkxFKDB4MDgwMCwgOCk7DQogICAgY2VuLndyaXRlVUludDE2TEUobWV0aG9kLCAxMCk7DQogICAgY2VuLndyaXRlVUludDE2TEUoZG9zVGltZSwgMTIpOw0KICAgIGNlbi53cml0ZVVJbnQxNkxFKGRvc0RhdGUsIDE0KTsNCiAgICBjZW4ud3JpdGVVSW50MzJMRShjcmMsIDE2KTsNCiAgICBjZW4ud3JpdGVVSW50MzJMRShwYXlsb2FkLmxlbmd0aCwgMjApOw0KICAgIGNlbi53cml0ZVVJbnQzMkxFKGRhdGEubGVuZ3RoLCAyNCk7DQogICAgY2VuLndyaXRlVUludDE2TEUobmFtZUJ1Zi5sZW5ndGgsIDI4KTsNCiAgICBjZW4ud3JpdGVVSW50MzJMRShvZmZzZXQsIDQyKTsNCiAgICBjZW50cmFsLnB1c2goQnVmZmVyLmNvbmNhdChbY2VuLCBuYW1lQnVmXSkpOw0KICAgIG9mZnNldCArPSAzMCArIG5hbWVCdWYubGVuZ3RoICsgcGF5bG9hZC5sZW5ndGg7DQogIH0NCiAgY29uc3QgY2VudHJhbEJ1ZiA9IEJ1ZmZlci5jb25jYXQoY2VudHJhbCk7DQogIGNvbnN0IGVvY2QgPSBCdWZmZXIuYWxsb2MoMjIpOw0KICBlb2NkLndyaXRlVUludDMyTEUoMHgwNjA1NGI1MCwgMCk7DQogIGVvY2Qud3JpdGVVSW50MTZMRShlbnRyaWVzLmxlbmd0aCwgOCk7DQogIGVvY2Qud3JpdGVVSW50MTZMRShlbnRyaWVzLmxlbmd0aCwgMTApOw0KICBlb2NkLndyaXRlVUludDMyTEUoY2VudHJhbEJ1Zi5sZW5ndGgsIDEyKTsNCiAgZW9jZC53cml0ZVVJbnQzMkxFKG9mZnNldCwgMTYpOw0KICByZXR1cm4gQnVmZmVyLmNvbmNhdChbLi4uY2h1bmtzLCBjZW50cmFsQnVmLCBlb2NkXSk7DQp9DQoNCi8vIC0+IFt7bmFtZSwgZGF0YTpCdWZmZXJ9XQ0KZXhwb3J0IGZ1bmN0aW9uIHppcFJlYWQoYnVmOiBCdWZmZXIpOiBaaXBFbnRyeVtdIHsNCiAgbGV0IGVvY2QgPSAtMTsNCiAgZm9yIChsZXQgaSA9IGJ1Zi5sZW5ndGggLSAyMjsgaSA+PSBNYXRoLm1heCgwLCBidWYubGVuZ3RoIC0gMjIgLSA2NTUzNik7IGktLSkgew0KICAgIGlmIChidWYucmVhZFVJbnQzMkxFKGkpID09PSAweDA2MDU0YjUwKSB7IGVvY2QgPSBpOyBicmVhazsgfQ0KICB9DQogIGlmIChlb2NkIDwgMCkgdGhyb3cgbmV3IEVycm9yKCfml6DmlYjnmoQgWklQIOaWh+S7ticpOw0KICBjb25zdCBjb3VudCA9IGJ1Zi5yZWFkVUludDE2TEUoZW9jZCArIDEwKTsNCiAgbGV0IHB0ciA9IGJ1Zi5yZWFkVUludDMyTEUoZW9jZCArIDE2KTsNCiAgY29uc3QgZW50cmllczogWmlwRW50cnlbXSA9IFtdOw0KICBmb3IgKGxldCBpID0gMDsgaSA8IGNvdW50OyBpKyspIHsNCiAgICBpZiAoYnVmLnJlYWRVSW50MzJMRShwdHIpICE9PSAweDAyMDE0YjUwKSBicmVhazsNCiAgICBjb25zdCBtZXRob2QgPSBidWYucmVhZFVJbnQxNkxFKHB0ciArIDEwKTsNCiAgICBjb25zdCBjb21wU2l6ZSA9IGJ1Zi5yZWFkVUludDMyTEUocHRyICsgMjApOw0KICAgIGNvbnN0IG5hbWVMZW4gPSBidWYucmVhZFVJbnQxNkxFKHB0ciArIDI4KTsNCiAgICBjb25zdCBleHRyYUxlbiA9IGJ1Zi5yZWFkVUludDE2TEUocHRyICsgMzApOw0KICAgIGNvbnN0IGNvbW1lbnRMZW4gPSBidWYucmVhZFVJbnQxNkxFKHB0ciArIDMyKTsNCiAgICBjb25zdCBsb2NhbE9mZiA9IGJ1Zi5yZWFkVUludDMyTEUocHRyICsgNDIpOw0KICAgIGNvbnN0IG5hbWUgPSBidWYuc2xpY2UocHRyICsgNDYsIHB0ciArIDQ2ICsgbmFtZUxlbikudG9TdHJpbmcoJ3V0Zi04Jyk7DQogICAgY29uc3QgbGhOYW1lTGVuID0gYnVmLnJlYWRVSW50MTZMRShsb2NhbE9mZiArIDI2KTsNCiAgICBjb25zdCBsaEV4dHJhTGVuID0gYnVmLnJlYWRVSW50MTZMRShsb2NhbE9mZiArIDI4KTsNCiAgICBjb25zdCBkYXRhU3RhcnQgPSBsb2NhbE9mZiArIDMwICsgbGhOYW1lTGVuICsgbGhFeHRyYUxlbjsNCiAgICBjb25zdCByYXcgPSBidWYuc2xpY2UoZGF0YVN0YXJ0LCBkYXRhU3RhcnQgKyBjb21wU2l6ZSk7DQogICAgY29uc3QgZGF0YSA9IG1ldGhvZCA9PT0gMCA/IEJ1ZmZlci5mcm9tKHJhdykgOiBpbmZsYXRlUmF3U3luYyhyYXcpOw0KICAgIGlmICghbmFtZS5lbmRzV2l0aCgnLycpKSBlbnRyaWVzLnB1c2goeyBuYW1lLCBkYXRhIH0pOw0KICAgIHB0ciArPSA0NiArIG5hbWVMZW4gKyBleHRyYUxlbiArIGNvbW1lbnRMZW47DQogIH0NCiAgcmV0dXJuIGVudHJpZXM7DQp9DQo=
+import { inflateRawSync, deflateRawSync } from 'zlib';
+import { crc32 } from './crc32.util';
+
+export interface ZipEntry {
+  name: string;
+  data: Buffer;
+  store?: boolean;
+}
+
+// entries: [{name, data, dir?}] -> Buffer（DEFLATE/STORE，结构与文生图工具2.0 备份包一致）
+export function zipCreate(entries: ZipEntry[]): Buffer {
+  const chunks: Buffer[] = [];
+  const central: Buffer[] = [];
+  let offset = 0;
+  const nowD = new Date();
+  const dosTime = ((nowD.getHours() << 11) | (nowD.getMinutes() << 5) | (nowD.getSeconds() / 2)) & 0xFFFF;
+  const dosDate = (((nowD.getFullYear() - 1980) << 9) | ((nowD.getMonth() + 1) << 5) | nowD.getDate()) & 0xFFFF;
+
+  for (const e of entries) {
+    const nameBuf = Buffer.from(e.name, 'utf-8');
+    const data = e.data || Buffer.alloc(0);
+    const crc = crc32(data);
+    let method = 8, payload = data;
+    if (data.length === 0 || e.store) { method = 0; payload = data; }
+    else {
+      try { payload = deflateRawSync(data, { level: 6 }); } catch (err) { method = 0; payload = data; }
+      if (payload.length >= data.length) { method = 0; payload = data; }
+    }
+    const local = Buffer.alloc(30);
+    local.writeUInt32LE(0x04034b50, 0);
+    local.writeUInt16LE(20, 4);
+    local.writeUInt16LE(0x0800, 6);
+    local.writeUInt16LE(method, 8);
+    local.writeUInt16LE(dosTime, 10);
+    local.writeUInt16LE(dosDate, 12);
+    local.writeUInt32LE(crc, 14);
+    local.writeUInt32LE(payload.length, 18);
+    local.writeUInt32LE(data.length, 22);
+    local.writeUInt16LE(nameBuf.length, 26);
+    local.writeUInt16LE(0, 28);
+    chunks.push(local, nameBuf, payload);
+
+    const cen = Buffer.alloc(46);
+    cen.writeUInt32LE(0x02014b50, 0);
+    cen.writeUInt16LE(20, 4);
+    cen.writeUInt16LE(20, 6);
+    cen.writeUInt16LE(0x0800, 8);
+    cen.writeUInt16LE(method, 10);
+    cen.writeUInt16LE(dosTime, 12);
+    cen.writeUInt16LE(dosDate, 14);
+    cen.writeUInt32LE(crc, 16);
+    cen.writeUInt32LE(payload.length, 20);
+    cen.writeUInt32LE(data.length, 24);
+    cen.writeUInt16LE(nameBuf.length, 28);
+    cen.writeUInt32LE(offset, 42);
+    central.push(Buffer.concat([cen, nameBuf]));
+    offset += 30 + nameBuf.length + payload.length;
+  }
+  const centralBuf = Buffer.concat(central);
+  const eocd = Buffer.alloc(22);
+  eocd.writeUInt32LE(0x06054b50, 0);
+  eocd.writeUInt16LE(entries.length, 8);
+  eocd.writeUInt16LE(entries.length, 10);
+  eocd.writeUInt32LE(centralBuf.length, 12);
+  eocd.writeUInt32LE(offset, 16);
+  return Buffer.concat([...chunks, centralBuf, eocd]);
+}
+
+// -> [{name, data:Buffer}]
+export function zipRead(buf: Buffer): ZipEntry[] {
+  let eocd = -1;
+  for (let i = buf.length - 22; i >= Math.max(0, buf.length - 22 - 65536); i--) {
+    if (buf.readUInt32LE(i) === 0x06054b50) { eocd = i; break; }
+  }
+  if (eocd < 0) throw new Error('无效的 ZIP 文件');
+  const count = buf.readUInt16LE(eocd + 10);
+  let ptr = buf.readUInt32LE(eocd + 16);
+  const entries: ZipEntry[] = [];
+  for (let i = 0; i < count; i++) {
+    if (buf.readUInt32LE(ptr) !== 0x02014b50) break;
+    const method = buf.readUInt16LE(ptr + 10);
+    const compSize = buf.readUInt32LE(ptr + 20);
+    const nameLen = buf.readUInt16LE(ptr + 28);
+    const extraLen = buf.readUInt16LE(ptr + 30);
+    const commentLen = buf.readUInt16LE(ptr + 32);
+    const localOff = buf.readUInt32LE(ptr + 42);
+    const name = buf.slice(ptr + 46, ptr + 46 + nameLen).toString('utf-8');
+    const lhNameLen = buf.readUInt16LE(localOff + 26);
+    const lhExtraLen = buf.readUInt16LE(localOff + 28);
+    const dataStart = localOff + 30 + lhNameLen + lhExtraLen;
+    const raw = buf.slice(dataStart, dataStart + compSize);
+    const data = method === 0 ? Buffer.from(raw) : inflateRawSync(raw);
+    if (!name.endsWith('/')) entries.push({ name, data });
+    ptr += 46 + nameLen + extraLen + commentLen;
+  }
+  return entries;
+}

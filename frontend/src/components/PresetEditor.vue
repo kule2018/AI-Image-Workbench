@@ -1,1 +1,140 @@
-PHRlbXBsYXRlPg0KICA8ZGl2IGNsYXNzPSJwcmVzZXQtZWRpdG9yIj4NCiAgICA8ZGl2IGNsYXNzPSJwZS10ZXh0cyI+DQogICAgICA8ZGl2IGNsYXNzPSJmaWVsZCI+DQogICAgICAgIDxsYWJlbCBjbGFzcz0iZm9ybS1sYWJlbCI+6aKE6K6+6YCJ5oupPC9sYWJlbD4NCiAgICAgICAgPHNlbGVjdCBjbGFzcz0iZm9ybS1zZWxlY3QiIDp2YWx1ZT0iY3VySWQiIEBjaGFuZ2U9Im9uU3dpdGNoKCRldmVudC50YXJnZXQudmFsdWUpIj4NCiAgICAgICAgICA8b3B0aW9uIHYtZm9yPSJuYW1lIGluIG5hbWVzIiA6a2V5PSJuYW1lIiA6dmFsdWU9Im5hbWUiIDpzZWxlY3RlZD0ibmFtZSA9PT0gY3VySWQiPnt7IG5hbWUgfX08L29wdGlvbj4NCiAgICAgICAgPC9zZWxlY3Q+DQogICAgICA8L2Rpdj4NCiAgICAgIDxkaXYgY2xhc3M9ImZpZWxkIj4NCiAgICAgICAgPGxhYmVsIGNsYXNzPSJmb3JtLWxhYmVsIj57eyBpc1AgPyAn5q2j6Z2i5o+Q56S66K+NJyA6ICfpo47moLzmj5DnpLror43vvIjoh6rliqjmi7zmjqXlnKjmraPpnaLmj5DnpLror43kuYvlkI7vvIknIH19PC9sYWJlbD4NCiAgICAgICAgPHRleHRhcmVhIGNsYXNzPSJmb3JtLXRleHRhcmVhIiA6dmFsdWU9ImZpeGVkIiBAaW5wdXQ9InNldEZpeGVkKCRldmVudC50YXJnZXQudmFsdWUpIj48L3RleHRhcmVhPg0KICAgICAgPC9kaXY+DQogICAgICA8ZGl2IGNsYXNzPSJmaWVsZCIgdi1pZj0iaXNQIj4NCiAgICAgICAgPGxhYmVsIGNsYXNzPSJmb3JtLWxhYmVsIj7otJ/pnaLmj5DnpLror408L2xhYmVsPg0KICAgICAgICA8dGV4dGFyZWEgY2xhc3M9ImZvcm0tdGV4dGFyZWEiIDp2YWx1ZT0ibmVnIiBAaW5wdXQ9InNldE5lZygkZXZlbnQudGFyZ2V0LnZhbHVlKSI+PC90ZXh0YXJlYT4NCiAgICAgIDwvZGl2Pg0KICAgIDwvZGl2Pg0KICAgIDxkaXYgY2xhc3M9InBlLXNpZGUiPg0KICAgICAgPGxhYmVsIGNsYXNzPSJmb3JtLWxhYmVsIj7pooTorr7mlYjmnpzlm748L2xhYmVsPg0KICAgICAgPGRpdiBjbGFzcz0icHJldmlldy1ib3gtMzQiIEBjbGljaz0icGlja0ltZyI+DQogICAgICAgIDxpbWcgdi1pZj0icHJldmlld1NyYyIgOnNyYz0icHJldmlld1NyYyIgYWx0PSIiPg0KICAgICAgICA8ZGl2IHYtZWxzZSBjbGFzcz0icHYtcGxhY2Vob2xkZXIiPvCfk7c8YnI+54K55Ye75LiK5LygPC9kaXY+DQogICAgICA8L2Rpdj4NCiAgICAgIDxidXR0b24gY2xhc3M9ImJ0biBidG4tc20iIEBjbGljaz0iZGVsSW1nIj7wn5eRIOWIoOmZpOmihOiniOWbvjwvYnV0dG9uPg0KICAgIDwvZGl2Pg0KICAgIDxkaXYgY2xhc3M9InByZXNldC1hY3Rpb25zIGNvbHMtNyI+DQogICAgICA8YnV0dG9uIGNsYXNzPSJidG4gYnRuLXNtIGJ0bi1wcmltYXJ5IiBAY2xpY2s9Im5ld1ByZXNldCI+4p6VIOaWsOW7uumihOiuvjwvYnV0dG9uPg0KICAgICAgPGJ1dHRvbiBjbGFzcz0iYnRuIGJ0bi1zbSBidG4tcHJpbWFyeSIgQGNsaWNrPSJzYXZlIj7wn5K+IOS/neWtmOmihOiuvjwvYnV0dG9uPg0KICAgICAgPGJ1dHRvbiBjbGFzcz0iYnRuIGJ0bi1zbSBidG4tZGFuZ2VyIiBAY2xpY2s9ImRlbCI+8J+Xke+4jyDliKDpmaTpooTorr48L2J1dHRvbj4NCiAgICAgIDxidXR0b24gY2xhc3M9ImJ0biBidG4tc20gYnRuLWRhbmdlciIgQGNsaWNrPSJkZWxBbGwiPvCfl5HvuI8g5Yig6Zmk5YWo6YOoPC9idXR0b24+DQogICAgICA8YnV0dG9uIGNsYXNzPSJidG4gYnRuLXNtIiBAY2xpY2s9ImltcG9ydFAiPvCfk6Ug5a+85YWl6aKE6K6+PC9idXR0b24+DQogICAgICA8YnV0dG9uIGNsYXNzPSJidG4gYnRuLXNtIiBAY2xpY2s9ImV4cG9ydFAiPvCfk6Qg5a+85Ye66aKE6K6+PC9idXR0b24+DQogICAgICA8YnV0dG9uIGNsYXNzPSJidG4gYnRuLXNtIiBAY2xpY2s9ImV4cG9ydEFsbCI+8J+TpiDlr7zlh7rlhajpg6g8L2J1dHRvbj4NCiAgICA8L2Rpdj4NCiAgPC9kaXY+DQo8L3RlbXBsYXRlPg0KDQo8c2NyaXB0IHNldHVwPg0KaW1wb3J0IHsgcmVmLCBjb21wdXRlZCB9IGZyb20gJ3Z1ZSc7DQppbXBvcnQgeyB1c2VTZXR0aW5ncyB9IGZyb20gJy4uL2NvbXBvc2FibGVzL3VzZVNldHRpbmdzJzsNCmltcG9ydCB7IHVzZVVpIH0gZnJvbSAnLi4vY29tcG9zYWJsZXMvdXNlVWknOw0KDQpjb25zdCBwcm9wcyA9IGRlZmluZVByb3BzKHsga2luZDogeyB0eXBlOiBTdHJpbmcsIHJlcXVpcmVkOiB0cnVlIH0gfSk7DQpjb25zdCB7IHNldHRpbmdzLCByZWZyZXNoIH0gPSB1c2VTZXR0aW5ncygpOw0KY29uc3QgdWkgPSB1c2VVaSgpOw0KY29uc3QgaXNQID0gcHJvcHMua2luZCA9PT0gJ3Byb21wdCc7DQoNCi8vIHByb21wdCAtPiB5dXNoZS95dXNoZWlkIDsgc3R5bGUgLT4gc3R5bGVQcmVzZXRzL3N0eWxlUHJlc2V0SWQNCmNvbnN0IG9iaktleSA9IGlzUCA/ICd5dXNoZScgOiAnc3R5bGVQcmVzZXRzJzsNCmNvbnN0IGlkS2V5ID0gaXNQID8gJ3l1c2hlaWQnIDogJ3N0eWxlUHJlc2V0SWQnOw0KY29uc3QgcmVmS2V5ID0gcHJvcHMua2luZCArICdSZWZJbWcnOyAvLyDmnKzlnLDlvoXkv53lrZjlm74NCg0KY29uc3QgY3VySWQgPSBjb21wdXRlZCgoKSA9PiBzZXR0aW5nc1tpZEtleV0pOw0KY29uc3QgbmFtZXMgPSBjb21wdXRlZCgoKSA9PiBPYmplY3Qua2V5cyhzZXR0aW5nc1tvYmpLZXldIHx8IHt9KSk7DQpjb25zdCBjdXIgPSBjb21wdXRlZCgoKSA9PiAoc2V0dGluZ3Nbb2JqS2V5XSB8fCB7fSlbc2V0dGluZ3NbaWRLZXldXSB8fCB7fSk7DQpjb25zdCBmaXhlZCA9IGNvbXB1dGVkKCgpID0+IChpc1AgPyBjdXIudmFsdWUuZml4ZWRQcm9tcHQgOiBjdXIudmFsdWUuc3R5bGVQcm9tcHQpIHx8ICcnKTsNCmNvbnN0IG5lZyA9IGNvbXB1dGVkKCgpID0+IGN1ci52YWx1ZS5uZWdhdGl2ZVByb21wdCB8fCAnJyk7DQpjb25zdCBwcmV2aWV3U3JjID0gY29tcHV0ZWQoKCkgPT4gcmVmSW1nLnZhbHVlICE9PSB1bmRlZmluZWQgPyByZWZJbWcudmFsdWUgOiAoY3VyLnZhbHVlLnJlZmVyZW5jZUltYWdlIHx8IG51bGwpKTsNCmNvbnN0IHJlZkltZyA9IHJlZih1bmRlZmluZWQpOw0KDQpmdW5jdGlvbiBzZXRGaXhlZCh2KSB7DQogIGlmICghc2V0dGluZ3Nbb2JqS2V5XVtzZXR0aW5nc1tpZEtleV1dKSBzZXR0aW5nc1tvYmpLZXldW3NldHRpbmdzW2lkS2V5XV0gPSB7fTsNCiAgaWYgKGlzUCkgc2V0dGluZ3Nbb2JqS2V5XVtzZXR0aW5nc1tpZEtleV1dLmZpeGVkUHJvbXB0ID0gdjsNCiAgZWxzZSBzZXR0aW5nc1tvYmpLZXldW3NldHRpbmdzW2lkS2V5XV0uc3R5bGVQcm9tcHQgPSB2Ow0KfQ0KZnVuY3Rpb24gc2V0TmVnKHYpIHsNCiAgaWYgKCFzZXR0aW5nc1tvYmpLZXldW3NldHRpbmdzW2lkS2V5XV0pIHNldHRpbmdzW29iaktleV1bc2V0dGluZ3NbaWRLZXldXSA9IHt9Ow0KICBzZXR0aW5nc1tvYmpLZXldW3NldHRpbmdzW2lkS2V5XV0ubmVnYXRpdmVQcm9tcHQgPSB2Ow0KfQ0KDQpmdW5jdGlvbiBvblN3aXRjaChuYW1lKSB7DQogIGlmIChpc1ApIHdpbmRvdy5XQi5wcmVzZXRzLm1hbmFnZXIuc3dpdGNoUHJvbXB0UHJlc2V0KG5hbWUpOw0KICBlbHNlIHdpbmRvdy5XQi5wcmVzZXRzLm1hbmFnZXIuc3dpdGNoU3R5bGVQcmVzZXQobmFtZSk7DQogIHJlZkltZy52YWx1ZSA9IHVuZGVmaW5lZDsNCiAgcmVmcmVzaCgpOw0KfQ0KDQphc3luYyBmdW5jdGlvbiBuZXdQcmVzZXQoKSB7DQogIGNvbnN0IG5hbWUgPSBhd2FpdCB1aS5wcm9tcHQoJ+i+k+WFpeaWsCcgKyAoaXNQID8gJycgOiAn6aOO5qC8JykgKyAn6aKE6K6+5ZCN56ew77yaJyk7DQogIGlmICghbmFtZSkgcmV0dXJuOw0KICBpZiAoaXNQKSB3aW5kb3cuV0IucHJlc2V0cy5tYW5hZ2VyLnNhdmVQcm9tcHRQcmVzZXQobmFtZSwgJycsICcnLCBudWxsKTsNCiAgZWxzZSB3aW5kb3cuV0IucHJlc2V0cy5tYW5hZ2VyLnNhdmVTdHlsZVByZXNldChuYW1lLCAnJywgbnVsbCk7DQogIHJlZkltZy52YWx1ZSA9IHVuZGVmaW5lZDsNCiAgcmVmcmVzaCgpOw0KfQ0KZnVuY3Rpb24gc2F2ZSgpIHsNCiAgY29uc3QgbmFtZSA9IHNldHRpbmdzW2lkS2V5XTsNCiAgaWYgKGlzUCkgd2luZG93LldCLnByZXNldHMubWFuYWdlci5zYXZlUHJvbXB0UHJlc2V0KG5hbWUsIHNldHRpbmdzW29iaktleV1bbmFtZV0/LmZpeGVkUHJvbXB0IHx8ICcnLCBzZXR0aW5nc1tvYmpLZXldW25hbWVdPy5uZWdhdGl2ZVByb21wdCB8fCAnJywgcmVmSW1nLnZhbHVlKTsNCiAgZWxzZSB3aW5kb3cuV0IucHJlc2V0cy5tYW5hZ2VyLnNhdmVTdHlsZVByZXNldChuYW1lLCBzZXR0aW5nc1tvYmpLZXldW25hbWVdPy5zdHlsZVByb21wdCB8fCAnJywgcmVmSW1nLnZhbHVlKTsNCiAgcmVmSW1nLnZhbHVlID0gdW5kZWZpbmVkOw0KICByZWZyZXNoKCk7DQp9DQphc3luYyBmdW5jdGlvbiBkZWwoKSB7DQogIGlmIChpc1ApIGF3YWl0IHdpbmRvdy5XQi5wcmVzZXRzLm1hbmFnZXIuZGVsZXRlUHJvbXB0UHJlc2V0KHNldHRpbmdzW2lkS2V5XSk7DQogIGVsc2UgYXdhaXQgd2luZG93LldCLnByZXNldHMubWFuYWdlci5kZWxldGVTdHlsZVByZXNldChzZXR0aW5nc1tpZEtleV0pOw0KICByZWZJbWcudmFsdWUgPSB1bmRlZmluZWQ7DQogIHJlZnJlc2goKTsNCn0NCmFzeW5jIGZ1bmN0aW9uIGRlbEFsbCgpIHsNCiAgaWYgKCEoYXdhaXQgdWkuY29uZmlybSgn56Gu5a6a5Yig6Zmk5YWo6YOo6aKE6K6+77yf77yI5L+d55WZ5b2T5YmN6YCJ5oup77yJJykpKSByZXR1cm47DQogIGNvbnN0IGtlZXAgPSBzZXR0aW5nc1tpZEtleV07DQogIGlmIChpc1ApIHsNCiAgICBzZXR0aW5ncy55dXNoZSA9IHsgW2tlZXBdOiBzZXR0aW5ncy55dXNoZVtrZWVwXSB8fCB7IGZpeGVkUHJvbXB0OiAnJywgbmVnYXRpdmVQcm9tcHQ6ICcnLCByZWZlcmVuY2VJbWFnZTogbnVsbCB9IH07DQogICAgd2luZG93LldCLnNldHRpbmdzLnNhdmUoJ3l1c2hlJyk7DQogIH0gZWxzZSB7DQogICAgc2V0dGluZ3Muc3R5bGVQcmVzZXRzID0geyBba2VlcF06IHNldHRpbmdzLnN0eWxlUHJlc2V0c1trZWVwXSB8fCB7IHN0eWxlUHJvbXB0OiAnJywgcmVmZXJlbmNlSW1hZ2U6IG51bGwgfSB9Ow0KICAgIHdpbmRvdy5XQi5zZXR0aW5ncy5zYXZlKCdzdHlsZVByZXNldHMnKTsNCiAgfQ0KICByZWZJbWcudmFsdWUgPSB1bmRlZmluZWQ7DQp9DQpmdW5jdGlvbiBpbXBvcnRQKCkgew0KICB1aS5waWNrSnNvbkZpbGUoKGRhdGEpID0+IHsNCiAgICBjb25zdCByID0gaXNQID8gd2luZG93LldCLnByZXNldHMubWFuYWdlci5pbXBvcnRQcm9tcHRQcmVzZXRzKGRhdGEpIDogd2luZG93LldCLnByZXNldHMubWFuYWdlci5pbXBvcnRTdHlsZVByZXNldHMoZGF0YSk7DQogICAgdWkudG9hc3QoYOW3suWvvOWFpSAke3IuY291bnR9IOS4qumihOiuvmAgKyAoci5sYXN0ID8gYO+8jOW9k+WJjeOAjCR7ci5sYXN0feOAjWAgOiAnJykpOw0KICAgIHJlZkltZy52YWx1ZSA9IHVuZGVmaW5lZDsNCiAgICByZWZyZXNoKCk7DQogIH0pOw0KfQ0KZnVuY3Rpb24gZXhwb3J0UCgpIHsNCiAgY29uc3QganNvbiA9IGlzUCA/IHdpbmRvdy5XQi5wcmVzZXRzLm1hbmFnZXIuZXhwb3J0UHJvbXB0UHJlc2V0KGN1cklkLnZhbHVlKSA6IHdpbmRvdy5XQi5wcmVzZXRzLm1hbmFnZXIuZXhwb3J0U3R5bGVQcmVzZXQoY3VySWQudmFsdWUpOw0KICB1aS5kb3dubG9hZCgoaXNQID8gJ3ByZXNldF8nIDogJ3N0eWxlX3ByZXNldF8nKSArIGN1cklkLnZhbHVlICsgJy5qc29uJywganNvbik7DQp9DQpmdW5jdGlvbiBleHBvcnRBbGwoKSB7DQogIGNvbnN0IGpzb24gPSBpc1AgPyB3aW5kb3cuV0IucHJlc2V0cy5tYW5hZ2VyLmV4cG9ydEFsbFByb21wdFByZXNldHMoKSA6IHdpbmRvdy5XQi5wcmVzZXRzLm1hbmFnZXIuZXhwb3J0QWxsU3R5bGVQcmVzZXRzKCk7DQogIHVpLmRvd25sb2FkKGlzUCA/ICdhbGxfcHJlc2V0cy5qc29uJyA6ICdhbGxfc3R5bGVfcHJlc2V0cy5qc29uJywganNvbik7DQp9DQpmdW5jdGlvbiBkZWxJbWcoKSB7DQogIGNvbnN0IHAgPSAoc2V0dGluZ3Nbb2JqS2V5XSB8fCB7fSlbc2V0dGluZ3NbaWRLZXldXTsNCiAgaWYgKHApIHsgcC5yZWZlcmVuY2VJbWFnZSA9IG51bGw7IHdpbmRvdy5XQi5zZXR0aW5ncy5zYXZlKG9iaktleSk7IH0NCiAgcmVmSW1nLnZhbHVlID0gbnVsbDsNCiAgdWkudG9hc3QoJ+W3suWIoOmZpCcgKyAoaXNQID8gJycgOiAn6aOO5qC8JykgKyAn6aKE6K6+5pWI5p6c5Zu+Jyk7DQp9DQphc3luYyBmdW5jdGlvbiBwaWNrSW1nKCkgew0KICB1aS5waWNrRmlsZSgnaW1hZ2UvKicsIGFzeW5jIChmKSA9PiB7DQogICAgcmVmSW1nLnZhbHVlID0gYXdhaXQgdWkuZmlsZVRvRGF0YVVybChmKTsNCiAgICB1aS50b2FzdCgn5pWI5p6c5Zu+5bey6YCJ5oup77yM54K55Ye744CM5L+d5a2Y6aKE6K6+44CN5ZCO5YaZ5YWl5b2T5YmN6aKE6K6+Jyk7DQogIH0pOw0KfQ0KPC9zY3JpcHQ+DQo=
+<template>
+  <div class="preset-editor">
+    <div class="pe-texts">
+      <div class="field">
+        <label class="form-label">预设选择</label>
+        <select class="form-select" :value="curId" @change="onSwitch($event.target.value)">
+          <option v-for="name in names" :key="name" :value="name" :selected="name === curId">{{ name }}</option>
+        </select>
+      </div>
+      <div class="field">
+        <label class="form-label">{{ isP ? '正面提示词' : '风格提示词（自动拼接在正面提示词之后）' }}</label>
+        <textarea class="form-textarea" :value="fixed" @input="setFixed($event.target.value)"></textarea>
+      </div>
+      <div class="field" v-if="isP">
+        <label class="form-label">负面提示词</label>
+        <textarea class="form-textarea" :value="neg" @input="setNeg($event.target.value)"></textarea>
+      </div>
+    </div>
+    <div class="pe-side">
+      <label class="form-label">预设效果图</label>
+      <div class="preview-box-34" @click="pickImg">
+        <img v-if="previewSrc" :src="previewSrc" alt="">
+        <div v-else class="pv-placeholder">📷<br>点击上传</div>
+      </div>
+      <button class="btn btn-sm" @click="delImg">🗑 删除预览图</button>
+    </div>
+    <div class="preset-actions cols-7">
+      <button class="btn btn-sm btn-primary" @click="newPreset">➕ 新建预设</button>
+      <button class="btn btn-sm btn-primary" @click="save">💾 保存预设</button>
+      <button class="btn btn-sm btn-danger" @click="del">🗑️ 删除预设</button>
+      <button class="btn btn-sm btn-danger" @click="delAll">🗑️ 删除全部</button>
+      <button class="btn btn-sm" @click="importP">📥 导入预设</button>
+      <button class="btn btn-sm" @click="exportP">📤 导出预设</button>
+      <button class="btn btn-sm" @click="exportAll">📦 导出全部</button>
+    </div>
+  </div>
+</template>
+
+<script setup>
+import { ref, computed } from 'vue';
+import { useSettings } from '../composables/useSettings';
+import { useUi } from '../composables/useUi';
+
+const props = defineProps({ kind: { type: String, required: true } });
+const { settings, refresh } = useSettings();
+const ui = useUi();
+const isP = props.kind === 'prompt';
+
+// prompt -> yushe/yusheid ; style -> stylePresets/stylePresetId
+const objKey = isP ? 'yushe' : 'stylePresets';
+const idKey = isP ? 'yusheid' : 'stylePresetId';
+const refKey = props.kind + 'RefImg'; // 本地待保存图
+
+const curId = computed(() => settings[idKey]);
+const names = computed(() => Object.keys(settings[objKey] || {}));
+const cur = computed(() => (settings[objKey] || {})[settings[idKey]] || {});
+const fixed = computed(() => (isP ? cur.value.fixedPrompt : cur.value.stylePrompt) || '');
+const neg = computed(() => cur.value.negativePrompt || '');
+const previewSrc = computed(() => refImg.value !== undefined ? refImg.value : (cur.value.referenceImage || null));
+const refImg = ref(undefined);
+
+function setFixed(v) {
+  if (!settings[objKey][settings[idKey]]) settings[objKey][settings[idKey]] = {};
+  if (isP) settings[objKey][settings[idKey]].fixedPrompt = v;
+  else settings[objKey][settings[idKey]].stylePrompt = v;
+}
+function setNeg(v) {
+  if (!settings[objKey][settings[idKey]]) settings[objKey][settings[idKey]] = {};
+  settings[objKey][settings[idKey]].negativePrompt = v;
+}
+
+function onSwitch(name) {
+  if (isP) window.WB.presets.manager.switchPromptPreset(name);
+  else window.WB.presets.manager.switchStylePreset(name);
+  refImg.value = undefined;
+  refresh();
+}
+
+async function newPreset() {
+  const name = await ui.prompt('输入新' + (isP ? '' : '风格') + '预设名称：');
+  if (!name) return;
+  if (isP) window.WB.presets.manager.savePromptPreset(name, '', '', null);
+  else window.WB.presets.manager.saveStylePreset(name, '', null);
+  refImg.value = undefined;
+  refresh();
+}
+function save() {
+  const name = settings[idKey];
+  if (isP) window.WB.presets.manager.savePromptPreset(name, settings[objKey][name]?.fixedPrompt || '', settings[objKey][name]?.negativePrompt || '', refImg.value);
+  else window.WB.presets.manager.saveStylePreset(name, settings[objKey][name]?.stylePrompt || '', refImg.value);
+  refImg.value = undefined;
+  refresh();
+}
+async function del() {
+  if (isP) await window.WB.presets.manager.deletePromptPreset(settings[idKey]);
+  else await window.WB.presets.manager.deleteStylePreset(settings[idKey]);
+  refImg.value = undefined;
+  refresh();
+}
+async function delAll() {
+  if (!(await ui.confirm('确定删除全部预设？（保留当前选择）'))) return;
+  const keep = settings[idKey];
+  if (isP) {
+    settings.yushe = { [keep]: settings.yushe[keep] || { fixedPrompt: '', negativePrompt: '', referenceImage: null } };
+    window.WB.settings.save('yushe');
+  } else {
+    settings.stylePresets = { [keep]: settings.stylePresets[keep] || { stylePrompt: '', referenceImage: null } };
+    window.WB.settings.save('stylePresets');
+  }
+  refImg.value = undefined;
+}
+function importP() {
+  ui.pickJsonFile((data) => {
+    const r = isP ? window.WB.presets.manager.importPromptPresets(data) : window.WB.presets.manager.importStylePresets(data);
+    ui.toast(`已导入 ${r.count} 个预设` + (r.last ? `，当前「${r.last}」` : ''));
+    refImg.value = undefined;
+    refresh();
+  });
+}
+function exportP() {
+  const json = isP ? window.WB.presets.manager.exportPromptPreset(curId.value) : window.WB.presets.manager.exportStylePreset(curId.value);
+  ui.download((isP ? 'preset_' : 'style_preset_') + curId.value + '.json', json);
+}
+function exportAll() {
+  const json = isP ? window.WB.presets.manager.exportAllPromptPresets() : window.WB.presets.manager.exportAllStylePresets();
+  ui.download(isP ? 'all_presets.json' : 'all_style_presets.json', json);
+}
+function delImg() {
+  const p = (settings[objKey] || {})[settings[idKey]];
+  if (p) { p.referenceImage = null; window.WB.settings.save(objKey); }
+  refImg.value = null;
+  ui.toast('已删除' + (isP ? '' : '风格') + '预设效果图');
+}
+async function pickImg() {
+  ui.pickFile('image/*', async (f) => {
+    refImg.value = await ui.fileToDataUrl(f);
+    ui.toast('效果图已选择，点击「保存预设」后写入当前预设');
+  });
+}
+</script>

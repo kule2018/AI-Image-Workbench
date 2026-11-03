@@ -1,1 +1,20 @@
-aW1wb3J0IHsgQ29udHJvbGxlciwgR2V0LCBQb3N0LCBCb2R5LCBSZXMgfSBmcm9tICdAbmVzdGpzL2NvbW1vbic7DQppbXBvcnQgeyBSZXNwb25zZSB9IGZyb20gJ2V4cHJlc3MnOw0KaW1wb3J0IHsgU2V0dGluZ3NTZXJ2aWNlIH0gZnJvbSAnLi9zZXR0aW5ncy5zZXJ2aWNlJzsNCg0KQENvbnRyb2xsZXIoJ2FwaS9zZXR0aW5ncycpDQpleHBvcnQgY2xhc3MgU2V0dGluZ3NDb250cm9sbGVyIHsNCiAgY29uc3RydWN0b3IocHJpdmF0ZSByZWFkb25seSBzZXJ2aWNlOiBTZXR0aW5nc1NlcnZpY2UpIHt9DQoNCiAgQEdldCgpDQogIGFzeW5jIGdldChAUmVzKCkgcmVzOiBSZXNwb25zZSkgew0KICAgIGNvbnN0IGRhdGEgPSBhd2FpdCB0aGlzLnNlcnZpY2UuZ2V0U2V0dGluZ3MoKTsNCiAgICByZXMuanNvbihkYXRhKTsNCiAgfQ0KDQogIEBQb3N0KCkNCiAgYXN5bmMgc2F2ZShAQm9keSgpIGJvZHk6IFJlY29yZDxzdHJpbmcsIGFueT4sIEBSZXMoKSByZXM6IFJlc3BvbnNlKSB7DQogICAgY29uc3QgbWVyZ2VkID0gYXdhaXQgdGhpcy5zZXJ2aWNlLnNhdmVTZXR0aW5ncyhib2R5IHx8IHt9KTsNCiAgICByZXMuanNvbih7IG9rOiB0cnVlIH0pOw0KICB9DQp9DQo=
+import { Controller, Get, Post, Body, Res } from '@nestjs/common';
+import { Response } from 'express';
+import { SettingsService } from './settings.service';
+
+@Controller('api/settings')
+export class SettingsController {
+  constructor(private readonly service: SettingsService) {}
+
+  @Get()
+  async get(@Res() res: Response) {
+    const data = await this.service.getSettings();
+    res.json(data);
+  }
+
+  @Post()
+  async save(@Body() body: Record<string, any>, @Res() res: Response) {
+    const merged = await this.service.saveSettings(body || {});
+    res.json({ ok: true });
+  }
+}

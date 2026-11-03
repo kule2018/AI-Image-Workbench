@@ -1,1 +1,9 @@
-aW1wb3J0IHsgTW9kdWxlIH0gZnJvbSAnQG5lc3Rqcy9jb21tb24nOw0KaW1wb3J0IHsgUHJveHlTZXJ2aWNlIH0gZnJvbSAnLi9wcm94eS5zZXJ2aWNlJzsNCmltcG9ydCB7IFByb3h5Q29udHJvbGxlciB9IGZyb20gJy4vcHJveHkuY29udHJvbGxlcic7DQoNCkBNb2R1bGUoew0KICBjb250cm9sbGVyczogW1Byb3h5Q29udHJvbGxlcl0sDQogIHByb3ZpZGVyczogW1Byb3h5U2VydmljZV0sDQp9KQ0KZXhwb3J0IGNsYXNzIFByb3h5TW9kdWxlIHt9DQo=
+import { Module } from '@nestjs/common';
+import { ProxyService } from './proxy.service';
+import { ProxyController } from './proxy.controller';
+
+@Module({
+  controllers: [ProxyController],
+  providers: [ProxyService],
+})
+export class ProxyModule {}

@@ -1,1 +1,18 @@
-IyDkvp3otZYNCm5vZGVfbW9kdWxlcy8NCg0KIyDmnoTlu7rkuqfniakNCmZyb250ZW5kL2Rpc3QvDQpiYWNrZW5kL2Rpc3QvDQoNCiMg6L+Q6KGM5pyf55Sf5oiQ55qE5pWw5o2u5LiO55uu5b2V77yI55SxIGVuc3VyZURpcnMg6Ieq5Yqo5Yib5bu677yJDQpiYWNrZW5kL2RhdGEvDQpiYWNrZW5kL291dHB1dC8NCmJhY2tlbmQvLmVudg0KDQojIOS4tOaXtuaehOW7ui/lronoo4Xml6Xlv5cNCioubG9nDQoNCiMg57O757uf5paH5Lu2DQouRFNfU3RvcmUNClRodW1icy5kYg0K
+# 依赖
+node_modules/
+
+# 构建产物
+frontend/dist/
+backend/dist/
+
+# 运行期生成的数据与目录（由 ensureDirs 自动创建）
+backend/data/
+backend/output/
+backend/.env
+
+# 临时构建/安装日志
+*.log
+
+# 系统文件
+.DS_Store
+Thumbs.db

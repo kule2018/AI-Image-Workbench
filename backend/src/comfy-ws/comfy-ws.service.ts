@@ -1,1 +1,76 @@
-aW1wb3J0IHsgSW5qZWN0YWJsZSwgT25Nb2R1bGVJbml0IH0gZnJvbSAnQG5lc3Rqcy9jb21tb24nOw0KaW1wb3J0IHsgSHR0cEFkYXB0ZXJIb3N0IH0gZnJvbSAnQG5lc3Rqcy9jb3JlJzsNCmltcG9ydCAqIGFzIGh0dHAgZnJvbSAnaHR0cCc7DQppbXBvcnQgKiBhcyBodHRwcyBmcm9tICdodHRwcyc7DQppbXBvcnQgeyBVUkwgfSBmcm9tICd1cmwnOw0KaW1wb3J0IHsgU29ja2V0IH0gZnJvbSAnbmV0JzsNCg0KLy8gQ29tZnlVSSDph4fmoLfpooTop4jnmoQgV2ViU29ja2V0IOS7o+eQhu+8mua1j+iniOWZqCDihpIg5pys5ZCO56uvIOKGkiBDb21meVVJ44CCDQovLyDku4XlgZrlrZfoioLnuqflj4zlkJEgcGlwZe+8jOS4jeino+W4p+OAgeS4jeaUueWGheWuue+8iFdlYlNvY2tldCDluKflr7nkuK3pl7TkurrpgI/mmI7vvInjgIINCkBJbmplY3RhYmxlKCkNCmV4cG9ydCBjbGFzcyBDb21meVdzU2VydmljZSBpbXBsZW1lbnRzIE9uTW9kdWxlSW5pdCB7DQogIGNvbnN0cnVjdG9yKHByaXZhdGUgcmVhZG9ubHkgaHR0cEFkYXB0ZXJIb3N0OiBIdHRwQWRhcHRlckhvc3QpIHt9DQoNCiAgb25Nb2R1bGVJbml0KCkgew0KICAgIGNvbnN0IHNlcnZlciA9IHRoaXMuaHR0cEFkYXB0ZXJIb3N0Lmh0dHBBZGFwdGVyLmdldEh0dHBTZXJ2ZXIoKSBhcyBodHRwLlNlcnZlcjsNCiAgICBzZXJ2ZXIub24oJ3VwZ3JhZGUnLCAocmVxOiBodHRwLkluY29taW5nTWVzc2FnZSwgc29ja2V0OiBTb2NrZXQsIGhlYWQ6IEJ1ZmZlcikgPT4gew0KICAgICAgbGV0IHU6IFVSTDsNCiAgICAgIHRyeSB7IHUgPSBuZXcgVVJMKHJlcS51cmwgfHwgJycsICdodHRwOi8vbG9jYWxob3N0Jyk7IH0gY2F0Y2ggKGUpIHsgcmV0dXJuIHNvY2tldC5kZXN0cm95KCk7IH0NCiAgICAgIGlmICh1LnBhdGhuYW1lICE9PSAnL2FwaS9jb21meS13cycpIHJldHVybiBzb2NrZXQuZGVzdHJveSgpOw0KDQogICAgICBjb25zdCB0YXJnZXQgPSB1LnNlYXJjaFBhcmFtcy5nZXQoJ3RhcmdldCcpOw0KICAgICAgbGV0IHQ6IFVSTDsNCiAgICAgIHRyeSB7IHQgPSBuZXcgVVJMKHRhcmdldCB8fCAnJyk7IH0gY2F0Y2ggKGUpIHsNCiAgICAgICAgc29ja2V0LndyaXRlKCdIVFRQLzEuMSA0MDAgQmFkIFJlcXVlc3RcclxuXHJcbicpOw0KICAgICAgICByZXR1cm4gc29ja2V0LmRlc3Ryb3koKTsNCiAgICAgIH0NCiAgICAgIGNvbnN0IGlzSHR0cHMgPSB0LnByb3RvY29sID09PSAnaHR0cHM6JyB8fCB0LnByb3RvY29sID09PSAnd3NzOic7DQogICAgICBjb25zdCBtb2QgPSBpc0h0dHBzID8gaHR0cHMgOiBodHRwOw0KICAgICAgY29uc3QgcG9ydCA9IHQucG9ydCB8fCAoaXNIdHRwcyA/IDQ0MyA6IDgwKTsNCg0KICAgICAgY29uc3QgaGVhZGVycyA9IE9iamVjdC5hc3NpZ24oe30sIHJlcS5oZWFkZXJzLCB7DQogICAgICAgIGhvc3Q6IHQuaG9zdCwNCiAgICAgICAgb3JpZ2luOiAoaXNIdHRwcyA/ICdodHRwczovLycgOiAnaHR0cDovLycpICsgdC5ob3N0LA0KICAgICAgfSk7DQogICAgICBjb25zdCB1cFJlcSA9IG1vZC5yZXF1ZXN0KHsNCiAgICAgICAgaG9zdG5hbWU6IHQuaG9zdG5hbWUsIHBvcnQsIHBhdGg6IHQucGF0aG5hbWUgKyB0LnNlYXJjaCwNCiAgICAgICAgbWV0aG9kOiAnR0VUJywgaGVhZGVycywNCiAgICAgIH0pOw0KDQogICAgICB1cFJlcS5vbigndXBncmFkZScsICh1cFJlczogaHR0cC5JbmNvbWluZ01lc3NhZ2UsIHVwU29ja2V0OiBTb2NrZXQsIHVwSGVhZDogQnVmZmVyKSA9PiB7DQogICAgICAgIHNvY2tldC53cml0ZSgnSFRUUC8xLjEgJyArIHVwUmVzLnN0YXR1c0NvZGUgKyAnICcgKyAodXBSZXMuc3RhdHVzTWVzc2FnZSB8fCAnU3dpdGNoaW5nIFByb3RvY29scycpICsgJ1xyXG4nKTsNCiAgICAgICAgZm9yIChsZXQgaSA9IDA7IGkgPCB1cFJlcy5yYXdIZWFkZXJzLmxlbmd0aDsgaSArPSAyKSB7DQogICAgICAgICAgc29ja2V0LndyaXRlKHVwUmVzLnJhd0hlYWRlcnNbaV0gKyAnOiAnICsgdXBSZXMucmF3SGVhZGVyc1tpICsgMV0gKyAnXHJcbicpOw0KICAgICAgICB9DQogICAgICAgIHNvY2tldC53cml0ZSgnXHJcbicpOw0KICAgICAgICBpZiAodXBIZWFkICYmIHVwSGVhZC5sZW5ndGgpIHNvY2tldC53cml0ZSh1cEhlYWQpOw0KICAgICAgICBpZiAoaGVhZCAmJiBoZWFkLmxlbmd0aCkgdXBTb2NrZXQud3JpdGUoaGVhZCk7DQoNCiAgICAgICAgY29uc3QgaGFsZkNsb3NlID0gKHNvY2s6IFNvY2tldCwgcGVlcj86IFNvY2tldCkgPT4gew0KICAgICAgICAgIHRyeSB7IGlmICghc29jay5kZXN0cm95ZWQgJiYgIXNvY2sud3JpdGFibGVFbmRlZCkgc29jay5lbmQoKTsgfSBjYXRjaCAoZSkgeyAvKiDlv73nlaUgKi8gfQ0KICAgICAgICAgIHRyeSB7IGlmIChwZWVyICYmICFwZWVyLmRlc3Ryb3llZCAmJiAhcGVlci53cml0YWJsZUVuZGVkKSBwZWVyLmVuZCgpOyB9IGNhdGNoIChlKSB7IC8qIOW/veeVpSAqLyB9DQogICAgICAgICAgY29uc3QgdG0gPSBzZXRUaW1lb3V0KCgpID0+IHsNCiAgICAgICAgICAgIHRyeSB7IGlmICghc29jay5kZXN0cm95ZWQpIHNvY2suZGVzdHJveSgpOyB9IGNhdGNoIChlKSB7IC8qIOW/veeVpSAqLyB9DQogICAgICAgICAgICB0cnkgeyBpZiAocGVlciAmJiAhcGVlci5kZXN0cm95ZWQpIHBlZXIuZGVzdHJveSgpOyB9IGNhdGNoIChlKSB7IC8qIOW/veeVpSAqLyB9DQogICAgICAgICAgfSwgMjAwMCk7DQogICAgICAgICAgaWYgKHRtLnVucmVmKSB0bS51bnJlZigpOw0KICAgICAgICB9Ow0KICAgICAgICBjb25zdCB0ZWFyRG93biA9ICgpID0+IGhhbGZDbG9zZShzb2NrZXQsIHVwU29ja2V0KTsNCiAgICAgICAgdXBTb2NrZXQub24oJ2RhdGEnLCAoZCkgPT4geyBpZiAoIXNvY2tldC5kZXN0cm95ZWQpIHNvY2tldC53cml0ZShkKTsgfSk7DQogICAgICAgIHNvY2tldC5vbignZGF0YScsIChkKSA9PiB7IGlmICghdXBTb2NrZXQuZGVzdHJveWVkKSB1cFNvY2tldC53cml0ZShkKTsgfSk7DQogICAgICAgIHVwU29ja2V0Lm9uKCdjbG9zZScsIHRlYXJEb3duKTsNCiAgICAgICAgdXBTb2NrZXQub24oJ2Vycm9yJywgdGVhckRvd24pOw0KICAgICAgICBzb2NrZXQub24oJ2Nsb3NlJywgKCkgPT4geyB0cnkgeyBpZiAoIXVwU29ja2V0LmRlc3Ryb3llZCkgdXBTb2NrZXQuZW5kKCk7IH0gY2F0Y2ggKGUpIHsgLyog5b+955WlICovIH0gfSk7DQogICAgICAgIHNvY2tldC5vbignZXJyb3InLCB0ZWFyRG93bik7DQogICAgICB9KTsNCg0KICAgICAgdXBSZXEub24oJ3Jlc3BvbnNlJywgKHJlczI6IGh0dHAuSW5jb21pbmdNZXNzYWdlKSA9PiB7DQogICAgICAgIHNvY2tldC53cml0ZSgnSFRUUC8xLjEgNTAyIEJhZCBHYXRld2F5XHJcbkNvbnRlbnQtVHlwZTogdGV4dC9wbGFpbjsgY2hhcnNldD11dGYtOFxyXG5cclxuJw0KICAgICAgICAgICsgJ1dTIOS7o+eQhuWksei0pe+8muebruagh+i/lOWbniAnICsgcmVzMi5zdGF0dXNDb2RlKTsNCiAgICAgICAgc29ja2V0LmRlc3Ryb3koKTsNCiAgICAgIH0pOw0KICAgICAgdXBSZXEub24oJ2Vycm9yJywgKCkgPT4geyB0cnkgeyBzb2NrZXQuZGVzdHJveSgpOyB9IGNhdGNoIChlKSB7fSB9KTsNCiAgICAgIHVwUmVxLmVuZCgpOw0KICAgIH0pOw0KICB9DQp9DQo=
+import { Injectable, OnModuleInit } from '@nestjs/common';
+import { HttpAdapterHost } from '@nestjs/core';
+import * as http from 'http';
+import * as https from 'https';
+import { URL } from 'url';
+import { Socket } from 'net';
+
+// ComfyUI 采样预览的 WebSocket 代理：浏览器 → 本后端 → ComfyUI。
+// 仅做字节级双向 pipe，不解帧、不改内容（WebSocket 帧对中间人透明）。
+@Injectable()
+export class ComfyWsService implements OnModuleInit {
+  constructor(private readonly httpAdapterHost: HttpAdapterHost) {}
+
+  onModuleInit() {
+    const server = this.httpAdapterHost.httpAdapter.getHttpServer() as http.Server;
+    server.on('upgrade', (req: http.IncomingMessage, socket: Socket, head: Buffer) => {
+      let u: URL;
+      try { u = new URL(req.url || '', 'http://localhost'); } catch (e) { return socket.destroy(); }
+      if (u.pathname !== '/api/comfy-ws') return socket.destroy();
+
+      const target = u.searchParams.get('target');
+      let t: URL;
+      try { t = new URL(target || ''); } catch (e) {
+        socket.write('HTTP/1.1 400 Bad Request\r\n\r\n');
+        return socket.destroy();
+      }
+      const isHttps = t.protocol === 'https:' || t.protocol === 'wss:';
+      const mod = isHttps ? https : http;
+      const port = t.port || (isHttps ? 443 : 80);
+
+      const headers = Object.assign({}, req.headers, {
+        host: t.host,
+        origin: (isHttps ? 'https://' : 'http://') + t.host,
+      });
+      const upReq = mod.request({
+        hostname: t.hostname, port, path: t.pathname + t.search,
+        method: 'GET', headers,
+      });
+
+      upReq.on('upgrade', (upRes: http.IncomingMessage, upSocket: Socket, upHead: Buffer) => {
+        socket.write('HTTP/1.1 ' + upRes.statusCode + ' ' + (upRes.statusMessage || 'Switching Protocols') + '\r\n');
+        for (let i = 0; i < upRes.rawHeaders.length; i += 2) {
+          socket.write(upRes.rawHeaders[i] + ': ' + upRes.rawHeaders[i + 1] + '\r\n');
+        }
+        socket.write('\r\n');
+        if (upHead && upHead.length) socket.write(upHead);
+        if (head && head.length) upSocket.write(head);
+
+        const halfClose = (sock: Socket, peer?: Socket) => {
+          try { if (!sock.destroyed && !sock.writableEnded) sock.end(); } catch (e) { /* 忽略 */ }
+          try { if (peer && !peer.destroyed && !peer.writableEnded) peer.end(); } catch (e) { /* 忽略 */ }
+          const tm = setTimeout(() => {
+            try { if (!sock.destroyed) sock.destroy(); } catch (e) { /* 忽略 */ }
+            try { if (peer && !peer.destroyed) peer.destroy(); } catch (e) { /* 忽略 */ }
+          }, 2000);
+          if (tm.unref) tm.unref();
+        };
+        const tearDown = () => halfClose(socket, upSocket);
+        upSocket.on('data', (d) => { if (!socket.destroyed) socket.write(d); });
+        socket.on('data', (d) => { if (!upSocket.destroyed) upSocket.write(d); });
+        upSocket.on('close', tearDown);
+        upSocket.on('error', tearDown);
+        socket.on('close', () => { try { if (!upSocket.destroyed) upSocket.end(); } catch (e) { /* 忽略 */ } });
+        socket.on('error', tearDown);
+      });
+
+      upReq.on('response', (res2: http.IncomingMessage) => {
+        socket.write('HTTP/1.1 502 Bad Gateway\r\nContent-Type: text/plain; charset=utf-8\r\n\r\n'
+          + 'WS 代理失败：目标返回 ' + res2.statusCode);
+        socket.destroy();
+      });
+      upReq.on('error', () => { try { socket.destroy(); } catch (e) {} });
+      upReq.end();
+    });
+  }
+}

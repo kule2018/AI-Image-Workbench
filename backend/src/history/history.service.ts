@@ -1,1 +1,55 @@
-aW1wb3J0IHsgSW5qZWN0YWJsZSB9IGZyb20gJ0BuZXN0anMvY29tbW9uJzsNCmltcG9ydCB7IEluamVjdFJlcG9zaXRvcnkgfSBmcm9tICdAbmVzdGpzL3R5cGVvcm0nOw0KaW1wb3J0IHsgUmVwb3NpdG9yeSB9IGZyb20gJ3R5cGVvcm0nOw0KaW1wb3J0IHsgSGlzdG9yeUl0ZW0gfSBmcm9tICcuL2hpc3RvcnkuZW50aXR5JzsNCg0KQEluamVjdGFibGUoKQ0KZXhwb3J0IGNsYXNzIEhpc3RvcnlTZXJ2aWNlIHsNCiAgY29uc3RydWN0b3IoDQogICAgQEluamVjdFJlcG9zaXRvcnkoSGlzdG9yeUl0ZW0pDQogICAgcHJpdmF0ZSByZWFkb25seSByZXBvOiBSZXBvc2l0b3J5PEhpc3RvcnlJdGVtPiwNCiAgKSB7fQ0KDQogIGFzeW5jIGdldExpc3QoZW5naW5lPzogc3RyaW5nLCBsaW1pdCA9IDApOiBQcm9taXNlPHsgaXRlbXM6IGFueVtdOyB0b3RhbDogbnVtYmVyIH0+IHsNCiAgICBjb25zdCBhbGwgPSBhd2FpdCB0aGlzLnJlcG8uZmluZCh7IG9yZGVyOiB7IGlkOiAnREVTQycgfSB9KTsNCiAgICBjb25zdCB0b3RhbCA9IGFsbC5sZW5ndGg7DQogICAgbGV0IGxpc3QgPSBhbGwubWFwKChyKSA9PiByLmRhdGEpOw0KICAgIGlmIChlbmdpbmUpIGxpc3QgPSBsaXN0LmZpbHRlcigoaSkgPT4gaSAmJiBpLmVuZ2luZSA9PT0gZW5naW5lKTsNCiAgICBpZiAobGltaXQgPiAwKSBsaXN0ID0gbGlzdC5zbGljZSgwLCBsaW1pdCk7DQogICAgcmV0dXJuIHsgaXRlbXM6IGxpc3QsIHRvdGFsIH07DQogIH0NCg0KICAvLyDov73liqDkuIDmnaHvvIjlr7nlupTljp8gdW5zaGlmdO+8iQ0KICBhc3luYyBhcHBlbmQoaXRlbTogUmVjb3JkPHN0cmluZywgYW55Pik6IFByb21pc2U8dm9pZD4gew0KICAgIGNvbnN0IHJvdyA9IHRoaXMucmVwby5jcmVhdGUoew0KICAgICAgZW5naW5lOiBpdGVtPy5lbmdpbmUgfHwgJycsDQogICAgICB0aW1lc3RhbXA6IGl0ZW0/LnRpbWVzdGFtcCB8fCBEYXRlLm5vdygpLA0KICAgICAgZGF0YTogaXRlbSwNCiAgICB9KTsNCiAgICBhd2FpdCB0aGlzLnJlcG8uc2F2ZShyb3cpOw0KICB9DQoNCiAgLy8g5YmN572u5ZCI5bm25LiA5om577yI5a+55bqU5Y6fIGJvZHkuaXRlbXMuY29uY2F0KGl0ZW1zKe+8iQ0KICBhc3luYyBwcmVwZW5kKGl0ZW1zOiBSZWNvcmQ8c3RyaW5nLCBhbnk+W10pOiBQcm9taXNlPHZvaWQ+IHsNCiAgICBmb3IgKGNvbnN0IGl0ZW0gb2YgaXRlbXMgfHwgW10pIHsNCiAgICAgIGNvbnN0IHJvdyA9IHRoaXMucmVwby5jcmVhdGUoew0KICAgICAgICBlbmdpbmU6IGl0ZW0/LmVuZ2luZSB8fCAnJywNCiAgICAgICAgdGltZXN0YW1wOiBpdGVtPy50aW1lc3RhbXAgfHwgRGF0ZS5ub3coKSwNCiAgICAgICAgZGF0YTogaXRlbSwNCiAgICAgIH0pOw0KICAgICAgYXdhaXQgdGhpcy5yZXBvLnNhdmUocm93KTsNCiAgICB9DQogIH0NCg0KICBhc3luYyBkZWxldGVCeVRpbWVzdGFtcHModGltZXN0YW1wczogbnVtYmVyW10pOiBQcm9taXNlPHZvaWQ+IHsNCiAgICBpZiAoIXRpbWVzdGFtcHMgfHwgIXRpbWVzdGFtcHMubGVuZ3RoKSByZXR1cm47DQogICAgY29uc3Qgcm93cyA9IGF3YWl0IHRoaXMucmVwby5maW5kKCk7DQogICAgY29uc3QgdHNTZXQgPSBuZXcgU2V0KHRpbWVzdGFtcHMpOw0KICAgIGNvbnN0IHRvUmVtb3ZlID0gcm93cy5maWx0ZXIoKHIpID0+IHRzU2V0LmhhcyhOdW1iZXIoci50aW1lc3RhbXApKSk7DQogICAgaWYgKHRvUmVtb3ZlLmxlbmd0aCkgYXdhaXQgdGhpcy5yZXBvLnJlbW92ZSh0b1JlbW92ZSk7DQogIH0NCg0KICBhc3luYyBjbGVhcigpOiBQcm9taXNlPHZvaWQ+IHsNCiAgICBhd2FpdCB0aGlzLnJlcG8uY2xlYXIoKTsNCiAgfQ0KfQ0K
+import { Injectable } from '@nestjs/common';
+import { InjectRepository } from '@nestjs/typeorm';
+import { Repository } from 'typeorm';
+import { HistoryItem } from './history.entity';
+
+@Injectable()
+export class HistoryService {
+  constructor(
+    @InjectRepository(HistoryItem)
+    private readonly repo: Repository<HistoryItem>,
+  ) {}
+
+  async getList(engine?: string, limit = 0): Promise<{ items: any[]; total: number }> {
+    const all = await this.repo.find({ order: { id: 'DESC' } });
+    const total = all.length;
+    let list = all.map((r) => r.data);
+    if (engine) list = list.filter((i) => i && i.engine === engine);
+    if (limit > 0) list = list.slice(0, limit);
+    return { items: list, total };
+  }
+
+  // 追加一条（对应原 unshift）
+  async append(item: Record<string, any>): Promise<void> {
+    const row = this.repo.create({
+      engine: item?.engine || '',
+      timestamp: item?.timestamp || Date.now(),
+      data: item,
+    });
+    await this.repo.save(row);
+  }
+
+  // 前置合并一批（对应原 body.items.concat(items)）
+  async prepend(items: Record<string, any>[]): Promise<void> {
+    for (const item of items || []) {
+      const row = this.repo.create({
+        engine: item?.engine || '',
+        timestamp: item?.timestamp || Date.now(),
+        data: item,
+      });
+      await this.repo.save(row);
+    }
+  }
+
+  async deleteByTimestamps(timestamps: number[]): Promise<void> {
+    if (!timestamps || !timestamps.length) return;
+    const rows = await this.repo.find();
+    const tsSet = new Set(timestamps);
+    const toRemove = rows.filter((r) => tsSet.has(Number(r.timestamp)));
+    if (toRemove.length) await this.repo.remove(toRemove);
+  }
+
+  async clear(): Promise<void> {
+    await this.repo.clear();
+  }
+}

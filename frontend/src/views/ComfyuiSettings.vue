@@ -1,1 +1,219 @@
-PHRlbXBsYXRlPg0KICA8ZGl2IGNsYXNzPSJ3b3Jrc3BhY2UiPg0KICAgIDxkaXYgY2xhc3M9InNldHRpbmdzLXBhZ2UgdHdvLWNvbCI+DQogICAgICA8ZGl2IGNsYXNzPSJjb2wtbGVmdCI+DQogICAgICAgIDxzZWN0aW9uIGNsYXNzPSJzZWN0aW9uIj4NCiAgICAgICAgICA8ZGl2IGNsYXNzPSJzZWN0aW9uLXRpdGxlIj7ov57mjqXorr7nva48L2Rpdj4NCiAgICAgICAgICA8ZGl2IGNsYXNzPSJmaWVsZCI+DQogICAgICAgICAgICA8bGFiZWwgY2xhc3M9ImZvcm0tbGFiZWwiPuW3peS9nOa1gemihOiuvjwvbGFiZWw+DQogICAgICAgICAgICA8c2VsZWN0IGNsYXNzPSJmb3JtLXNlbGVjdCIgOnZhbHVlPSJzZXR0aW5ncy53b3JrZXJpZCIgQGNoYW5nZT0ib25Xb3JrZXJDaGFuZ2UoJGV2ZW50LnRhcmdldC52YWx1ZSkiPg0KICAgICAgICAgICAgICA8b3B0aW9uIHYtZm9yPSIodywgbmFtZSkgaW4gc2V0dGluZ3Mud29ya2VycyIgOmtleT0ibmFtZSIgOnZhbHVlPSJuYW1lIiA6c2VsZWN0ZWQ9Im5hbWUgPT09IHNldHRpbmdzLndvcmtlcmlkIj57eyBuYW1lIH19e3sgdy5idWlsdGluID8gJ++8iOWGhee9ru+8iScgOiAnJyB9fTwvb3B0aW9uPg0KICAgICAgICAgICAgPC9zZWxlY3Q+DQogICAgICAgICAgPC9kaXY+DQogICAgICAgICAgPGRpdiBjbGFzcz0icHJlc2V0LWFjdGlvbnMiPg0KICAgICAgICAgICAgPGJ1dHRvbiBjbGFzcz0iYnRuIGJ0bi1zbSBidG4tcHJpbWFyeSIgQGNsaWNrPSJuZXdXb3JrZXIiPuKelSDmlrDlu7rpooTorr48L2J1dHRvbj4NCiAgICAgICAgICAgIDxidXR0b24gY2xhc3M9ImJ0biBidG4tc20gYnRuLXByaW1hcnkiIEBjbGljaz0ic2F2ZVNuYXAiPvCfkr4g5L+d5a2Y6aKE6K6+PC9idXR0b24+DQogICAgICAgICAgICA8YnV0dG9uIGNsYXNzPSJidG4gYnRuLXNtIGJ0bi1kYW5nZXIiIEBjbGljaz0iZGVsV29ya2VyIj7wn5eR77iPIOWIoOmZpOmihOiuvjwvYnV0dG9uPg0KICAgICAgICAgICAgPGJ1dHRvbiBjbGFzcz0iYnRuIGJ0bi1zbSIgQGNsaWNrPSJpbXBvcnRXb3JrZXIiPvCfk6Ug5a+85YWl6aKE6K6+PC9idXR0b24+DQogICAgICAgICAgICA8YnV0dG9uIGNsYXNzPSJidG4gYnRuLXNtIiBAY2xpY2s9ImV4cG9ydFdvcmtlciI+8J+TpCDlr7zlh7rpooTorr48L2J1dHRvbj4NCiAgICAgICAgICA8L2Rpdj4NCiAgICAgICAgICA8ZGl2IGNsYXNzPSJmaWVsZC1yb3ciIHN0eWxlPSJtYXJnaW4tdG9wOjVweCI+DQogICAgICAgICAgICA8ZGl2IGNsYXNzPSJmaWVsZCIgc3R5bGU9ImZsZXg6MTttaW4td2lkdGg6MCI+DQogICAgICAgICAgICAgIDxsYWJlbCBjbGFzcz0iZm9ybS1sYWJlbCI+Q29tZnlVSSBBUEnlnLDlnYA8L2xhYmVsPg0KICAgICAgICAgICAgICA8aW5wdXQgdHlwZT0idGV4dCIgY2xhc3M9ImZvcm0taW5wdXQiIHYtbW9kZWw9InVybElucHV0IiBwbGFjZWhvbGRlcj0i5L6L5aaCIGh0dHA6Ly8xMjcuMC4wLjE6ODE4OCIgQGNoYW5nZT0idXBkYXRlKCdjb21meVVybCcsIHVybElucHV0KSI+DQogICAgICAgICAgICA8L2Rpdj4NCiAgICAgICAgICAgIDxkaXYgY2xhc3M9ImZpZWxkIiBzdHlsZT0iZmxleDowIDAgMTE4cHgiPg0KICAgICAgICAgICAgICA8bGFiZWwgY2xhc3M9ImZvcm0tbGFiZWwiPuaooeWei+agvOW8jzwvbGFiZWw+DQogICAgICAgICAgICAgIDxzZWxlY3QgY2xhc3M9ImZvcm0tc2VsZWN0IiA6dmFsdWU9InNldHRpbmdzLmNvbWZ5TW9kZWxGb3JtYXQiIEBjaGFuZ2U9Im9uRm9ybWF0Q2hhbmdlKCRldmVudC50YXJnZXQudmFsdWUpIj4NCiAgICAgICAgICAgICAgICA8b3B0aW9uIHZhbHVlPSJDaGVja3BvaW50IiA6c2VsZWN0ZWQ9InNldHRpbmdzLmNvbWZ5TW9kZWxGb3JtYXQgIT09ICdERFVGJyI+Q2hlY2twb2ludDwvb3B0aW9uPg0KICAgICAgICAgICAgICAgIDxvcHRpb24gdmFsdWU9IkREVUYiIDpzZWxlY3RlZD0ic2V0dGluZ3MuY29tZnlNb2RlbEZvcm1hdCA9PT0gJ0REVUYnIj5ERFVGPC9vcHRpb24+DQogICAgICAgICAgICAgIDwvc2VsZWN0Pg0KICAgICAgICAgICAgPC9kaXY+DQogICAgICAgICAgICA8ZGl2IGNsYXNzPSJmaWVsZCIgc3R5bGU9ImZsZXg6MTttaW4td2lkdGg6MCI+DQogICAgICAgICAgICAgIDxsYWJlbCBjbGFzcz0iZm9ybS1sYWJlbCI+5qih5Z6L6YCJ5oupDQogICAgICAgICAgICAgICAgPHNwYW4gY2xhc3M9ImJhZGdlIiA6Y2xhc3M9InNldHRpbmdzLmNvbWZ5Q29ubmVjdGVkID8gJ29rJyA6ICdiYWQnIj57eyBzZXR0aW5ncy5jb21meUNvbm5lY3RlZCA/ICflt7Lov57mjqUnIDogJ+acqui/nuaOpScgfX08L3NwYW4+DQogICAgICAgICAgICAgIDwvbGFiZWw+DQogICAgICAgICAgICAgIDxkaXYgY2xhc3M9ImZpZWxkLXJvdyI+DQogICAgICAgICAgICAgICAgPHNlbGVjdCBjbGFzcz0iZm9ybS1zZWxlY3QiIHN0eWxlPSJmbGV4OjE7bWluLXdpZHRoOjAiIDp2YWx1ZT0ic2V0dGluZ3MuTU9ERUxfTkFNRSIgQGNoYW5nZT0ib25Nb2RlbENoYW5nZSgkZXZlbnQudGFyZ2V0LnZhbHVlKSI+DQogICAgICAgICAgICAgICAgICA8b3B0aW9uIHYtaWY9IiFmdWxsTGlzdCAmJiBzZXR0aW5ncy5NT0RFTF9OQU1FIiA6dmFsdWU9InNldHRpbmdzLk1PREVMX05BTUUiIHNlbGVjdGVkPnt7IGRpc3BsYXlOYW1lKHNldHRpbmdzLk1PREVMX05BTUUpIH19PC9vcHRpb24+DQogICAgICAgICAgICAgICAgICA8b3B0aW9uIHYtaWY9IiFmdWxsTGlzdCAmJiAhc2V0dGluZ3MuTU9ERUxfTkFNRSIgdmFsdWU9IiI+54K55Ye76L+e5o6l6I635Y+W5qih5Z6L5YiX6KGoPC9vcHRpb24+DQogICAgICAgICAgICAgICAgICA8dGVtcGxhdGUgdi1mb3I9Im0gaW4gbW9kZWxMaXN0IiA6a2V5PSJtIj4NCiAgICAgICAgICAgICAgICAgICAgPG9wdGlvbiA6dmFsdWU9Im0iIDpzZWxlY3RlZD0ibSA9PT0gc2V0dGluZ3MuTU9ERUxfTkFNRSI+e3sgZGlzcGxheU5hbWUobSkgfX08L29wdGlvbj4NCiAgICAgICAgICAgICAgICAgIDwvdGVtcGxhdGU+DQogICAgICAgICAgICAgICAgPC9zZWxlY3Q+DQogICAgICAgICAgICAgICAgPGJ1dHRvbiBjbGFzcz0iYnRuIGJ0bi1zbSBidG4tcHJpbWFyeSIgQGNsaWNrPSJkb0Nvbm5lY3QoZmFsc2UpIiBzdHlsZT0id2hpdGUtc3BhY2U6bm93cmFwIj7ov57mjqU8L2J1dHRvbj4NCiAgICAgICAgICAgICAgPC9kaXY+DQogICAgICAgICAgICA8L2Rpdj4NCiAgICAgICAgICA8L2Rpdj4NCiAgICAgICAgICA8ZGl2IGNsYXNzPSJmb3JtLWdyaWQtMyIgc3R5bGU9Im1hcmdpbi10b3A6OHB4Ij4NCiAgICAgICAgICAgIDxkaXYgY2xhc3M9ImZpZWxkIj48bGFiZWwgY2xhc3M9ImZvcm0tbGFiZWwiPkNMSVDnsbvlnosgKEREVUYpPC9sYWJlbD4NCiAgICAgICAgICAgICAgPHNlbGVjdCBjbGFzcz0iZm9ybS1zZWxlY3QiIDpkaXNhYmxlZD0ic2V0dGluZ3MuY29tZnlNb2RlbEZvcm1hdCAhPT0gJ0REVUYnIiA6dmFsdWU9InNldHRpbmdzLmNvbWZ5Q2xpcFR5cGUiIEBjaGFuZ2U9InVwZGF0ZSgnY29tZnlDbGlwVHlwZScsICRldmVudC50YXJnZXQudmFsdWUpIj4NCiAgICAgICAgICAgICAgICA8b3B0aW9uIHZhbHVlPSIiPuacqumAieaLqTwvb3B0aW9uPg0KICAgICAgICAgICAgICAgIDxvcHRpb24gdi1mb3I9InQgaW4gc2V0dGluZ3MuY29tZnlDbGlwVHlwZU9wdGlvbnMiIDprZXk9InQiIDp2YWx1ZT0idCIgOnNlbGVjdGVkPSJ0ID09PSBzZXR0aW5ncy5jb21meUNsaXBUeXBlIj57eyB0IH19PC9vcHRpb24+DQogICAgICAgICAgICAgIDwvc2VsZWN0PjwvZGl2Pg0KICAgICAgICAgICAgPGRpdiBjbGFzcz0iZmllbGQiPjxsYWJlbCBjbGFzcz0iZm9ybS1sYWJlbCI+5paH5pys57yW56CB5ZmoIChERFVGKTwvbGFiZWw+DQogICAgICAgICAgICAgIDxzZWxlY3QgY2xhc3M9ImZvcm0tc2VsZWN0IiA6ZGlzYWJsZWQ9InNldHRpbmdzLmNvbWZ5TW9kZWxGb3JtYXQgIT09ICdERFVGJyIgOnZhbHVlPSJzZXR0aW5ncy5jb21meVRleHRFbmNvZGVyIiBAY2hhbmdlPSJ1cGRhdGUoJ2NvbWZ5VGV4dEVuY29kZXInLCAkZXZlbnQudGFyZ2V0LnZhbHVlKSI+DQogICAgICAgICAgICAgICAgPG9wdGlvbiB2YWx1ZT0iIj7mnKrpgInmi6k8L29wdGlvbj4NCiAgICAgICAgICAgICAgICA8b3B0aW9uIHYtZm9yPSJtIGluIHNldHRpbmdzLmNvbWZ5VGV4dEVuY29kZXJMaXN0IiA6a2V5PSJtIiA6dmFsdWU9Im0iIDpzZWxlY3RlZD0ibSA9PT0gc2V0dGluZ3MuY29tZnlUZXh0RW5jb2RlciI+e3sgZGlzcGxheU5hbWUobSkgfX08L29wdGlvbj4NCiAgICAgICAgICAgICAgPC9zZWxlY3Q+PC9kaXY+DQogICAgICAgICAgICA8ZGl2IGNsYXNzPSJmaWVsZCI+PGxhYmVsIGNsYXNzPSJmb3JtLWxhYmVsIj5WQUUgKEREVUYpPC9sYWJlbD4NCiAgICAgICAgICAgICAgPHNlbGVjdCBjbGFzcz0iZm9ybS1zZWxlY3QiIDpkaXNhYmxlZD0ic2V0dGluZ3MuY29tZnlNb2RlbEZvcm1hdCAhPT0gJ0REVUYnIiA6dmFsdWU9InNldHRpbmdzLmNvbWZ5VkFFIiBAY2hhbmdlPSJ1cGRhdGUoJ2NvbWZ5VkFFJywgJGV2ZW50LnRhcmdldC52YWx1ZSkiPg0KICAgICAgICAgICAgICAgIDxvcHRpb24gdmFsdWU9IiI+5pyq6YCJ5oupPC9vcHRpb24+DQogICAgICAgICAgICAgICAgPG9wdGlvbiB2LWZvcj0ibSBpbiBzZXR0aW5ncy5jb21meVZBRUxpc3QiIDprZXk9Im0iIDp2YWx1ZT0ibSIgOnNlbGVjdGVkPSJtID09PSBzZXR0aW5ncy5jb21meVZBRSI+e3sgZGlzcGxheU5hbWUobSkgfX08L29wdGlvbj4NCiAgICAgICAgICAgICAgPC9zZWxlY3Q+PC9kaXY+DQogICAgICAgICAgPC9kaXY+DQogICAgICAgIDwvc2VjdGlvbj4NCg0KICAgICAgICA8c2VjdGlvbiBjbGFzcz0ic2VjdGlvbiI+DQogICAgICAgICAgPGRpdiBjbGFzcz0ic2VjdGlvbi10aXRsZSI+55Sf5oiQ5Y+C5pWwPC9kaXY+DQogICAgICAgICAgPGRpdiBjbGFzcz0iZm9ybS1ncmlkLTMiPg0KICAgICAgICAgICAgPGRpdiBjbGFzcz0iZmllbGQiPjxsYWJlbCBjbGFzcz0iZm9ybS1sYWJlbCI+5a695bqmPC9sYWJlbD48aW5wdXQgY2xhc3M9ImZvcm0taW5wdXQiIDp2YWx1ZT0ic2V0dGluZ3MuY29tZnlXaWR0aCIgQGNoYW5nZT0idXBkYXRlKCdjb21meVdpZHRoJywgJGV2ZW50LnRhcmdldC52YWx1ZSkiPjwvZGl2Pg0KICAgICAgICAgICAgPGRpdiBjbGFzcz0iZmllbGQiPjxsYWJlbCBjbGFzcz0iZm9ybS1sYWJlbCI+6auY5bqmPC9sYWJlbD48aW5wdXQgY2xhc3M9ImZvcm0taW5wdXQiIDp2YWx1ZT0ic2V0dGluZ3MuY29tZnlIZWlnaHQiIEBjaGFuZ2U9InVwZGF0ZSgnY29tZnlIZWlnaHQnLCAkZXZlbnQudGFyZ2V0LnZhbHVlKSI+PC9kaXY+DQogICAgICAgICAgICA8ZGl2IGNsYXNzPSJmaWVsZCI+PGxhYmVsIGNsYXNzPSJmb3JtLWxhYmVsIj7mraXmlbA8L2xhYmVsPjxpbnB1dCBjbGFzcz0iZm9ybS1pbnB1dCIgOnZhbHVlPSJzZXR0aW5ncy5jb21meVN0ZXBzIiBAY2hhbmdlPSJ1cGRhdGUoJ2NvbWZ5U3RlcHMnLCAkZXZlbnQudGFyZ2V0LnZhbHVlKSI+PC9kaXY+DQogICAgICAgICAgICA8ZGl2IGNsYXNzPSJmaWVsZCI+PGxhYmVsIGNsYXNzPSJmb3JtLWxhYmVsIj5DRkc8L2xhYmVsPjxpbnB1dCBjbGFzcz0iZm9ybS1pbnB1dCIgOnZhbHVlPSJzZXR0aW5ncy5jb21meUNmZ1NjYWxlIiBAY2hhbmdlPSJ1cGRhdGUoJ2NvbWZ5Q2ZnU2NhbGUnLCAkZXZlbnQudGFyZ2V0LnZhbHVlKSI+PC9kaXY+DQogICAgICAgICAgICA8ZGl2IGNsYXNzPSJmaWVsZCI+PGxhYmVsIGNsYXNzPSJmb3JtLWxhYmVsIj7np43lrZA8L2xhYmVsPjxpbnB1dCBjbGFzcz0iZm9ybS1pbnB1dCIgOnZhbHVlPSJzZXR0aW5ncy5jb21meVNlZWQiIEBjaGFuZ2U9InVwZGF0ZSgnY29tZnlTZWVkJywgJGV2ZW50LnRhcmdldC52YWx1ZSkiPjwvZGl2Pg0KICAgICAgICAgICAgPGRpdiBjbGFzcz0iZmllbGQiPjxsYWJlbCBjbGFzcz0iZm9ybS1sYWJlbCI+6YeH5qC35ZmoPC9sYWJlbD4NCiAgICAgICAgICAgICAgPHNlbGVjdCBjbGFzcz0iZm9ybS1zZWxlY3QiIDp2YWx1ZT0ic2V0dGluZ3MuY29tZnl1aXNhbXBsZXJOYW1lIiBAY2hhbmdlPSJ1cGRhdGUoJ2NvbWZ5dWlzYW1wbGVyTmFtZScsICRldmVudC50YXJnZXQudmFsdWUpIj4NCiAgICAgICAgICAgICAgICA8b3B0aW9uIHYtZm9yPSJzIGluIHNhbXBsZXJPcHRpb25zIiA6a2V5PSJzIiA6dmFsdWU9InMiIDpzZWxlY3RlZD0icyA9PT0gc2V0dGluZ3MuY29tZnl1aXNhbXBsZXJOYW1lIj57eyBzIH19PC9vcHRpb24+DQogICAgICAgICAgICAgIDwvc2VsZWN0PjwvZGl2Pg0KICAgICAgICAgICAgPGRpdiBjbGFzcz0iZmllbGQiPjxsYWJlbCBjbGFzcz0iZm9ybS1sYWJlbCI+6LCD5bqm5ZmoPC9sYWJlbD4NCiAgICAgICAgICAgICAgPHNlbGVjdCBjbGFzcz0iZm9ybS1zZWxlY3QiIDp2YWx1ZT0ic2V0dGluZ3MuY29tZnlTY2hlZHVsZXIiIEBjaGFuZ2U9InVwZGF0ZSgnY29tZnlTY2hlZHVsZXInLCAkZXZlbnQudGFyZ2V0LnZhbHVlKSI+DQogICAgICAgICAgICAgICAgPG9wdGlvbiB2LWZvcj0icyBpbiBzY2hlZHVsZXJPcHRpb25zIiA6a2V5PSJzIiA6dmFsdWU9InMiIDpzZWxlY3RlZD0icyA9PT0gc2V0dGluZ3MuY29tZnlTY2hlZHVsZXIiPnt7IHMgfX08L29wdGlvbj4NCiAgICAgICAgICAgICAgPC9zZWxlY3Q+PC9kaXY+DQogICAgICAgICAgPC9kaXY+DQogICAgICAgIDwvc2VjdGlvbj4NCg0KICAgICAgICA8c2VjdGlvbiBjbGFzcz0ic2VjdGlvbiI+DQogICAgICAgICAgPGRpdiBjbGFzcz0ic2VjdGlvbi10aXRsZSI+TG9SQSDmqKHlnosgKOWPr+mAiTEtNOS4qik8L2Rpdj4NCiAgICAgICAgICA8ZGl2IGNsYXNzPSJsb3JhLXJvdyIgdi1mb3I9Im4gaW4gWzEsMiwzLDRdIiA6a2V5PSJuIj4NCiAgICAgICAgICAgIDxzZWxlY3QgY2xhc3M9ImZvcm0tc2VsZWN0IiBzdHlsZT0iZmxleDoxIiA6dmFsdWU9InNldHRpbmdzWydjb21meUxvcmEnK25dIiBAY2hhbmdlPSJ1cGRhdGUoJ2NvbWZ5TG9yYScrbiwgJGV2ZW50LnRhcmdldC52YWx1ZSkiPg0KICAgICAgICAgICAgICA8b3B0aW9uIHZhbHVlPSJub25lIiA6c2VsZWN0ZWQ9InNldHRpbmdzWydjb21meUxvcmEnK25dID09PSAnbm9uZSciPm5vbmU8L29wdGlvbj4NCiAgICAgICAgICAgICAgPG9wdGlvbiB2LWZvcj0ibSBpbiBzZXR0aW5ncy5jb21meUxvcmFMaXN0IiA6a2V5PSJtIiA6dmFsdWU9Im0iIDpzZWxlY3RlZD0ibSA9PT0gc2V0dGluZ3NbJ2NvbWZ5TG9yYScrbl0iPnt7IGRpc3BsYXlOYW1lKG0pIH19PC9vcHRpb24+DQogICAgICAgICAgICA8L3NlbGVjdD4NCiAgICAgICAgICAgIDxsYWJlbCBjbGFzcz0ibG9yYS1zdHIiPuaooeWeizxpbnB1dCBjbGFzcz0iZm9ybS1pbnB1dCIgc3R5bGU9IndpZHRoOjY0cHgiIHR5cGU9Im51bWJlciIgc3RlcD0iMC4wMSIgOnZhbHVlPSJzZXR0aW5nc1snY29tZnlMb3JhJytuKydNb2RlbFN0cmVuZ3RoJ10iIEBjaGFuZ2U9InVwZGF0ZSgnY29tZnlMb3JhJytuKydNb2RlbFN0cmVuZ3RoJywgKyRldmVudC50YXJnZXQudmFsdWUpIj48L2xhYmVsPg0KICAgICAgICAgICAgPGxhYmVsIGNsYXNzPSJsb3JhLXN0ciI+Q0xJUDxpbnB1dCBjbGFzcz0iZm9ybS1pbnB1dCIgc3R5bGU9IndpZHRoOjY0cHgiIHR5cGU9Im51bWJlciIgc3RlcD0iMC4wMSIgOnZhbHVlPSJzZXR0aW5nc1snY29tZnlMb3JhJytuKydDbGlwU3RyZW5ndGgnXSIgQGNoYW5nZT0idXBkYXRlKCdjb21meUxvcmEnK24rJ0NsaXBTdHJlbmd0aCcsICskZXZlbnQudGFyZ2V0LnZhbHVlKSI+PC9sYWJlbD4NCiAgICAgICAgICA8L2Rpdj4NCiAgICAgICAgICA8ZGl2IGNsYXNzPSJyZXNldC1yb3ciPjxidXR0b24gY2xhc3M9ImJ0biBidG4tc20iIEBjbGljaz0icmVzZXREZWZhdWx0cyI+8J+UhCDph43orr7pu5jorqTlgLw8L2J1dHRvbj48L2Rpdj4NCiAgICAgICAgPC9zZWN0aW9uPg0KICAgICAgPC9kaXY+DQoNCiAgICAgIDxkaXYgY2xhc3M9ImNvbC1yaWdodCI+DQogICAgICAgIDxzZWN0aW9uIGNsYXNzPSJzZWN0aW9uLWRpdmlkZXIgd29ya2Zsb3ctcGFuZWwgZmlsbCI+DQogICAgICAgICAgPGRpdiBjbGFzcz0ic2VjdGlvbi10aXRsZSIgc3R5bGU9ImJvcmRlci1ib3R0b206MXB4IHNvbGlkIHZhcigtLWJvcmRlcik7cGFkZGluZy1ib3R0b206OHB4O21hcmdpbi1ib3R0b206MTBweCI+5bel5L2c5rWB5YaF5a65PC9kaXY+DQogICAgICAgICAgPGRpdiBjbGFzcz0iZmllbGQgZmlsbC1ib2R5Ij4NCiAgICAgICAgICAgIDxsYWJlbCBjbGFzcz0iZm9ybS1sYWJlbCI+5bel5L2c5rWB5YaF5a65PC9sYWJlbD4NCiAgICAgICAgICAgIDx0ZXh0YXJlYSBjbGFzcz0iZm9ybS10ZXh0YXJlYSIgc3R5bGU9ImZvbnQtZmFtaWx5Om1vbm9zcGFjZTtmb250LXNpemU6MTFweCINCiAgICAgICAgICAgICAgOnZhbHVlPSJ3b3JrZXJKc29uIiA6cmVhZG9ubHk9ImN1cnJlbnRCdWlsdGluIiBAY2hhbmdlPSJvbldvcmtlckpzb25DaGFuZ2UiPjwvdGV4dGFyZWE+DQogICAgICAgICAgPC9kaXY+DQogICAgICAgIDwvc2VjdGlvbj4NCiAgICAgICAgPGRpdiBjbGFzcz0icmVzZXQtcm93Ij48YnV0dG9uIGNsYXNzPSJidG4gYnRuLXNtIiBAY2xpY2s9InJlc2V0RGVmYXVsdHMiPvCflIQg6YeN6K6+6buY6K6k5YC8PC9idXR0b24+PC9kaXY+DQogICAgICA8L2Rpdj4NCiAgICA8L2Rpdj4NCiAgPC9kaXY+DQo8L3RlbXBsYXRlPg0KDQo8c2NyaXB0IHNldHVwPg0KaW1wb3J0IHsgcmVmLCBjb21wdXRlZCwgb25Nb3VudGVkIH0gZnJvbSAndnVlJzsNCmltcG9ydCB7IHVzZVNldHRpbmdzIH0gZnJvbSAnLi4vY29tcG9zYWJsZXMvdXNlU2V0dGluZ3MnOw0KaW1wb3J0IHsgdXNlVWkgfSBmcm9tICcuLi9jb21wb3NhYmxlcy91c2VVaSc7DQoNCmNvbnN0IHsgc2V0dGluZ3MsIHVwZGF0ZSB9ID0gdXNlU2V0dGluZ3MoKTsNCmNvbnN0IHVpID0gdXNlVWkoKTsNCmNvbnN0IGZ1bGxMaXN0ID0gcmVmKGZhbHNlKTsNCmNvbnN0IHVybElucHV0ID0gcmVmKHNldHRpbmdzLmNvbWZ5VXJsKTsNCg0KY29uc3QgZGlzcGxheU5hbWUgPSAobSkgPT4gd2luZG93LldCLnV0aWwuZGlzcGxheU1vZGVsTmFtZShtIHx8ICcnKTsNCmNvbnN0IG1vZGVsTGlzdCA9IGNvbXB1dGVkKCgpID0+IHNldHRpbmdzLmNvbWZ5TW9kZWxGb3JtYXQgPT09ICdERFVGJyA/IChzZXR0aW5ncy5jb21meVVORVRMaXN0IHx8IFtdKSA6IChzZXR0aW5ncy5jb21meUNoZWNrcG9pbnRMaXN0IHx8IFtdKSk7DQpjb25zdCB3b3JrZXJKc29uID0gY29tcHV0ZWQoKCkgPT4gew0KICBjb25zdCB3ID0gc2V0dGluZ3Mud29ya2Vyc1tzZXR0aW5ncy53b3JrZXJpZF07DQogIHJldHVybiB3ID8gKHcud29ya2Zsb3cgfHwgJycpIDogJyc7DQp9KTsNCmNvbnN0IGN1cnJlbnRCdWlsdGluID0gY29tcHV0ZWQoKCkgPT4gISEoc2V0dGluZ3Mud29ya2Vyc1tzZXR0aW5ncy53b3JrZXJpZF0gfHwge30pLmJ1aWx0aW4pOw0KDQpjb25zdCBzYW1wbGVyT3B0aW9ucyA9IFsnZXVsZXInLCAnZXVsZXJfYW5jZXN0cmFsJywgJ2RwbXBwXzJtJywgJ2RwbXBwXzJtX3NkZScsICdkcG1wcF9zZGUnLCAnZGRpbScsICd1bmlfcGMnLCAnbGNtJ107DQpjb25zdCBzY2hlZHVsZXJPcHRpb25zID0gWydzaW1wbGUnLCAna2FycmFzJywgJ2V4cG9uZW50aWFsJywgJ25vcm1hbCcsICdkZGltX3VuaWZvcm0nLCAnYmV0YSddOw0KDQpmdW5jdGlvbiBvbk1vZGVsQ2hhbmdlKHYpIHsNCiAgdXBkYXRlKCdNT0RFTF9OQU1FJywgdik7DQogIGlmIChzZXR0aW5ncy5jb21meU1vZGVsRm9ybWF0ID09PSAnRERVRicgJiYgdiAmJiB3aW5kb3cuV0IuZW5naW5lcy5yZWdpc3RyeS5jb21meXVpLmFwcGx5TW9kZWxQcmVzZXQodikpIHJlZnJlc2hBbGwoKTsNCn0NCmZ1bmN0aW9uIG9uRm9ybWF0Q2hhbmdlKGZtdCkgew0KICB1cGRhdGUoJ2NvbWZ5TW9kZWxGb3JtYXQnLCBmbXQpOw0KICBjb25zdCBsaXN0ID0gZm10ID09PSAnRERVRicgPyAoc2V0dGluZ3MuY29tZnlVTkVUTGlzdCB8fCBbXSkgOiAoc2V0dGluZ3MuY29tZnlDaGVja3BvaW50TGlzdCB8fCBbXSk7DQogIGlmIChsaXN0Lmxlbmd0aCAmJiAhbGlzdC5pbmNsdWRlcyhzZXR0aW5ncy5NT0RFTF9OQU1FKSkgdXBkYXRlKCdNT0RFTF9OQU1FJywgbGlzdFswXSk7DQogIGlmIChmbXQgPT09ICdERFVGJyAmJiBzZXR0aW5ncy5NT0RFTF9OQU1FKSB3aW5kb3cuV0IuZW5naW5lcy5yZWdpc3RyeS5jb21meXVpLmFwcGx5TW9kZWxQcmVzZXQoc2V0dGluZ3MuTU9ERUxfTkFNRSk7DQogIHJlZnJlc2hBbGwoKTsNCn0NCmZ1bmN0aW9uIG9uV29ya2VyQ2hhbmdlKGlkKSB7DQogIHdpbmRvdy5XQi5wcmVzZXRzLm1hbmFnZXIuc3dpdGNoV29ya2VyKGlkKTsNCiAgdWkudG9hc3QoJ+W3suWIh+aNouWIsOW3peS9nOa1geOAjCcgKyBpZCArICfjgI3vvIjmqKHlnosv55Sf5oiQ5Y+C5pWwL0xvUkEg5bey5ZCM5q2l77yJJyk7DQogIHJlZnJlc2hBbGwoKTsNCn0NCmZ1bmN0aW9uIG9uV29ya2VySnNvbkNoYW5nZShlKSB7DQogIGNvbnN0IHcgPSBzZXR0aW5ncy53b3JrZXJzW3NldHRpbmdzLndvcmtlcmlkXTsNCiAgaWYgKCF3KSByZXR1cm47DQogIGlmICh3LmJ1aWx0aW4pIHsgdWkudG9hc3QoJ+WGhee9rum7mOiupOW3peS9nOa1geS4jeWPr+S/ruaUue+8jOivt+S9v+eUqOOAjOaWsOW7uumihOiuvuOAjeS/neWtmOS4uuaWsOW3peS9nOa1gScsICdlcnJvcicpOyByZXR1cm47IH0NCiAgdy53b3JrZmxvdyA9IGUudGFyZ2V0LnZhbHVlOw0KICB3aW5kb3cuV0Iuc2V0dGluZ3Muc2F2ZSgnd29ya2VycycpOw0KICB3aW5kb3cuV0IucHJlc2V0cy5tYW5hZ2VyLmZpbGxGcm9tV29ya2Zsb3coZS50YXJnZXQudmFsdWUpOw0KICByZWZyZXNoQWxsKCk7DQp9DQphc3luYyBmdW5jdGlvbiBkb0Nvbm5lY3Qoc2lsZW50KSB7DQogIHRyeSB7DQogICAgdXBkYXRlKCdjb21meVVybCcsIHVybElucHV0LnZhbHVlKTsNCiAgICBhd2FpdCB3aW5kb3cuV0IuZW5naW5lcy5yZWdpc3RyeS5jb21meXVpLmNvbm5lY3QodHJ1ZSk7DQogICAgZnVsbExpc3QudmFsdWUgPSB0cnVlOw0KICAgIGlmICghc2lsZW50KSB1aS50b2FzdCgnQ29tZnlVSSDov57mjqXmiJDlip8nKTsNCiAgfSBjYXRjaCAoZSkgew0KICAgIHdpbmRvdy5XQi5zZXR0aW5ncy5zZXQoJ2NvbWZ5Q29ubmVjdGVkJywgZmFsc2UpOw0KICAgIGlmICghc2lsZW50KSB1aS50b2FzdCgnQ29tZnlVSSDov57mjqXlpLHotKXvvJonICsgZS5tZXNzYWdlICsgJ1xu6K+356Gu6K6k5Zyw5Z2A5q2j56Gu5LiUIENvbWZ5VUkg5bey5ZCv5YqoJywgJ2Vycm9yJyk7DQogIH0NCiAgcmVmcmVzaEFsbCgpOw0KfQ0KZnVuY3Rpb24gcmVmcmVzaEFsbCgpIHsNCiAgLy8g5YiX6KGo5p2l6IeqIHNldHRpbmdz77yI5ZON5bqU5byP77yJ77yM5q2k5aSE5LuF6Kem5Y+R5L6d6LWW5Yi35pawDQogIGZ1bGxMaXN0LnZhbHVlID0gZnVsbExpc3QudmFsdWU7DQp9DQphc3luYyBmdW5jdGlvbiBuZXdXb3JrZXIoKSB7DQogIGNvbnN0IGpzb24gPSB3b3JrZXJKc29uLnZhbHVlLnRyaW0oKTsNCiAgaWYgKCFqc29uKSB7IHVpLnRvYXN0KCfor7flhYjnspjotLTlt6XkvZzmtYEgSlNPTicsICdlcnJvcicpOyByZXR1cm47IH0NCiAgY29uc3QgbmFtZSA9IGF3YWl0IHVpLnByb21wdCgn6L6T5YWl5bel5L2c5rWB6aKE6K6+5ZCN56ew77yaJyk7DQogIGlmICghbmFtZSkgcmV0dXJuOw0KICBpZiAoc2V0dGluZ3Mud29ya2Vyc1tuYW1lXSkgeyB1aS50b2FzdCgn5bel5L2c5rWB5ZCN56ew44CMJyArIG5hbWUgKyAn44CN5bey5a2Y5ZyoJywgJ2Vycm9yJyk7IHJldHVybjsgfQ0KICBzZXR0aW5ncy53b3JrZXJzW25hbWVdID0geyB3b3JrZmxvdzoganNvbiwgc25hcHNob3Q6IHdpbmRvdy5XQi5wcmVzZXRzLm1hbmFnZXIuY2FwdHVyZVdvcmtlclNuYXBzaG90KCkgfTsNCiAgc2V0dGluZ3Mud29ya2VyaWQgPSBuYW1lOw0KICB3aW5kb3cuV0Iuc2V0dGluZ3Muc2F2ZShbJ3dvcmtlcnMnLCAnd29ya2VyaWQnXSk7DQogIHdpbmRvdy5XQi5wcmVzZXRzLm1hbmFnZXIuZmlsbEZyb21Xb3JrZmxvdyhqc29uKTsNCiAgdWkudG9hc3QoJ+W3peS9nOa1geOAjCcgKyBuYW1lICsgJ+OAjeW3suWIm+W7uuW5tuW6lOeUqCcpOw0KfQ0KZnVuY3Rpb24gc2F2ZVNuYXAoKSB7IHdpbmRvdy5XQi5wcmVzZXRzLm1hbmFnZXIuc2F2ZVdvcmtlclNuYXBzaG90KCk7IHVpLnRvYXN0KCflt6XkvZzmtYHlv6vnhaflt7Lkv53lrZgnKTsgfQ0KYXN5bmMgZnVuY3Rpb24gZGVsV29ya2VyKCkgew0KICBjb25zdCBpZCA9IHNldHRpbmdzLndvcmtlcmlkOw0KICBpZiAod2luZG93LldCLnByZXNldHMubWFuYWdlci5pc0J1aWx0aW5Xb3JrZXIoaWQpKSB7IHVpLnRvYXN0KCflhoXnva7pu5jorqTlt6XkvZzmtYHkuI3og73liKDpmaQnLCAnZXJyb3InKTsgcmV0dXJuOyB9DQogIGlmICghKGF3YWl0IHVpLmNvbmZpcm0oJ+aYr+WQpuehruWumuWIoOmZpOatpOW3peS9nOa1geOAjCcgKyBpZCArICfjgI3vvJ8nKSkpIHJldHVybjsNCiAgZGVsZXRlIHNldHRpbmdzLndvcmtlcnNbaWRdOw0KICBjb25zdCBmYWxsYmFjayA9IHNldHRpbmdzLmNvbWZ5TW9kZWxGb3JtYXQgPT09ICdERFVGJyA/ICdERFVG57G75Z6L5paH55Sf5Zu+5qih5p2/JyA6ICdDaGVja3BvaW5057G75Z6L5paH55Sf5Zu+5qih5p2/JzsNCiAgc2V0dGluZ3Mud29ya2VyaWQgPSBzZXR0aW5ncy53b3JrZXJzW2ZhbGxiYWNrXSA/IGZhbGxiYWNrIDogT2JqZWN0LmtleXMoc2V0dGluZ3Mud29ya2VycylbMF07DQogIHdpbmRvdy5XQi5zZXR0aW5ncy5zYXZlKFsnd29ya2VycycsICd3b3JrZXJpZCddKTsNCiAgaWYgKHNldHRpbmdzLndvcmtlcnNbc2V0dGluZ3Mud29ya2VyaWRdPy5zbmFwc2hvdCkgd2luZG93LldCLnByZXNldHMubWFuYWdlci5hcHBseVdvcmtlclNuYXBzaG90KHNldHRpbmdzLndvcmtlcnNbc2V0dGluZ3Mud29ya2VyaWRdLnNuYXBzaG90KTsNCn0NCmZ1bmN0aW9uIGltcG9ydFdvcmtlcigpIHsNCiAgdWkucGlja0pzb25GaWxlKChkYXRhLCBmaWxlTmFtZSwgcmF3VGV4dCkgPT4gew0KICAgIGNvbnN0IHIgPSB3aW5kb3cuV0IucHJlc2V0cy5tYW5hZ2VyLmltcG9ydFdvcmtlcnMoZGF0YSwgKGZpbGVOYW1lIHx8ICflr7zlhaXnmoTlt6XkvZzmtYEnKS5yZXBsYWNlKC9cLlteLy5dKyQvLCAnJyksIHJhd1RleHQpOw0KICAgIGlmIChyLmxhc3QpIHVpLnRvYXN0KCflt7Llr7zlhaUgJyArIHIuY291bnQgKyAnIOS4quW3peS9nOa1ge+8jOW9k+WJjeOAjCcgKyByLmxhc3QgKyAn44CNJyk7DQogICAgZWxzZSB1aS50b2FzdCgn5pyq6K+G5Yir55qE5bel5L2c5rWB5qC85byPJywgJ2Vycm9yJyk7DQogIH0pOw0KfQ0KZnVuY3Rpb24gZXhwb3J0V29ya2VyKCkgeyB1aS5kb3dubG9hZCgnd29ya2Zsb3dfJyArIHNldHRpbmdzLndvcmtlcmlkICsgJy5qc29uJywgd2luZG93LldCLnByZXNldHMubWFuYWdlci5leHBvcnRXb3JrZXIoc2V0dGluZ3Mud29ya2VyaWQpKTsgfQ0KYXN5bmMgZnVuY3Rpb24gcmVzZXREZWZhdWx0cygpIHsNCiAgaWYgKCEoYXdhaXQgdWkuY29uZmlybSgn56Gu5a6a5bCGIENvbWZ5VUkg55Sf5oiQ5Y+C5pWw5oGi5aSN5Li66buY6K6k5YC877yf77yI6L+e5o6l6K6+572u5LiO5qih5Z6L5LiN5Lya6KKr6YeN572u77yJJykpKSByZXR1cm47DQogIGNvbnN0IEQgPSB7IGNvbWZ5V2lkdGg6ICcxMjE2JywgY29tZnlIZWlnaHQ6ICc4MzInLCBjb21meVN0ZXBzOiAnOCcsIGNvbWZ5Q2ZnU2NhbGU6ICcxJywgY29tZnlTZWVkOiAnMCcsIGNvbWZ5dWlzYW1wbGVyTmFtZTogJ2V1bGVyX2FuY2VzdHJhbCcsIGNvbWZ5U2NoZWR1bGVyOiAna2FycmFzJywgY29tZnlMb3JhMTogJ25vbmUnLCBjb21meUxvcmExTW9kZWxTdHJlbmd0aDogMSwgY29tZnlMb3JhMUNsaXBTdHJlbmd0aDogMSwgY29tZnlMb3JhMjogJ25vbmUnLCBjb21meUxvcmEyTW9kZWxTdHJlbmd0aDogMSwgY29tZnlMb3JhMkNsaXBTdHJlbmd0aDogMSwgY29tZnlMb3JhMzogJ25vbmUnLCBjb21meUxvcmEzTW9kZWxTdHJlbmd0aDogMSwgY29tZnlMb3JhM0NsaXBTdHJlbmd0aDogMSwgY29tZnlMb3JhNDogJ25vbmUnLCBjb21meUxvcmE0TW9kZWxTdHJlbmd0aDogMSwgY29tZnlMb3JhNENsaXBTdHJlbmd0aDogMSB9Ow0KICBmb3IgKGNvbnN0IFtrLCB2XSBvZiBPYmplY3QuZW50cmllcyhEKSkgdXBkYXRlKGssIHYpOw0KICB1aS50b2FzdCgn5bey5oGi5aSN6buY6K6k5Y+C5pWw77yI55Sf5Zu+6aG15Y+C5pWw5Yy65Y2z5pe255Sf5pWI77yJJyk7DQp9DQoNCm9uTW91bnRlZChhc3luYyAoKSA9PiB7DQogIGNvbnN0IG9rID0gYXdhaXQgd2luZG93LldCLmVuZ2luZXMuYXV0b0Nvbm5lY3QoJ2NvbWZ5dWknKTsNCiAgaWYgKG9rKSBmdWxsTGlzdC52YWx1ZSA9IHRydWU7DQp9KTsNCjwvc2NyaXB0Pg0K
+<template>
+  <div class="workspace">
+    <div class="settings-page two-col">
+      <div class="col-left">
+        <section class="section">
+          <div class="section-title">连接设置</div>
+          <div class="field">
+            <label class="form-label">工作流预设</label>
+            <select class="form-select" :value="settings.workerid" @change="onWorkerChange($event.target.value)">
+              <option v-for="(w, name) in settings.workers" :key="name" :value="name" :selected="name === settings.workerid">{{ name }}{{ w.builtin ? '（内置）' : '' }}</option>
+            </select>
+          </div>
+          <div class="preset-actions">
+            <button class="btn btn-sm btn-primary" @click="newWorker">➕ 新建预设</button>
+            <button class="btn btn-sm btn-primary" @click="saveSnap">💾 保存预设</button>
+            <button class="btn btn-sm btn-danger" @click="delWorker">🗑️ 删除预设</button>
+            <button class="btn btn-sm" @click="importWorker">📥 导入预设</button>
+            <button class="btn btn-sm" @click="exportWorker">📤 导出预设</button>
+          </div>
+          <div class="field-row" style="margin-top:5px">
+            <div class="field" style="flex:1;min-width:0">
+              <label class="form-label">ComfyUI API地址</label>
+              <input type="text" class="form-input" v-model="urlInput" placeholder="例如 http://127.0.0.1:8188" @change="update('comfyUrl', urlInput)">
+            </div>
+            <div class="field" style="flex:0 0 118px">
+              <label class="form-label">模型格式</label>
+              <select class="form-select" :value="settings.comfyModelFormat" @change="onFormatChange($event.target.value)">
+                <option value="Checkpoint" :selected="settings.comfyModelFormat !== 'DDUF'">Checkpoint</option>
+                <option value="DDUF" :selected="settings.comfyModelFormat === 'DDUF'">DDUF</option>
+              </select>
+            </div>
+            <div class="field" style="flex:1;min-width:0">
+              <label class="form-label">模型选择
+                <span class="badge" :class="settings.comfyConnected ? 'ok' : 'bad'">{{ settings.comfyConnected ? '已连接' : '未连接' }}</span>
+              </label>
+              <div class="field-row">
+                <select class="form-select" style="flex:1;min-width:0" :value="settings.MODEL_NAME" @change="onModelChange($event.target.value)">
+                  <option v-if="!fullList && settings.MODEL_NAME" :value="settings.MODEL_NAME" selected>{{ displayName(settings.MODEL_NAME) }}</option>
+                  <option v-if="!fullList && !settings.MODEL_NAME" value="">点击连接获取模型列表</option>
+                  <template v-for="m in modelList" :key="m">
+                    <option :value="m" :selected="m === settings.MODEL_NAME">{{ displayName(m) }}</option>
+                  </template>
+                </select>
+                <button class="btn btn-sm btn-primary" @click="doConnect(false)" style="white-space:nowrap">连接</button>
+              </div>
+            </div>
+          </div>
+          <div class="form-grid-3" style="margin-top:8px">
+            <div class="field"><label class="form-label">CLIP类型 (DDUF)</label>
+              <select class="form-select" :disabled="settings.comfyModelFormat !== 'DDUF'" :value="settings.comfyClipType" @change="update('comfyClipType', $event.target.value)">
+                <option value="">未选择</option>
+                <option v-for="t in settings.comfyClipTypeOptions" :key="t" :value="t" :selected="t === settings.comfyClipType">{{ t }}</option>
+              </select></div>
+            <div class="field"><label class="form-label">文本编码器 (DDUF)</label>
+              <select class="form-select" :disabled="settings.comfyModelFormat !== 'DDUF'" :value="settings.comfyTextEncoder" @change="update('comfyTextEncoder', $event.target.value)">
+                <option value="">未选择</option>
+                <option v-for="m in settings.comfyTextEncoderList" :key="m" :value="m" :selected="m === settings.comfyTextEncoder">{{ displayName(m) }}</option>
+              </select></div>
+            <div class="field"><label class="form-label">VAE (DDUF)</label>
+              <select class="form-select" :disabled="settings.comfyModelFormat !== 'DDUF'" :value="settings.comfyVAE" @change="update('comfyVAE', $event.target.value)">
+                <option value="">未选择</option>
+                <option v-for="m in settings.comfyVAEList" :key="m" :value="m" :selected="m === settings.comfyVAE">{{ displayName(m) }}</option>
+              </select></div>
+          </div>
+        </section>
+
+        <section class="section">
+          <div class="section-title">生成参数</div>
+          <div class="form-grid-3">
+            <div class="field"><label class="form-label">宽度</label><input class="form-input" :value="settings.comfyWidth" @change="update('comfyWidth', $event.target.value)"></div>
+            <div class="field"><label class="form-label">高度</label><input class="form-input" :value="settings.comfyHeight" @change="update('comfyHeight', $event.target.value)"></div>
+            <div class="field"><label class="form-label">步数</label><input class="form-input" :value="settings.comfySteps" @change="update('comfySteps', $event.target.value)"></div>
+            <div class="field"><label class="form-label">CFG</label><input class="form-input" :value="settings.comfyCfgScale" @change="update('comfyCfgScale', $event.target.value)"></div>
+            <div class="field"><label class="form-label">种子</label><input class="form-input" :value="settings.comfySeed" @change="update('comfySeed', $event.target.value)"></div>
+            <div class="field"><label class="form-label">采样器</label>
+              <select class="form-select" :value="settings.comfyuisamplerName" @change="update('comfyuisamplerName', $event.target.value)">
+                <option v-for="s in samplerOptions" :key="s" :value="s" :selected="s === settings.comfyuisamplerName">{{ s }}</option>
+              </select></div>
+            <div class="field"><label class="form-label">调度器</label>
+              <select class="form-select" :value="settings.comfyScheduler" @change="update('comfyScheduler', $event.target.value)">
+                <option v-for="s in schedulerOptions" :key="s" :value="s" :selected="s === settings.comfyScheduler">{{ s }}</option>
+              </select></div>
+          </div>
+        </section>
+
+        <section class="section">
+          <div class="section-title">LoRA 模型 (可选1-4个)</div>
+          <div class="lora-row" v-for="n in [1,2,3,4]" :key="n">
+            <select class="form-select" style="flex:1" :value="settings['comfyLora'+n]" @change="update('comfyLora'+n, $event.target.value)">
+              <option value="none" :selected="settings['comfyLora'+n] === 'none'">none</option>
+              <option v-for="m in settings.comfyLoraList" :key="m" :value="m" :selected="m === settings['comfyLora'+n]">{{ displayName(m) }}</option>
+            </select>
+            <label class="lora-str">模型<input class="form-input" style="width:64px" type="number" step="0.01" :value="settings['comfyLora'+n+'ModelStrength']" @change="update('comfyLora'+n+'ModelStrength', +$event.target.value)"></label>
+            <label class="lora-str">CLIP<input class="form-input" style="width:64px" type="number" step="0.01" :value="settings['comfyLora'+n+'ClipStrength']" @change="update('comfyLora'+n+'ClipStrength', +$event.target.value)"></label>
+          </div>
+          <div class="reset-row"><button class="btn btn-sm" @click="resetDefaults">🔄 重设默认值</button></div>
+        </section>
+      </div>
+
+      <div class="col-right">
+        <section class="section-divider workflow-panel fill">
+          <div class="section-title" style="border-bottom:1px solid var(--border);padding-bottom:8px;margin-bottom:10px">工作流内容</div>
+          <div class="field fill-body">
+            <label class="form-label">工作流内容</label>
+            <textarea class="form-textarea" style="font-family:monospace;font-size:11px"
+              :value="workerJson" :readonly="currentBuiltin" @change="onWorkerJsonChange"></textarea>
+          </div>
+        </section>
+        <div class="reset-row"><button class="btn btn-sm" @click="resetDefaults">🔄 重设默认值</button></div>
+      </div>
+    </div>
+  </div>
+</template>
+
+<script setup>
+import { ref, computed, onMounted } from 'vue';
+import { useSettings } from '../composables/useSettings';
+import { useUi } from '../composables/useUi';
+
+const { settings, update } = useSettings();
+const ui = useUi();
+const fullList = ref(false);
+const urlInput = ref(settings.comfyUrl);
+
+const displayName = (m) => window.WB.util.displayModelName(m || '');
+const modelList = computed(() => settings.comfyModelFormat === 'DDUF' ? (settings.comfyUNETList || []) : (settings.comfyCheckpointList || []));
+const workerJson = computed(() => {
+  const w = settings.workers[settings.workerid];
+  return w ? (w.workflow || '') : '';
+});
+const currentBuiltin = computed(() => !!(settings.workers[settings.workerid] || {}).builtin);
+
+const samplerOptions = ['euler', 'euler_ancestral', 'dpmpp_2m', 'dpmpp_2m_sde', 'dpmpp_sde', 'ddim', 'uni_pc', 'lcm'];
+const schedulerOptions = ['simple', 'karras', 'exponential', 'normal', 'ddim_uniform', 'beta'];
+
+function onModelChange(v) {
+  update('MODEL_NAME', v);
+  if (settings.comfyModelFormat === 'DDUF' && v && window.WB.engines.registry.comfyui.applyModelPreset(v)) refreshAll();
+}
+function onFormatChange(fmt) {
+  update('comfyModelFormat', fmt);
+  const list = fmt === 'DDUF' ? (settings.comfyUNETList || []) : (settings.comfyCheckpointList || []);
+  if (list.length && !list.includes(settings.MODEL_NAME)) update('MODEL_NAME', list[0]);
+  if (fmt === 'DDUF' && settings.MODEL_NAME) window.WB.engines.registry.comfyui.applyModelPreset(settings.MODEL_NAME);
+  refreshAll();
+}
+function onWorkerChange(id) {
+  window.WB.presets.manager.switchWorker(id);
+  ui.toast('已切换到工作流「' + id + '」（模型/生成参数/LoRA 已同步）');
+  refreshAll();
+}
+function onWorkerJsonChange(e) {
+  const w = settings.workers[settings.workerid];
+  if (!w) return;
+  if (w.builtin) { ui.toast('内置默认工作流不可修改，请使用「新建预设」保存为新工作流', 'error'); return; }
+  w.workflow = e.target.value;
+  window.WB.settings.save('workers');
+  window.WB.presets.manager.fillFromWorkflow(e.target.value);
+  refreshAll();
+}
+async function doConnect(silent) {
+  try {
+    update('comfyUrl', urlInput.value);
+    await window.WB.engines.registry.comfyui.connect(true);
+    fullList.value = true;
+    if (!silent) ui.toast('ComfyUI 连接成功');
+  } catch (e) {
+    window.WB.settings.set('comfyConnected', false);
+    if (!silent) ui.toast('ComfyUI 连接失败：' + e.message + '\n请确认地址正确且 ComfyUI 已启动', 'error');
+  }
+  refreshAll();
+}
+function refreshAll() {
+  // 列表来自 settings（响应式），此处仅触发依赖刷新
+  fullList.value = fullList.value;
+}
+async function newWorker() {
+  const json = workerJson.value.trim();
+  if (!json) { ui.toast('请先粘贴工作流 JSON', 'error'); return; }
+  const name = await ui.prompt('输入工作流预设名称：');
+  if (!name) return;
+  if (settings.workers[name]) { ui.toast('工作流名称「' + name + '」已存在', 'error'); return; }
+  settings.workers[name] = { workflow: json, snapshot: window.WB.presets.manager.captureWorkerSnapshot() };
+  settings.workerid = name;
+  window.WB.settings.save(['workers', 'workerid']);
+  window.WB.presets.manager.fillFromWorkflow(json);
+  ui.toast('工作流「' + name + '」已创建并应用');
+}
+function saveSnap() { window.WB.presets.manager.saveWorkerSnapshot(); ui.toast('工作流快照已保存'); }
+async function delWorker() {
+  const id = settings.workerid;
+  if (window.WB.presets.manager.isBuiltinWorker(id)) { ui.toast('内置默认工作流不能删除', 'error'); return; }
+  if (!(await ui.confirm('是否确定删除此工作流「' + id + '」？'))) return;
+  delete settings.workers[id];
+  const fallback = settings.comfyModelFormat === 'DDUF' ? 'DDUF类型文生图模板' : 'Checkpoint类型文生图模板';
+  settings.workerid = settings.workers[fallback] ? fallback : Object.keys(settings.workers)[0];
+  window.WB.settings.save(['workers', 'workerid']);
+  if (settings.workers[settings.workerid]?.snapshot) window.WB.presets.manager.applyWorkerSnapshot(settings.workers[settings.workerid].snapshot);
+}
+function importWorker() {
+  ui.pickJsonFile((data, fileName, rawText) => {
+    const r = window.WB.presets.manager.importWorkers(data, (fileName || '导入的工作流').replace(/\.[^/.]+$/, ''), rawText);
+    if (r.last) ui.toast('已导入 ' + r.count + ' 个工作流，当前「' + r.last + '」');
+    else ui.toast('未识别的工作流格式', 'error');
+  });
+}
+function exportWorker() { ui.download('workflow_' + settings.workerid + '.json', window.WB.presets.manager.exportWorker(settings.workerid)); }
+async function resetDefaults() {
+  if (!(await ui.confirm('确定将 ComfyUI 生成参数恢复为默认值？（连接设置与模型不会被重置）'))) return;
+  const D = { comfyWidth: '1216', comfyHeight: '832', comfySteps: '8', comfyCfgScale: '1', comfySeed: '0', comfyuisamplerName: 'euler_ancestral', comfyScheduler: 'karras', comfyLora1: 'none', comfyLora1ModelStrength: 1, comfyLora1ClipStrength: 1, comfyLora2: 'none', comfyLora2ModelStrength: 1, comfyLora2ClipStrength: 1, comfyLora3: 'none', comfyLora3ModelStrength: 1, comfyLora3ClipStrength: 1, comfyLora4: 'none', comfyLora4ModelStrength: 1, comfyLora4ClipStrength: 1 };
+  for (const [k, v] of Object.entries(D)) update(k, v);
+  ui.toast('已恢复默认参数（生图页参数区即时生效）');
+}
+
+onMounted(async () => {
+  const ok = await window.WB.engines.autoConnect('comfyui');
+  if (ok) fullList.value = true;
+});
+</script>

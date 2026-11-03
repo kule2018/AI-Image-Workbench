@@ -1,1 +1,7 @@
-aW1wb3J0IHsgTW9kdWxlIH0gZnJvbSAnQG5lc3Rqcy9jb21tb24nOw0KaW1wb3J0IHsgQXBwSW5mb0NvbnRyb2xsZXIgfSBmcm9tICcuL2FwcC1pbmZvLmNvbnRyb2xsZXInOw0KDQpATW9kdWxlKHsNCiAgY29udHJvbGxlcnM6IFtBcHBJbmZvQ29udHJvbGxlcl0sDQp9KQ0KZXhwb3J0IGNsYXNzIEFwcEluZm9Nb2R1bGUge30NCg==
+import { Module } from '@nestjs/common';
+import { AppInfoController } from './app-info.controller';
+
+@Module({
+  controllers: [AppInfoController],
+})
+export class AppInfoModule {}

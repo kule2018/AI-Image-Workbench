@@ -1,1 +1,50 @@
-aW1wb3J0IHsgSW5qZWN0YWJsZSB9IGZyb20gJ0BuZXN0anMvY29tbW9uJzsNCmltcG9ydCAqIGFzIGh0dHAgZnJvbSAnaHR0cCc7DQppbXBvcnQgKiBhcyBodHRwcyBmcm9tICdodHRwcyc7DQppbXBvcnQgeyBVUkwgfSBmcm9tICd1cmwnOw0KDQpASW5qZWN0YWJsZSgpDQpleHBvcnQgY2xhc3MgUHJveHlTZXJ2aWNlIHsNCiAgcHJveHlSZXF1ZXN0KA0KICAgIHRhcmdldDogc3RyaW5nLA0KICAgIG1ldGhvZDogc3RyaW5nLA0KICAgIGhlYWRlcnM6IFJlY29yZDxzdHJpbmcsIGFueT4sDQogICAgYm9keUJ1ZjogQnVmZmVyIHwgbnVsbCwNCiAgKTogUHJvbWlzZTx7IHN0YXR1czogbnVtYmVyOyBjb250ZW50VHlwZTogc3RyaW5nOyBidWZmZXI6IEJ1ZmZlciB9PiB7DQogICAgcmV0dXJuIG5ldyBQcm9taXNlKChyZXNvbHZlLCByZWplY3QpID0+IHsNCiAgICAgIGxldCB1OiBVUkw7DQogICAgICB0cnkgeyB1ID0gbmV3IFVSTCh0YXJnZXQpOyB9IGNhdGNoIChlKSB7IHJldHVybiByZWplY3QobmV3IEVycm9yKCfml6DmlYggVVJMJykpOyB9DQogICAgICBjb25zdCBpc0h0dHBzID0gdS5wcm90b2NvbCA9PT0gJ2h0dHBzOic7DQogICAgICBjb25zdCBtb2QgPSBpc0h0dHBzID8gaHR0cHMgOiBodHRwOw0KDQogICAgICAvLyDovazlj5HlpLTvvJrliaXnprvnlLHmnKzku6PnkIbmjqfliLYv5Lya6ZqPIGJvZHkg5Y+Y5YyW55qE5aS077yM6YG/5YWN6ZW/5bqm6ZSZ6YWN5a+86Ie055uu5qCH6K+75Y+W5a2X6IqC5byC5bi4DQogICAgICAvLyDvvIjlsKTlhbYgYm9keUJhc2U2NCDnmoTkuozov5vliLYvIG11bHRpcGFydCDkuIrkvKDvvJrlrp7pmYUgYm9keSDmmK/op6PnoIHlkI7nmoTkuozov5vliLbvvIzljp8gY29udGVudC1sZW5ndGgg5pivIEpTT04g5YyF6ZW/5bqm77yJDQogICAgICBjb25zdCBmd2RIZWFkZXJzOiBSZWNvcmQ8c3RyaW5nLCBhbnk+ID0gT2JqZWN0LmFzc2lnbih7fSwgaGVhZGVycyB8fCB7fSk7DQogICAgICBmb3IgKGNvbnN0IGsgb2YgWydjb250ZW50LWxlbmd0aCcsICdDb250ZW50LUxlbmd0aCcsICd0cmFuc2Zlci1lbmNvZGluZycsICdUcmFuc2Zlci1FbmNvZGluZycsICdjb25uZWN0aW9uJywgJ0Nvbm5lY3Rpb24nXSkgew0KICAgICAgICBkZWxldGUgZndkSGVhZGVyc1trXTsNCiAgICAgIH0NCiAgICAgIGZ3ZEhlYWRlcnNbJ2hvc3QnXSA9IHUuaG9zdDsNCiAgICAgIGlmIChib2R5QnVmICYmIGJvZHlCdWYubGVuZ3RoKSBmd2RIZWFkZXJzWydDb250ZW50LUxlbmd0aCddID0gU3RyaW5nKGJvZHlCdWYubGVuZ3RoKTsNCg0KICAgICAgY29uc3QgcmVxID0gbW9kLnJlcXVlc3Qoew0KICAgICAgICBob3N0bmFtZTogdS5ob3N0bmFtZSwNCiAgICAgICAgcG9ydDogdS5wb3J0IHx8IChpc0h0dHBzID8gNDQzIDogODApLA0KICAgICAgICBwYXRoOiB1LnBhdGhuYW1lICsgdS5zZWFyY2gsDQogICAgICAgIG1ldGhvZDogbWV0aG9kIHx8ICdHRVQnLA0KICAgICAgICBoZWFkZXJzOiBmd2RIZWFkZXJzLA0KICAgICAgfSwgKHJlcykgPT4gew0KICAgICAgICBjb25zdCBjaHVua3M6IEJ1ZmZlcltdID0gW107DQogICAgICAgIHJlcy5vbignZGF0YScsIChjOiBCdWZmZXIpID0+IGNodW5rcy5wdXNoKGMpKTsNCiAgICAgICAgcmVzLm9uKCdlbmQnLCAoKSA9PiByZXNvbHZlKHsNCiAgICAgICAgICBzdGF0dXM6IHJlcy5zdGF0dXNDb2RlLA0KICAgICAgICAgIGNvbnRlbnRUeXBlOiAocmVzLmhlYWRlcnNbJ2NvbnRlbnQtdHlwZSddIGFzIHN0cmluZykgfHwgJycsDQogICAgICAgICAgYnVmZmVyOiBCdWZmZXIuY29uY2F0KGNodW5rcyksDQogICAgICAgIH0pKTsNCiAgICAgIH0pOw0KICAgICAgcmVxLm9uKCdlcnJvcicsIHJlamVjdCk7DQogICAgICByZXEuc2V0VGltZW91dCg2MDAwMDAsICgpID0+IHsgcmVxLmRlc3Ryb3kobmV3IEVycm9yKCfku6PnkIbor7fmsYLotoXml7YnKSk7IH0pOw0KICAgICAgaWYgKGJvZHlCdWYgJiYgYm9keUJ1Zi5sZW5ndGgpIHJlcS53cml0ZShib2R5QnVmKTsNCiAgICAgIHJlcS5lbmQoKTsNCiAgICB9KTsNCiAgfQ0KfQ0K
+import { Injectable } from '@nestjs/common';
+import * as http from 'http';
+import * as https from 'https';
+import { URL } from 'url';
+
+@Injectable()
+export class ProxyService {
+  proxyRequest(
+    target: string,
+    method: string,
+    headers: Record<string, any>,
+    bodyBuf: Buffer | null,
+  ): Promise<{ status: number; contentType: string; buffer: Buffer }> {
+    return new Promise((resolve, reject) => {
+      let u: URL;
+      try { u = new URL(target); } catch (e) { return reject(new Error('无效 URL')); }
+      const isHttps = u.protocol === 'https:';
+      const mod = isHttps ? https : http;
+
+      // 转发头：剥离由本代理控制/会随 body 变化的头，避免长度错配导致目标读取字节异常
+      // （尤其 bodyBase64 的二进制/ multipart 上传：实际 body 是解码后的二进制，原 content-length 是 JSON 包长度）
+      const fwdHeaders: Record<string, any> = Object.assign({}, headers || {});
+      for (const k of ['content-length', 'Content-Length', 'transfer-encoding', 'Transfer-Encoding', 'connection', 'Connection']) {
+        delete fwdHeaders[k];
+      }
+      fwdHeaders['host'] = u.host;
+      if (bodyBuf && bodyBuf.length) fwdHeaders['Content-Length'] = String(bodyBuf.length);
+
+      const req = mod.request({
+        hostname: u.hostname,
+        port: u.port || (isHttps ? 443 : 80),
+        path: u.pathname + u.search,
+        method: method || 'GET',
+        headers: fwdHeaders,
+      }, (res) => {
+        const chunks: Buffer[] = [];
+        res.on('data', (c: Buffer) => chunks.push(c));
+        res.on('end', () => resolve({
+          status: res.statusCode,
+          contentType: (res.headers['content-type'] as string) || '',
+          buffer: Buffer.concat(chunks),
+        }));
+      });
+      req.on('error', reject);
+      req.setTimeout(600000, () => { req.destroy(new Error('代理请求超时')); });
+      if (bodyBuf && bodyBuf.length) req.write(bodyBuf);
+      req.end();
+    });
+  }
+}

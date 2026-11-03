@@ -1,1 +1,26 @@
-ew0KICAiY29tcGlsZXJPcHRpb25zIjogew0KICAgICJtb2R1bGUiOiAiY29tbW9uanMiLA0KICAgICJkZWNsYXJhdGlvbiI6IHRydWUsDQogICAgInJlbW92ZUNvbW1lbnRzIjogdHJ1ZSwNCiAgICAiZW1pdERlY29yYXRvck1ldGFkYXRhIjogdHJ1ZSwNCiAgICAiZXhwZXJpbWVudGFsRGVjb3JhdG9ycyI6IHRydWUsDQogICAgImFsbG93U3ludGhldGljRGVmYXVsdEltcG9ydHMiOiB0cnVlLA0KICAgICJ0YXJnZXQiOiAiRVMyMDIxIiwNCiAgICAic291cmNlTWFwIjogdHJ1ZSwNCiAgICAib3V0RGlyIjogIi4vZGlzdCIsDQogICAgImJhc2VVcmwiOiAiLi8iLA0KICAgICJpbmNyZW1lbnRhbCI6IHRydWUsDQogICAgInNraXBMaWJDaGVjayI6IHRydWUsDQogICAgInN0cmljdE51bGxDaGVja3MiOiBmYWxzZSwNCiAgICAibm9JbXBsaWNpdEFueSI6IGZhbHNlLA0KICAgICJzdHJpY3RCaW5kQ2FsbEFwcGx5IjogZmFsc2UsDQogICAgImZvcmNlQ29uc2lzdGVudENhc2luZ0luRmlsZU5hbWVzIjogZmFsc2UsDQogICAgIm5vRmFsbHRocm91Z2hDYXNlc0luU3dpdGNoIjogZmFsc2UsDQogICAgImVzTW9kdWxlSW50ZXJvcCI6IHRydWUsDQogICAgInJlc29sdmVKc29uTW9kdWxlIjogdHJ1ZSwNCiAgICAibGliIjogWyJFUzIwMjEiXQ0KICB9LA0KICAiaW5jbHVkZSI6IFsic3JjLyoqLyoiXSwNCiAgImV4Y2x1ZGUiOiBbIm5vZGVfbW9kdWxlcyIsICJkaXN0Il0NCn0NCg==
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "declaration": true,
+    "removeComments": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "target": "ES2021",
+    "sourceMap": true,
+    "outDir": "./dist",
+    "baseUrl": "./",
+    "incremental": true,
+    "skipLibCheck": true,
+    "strictNullChecks": false,
+    "noImplicitAny": false,
+    "strictBindCallApply": false,
+    "forceConsistentCasingInFileNames": false,
+    "noFallthroughCasesInSwitch": false,
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "lib": ["ES2021"]
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "dist"]
+}

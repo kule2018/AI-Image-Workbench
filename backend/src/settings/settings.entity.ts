@@ -1,1 +1,11 @@
-aW1wb3J0IHsgRW50aXR5LCBQcmltYXJ5Q29sdW1uLCBDb2x1bW4gfSBmcm9tICd0eXBlb3JtJzsNCg0KLy8g6K6+572u77ya5Y2V6KGM5LmLIGtleS12YWx1ZSDpm4blkIjvvIjkuI7ljp/lp4sgc2V0dGluZ3MuanNvbiDmlbTkvZPlr7nlupTvvIzliY3nq6/mjInooaXkuIHlkIjlubbvvIkNCkBFbnRpdHkoJ3NldHRpbmdzJykNCmV4cG9ydCBjbGFzcyBTZXR0aW5ncyB7DQogIEBQcmltYXJ5Q29sdW1uKHsgdHlwZTogJ2ludCcsIGRlZmF1bHQ6IDEgfSkNCiAgaWQ6IG51bWJlciA9IDE7DQoNCiAgQENvbHVtbignanNvbicsIHsgbnVsbGFibGU6IHRydWUgfSkNCiAgZGF0YTogUmVjb3JkPHN0cmluZywgYW55PiA9IHt9Ow0KfQ0K
+import { Entity, PrimaryColumn, Column } from 'typeorm';
+
+// 设置：单行之 key-value 集合（与原始 settings.json 整体对应，前端按补丁合并）
+@Entity('settings')
+export class Settings {
+  @PrimaryColumn({ type: 'int', default: 1 })
+  id: number = 1;
+
+  @Column('json', { nullable: true })
+  data: Record<string, any> = {};
+}

@@ -1,1 +1,99 @@
-Ly8gPT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09Ci8vIEFJ5Zu+54mH5bel5L2c5Y+wIC0g5pyN5Yqh56uv5pWw5o2u5o6l5Y+j77yI6JC955uYIGRhdGEvKi5qc29u44CBb3V0cHV0L+OAgWRhdGEvbGlicmFyeS/vvIkKLy8gPT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09Cid1c2Ugc3RyaWN0JzsKCldCLmFwaSA9IChmdW5jdGlvbiAoKSB7CgogIGFzeW5jIGZ1bmN0aW9uIGdldEpzb24odXJsLCBmYWxsYmFjaykgewogICAgdHJ5IHsKICAgICAgY29uc3QgciA9IGF3YWl0IGZldGNoKHVybCk7CiAgICAgIGlmICghci5vaykgcmV0dXJuIGZhbGxiYWNrOwogICAgICByZXR1cm4gYXdhaXQgci5qc29uKCk7CiAgICB9IGNhdGNoIChlKSB7IHJldHVybiBmYWxsYmFjazsgfQogIH0KCiAgYXN5bmMgZnVuY3Rpb24gcG9zdEpzb24odXJsLCBib2R5KSB7CiAgICBjb25zdCByID0gYXdhaXQgZmV0Y2godXJsLCB7CiAgICAgIG1ldGhvZDogJ1BPU1QnLAogICAgICBoZWFkZXJzOiB7ICdDb250ZW50LVR5cGUnOiAnYXBwbGljYXRpb24vanNvbicgfSwKICAgICAgYm9keTogSlNPTi5zdHJpbmdpZnkoYm9keSB8fCB7fSkKICAgIH0pOwogICAgcmV0dXJuIHIuanNvbigpOwogIH0KCiAgLy8gLS0tLS0tLS0tLSDorr7nva4gLS0tLS0tLS0tLQogIGNvbnN0IHNldHRpbmdzR2V0ID0gKCkgPT4gZ2V0SnNvbignL2FwaS9zZXR0aW5ncycsIHt9KTsKICBjb25zdCBzZXR0aW5nc1NhdmUgPSAocGF0Y2gpID0+IHBvc3RKc29uKCcvYXBpL3NldHRpbmdzJywgcGF0Y2gpOwoKICAvLyAtLS0tLS0tLS0tIOWOhuWPsiAtLS0tLS0tLS0tCiAgYXN5bmMgZnVuY3Rpb24gaGlzdG9yeUxpc3QoZW5naW5lLCBsaW1pdCkgewogICAgY29uc3QgcSA9IGVuZ2luZSA/ICgnP2VuZ2luZT0nICsgZW5jb2RlVVJJQ29tcG9uZW50KGVuZ2luZSkgKyAobGltaXQgPyAnJmxpbWl0PScgKyBsaW1pdCA6ICcnKSkgOiAnJzsKICAgIGNvbnN0IGRhdGEgPSBhd2FpdCBnZXRKc29uKCcvYXBpL2hpc3RvcnknICsgcSwgeyBpdGVtczogW10gfSk7CiAgICByZXR1cm4gZGF0YS5pdGVtcyB8fCBbXTsKICB9CiAgY29uc3QgaGlzdG9yeUFwcGVuZCA9IChpdGVtKSA9PiBwb3N0SnNvbignL2FwaS9oaXN0b3J5JywgeyBpdGVtIH0pOwogIGNvbnN0IGhpc3RvcnlEZWxldGUgPSAodGltZXN0YW1wcykgPT4gcG9zdEpzb24oJy9hcGkvaGlzdG9yeScsIHsgYWN0aW9uOiAnZGVsZXRlJywgdGltZXN0YW1wcyB9KTsKICBjb25zdCBoaXN0b3J5Q2xlYXIgPSAoKSA9PiBwb3N0SnNvbignL2FwaS9oaXN0b3J5JywgeyBhY3Rpb246ICdjbGVhcicgfSk7CgogIC8vIC0tLS0tLS0tLS0g55Sf5oiQ5Zu+6JC955uYIC0tLS0tLS0tLS0KICBhc3luYyBmdW5jdGlvbiBzYXZlSW1hZ2UoZGF0YVVybCkgewogICAgY29uc3QgciA9IGF3YWl0IHBvc3RKc29uKCcvYXBpL2hpc3Rvcnkvc2F2ZS1pbWFnZScsIHsgZGF0YVVybCB9KTsKICAgIGlmICghci51cmwpIHRocm93IG5ldyBFcnJvcign5Zu+54mH6JC955uY5aSx6LSlJyk7CiAgICByZXR1cm4gcjsKICB9CgogIC8vIC0tLS0tLS0tLS0g55S75biDIC0tLS0tLS0tLS0KICBjb25zdCBjYW52YXNMaXN0ID0gKCkgPT4gZ2V0SnNvbignL2FwaS9jYW52YXNlcycsIHsgaXRlbXM6IFtdIH0pLnRoZW4oZCA9PiBkLml0ZW1zIHx8IFtdKTsKICBjb25zdCBjYW52YXNTYXZlID0gKGNhbnZhcykgPT4gcG9zdEpzb24oJy9hcGkvY2FudmFzZXMnLCBjYW52YXMpOwogIGNvbnN0IGNhbnZhc0dldCA9IChpZCkgPT4gZ2V0SnNvbignL2FwaS9jYW52YXNlcy8nICsgZW5jb2RlVVJJQ29tcG9uZW50KGlkKSwgbnVsbCk7CiAgY29uc3QgY2FudmFzRGVsZXRlID0gKGlkKSA9PiBmZXRjaCgnL2FwaS9jYW52YXNlcy8nICsgZW5jb2RlVVJJQ29tcG9uZW50KGlkKSwgeyBtZXRob2Q6ICdERUxFVEUnIH0pOwoKICAvLyAtLS0tLS0tLS0tIOe0oOadkOW6kyAtLS0tLS0tLS0tCiAgY29uc3QgbGlicmFyeVVwbG9hZCA9IChkYXRhVXJsKSA9PiBwb3N0SnNvbignL2FwaS9saWJyYXJ5L3VwbG9hZCcsIHsgZGF0YVVybCB9KTsKCiAgLy8gLS0tLS0tLS0tLSDmlofku7bnrqHnkIYgLS0tLS0tLS0tLQogIGFzeW5jIGZ1bmN0aW9uIHN0b3JhZ2VGaWxlcyhkaXIsIHN1YikgewogICAgY29uc3QgZGF0YSA9IGF3YWl0IGdldEpzb24oJy9hcGkvc3RvcmFnZS1maWxlcz9kaXI9JyArIGRpciArIChzdWIgPyAnJnN1Yj0nICsgc3ViIDogJycpLCB7IGl0ZW1zOiBbXSB9KTsKICAgIHJldHVybiBkYXRhLml0ZW1zIHx8IFtdOwogIH0KICBjb25zdCBzdG9yYWdlRGVsZXRlID0gKGRpciwgbmFtZXMsIHN1YikgPT4gcG9zdEpzb24oJy9hcGkvc3RvcmFnZS1maWxlcy9kZWxldGUnLCB7IGRpciwgbmFtZXMsIHN1YiB9KTsKCiAgLy8gLS0tLS0tLS0tLSDlhajph4/lr7zlhaXlr7zlh7rvvIh6aXDvvIzlr7npvZDmj5Lku7blpIfku73moLzlvI/vvIkgLS0tLS0tLS0tLQogIGZ1bmN0aW9uIGV4cG9ydEFsbCgpIHsgd2luZG93LmxvY2F0aW9uLmhyZWYgPSAnL2FwaS9leHBvcnQtYWxsJzsgfQogIC8vIOWvvOWFpe+8muaKiiBGaWxlIOebtOaOpeS9nOS4uuOAkOS6jOi/m+WItiBib2R544CR5LiK5Lyg44CCCiAgLy8g4pqgIOe7neS4jeimgeeUqCBGaWxlUmVhZGVyLnJlYWRBc0RhdGFVUkwgKyBKU09OIOWGjeS8oO+8mgogIC8vICAg5aSH5Lu95YyF5Lya6ZqP55Sf5oiQ5Zu+5aKe6ZW/5Yiw5pWw55m+IE1C77yMYmFzZTY0IOimgeiGqOiDgCA0LzMg5YCN77yINDQ2TUIg4oaSIOe6piA1OTVNQiDlrZfnrKbkuLLvvInvvIwKICAvLyAgIOS4pOS4quWQjuaenOmDveS8muiuqeWvvOWFpeWksei0pSDigJTigJQKICAvLyAgIOKRoCDmnI3liqHnq68gYm9keSDkuIrpmZDvvIjmma7pgJrmjqXlj6MgMjAwTULvvInnm7TmjqXooqvmi5LvvJsKICAvLyAgIOKRoSDotoXov4cgVjgg5Y2V5Liq5a2X56ym5Liy55qE5pyA5aSn6ZW/5bqm77yI57qmIDUxMk1C77yJ4oaSIOa1j+iniOWZqOS+p+aKmyBSYW5nZUVycm9yOiBJbnZhbGlkIHN0cmluZyBsZW5ndGjjgIIKICAvLyAgIOebtOaOpeWPkSBGaWxl77yIQmxvYu+8ieeUsea1j+iniOWZqOa1geW8j+WPkemAge+8jOS4jee7j+i/hyBKUyDlrZfnrKbkuLLvvIzlhoXlrZjkuI7kvZPnp6/pg73mmK/mnIDkvJjjgIIKICBhc3luYyBmdW5jdGlvbiBpbXBvcnRBbGxaaXAoZmlsZSkgewogICAgY29uc3QgciA9IGF3YWl0IGZldGNoKCcvYXBpL2ltcG9ydC1hbGwnLCB7CiAgICAgIG1ldGhvZDogJ1BPU1QnLAogICAgICBoZWFkZXJzOiB7ICdDb250ZW50LVR5cGUnOiAnYXBwbGljYXRpb24vemlwJyB9LAogICAgICBib2R5OiBmaWxlCiAgICB9KTsKICAgIGNvbnN0IHRleHQgPSBhd2FpdCByLnRleHQoKTsKICAgIGxldCBkYXRhID0gbnVsbDsKICAgIHRyeSB7IGRhdGEgPSBKU09OLnBhcnNlKHRleHQpOyB9IGNhdGNoIChlKSB7CiAgICAgIHRocm93IG5ldyBFcnJvcign5pyN5Yqh56uv6L+U5Zue5byC5bi477yISFRUUCAnICsgci5zdGF0dXMgKyAn77yJ77yaJyArIFN0cmluZyh0ZXh0IHx8ICcnKS5zbGljZSgwLCAxMjApKTsKICAgIH0KICAgIGlmICghci5vaykgdGhyb3cgbmV3IEVycm9yKGRhdGEuZXJyb3IgfHwgKCflr7zlhaXlpLHotKXvvIhIVFRQICcgKyByLnN0YXR1cyArICfvvIknKSk7CiAgICByZXR1cm4gZGF0YTsKICB9CgogIC8vIC0tLS0tLS0tLS0g5bqU55So5L+h5oGvIC0tLS0tLS0tLS0KICBjb25zdCBhcHBJbmZvID0gKCkgPT4gZ2V0SnNvbignL2FwaS9hcHAtaW5mbycsIHt9KTsKCiAgcmV0dXJuIHsKICAgIHNldHRpbmdzR2V0LCBzZXR0aW5nc1NhdmUsCiAgICBoaXN0b3J5TGlzdCwgaGlzdG9yeUFwcGVuZCwgaGlzdG9yeURlbGV0ZSwgaGlzdG9yeUNsZWFyLAogICAgc2F2ZUltYWdlLAogICAgY2FudmFzTGlzdCwgY2FudmFzU2F2ZSwgY2FudmFzR2V0LCBjYW52YXNEZWxldGUsCiAgICBsaWJyYXJ5VXBsb2FkLAogICAgc3RvcmFnZUZpbGVzLCBzdG9yYWdlRGVsZXRlLAogICAgZXhwb3J0QWxsLCBpbXBvcnRBbGxaaXAsCiAgICBhcHBJbmZvCiAgfTsKfSkoKTsK
+// ============================================================
+// AI图片工作台 - 服务端数据接口（落盘 data/*.json、output/、data/library/）
+// ============================================================
+'use strict';
+
+WB.api = (function () {
+
+  async function getJson(url, fallback) {
+    try {
+      const r = await fetch(url);
+      if (!r.ok) return fallback;
+      return await r.json();
+    } catch (e) { return fallback; }
+  }
+
+  async function postJson(url, body) {
+    const r = await fetch(url, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(body || {})
+    });
+    return r.json();
+  }
+
+  // ---------- 设置 ----------
+  const settingsGet = () => getJson('/api/settings', {});
+  const settingsSave = (patch) => postJson('/api/settings', patch);
+
+  // ---------- 历史 ----------
+  async function historyList(engine, limit) {
+    const q = engine ? ('?engine=' + encodeURIComponent(engine) + (limit ? '&limit=' + limit : '')) : '';
+    const data = await getJson('/api/history' + q, { items: [] });
+    return data.items || [];
+  }
+  const historyAppend = (item) => postJson('/api/history', { item });
+  const historyDelete = (timestamps) => postJson('/api/history', { action: 'delete', timestamps });
+  const historyClear = () => postJson('/api/history', { action: 'clear' });
+
+  // ---------- 生成图落盘 ----------
+  async function saveImage(dataUrl) {
+    const r = await postJson('/api/history/save-image', { dataUrl });
+    if (!r.url) throw new Error('图片落盘失败');
+    return r;
+  }
+
+  // ---------- 画布 ----------
+  const canvasList = () => getJson('/api/canvases', { items: [] }).then(d => d.items || []);
+  const canvasSave = (canvas) => postJson('/api/canvases', canvas);
+  const canvasGet = (id) => getJson('/api/canvases/' + encodeURIComponent(id), null);
+  const canvasDelete = (id) => fetch('/api/canvases/' + encodeURIComponent(id), { method: 'DELETE' });
+
+  // ---------- 素材库 ----------
+  const libraryUpload = (dataUrl) => postJson('/api/library/upload', { dataUrl });
+
+  // ---------- 文件管理 ----------
+  async function storageFiles(dir, sub) {
+    const data = await getJson('/api/storage-files?dir=' + dir + (sub ? '&sub=' + sub : ''), { items: [] });
+    return data.items || [];
+  }
+  const storageDelete = (dir, names, sub) => postJson('/api/storage-files/delete', { dir, names, sub });
+
+  // ---------- 全量导入导出（zip，对齐插件备份格式） ----------
+  function exportAll() { window.location.href = '/api/export-all'; }
+  // 导入：把 File 直接作为【二进制 body】上传。
+  // ⚠ 绝不要用 FileReader.readAsDataURL + JSON 再传：
+  //   备份包会随生成图增长到数百 MB，base64 要膨胀 4/3 倍（446MB → 约 595MB 字符串），
+  //   两个后果都会让导入失败 ——
+  //   ① 服务端 body 上限（普通接口 200MB）直接被拒；
+  //   ② 超过 V8 单个字符串的最大长度（约 512MB）→ 浏览器侧抛 RangeError: Invalid string length。
+  //   直接发 File（Blob）由浏览器流式发送，不经过 JS 字符串，内存与体积都是最优。
+  async function importAllZip(file) {
+    const r = await fetch('/api/import-all', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/zip' },
+      body: file
+    });
+    const text = await r.text();
+    let data = null;
+    try { data = JSON.parse(text); } catch (e) {
+      throw new Error('服务端返回异常（HTTP ' + r.status + '）：' + String(text || '').slice(0, 120));
+    }
+    if (!r.ok) throw new Error(data.error || ('导入失败（HTTP ' + r.status + '）'));
+    return data;
+  }
+
+  // ---------- 应用信息 ----------
+  const appInfo = () => getJson('/api/app-info', {});
+
+  return {
+    settingsGet, settingsSave,
+    historyList, historyAppend, historyDelete, historyClear,
+    saveImage,
+    canvasList, canvasSave, canvasGet, canvasDelete,
+    libraryUpload,
+    storageFiles, storageDelete,
+    exportAll, importAllZip,
+    appInfo
+  };
+})();

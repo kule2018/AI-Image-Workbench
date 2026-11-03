@@ -1,1 +1,28 @@
-aW1wb3J0IHsgTmVzdEZhY3RvcnkgfSBmcm9tICdAbmVzdGpzL2NvcmUnOw0KaW1wb3J0IHsgQXBwTW9kdWxlIH0gZnJvbSAnLi9hcHAubW9kdWxlJzsNCmltcG9ydCB7IGVuc3VyZURpcnMgfSBmcm9tICcuL2NvbW1vbi9wYXRocyc7DQppbXBvcnQgKiBhcyBleHByZXNzIGZyb20gJ2V4cHJlc3MnOw0KDQphc3luYyBmdW5jdGlvbiBib290c3RyYXAoKSB7DQogIGVuc3VyZURpcnMoKTsNCg0KICAvLyDlhbPpl60gTmVzdCDpu5jorqQgYm9keSDop6PmnpDvvIzmlLnkuLrmiYvliqjmjILovb3vvJrmma7pgJrmjqXlj6PotbAgSlNPTu+8iOWkp+S4iumZkO+8ie+8jA0KICAvLyDlpIfku73ljIXlr7zlhaXvvIhhcHBsaWNhdGlvbi96aXDvvInkuI3ooqsgSlNPTiDop6PmnpDvvIznlLHmjqfliLblmajku6Xljp/lp4vmtYHor7vlj5bjgIINCiAgY29uc3QgYXBwID0gYXdhaXQgTmVzdEZhY3RvcnkuY3JlYXRlKEFwcE1vZHVsZSwgeyBib2R5UGFyc2VyOiBmYWxzZSB9KTsNCg0KICBhcHAudXNlKGV4cHJlc3MuanNvbih7IGxpbWl0OiAnMjEwMG1iJyB9KSk7DQogIGFwcC51c2UoZXhwcmVzcy51cmxlbmNvZGVkKHsgZXh0ZW5kZWQ6IHRydWUsIGxpbWl0OiAnMjEwMG1iJyB9KSk7DQoNCiAgYXBwLmVuYWJsZUNvcnMoew0KICAgIG9yaWdpbjogdHJ1ZSwNCiAgICBtZXRob2RzOiBbJ0dFVCcsICdQT1NUJywgJ1BVVCcsICdERUxFVEUnLCAnT1BUSU9OUyddLA0KICAgIGFsbG93ZWRIZWFkZXJzOiAnKicsDQogIH0pOw0KDQogIGNvbnN0IHBvcnQgPSBwYXJzZUludChwcm9jZXNzLmVudi5QT1JUIHx8ICczMDAwJywgMTApOw0KICBhd2FpdCBhcHAubGlzdGVuKHBvcnQpOw0KICAvLyBlc2xpbnQtZGlzYWJsZS1uZXh0LWxpbmUgbm8tY29uc29sZQ0KICBjb25zb2xlLmxvZyhgQUkg5Zu+54mH5bel5L2c5Y+w5ZCO56uv5bey5ZCv5YqoOiBodHRwOi8vbG9jYWxob3N0OiR7cG9ydH1gKTsNCn0NCg0KYm9vdHN0cmFwKCk7DQo=
+import { NestFactory } from '@nestjs/core';
+import { AppModule } from './app.module';
+import { ensureDirs } from './common/paths';
+import * as express from 'express';
+
+async function bootstrap() {
+  ensureDirs();
+
+  // 关闭 Nest 默认 body 解析，改为手动挂载：普通接口走 JSON（大上限），
+  // 备份包导入（application/zip）不被 JSON 解析，由控制器以原始流读取。
+  const app = await NestFactory.create(AppModule, { bodyParser: false });
+
+  app.use(express.json({ limit: '2100mb' }));
+  app.use(express.urlencoded({ extended: true, limit: '2100mb' }));
+
+  app.enableCors({
+    origin: true,
+    methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
+    allowedHeaders: '*',
+  });
+
+  const port = parseInt(process.env.PORT || '3000', 10);
+  await app.listen(port);
+  // eslint-disable-next-line no-console
+  console.log(`AI 图片工作台后端已启动: http://localhost:${port}`);
+}
+
+bootstrap();

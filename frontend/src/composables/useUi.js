@@ -1,1 +1,45 @@
-Ly8g5Y6fIFdCLnVpLmNvbW1vbiAvIFdCLnV0aWwg55qEIFVJIOi+heWKqeWcqCBWdWUg5LiL55So57uE5ZCI5byP5Ye95pWw5bCB6KOFDQpleHBvcnQgZnVuY3Rpb24gdXNlVWkoKSB7DQogIGNvbnN0IFdCID0gd2luZG93LldCOw0KDQogIGZ1bmN0aW9uIHRvYXN0KG1zZywgdHlwZSkgeyBXQi51dGlsLnRvYXN0KG1zZywgdHlwZSk7IH0NCiAgZnVuY3Rpb24gY29uZmlybShtc2csIG9wdHMpIHsgcmV0dXJuIFdCLnV0aWwuY29uZmlybUJveChtc2csIG9wdHMpOyB9DQogIGZ1bmN0aW9uIHByb21wdChtc2csIGRlZiwgcGxhY2Vob2xkZXIpIHsgcmV0dXJuIFdCLnV0aWwucHJvbXB0Qm94KG1zZywgZGVmLCBwbGFjZWhvbGRlcik7IH0NCg0KICBmdW5jdGlvbiBwaWNrRmlsZShhY2NlcHQsIGNiKSB7DQogICAgY29uc3QgaW5wdXQgPSBkb2N1bWVudC5jcmVhdGVFbGVtZW50KCdpbnB1dCcpOw0KICAgIGlucHV0LnR5cGUgPSAnZmlsZSc7DQogICAgaW5wdXQuYWNjZXB0ID0gYWNjZXB0IHx8ICcnOw0KICAgIGlucHV0Lm9uY2hhbmdlID0gKCkgPT4geyBpZiAoaW5wdXQuZmlsZXMgJiYgaW5wdXQuZmlsZXNbMF0pIGNiKGlucHV0LmZpbGVzWzBdKTsgfTsNCiAgICBpbnB1dC5jbGljaygpOw0KICB9DQoNCiAgZnVuY3Rpb24gcGlja0ZpbGVzKGFjY2VwdCwgY2IpIHsNCiAgICBjb25zdCBpbnB1dCA9IGRvY3VtZW50LmNyZWF0ZUVsZW1lbnQoJ2lucHV0Jyk7DQogICAgaW5wdXQudHlwZSA9ICdmaWxlJzsNCiAgICBpbnB1dC5hY2NlcHQgPSBhY2NlcHQgfHwgJyc7DQogICAgaW5wdXQubXVsdGlwbGUgPSB0cnVlOw0KICAgIGlucHV0Lm9uY2hhbmdlID0gKCkgPT4geyBpZiAoaW5wdXQuZmlsZXMpIGNiKEFycmF5LmZyb20oaW5wdXQuZmlsZXMpKTsgfTsNCiAgICBpbnB1dC5jbGljaygpOw0KICB9DQoNCiAgZnVuY3Rpb24gcGlja0pzb25GaWxlKGNiKSB7DQogICAgcGlja0ZpbGUoJy5qc29uLGFwcGxpY2F0aW9uL2pzb24nLCBhc3luYyAoZikgPT4gew0KICAgICAgdHJ5IHsNCiAgICAgICAgY29uc3QgdGV4dCA9IGF3YWl0IGYudGV4dCgpOw0KICAgICAgICBjYihKU09OLnBhcnNlKHRleHQpLCBmLm5hbWUsIHRleHQpOw0KICAgICAgfSBjYXRjaCAoZSkgew0KICAgICAgICBXQi51dGlsLnRvYXN0KCdKU09OIOino+aekOWksei0pe+8micgKyBlLm1lc3NhZ2UsICdlcnJvcicpOw0KICAgICAgfQ0KICAgIH0pOw0KICB9DQoNCiAgZnVuY3Rpb24gZG93bmxvYWQoZmlsZW5hbWUsIHRleHQpIHsNCiAgICBjb25zdCBkYXRhVXJsID0gJ2RhdGE6YXBwbGljYXRpb24vanNvbjtjaGFyc2V0PXV0Zi04LCcgKyBlbmNvZGVVUklDb21wb25lbnQodGV4dCk7DQogICAgV0IudXRpbC5kb3dubG9hZERhdGFVcmwoZGF0YVVybCwgZmlsZW5hbWUpOw0KICB9DQoNCiAgZnVuY3Rpb24gZmlsZVRvRGF0YVVybChmaWxlKSB7IHJldHVybiBXQi51dGlsLmZpbGVUb0RhdGFVcmwoZmlsZSk7IH0NCg0KICByZXR1cm4geyB0b2FzdCwgY29uZmlybSwgcHJvbXB0LCBwaWNrRmlsZSwgcGlja0ZpbGVzLCBwaWNrSnNvbkZpbGUsIGRvd25sb2FkLCBmaWxlVG9EYXRhVXJsIH07DQp9DQo=
+// 原 WB.ui.common / WB.util 的 UI 辅助在 Vue 下用组合式函数封装
+export function useUi() {
+  const WB = window.WB;
+
+  function toast(msg, type) { WB.util.toast(msg, type); }
+  function confirm(msg, opts) { return WB.util.confirmBox(msg, opts); }
+  function prompt(msg, def, placeholder) { return WB.util.promptBox(msg, def, placeholder); }
+
+  function pickFile(accept, cb) {
+    const input = document.createElement('input');
+    input.type = 'file';
+    input.accept = accept || '';
+    input.onchange = () => { if (input.files && input.files[0]) cb(input.files[0]); };
+    input.click();
+  }
+
+  function pickFiles(accept, cb) {
+    const input = document.createElement('input');
+    input.type = 'file';
+    input.accept = accept || '';
+    input.multiple = true;
+    input.onchange = () => { if (input.files) cb(Array.from(input.files)); };
+    input.click();
+  }
+
+  function pickJsonFile(cb) {
+    pickFile('.json,application/json', async (f) => {
+      try {
+        const text = await f.text();
+        cb(JSON.parse(text), f.name, text);
+      } catch (e) {
+        WB.util.toast('JSON 解析失败：' + e.message, 'error');
+      }
+    });
+  }
+
+  function download(filename, text) {
+    const dataUrl = 'data:application/json;charset=utf-8,' + encodeURIComponent(text);
+    WB.util.downloadDataUrl(dataUrl, filename);
+  }
+
+  function fileToDataUrl(file) { return WB.util.fileToDataUrl(file); }
+
+  return { toast, confirm, prompt, pickFile, pickFiles, pickJsonFile, download, fileToDataUrl };
+}

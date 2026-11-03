@@ -1,1 +1,8 @@
-PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCI+CiAgPHJlY3QgeD0iNCIgeT0iNCIgd2lkdGg9IjU2IiBoZWlnaHQ9IjU2IiByeD0iMTQiIGZpbGw9IiMxNjE4MWQiLz4KICA8cmVjdCB4PSIxNCIgeT0iMTQiIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiIgcng9IjMiIGZpbGw9Im5vbmUiIHN0cm9rZT0iI2ZmZmZmZiIgc3Ryb2tlLXdpZHRoPSIzIi8+CiAgPHJlY3QgeD0iMzQiIHk9IjE0IiB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHJ4PSIzIiBmaWxsPSJub25lIiBzdHJva2U9IiNmZmZmZmYiIHN0cm9rZS13aWR0aD0iMyIgc3Ryb2tlLWRhc2hhcnJheT0iNCAzIi8+CiAgPHJlY3QgeD0iMTQiIHk9IjM0IiB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHJ4PSIzIiBmaWxsPSJub25lIiBzdHJva2U9IiNmZmZmZmYiIHN0cm9rZS13aWR0aD0iMyIgc3Ryb2tlLWRhc2hhcnJheT0iNCAzIi8+CiAgPHJlY3QgeD0iMzQiIHk9IjM0IiB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHJ4PSIzIiBmaWxsPSIjZmZmZmZmIi8+CiAgPHBhdGggZD0iTTMwIDIyaDRNMjIgMzB2NE00MiAzMHY0TTIyIDQyaDQiIHN0cm9rZT0iI2ZmZmZmZiIgc3Ryb2tlLXdpZHRoPSIzIiBzdHJva2UtbGluZWNhcD0icm91bmQiLz4KPC9zdmc+Cg==
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <rect x="4" y="4" width="56" height="56" rx="14" fill="#16181d"/>
+  <rect x="14" y="14" width="16" height="16" rx="3" fill="none" stroke="#ffffff" stroke-width="3"/>
+  <rect x="34" y="14" width="16" height="16" rx="3" fill="none" stroke="#ffffff" stroke-width="3" stroke-dasharray="4 3"/>
+  <rect x="14" y="34" width="16" height="16" rx="3" fill="none" stroke="#ffffff" stroke-width="3" stroke-dasharray="4 3"/>
+  <rect x="34" y="34" width="16" height="16" rx="3" fill="#ffffff"/>
+  <path d="M30 22h4M22 30v4M42 30v4M22 42h4" stroke="#ffffff" stroke-width="3" stroke-linecap="round"/>
+</svg>

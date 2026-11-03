@@ -1,1 +1,6 @@
-bm9kZV9tb2R1bGVzLw0KZGlzdC8NCi5lbnYNCmRhdGEvDQpvdXRwdXQvDQoqLmxvZw0K
+node_modules/
+dist/
+.env
+data/
+output/
+*.log

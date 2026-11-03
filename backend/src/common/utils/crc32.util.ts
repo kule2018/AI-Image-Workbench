@@ -1,1 +1,16 @@
-Ly8gQ1JDMzIg5a6e546w77yI56e75qSN6Ieq5Y6fIHNlcnZlci5qcyDpm7bkvp3otZblrp7njrDvvIkNCmNvbnN0IENSQ19UQUJMRTogVWludDMyQXJyYXkgPSAoKCkgPT4gew0KICBjb25zdCB0ID0gbmV3IFVpbnQzMkFycmF5KDI1Nik7DQogIGZvciAobGV0IG4gPSAwOyBuIDwgMjU2OyBuKyspIHsNCiAgICBsZXQgYyA9IG47DQogICAgZm9yIChsZXQgayA9IDA7IGsgPCA4OyBrKyspIGMgPSAoYyAmIDEpID8gKDB4RURCODgzMjAgXiAoYyA+Pj4gMSkpIDogKGMgPj4+IDEpOw0KICAgIHRbbl0gPSBjID4+PiAwOw0KICB9DQogIHJldHVybiB0Ow0KfSkoKTsNCg0KZXhwb3J0IGZ1bmN0aW9uIGNyYzMyKGJ1ZjogQnVmZmVyKTogbnVtYmVyIHsNCiAgbGV0IGMgPSAweEZGRkZGRkZGOw0KICBmb3IgKGxldCBpID0gMDsgaSA8IGJ1Zi5sZW5ndGg7IGkrKykgYyA9IENSQ19UQUJMRVsoYyBeIGJ1ZltpXSkgJiAweEZGXSBeIChjID4+PiA4KTsNCiAgcmV0dXJuIChjIF4gMHhGRkZGRkZGRikgPj4+IDA7DQp9DQo=
+// CRC32 实现（移植自原 server.js 零依赖实现）
+const CRC_TABLE: Uint32Array = (() => {
+  const t = new Uint32Array(256);
+  for (let n = 0; n < 256; n++) {
+    let c = n;
+    for (let k = 0; k < 8; k++) c = (c & 1) ? (0xEDB88320 ^ (c >>> 1)) : (c >>> 1);
+    t[n] = c >>> 0;
+  }
+  return t;
+})();
+
+export function crc32(buf: Buffer): number {
+  let c = 0xFFFFFFFF;
+  for (let i = 0; i < buf.length; i++) c = CRC_TABLE[(c ^ buf[i]) & 0xFF] ^ (c >>> 8);
+  return (c ^ 0xFFFFFFFF) >>> 0;
+}

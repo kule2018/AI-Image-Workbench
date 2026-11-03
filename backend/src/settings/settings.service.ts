@@ -1,1 +1,28 @@
-aW1wb3J0IHsgSW5qZWN0YWJsZSB9IGZyb20gJ0BuZXN0anMvY29tbW9uJzsNCmltcG9ydCB7IEluamVjdFJlcG9zaXRvcnkgfSBmcm9tICdAbmVzdGpzL3R5cGVvcm0nOw0KaW1wb3J0IHsgUmVwb3NpdG9yeSB9IGZyb20gJ3R5cGVvcm0nOw0KaW1wb3J0IHsgU2V0dGluZ3MgfSBmcm9tICcuL3NldHRpbmdzLmVudGl0eSc7DQoNCkBJbmplY3RhYmxlKCkNCmV4cG9ydCBjbGFzcyBTZXR0aW5nc1NlcnZpY2Ugew0KICBjb25zdHJ1Y3RvcigNCiAgICBASW5qZWN0UmVwb3NpdG9yeShTZXR0aW5ncykNCiAgICBwcml2YXRlIHJlYWRvbmx5IHJlcG86IFJlcG9zaXRvcnk8U2V0dGluZ3M+LA0KICApIHt9DQoNCiAgYXN5bmMgZ2V0U2V0dGluZ3MoKTogUHJvbWlzZTxSZWNvcmQ8c3RyaW5nLCBhbnk+PiB7DQogICAgY29uc3Qgcm93ID0gYXdhaXQgdGhpcy5yZXBvLmZpbmRPbmUoeyB3aGVyZTogeyBpZDogMSB9IH0pOw0KICAgIHJldHVybiByb3c/LmRhdGEgfHwge307DQogIH0NCg0KICAvLyDlkIjlubbooaXkuIHvvIjlr7nlupTljp8gc2VydmVyLmpzIOeahCBPYmplY3QuYXNzaWduIOivreS5ie+8iQ0KICBhc3luYyBzYXZlU2V0dGluZ3MocGF0Y2g6IFJlY29yZDxzdHJpbmcsIGFueT4pOiBQcm9taXNlPFJlY29yZDxzdHJpbmcsIGFueT4+IHsNCiAgICBsZXQgcm93ID0gYXdhaXQgdGhpcy5yZXBvLmZpbmRPbmUoeyB3aGVyZTogeyBpZDogMSB9IH0pOw0KICAgIGlmICghcm93KSB7DQogICAgICByb3cgPSB0aGlzLnJlcG8uY3JlYXRlKHsgaWQ6IDEsIGRhdGE6IHt9IH0pOw0KICAgIH0NCiAgICByb3cuZGF0YSA9IHsgLi4uKHJvdy5kYXRhIHx8IHt9KSwgLi4uKHBhdGNoIHx8IHt9KSB9Ow0KICAgIGF3YWl0IHRoaXMucmVwby5zYXZlKHJvdyk7DQogICAgcmV0dXJuIHJvdy5kYXRhOw0KICB9DQp9DQo=
+import { Injectable } from '@nestjs/common';
+import { InjectRepository } from '@nestjs/typeorm';
+import { Repository } from 'typeorm';
+import { Settings } from './settings.entity';
+
+@Injectable()
+export class SettingsService {
+  constructor(
+    @InjectRepository(Settings)
+    private readonly repo: Repository<Settings>,
+  ) {}
+
+  async getSettings(): Promise<Record<string, any>> {
+    const row = await this.repo.findOne({ where: { id: 1 } });
+    return row?.data || {};
+  }
+
+  // 合并补丁（对应原 server.js 的 Object.assign 语义）
+  async saveSettings(patch: Record<string, any>): Promise<Record<string, any>> {
+    let row = await this.repo.findOne({ where: { id: 1 } });
+    if (!row) {
+      row = this.repo.create({ id: 1, data: {} });
+    }
+    row.data = { ...(row.data || {}), ...(patch || {}) };
+    await this.repo.save(row);
+    return row.data;
+  }
+}

@@ -1,1 +1,12 @@
-aW1wb3J0IHsgTW9kdWxlIH0gZnJvbSAnQG5lc3Rqcy9jb21tb24nOw0KaW1wb3J0IHsgVHlwZU9ybU1vZHVsZSB9IGZyb20gJ0BuZXN0anMvdHlwZW9ybSc7DQppbXBvcnQgeyBDYW52YXMgfSBmcm9tICcuL2NhbnZhcy5lbnRpdHknOw0KaW1wb3J0IHsgQ2FudmFzU2VydmljZSB9IGZyb20gJy4vY2FudmFzLnNlcnZpY2UnOw0KaW1wb3J0IHsgQ2FudmFzQ29udHJvbGxlciB9IGZyb20gJy4vY2FudmFzLmNvbnRyb2xsZXInOw0KDQpATW9kdWxlKHsNCiAgaW1wb3J0czogW1R5cGVPcm1Nb2R1bGUuZm9yRmVhdHVyZShbQ2FudmFzXSldLA0KICBjb250cm9sbGVyczogW0NhbnZhc0NvbnRyb2xsZXJdLA0KICBwcm92aWRlcnM6IFtDYW52YXNTZXJ2aWNlXSwNCn0pDQpleHBvcnQgY2xhc3MgQ2FudmFzTW9kdWxlIHt9DQo=
+import { Module } from '@nestjs/common';
+import { TypeOrmModule } from '@nestjs/typeorm';
+import { Canvas } from './canvas.entity';
+import { CanvasService } from './canvas.service';
+import { CanvasController } from './canvas.controller';
+
+@Module({
+  imports: [TypeOrmModule.forFeature([Canvas])],
+  controllers: [CanvasController],
+  providers: [CanvasService],
+})
+export class CanvasModule {}

@@ -1,1 +1,12 @@
-aW1wb3J0IHsgTW9kdWxlIH0gZnJvbSAnQG5lc3Rqcy9jb21tb24nOw0KaW1wb3J0IHsgVHlwZU9ybU1vZHVsZSB9IGZyb20gJ0BuZXN0anMvdHlwZW9ybSc7DQppbXBvcnQgeyBIaXN0b3J5SXRlbSB9IGZyb20gJy4vaGlzdG9yeS5lbnRpdHknOw0KaW1wb3J0IHsgSGlzdG9yeVNlcnZpY2UgfSBmcm9tICcuL2hpc3Rvcnkuc2VydmljZSc7DQppbXBvcnQgeyBIaXN0b3J5Q29udHJvbGxlciB9IGZyb20gJy4vaGlzdG9yeS5jb250cm9sbGVyJzsNCg0KQE1vZHVsZSh7DQogIGltcG9ydHM6IFtUeXBlT3JtTW9kdWxlLmZvckZlYXR1cmUoW0hpc3RvcnlJdGVtXSldLA0KICBjb250cm9sbGVyczogW0hpc3RvcnlDb250cm9sbGVyXSwNCiAgcHJvdmlkZXJzOiBbSGlzdG9yeVNlcnZpY2VdLA0KfSkNCmV4cG9ydCBjbGFzcyBIaXN0b3J5TW9kdWxlIHt9DQo=
+import { Module } from '@nestjs/common';
+import { TypeOrmModule } from '@nestjs/typeorm';
+import { HistoryItem } from './history.entity';
+import { HistoryService } from './history.service';
+import { HistoryController } from './history.controller';
+
+@Module({
+  imports: [TypeOrmModule.forFeature([HistoryItem])],
+  controllers: [HistoryController],
+  providers: [HistoryService],
+})
+export class HistoryModule {}

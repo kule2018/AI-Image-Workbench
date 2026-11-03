@@ -1,1 +1,21 @@
-Ly8g5pyA5bCP5LqL5Lu25oC757q/77ya5pu/5Luj6KKr56e76Zmk55qEIHZhbmlsbGEgV0IuZXZlbnRz77yI6YC76L6R5bGCIGNvbWZ5dWkuanMg562J5L6d6LWWIG9uL29mZi9lbWl0IOS4jiBfcHJldmlld1N1YnNjcmliZXJz77yJDQp3aW5kb3cuV0IgPSB3aW5kb3cuV0IgfHwge307DQooZnVuY3Rpb24gKCkgew0KICBjb25zdCBtYXAgPSB7fTsNCiAgY29uc3QgYXBpID0gew0KICAgIF9wcmV2aWV3U3Vic2NyaWJlcnM6IDAsDQogICAgb24oZXZ0LCBjYikgew0KICAgICAgKG1hcFtldnRdIHx8IChtYXBbZXZ0XSA9IFtdKSkucHVzaChjYik7DQogICAgICByZXR1cm4gKCkgPT4gYXBpLm9mZihldnQsIGNiKTsNCiAgICB9LA0KICAgIG9mZihldnQsIGNiKSB7DQogICAgICBpZiAobWFwW2V2dF0pIG1hcFtldnRdID0gbWFwW2V2dF0uZmlsdGVyKChmKSA9PiBmICE9PSBjYik7DQogICAgfSwNCiAgICBlbWl0KGV2dCwgcGF5bG9hZCkgew0KICAgICAgKG1hcFtldnRdIHx8IFtdKS5zbGljZSgpLmZvckVhY2goKGNiKSA9PiB7DQogICAgICAgIHRyeSB7IGNiKHBheWxvYWQpOyB9IGNhdGNoIChlKSB7IGNvbnNvbGUuZXJyb3IoJ1tldmVudHNdJywgZXZ0LCBlKTsgfQ0KICAgICAgfSk7DQogICAgfSwNCiAgfTsNCiAgV0IuZXZlbnRzID0gYXBpOw0KfSkoKTsNCg==
+// 最小事件总线：替代被移除的 vanilla WB.events（逻辑层 comfyui.js 等依赖 on/off/emit 与 _previewSubscribers）
+window.WB = window.WB || {};
+(function () {
+  const map = {};
+  const api = {
+    _previewSubscribers: 0,
+    on(evt, cb) {
+      (map[evt] || (map[evt] = [])).push(cb);
+      return () => api.off(evt, cb);
+    },
+    off(evt, cb) {
+      if (map[evt]) map[evt] = map[evt].filter((f) => f !== cb);
+    },
+    emit(evt, payload) {
+      (map[evt] || []).slice().forEach((cb) => {
+        try { cb(payload); } catch (e) { console.error('[events]', evt, e); }
+      });
+    },
+  };
+  WB.events = api;
+})();

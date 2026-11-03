@@ -1,1 +1,95 @@
-PHRlbXBsYXRlPg0KICA8ZGl2IGNsYXNzPSJ3b3Jrc3BhY2UiPg0KICAgIDxkaXYgY2xhc3M9ImFzc2V0LXBhZ2UiPg0KICAgICAgPGRpdiBjbGFzcz0iYXNzZXQtdG9vbGJhciI+DQogICAgICAgIDxkaXYgY2xhc3M9InNlZyI+DQogICAgICAgICAgPGJ1dHRvbiB2LWZvcj0idCBpbiB0YWJzIiA6a2V5PSJ0LmtleSIgOmNsYXNzPSJ7IGFjdGl2ZTogdGFiID09PSB0LmtleSB9IiBAY2xpY2s9InN3aXRjaFRhYih0LmtleSkiPnt7IHQubGFiZWwgfX08L2J1dHRvbj4NCiAgICAgICAgPC9kaXY+DQogICAgICAgIDxidXR0b24gdi1pZj0idGFiID09PSAnbGlicmFyeSciIGNsYXNzPSJidG4gYnRuLXByaW1hcnkiIEBjbGljaz0idXBsb2FkIj7irIYg5LiK5Lyg57Sg5p2QPC9idXR0b24+DQogICAgICAgIDxzcGFuIGNsYXNzPSJoaW50Ij57eyBpdGVtcy5sZW5ndGggfX0g6aG5PC9zcGFuPg0KICAgICAgPC9kaXY+DQogICAgICA8ZGl2IGNsYXNzPSJhc3NldC1ncmlkIj4NCiAgICAgICAgPGRpdiB2LWZvcj0iaXQgaW4gaXRlbXMiIDprZXk9Iml0LnVybCIgY2xhc3M9ImFzc2V0LWNhcmQiPg0KICAgICAgICAgIDxpbWcgOnNyYz0iaXQudXJsIiBhbHQ9IiIgQGNsaWNrPSJvcGVuKGl0LnVybCkiIC8+DQogICAgICAgICAgPGRpdiBjbGFzcz0iYXNzZXQtYmFyIj4NCiAgICAgICAgICAgIDxzcGFuIGNsYXNzPSJhc3NldC1uYW1lIiA6dGl0bGU9Iml0Lm5hbWUiPnt7IGl0Lm5hbWUgfX08L3NwYW4+DQogICAgICAgICAgICA8YnV0dG9uIGNsYXNzPSJpY29uLWJ0biIgdGl0bGU9IuWIoOmZpCIgQGNsaWNrPSJkZWwoaXQpIj7wn5eRPC9idXR0b24+DQogICAgICAgICAgPC9kaXY+DQogICAgICAgIDwvZGl2Pg0KICAgICAgICA8ZGl2IHYtaWY9IiFpdGVtcy5sZW5ndGgiIGNsYXNzPSJlbXB0eSI+5pqC5pege3sgdGFiID09PSAnbGlicmFyeScgPyAn57Sg5p2QJyA6ICh0YWIgPT09ICdpbXBvcnRlZCcgPyAn5a+85YWl5Zu+JyA6ICfnlJ/miJDlm74nKSB9fTwvZGl2Pg0KICAgICAgPC9kaXY+DQogICAgPC9kaXY+DQogIDwvZGl2Pg0KPC90ZW1wbGF0ZT4NCg0KPHNjcmlwdCBzZXR1cD4NCmltcG9ydCB7IHJlZiwgb25Nb3VudGVkIH0gZnJvbSAndnVlJzsNCmltcG9ydCB7IHVzZVVpIH0gZnJvbSAnLi4vY29tcG9zYWJsZXMvdXNlVWknOw0KDQpjb25zdCB7IHRvYXN0LCBjb25maXJtLCBwaWNrRmlsZXMsIGZpbGVUb0RhdGFVcmwgfSA9IHVzZVVpKCk7DQpjb25zdCBXQiA9IHdpbmRvdy5XQjsNCg0KY29uc3QgdGFicyA9IFsNCiAgeyBrZXk6ICdsaWJyYXJ5JywgbGFiZWw6ICfntKDmnZDlupMnIH0sDQogIHsga2V5OiAnb3V0cHV0JywgbGFiZWw6ICfnlJ/miJDlm74nIH0sDQogIHsga2V5OiAnaW1wb3J0ZWQnLCBsYWJlbDogJ+WvvOWFpeWbvicgfSwNCl07DQpjb25zdCB0YWIgPSByZWYoJ2xpYnJhcnknKTsNCmNvbnN0IGl0ZW1zID0gcmVmKFtdKTsNCg0KYXN5bmMgZnVuY3Rpb24gbG9hZCgpIHsNCiAgY29uc3QgZGlyID0gdGFiLnZhbHVlID09PSAnbGlicmFyeScgPyAnbGlicmFyeScgOiAnb3V0cHV0JzsNCiAgY29uc3Qgc3ViID0gdGFiLnZhbHVlID09PSAnaW1wb3J0ZWQnID8gJ2ltcG9ydGVkJyA6ICcnOw0KICBjb25zdCBkYXRhID0gYXdhaXQgV0IuYXBpLnN0b3JhZ2VGaWxlcyhkaXIsIHN1Yik7DQogIGl0ZW1zLnZhbHVlID0gKGRhdGEgfHwgW10pLm1hcCgoaXQpID0+ICh7DQogICAgbmFtZTogaXQubmFtZSwNCiAgICB1cmw6IGl0LnVybCB8fCAodGFiLnZhbHVlID09PSAnbGlicmFyeScNCiAgICAgID8gJy9saWJyYXJ5LycgKyBpdC5uYW1lDQogICAgICA6IChzdWIgPyAnL291dHB1dC9pbXBvcnRlZC8nICsgaXQubmFtZSA6ICcvb3V0cHV0LycgKyBpdC5uYW1lKSksDQogIH0pKTsNCn0NCg0KZnVuY3Rpb24gc3dpdGNoVGFiKGspIHsgdGFiLnZhbHVlID0gazsgbG9hZCgpOyB9DQoNCmFzeW5jIGZ1bmN0aW9uIHVwbG9hZCgpIHsNCiAgcGlja0ZpbGVzKCdpbWFnZS8qJywgYXN5bmMgKGZpbGVzKSA9PiB7DQogICAgZm9yIChjb25zdCBmIG9mIGZpbGVzKSB7DQogICAgICB0cnkgew0KICAgICAgICBjb25zdCBkYXRhVXJsID0gYXdhaXQgZmlsZVRvRGF0YVVybChmKTsNCiAgICAgICAgYXdhaXQgV0IuYXBpLmxpYnJhcnlVcGxvYWQoZGF0YVVybCk7DQogICAgICB9IGNhdGNoIChlKSB7IHRvYXN0KCfkuIrkvKDlpLHotKXvvJonICsgZS5tZXNzYWdlLCAnZXJyb3InKTsgfQ0KICAgIH0NCiAgICB0b2FzdCgn5bey5LiK5LygICcgKyBmaWxlcy5sZW5ndGggKyAnIOW8oOe0oOadkCcpOw0KICAgIGxvYWQoKTsNCiAgfSk7DQp9DQoNCmFzeW5jIGZ1bmN0aW9uIGRlbChpdCkgew0KICBpZiAoIShhd2FpdCBjb25maXJtKCfnoa7lrprliKDpmaTjgIwnICsgaXQubmFtZSArICfjgI3vvJ8nKSkpIHJldHVybjsNCiAgY29uc3QgZGlyID0gdGFiLnZhbHVlID09PSAnbGlicmFyeScgPyAnbGlicmFyeScgOiAnb3V0cHV0JzsNCiAgY29uc3Qgc3ViID0gdGFiLnZhbHVlID09PSAnaW1wb3J0ZWQnID8gJ2ltcG9ydGVkJyA6ICcnOw0KICBhd2FpdCBXQi5hcGkuc3RvcmFnZURlbGV0ZShkaXIsIFtpdC5uYW1lXSwgc3ViKTsNCiAgdG9hc3QoJ+W3suWIoOmZpCcpOw0KICBsb2FkKCk7DQp9DQoNCmZ1bmN0aW9uIG9wZW4odXJsKSB7IHdpbmRvdy5vcGVuKHVybCwgJ19ibGFuaycpOyB9DQoNCm9uTW91bnRlZChsb2FkKTsNCjwvc2NyaXB0Pg0KDQo8c3R5bGUgc2NvcGVkPg0KLmFzc2V0LXBhZ2UgeyBkaXNwbGF5OiBmbGV4OyBmbGV4LWRpcmVjdGlvbjogY29sdW1uOyBoZWlnaHQ6IDEwMCU7IH0NCi5hc3NldC10b29sYmFyIHsgZGlzcGxheTogZmxleDsgYWxpZ24taXRlbXM6IGNlbnRlcjsgZ2FwOiAxMnB4OyBtYXJnaW4tYm90dG9tOiAxNHB4OyB9DQouc2VnIHsgZGlzcGxheTogaW5saW5lLWZsZXg7IGJvcmRlcjogMXB4IHNvbGlkIHZhcigtLWJvcmRlcik7IGJvcmRlci1yYWRpdXM6IDhweDsgb3ZlcmZsb3c6IGhpZGRlbjsgfQ0KLnNlZyBidXR0b24geyBiYWNrZ3JvdW5kOiB2YXIoLS1wYW5lbCk7IGNvbG9yOiB2YXIoLS10ZXh0KTsgYm9yZGVyOiAwOyBwYWRkaW5nOiA3cHggMTZweDsgY3Vyc29yOiBwb2ludGVyOyBmb250LXNpemU6IDEzcHg7IH0NCi5zZWcgYnV0dG9uLmFjdGl2ZSB7IGJhY2tncm91bmQ6IHZhcigtLWFjY2VudCk7IGNvbG9yOiAjZmZmOyB9DQouYXNzZXQtZ3JpZCB7IGRpc3BsYXk6IGdyaWQ7IGdyaWQtdGVtcGxhdGUtY29sdW1uczogcmVwZWF0KGF1dG8tZmlsbCwgbWlubWF4KDE1MHB4LCAxZnIpKTsgZ2FwOiAxMnB4OyBvdmVyZmxvdzogYXV0bzsgZmxleDogMTsgYWxpZ24tY29udGVudDogc3RhcnQ7IH0NCi5hc3NldC1jYXJkIHsgYmFja2dyb3VuZDogdmFyKC0tcGFuZWwpOyBib3JkZXI6IDFweCBzb2xpZCB2YXIoLS1ib3JkZXIpOyBib3JkZXItcmFkaXVzOiAxMHB4OyBvdmVyZmxvdzogaGlkZGVuOyB9DQouYXNzZXQtY2FyZCBpbWcgeyB3aWR0aDogMTAwJTsgYXNwZWN0LXJhdGlvOiAxLzE7IG9iamVjdC1maXQ6IGNvdmVyOyBjdXJzb3I6IHpvb20taW47IGJhY2tncm91bmQ6ICMwMDA7IGRpc3BsYXk6IGJsb2NrOyB9DQouYXNzZXQtYmFyIHsgZGlzcGxheTogZmxleDsgYWxpZ24taXRlbXM6IGNlbnRlcjsgZ2FwOiA2cHg7IHBhZGRpbmc6IDZweCA4cHg7IH0NCi5hc3NldC1uYW1lIHsgZmxleDogMTsgZm9udC1zaXplOiAxMnB4OyBjb2xvcjogdmFyKC0tdGV4dC0yKTsgd2hpdGUtc3BhY2U6IG5vd3JhcDsgb3ZlcmZsb3c6IGhpZGRlbjsgdGV4dC1vdmVyZmxvdzogZWxsaXBzaXM7IH0NCi5pY29uLWJ0biB7IGJvcmRlcjogMDsgYmFja2dyb3VuZDogdHJhbnNwYXJlbnQ7IGN1cnNvcjogcG9pbnRlcjsgZm9udC1zaXplOiAxM3B4OyBjb2xvcjogdmFyKC0tdGV4dC0yKTsgfQ0KLmljb24tYnRuOmhvdmVyIHsgY29sb3I6ICNlMDY7IH0NCi5lbXB0eSB7IGNvbG9yOiB2YXIoLS10ZXh0LTIpOyBwYWRkaW5nOiA0MHB4OyB0ZXh0LWFsaWduOiBjZW50ZXI7IHdpZHRoOiAxMDAlOyB9DQo8L3N0eWxlPg0K
+<template>
+  <div class="workspace">
+    <div class="asset-page">
+      <div class="asset-toolbar">
+        <div class="seg">
+          <button v-for="t in tabs" :key="t.key" :class="{ active: tab === t.key }" @click="switchTab(t.key)">{{ t.label }}</button>
+        </div>
+        <button v-if="tab === 'library'" class="btn btn-primary" @click="upload">⬆ 上传素材</button>
+        <span class="hint">{{ items.length }} 项</span>
+      </div>
+      <div class="asset-grid">
+        <div v-for="it in items" :key="it.url" class="asset-card">
+          <img :src="it.url" alt="" @click="open(it.url)" />
+          <div class="asset-bar">
+            <span class="asset-name" :title="it.name">{{ it.name }}</span>
+            <button class="icon-btn" title="删除" @click="del(it)">🗑</button>
+          </div>
+        </div>
+        <div v-if="!items.length" class="empty">暂无{{ tab === 'library' ? '素材' : (tab === 'imported' ? '导入图' : '生成图') }}</div>
+      </div>
+    </div>
+  </div>
+</template>
+
+<script setup>
+import { ref, onMounted } from 'vue';
+import { useUi } from '../composables/useUi';
+
+const { toast, confirm, pickFiles, fileToDataUrl } = useUi();
+const WB = window.WB;
+
+const tabs = [
+  { key: 'library', label: '素材库' },
+  { key: 'output', label: '生成图' },
+  { key: 'imported', label: '导入图' },
+];
+const tab = ref('library');
+const items = ref([]);
+
+async function load() {
+  const dir = tab.value === 'library' ? 'library' : 'output';
+  const sub = tab.value === 'imported' ? 'imported' : '';
+  const data = await WB.api.storageFiles(dir, sub);
+  items.value = (data || []).map((it) => ({
+    name: it.name,
+    url: it.url || (tab.value === 'library'
+      ? '/library/' + it.name
+      : (sub ? '/output/imported/' + it.name : '/output/' + it.name)),
+  }));
+}
+
+function switchTab(k) { tab.value = k; load(); }
+
+async function upload() {
+  pickFiles('image/*', async (files) => {
+    for (const f of files) {
+      try {
+        const dataUrl = await fileToDataUrl(f);
+        await WB.api.libraryUpload(dataUrl);
+      } catch (e) { toast('上传失败：' + e.message, 'error'); }
+    }
+    toast('已上传 ' + files.length + ' 张素材');
+    load();
+  });
+}
+
+async function del(it) {
+  if (!(await confirm('确定删除「' + it.name + '」？'))) return;
+  const dir = tab.value === 'library' ? 'library' : 'output';
+  const sub = tab.value === 'imported' ? 'imported' : '';
+  await WB.api.storageDelete(dir, [it.name], sub);
+  toast('已删除');
+  load();
+}
+
+function open(url) { window.open(url, '_blank'); }
+
+onMounted(load);
+</script>
+
+<style scoped>
+.asset-page { display: flex; flex-direction: column; height: 100%; }
+.asset-toolbar { display: flex; align-items: center; gap: 12px; margin-bottom: 14px; }
+.seg { display: inline-flex; border: 1px solid var(--border); border-radius: 8px; overflow: hidden; }
+.seg button { background: var(--panel); color: var(--text); border: 0; padding: 7px 16px; cursor: pointer; font-size: 13px; }
+.seg button.active { background: var(--accent); color: #fff; }
+.asset-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 12px; overflow: auto; flex: 1; align-content: start; }
+.asset-card { background: var(--panel); border: 1px solid var(--border); border-radius: 10px; overflow: hidden; }
+.asset-card img { width: 100%; aspect-ratio: 1/1; object-fit: cover; cursor: zoom-in; background: #000; display: block; }
+.asset-bar { display: flex; align-items: center; gap: 6px; padding: 6px 8px; }
+.asset-name { flex: 1; font-size: 12px; color: var(--text-2); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.icon-btn { border: 0; background: transparent; cursor: pointer; font-size: 13px; color: var(--text-2); }
+.icon-btn:hover { color: #e06; }
+.empty { color: var(--text-2); padding: 40px; text-align: center; width: 100%; }
+</style>

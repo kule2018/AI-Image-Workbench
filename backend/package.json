@@ -1,1 +1,37 @@
-ew0KICAibmFtZSI6ICJhaS1pbWFnZS13b3JrYmVuY2gtYmFja2VuZCIsDQogICJ2ZXJzaW9uIjogIjEuMC4wIiwNCiAgImRlc2NyaXB0aW9uIjogIkFJIOWbvueJh+W3peS9nOWPsOWQjuerr++8iE5lc3RKUyArIFR5cGVPUk0gKyBNeVNRTO+8iSIsDQogICJhdXRob3IiOiAiIiwNCiAgInByaXZhdGUiOiB0cnVlLA0KICAibGljZW5zZSI6ICJNSVQiLA0KICAic2NyaXB0cyI6IHsNCiAgICAiYnVpbGQiOiAibmVzdCBidWlsZCIsDQogICAgInN0YXJ0IjogIm5lc3Qgc3RhcnQiLA0KICAgICJzdGFydDpkZXYiOiAibmVzdCBzdGFydCAtLXdhdGNoIiwNCiAgICAic3RhcnQ6cHJvZCI6ICJub2RlIGRpc3QvbWFpbiINCiAgfSwNCiAgImRlcGVuZGVuY2llcyI6IHsNCiAgICAiQG5lc3Rqcy9jb21tb24iOiAiXjEwLjQuNCIsDQogICAgIkBuZXN0anMvY29yZSI6ICJeMTAuNC40IiwNCiAgICAiQG5lc3Rqcy9wbGF0Zm9ybS1leHByZXNzIjogIl4xMC40LjQiLA0KICAgICJAbmVzdGpzL3NlcnZlLXN0YXRpYyI6ICJeNC4wLjIiLA0KICAgICJAbmVzdGpzL3R5cGVvcm0iOiAiXjEwLjAuMiIsDQogICAgImNsYXNzLXRyYW5zZm9ybWVyIjogIl4wLjUuMSIsDQogICAgImNsYXNzLXZhbGlkYXRvciI6ICJeMC4xNC4xIiwNCiAgICAibXlzcWwyIjogIl4zLjExLjMiLA0KICAgICJyZWZsZWN0LW1ldGFkYXRhIjogIl4wLjIuMiIsDQogICAgInJ4anMiOiAiXjcuOC4xIiwNCiAgICAidHlwZW9ybSI6ICJeMC4zLjIwIiwNCiAgICAiemxpYiI6ICJeMS4wLjUiDQogIH0sDQogICJkZXZEZXBlbmRlbmNpZXMiOiB7DQogICAgIkBuZXN0anMvY2xpIjogIl4xMC40LjUiLA0KICAgICJAbmVzdGpzL3NjaGVtYXRpY3MiOiAiXjEwLjEuNCIsDQogICAgIkBuZXN0anMvdGVzdGluZyI6ICJeMTAuNC40IiwNCiAgICAiQHR5cGVzL2V4cHJlc3MiOiAiXjQuMTcuMjEiLA0KICAgICJAdHlwZXMvbm9kZSI6ICJeMjIuNy40IiwNCiAgICAiQHR5cGVzL3dzIjogIl44LjUuMTIiLA0KICAgICJ0eXBlc2NyaXB0IjogIl41LjYuMiINCiAgfQ0KfQ0K
+{
+  "name": "ai-image-workbench-backend",
+  "version": "1.0.0",
+  "description": "AI 图片工作台后端（NestJS + TypeORM + MySQL）",
+  "author": "",
+  "private": true,
+  "license": "MIT",
+  "scripts": {
+    "build": "nest build",
+    "start": "nest start",
+    "start:dev": "nest start --watch",
+    "start:prod": "node dist/main"
+  },
+  "dependencies": {
+    "@nestjs/common": "^10.4.4",
+    "@nestjs/core": "^10.4.4",
+    "@nestjs/platform-express": "^10.4.4",
+    "@nestjs/serve-static": "^4.0.2",
+    "@nestjs/typeorm": "^10.0.2",
+    "class-transformer": "^0.5.1",
+    "class-validator": "^0.14.1",
+    "mysql2": "^3.11.3",
+    "reflect-metadata": "^0.2.2",
+    "rxjs": "^7.8.1",
+    "typeorm": "^0.3.20",
+    "zlib": "^1.0.5"
+  },
+  "devDependencies": {
+    "@nestjs/cli": "^10.4.5",
+    "@nestjs/schematics": "^10.1.4",
+    "@nestjs/testing": "^10.4.4",
+    "@types/express": "^4.17.21",
+    "@types/node": "^22.7.4",
+    "@types/ws": "^8.5.12",
+    "typescript": "^5.6.2"
+  }
+}

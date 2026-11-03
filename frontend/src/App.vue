@@ -1,1 +1,85 @@
-PHRlbXBsYXRlPg0KICA8ZGl2IGNsYXNzPSJzaGVsbCIgOmNsYXNzPSJ7IGNvbGxhcHNlZDogY29sbGFwc2VkIH0iPg0KICAgIDxhc2lkZSBjbGFzcz0ic2lkZWJhciIgaWQ9InNpZGViYXIiPg0KICAgICAgPGRpdiBjbGFzcz0ibG9nby1yb3ciPg0KICAgICAgICA8ZGl2IGNsYXNzPSJsb2dvIj4NCiAgICAgICAgICA8ZGl2IGNsYXNzPSJsb2dvLWljb24iPueUuzwvZGl2Pg0KICAgICAgICAgIDxkaXYgY2xhc3M9ImxvZ28tdGV4dCI+QUnlm77niYflt6XkvZzlj7A8L2Rpdj4NCiAgICAgICAgPC9kaXY+DQogICAgICAgIDxidXR0b24gY2xhc3M9ImNvbGxhcHNlLWJ0biIgQGNsaWNrPSJ0b2dnbGVDb2xsYXBzZSIgdGl0bGU9IuaUtui1ty/lsZXlvIDlr7zoiKoiPg0KICAgICAgICAgIDxzdmcgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIyIj4NCiAgICAgICAgICAgIDxwYXRoIDpkPSJjb2xsYXBzZWQgPyAnTTkgMThsNi02LTYtNicgOiAnTTE1IDE4bC02LTYgNi02JyIgLz4NCiAgICAgICAgICA8L3N2Zz4NCiAgICAgICAgPC9idXR0b24+DQogICAgICA8L2Rpdj4NCg0KICAgICAgPGRpdiBjbGFzcz0ibmF2LXNjcm9sbCI+DQogICAgICAgIDxkaXYgY2xhc3M9Im5hdi1zZWN0aW9uLWxhYmVsIj7nlJ/lm748L2Rpdj4NCiAgICAgICAgPHJvdXRlci1saW5rDQogICAgICAgICAgdi1mb3I9Iml0ZW0gaW4gdG9wSXRlbXMiDQogICAgICAgICAgOmtleT0iaXRlbS5pZCINCiAgICAgICAgICA6dG89Iml0ZW0ucGF0aCINCiAgICAgICAgICBjbGFzcz0ibmF2LWl0ZW0iDQogICAgICAgICAgOnRpdGxlPSJpdGVtLnRpdGxlIg0KICAgICAgICAgIGFjdGl2ZS1jbGFzcz0iYWN0aXZlIg0KICAgICAgICA+DQogICAgICAgICAgPHNwYW4gY2xhc3M9Im5hdi1pY29uIiB2LWh0bWw9Iml0ZW0uaWNvbiI+PC9zcGFuPg0KICAgICAgICAgIDxzcGFuIGNsYXNzPSJuYXYtdGV4dCI+e3sgaXRlbS50aXRsZSB9fTwvc3Bhbj4NCiAgICAgICAgPC9yb3V0ZXItbGluaz4NCg0KICAgICAgICA8ZGl2IGNsYXNzPSJuYXYtc2VwIj48L2Rpdj4NCiAgICAgICAgPGRpdiBjbGFzcz0ibmF2LXNlY3Rpb24tbGFiZWwiPuiuvue9rjwvZGl2Pg0KICAgICAgICA8cm91dGVyLWxpbmsNCiAgICAgICAgICB2LWZvcj0iaXRlbSBpbiBib3R0b21JdGVtcyINCiAgICAgICAgICA6a2V5PSJpdGVtLmlkIg0KICAgICAgICAgIDp0bz0iaXRlbS5wYXRoIg0KICAgICAgICAgIGNsYXNzPSJuYXYtaXRlbSINCiAgICAgICAgICA6dGl0bGU9Iml0ZW0udGl0bGUiDQogICAgICAgICAgYWN0aXZlLWNsYXNzPSJhY3RpdmUiDQogICAgICAgID4NCiAgICAgICAgICA8c3BhbiBjbGFzcz0ibmF2LWljb24iIHYtaHRtbD0iaXRlbS5pY29uIj48L3NwYW4+DQogICAgICAgICAgPHNwYW4gY2xhc3M9Im5hdi10ZXh0Ij57eyBpdGVtLnRpdGxlIH19PC9zcGFuPg0KICAgICAgICA8L3JvdXRlci1saW5rPg0KICAgICAgPC9kaXY+DQoNCiAgICAgIDxidXR0b24gY2xhc3M9Im5hdi1pdGVtIiBAY2xpY2s9InRvZ2dsZVRoZW1lIiA6dGl0bGU9ImlzRGFyayA/ICfnmb3lpKnmqKHlvI8nIDogJ+m7keWknOaooeW8jyciPg0KICAgICAgICA8c3BhbiBjbGFzcz0ibmF2LWljb24iIHYtaHRtbD0iaXNEYXJrID8gc3VuSWNvbiA6IG1vb25JY29uIj48L3NwYW4+DQogICAgICAgIDxzcGFuIGNsYXNzPSJuYXYtdGV4dCI+e3sgaXNEYXJrID8gJ+eZveWkqeaooeW8jycgOiAn6buR5aSc5qih5byPJyB9fTwvc3Bhbj4NCiAgICAgIDwvYnV0dG9uPg0KICAgIDwvYXNpZGU+DQoNCiAgICA8ZGl2IGNsYXNzPSJtYWluIj4NCiAgICAgIDxyb3V0ZXItdmlldyB2LXNsb3Q9InsgQ29tcG9uZW50IH0iPg0KICAgICAgICA8Y29tcG9uZW50IDppcz0iQ29tcG9uZW50IiAvPg0KICAgICAgPC9yb3V0ZXItdmlldz4NCiAgICA8L2Rpdj4NCiAgPC9kaXY+DQo8L3RlbXBsYXRlPg0KDQo8c2NyaXB0IHNldHVwPg0KaW1wb3J0IHsgY29tcHV0ZWQsIHJlZiwgb25Nb3VudGVkIH0gZnJvbSAndnVlJzsNCmltcG9ydCB7IG5hdkl0ZW1zIH0gZnJvbSAnLi9uYXYnOw0KaW1wb3J0IHsgdXNlU2V0dGluZ3MgfSBmcm9tICcuL2NvbXBvc2FibGVzL3VzZVNldHRpbmdzJzsNCg0KY29uc3QgeyBzZXR0aW5ncyB9ID0gdXNlU2V0dGluZ3MoKTsNCg0KY29uc3QgdG9wSXRlbXMgPSBuYXZJdGVtcy5maWx0ZXIoKGkpID0+IGkuZ3JvdXAgPT09ICd0b3AnKTsNCmNvbnN0IGJvdHRvbUl0ZW1zID0gbmF2SXRlbXMuZmlsdGVyKChpKSA9PiBpLmdyb3VwID09PSAnYm90dG9tJyk7DQoNCmNvbnN0IGNvbGxhcHNlZCA9IHJlZihsb2NhbFN0b3JhZ2UuZ2V0SXRlbSgnc2JfY29sbGFwc2VkJykgPT09ICcxJyk7DQpjb25zdCBpc0RhcmsgPSByZWYoc2V0dGluZ3MudGhlbWUgPT09ICdkYXJrJyk7DQoNCmNvbnN0IG1vb25JY29uID0gJzxzdmcgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIyIj48cGF0aCBkPSJNMjEgMTIuOEE5IDkgMCAxIDEgMTEuMiAzIDcgNyAwIDAgMCAyMSAxMi44eiIvPjwvc3ZnPic7DQpjb25zdCBzdW5JY29uID0gJzxzdmcgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIyIj48Y2lyY2xlIGN4PSIxMiIgY3k9IjEyIiByPSI0Ii8+PHBhdGggZD0iTTEyIDJ2Mk0xMiAyMHYyTTQuOSA0LjlsMS40IDEuNE0xNy43IDE3LjdsMS40IDEuNE0yIDEyaDJNMjAgMTJoMk00LjkgMTkuMWwxLjQtMS40TTE3LjcgNi4zbDEuNC0xLjQiLz48L3N2Zz4nOw0KDQpmdW5jdGlvbiB0b2dnbGVDb2xsYXBzZSgpIHsNCiAgY29sbGFwc2VkLnZhbHVlID0gIWNvbGxhcHNlZC52YWx1ZTsNCiAgbG9jYWxTdG9yYWdlLnNldEl0ZW0oJ3NiX2NvbGxhcHNlZCcsIGNvbGxhcHNlZC52YWx1ZSA/ICcxJyA6ICcwJyk7DQp9DQoNCmZ1bmN0aW9uIHRvZ2dsZVRoZW1lKCkgew0KICBpc0RhcmsudmFsdWUgPSAhaXNEYXJrLnZhbHVlOw0KICBzZXR0aW5ncy50aGVtZSA9IGlzRGFyay52YWx1ZSA/ICdkYXJrJyA6ICdsaWdodCc7DQogIHdpbmRvdy5XQi5zZXR0aW5ncy5zZXQoJ3RoZW1lJywgc2V0dGluZ3MudGhlbWUpOw0KfQ0KPC9zY3JpcHQ+DQo=
+<template>
+  <div class="shell" :class="{ collapsed: collapsed }">
+    <aside class="sidebar" id="sidebar">
+      <div class="logo-row">
+        <div class="logo">
+          <div class="logo-icon">画</div>
+          <div class="logo-text">AI图片工作台</div>
+        </div>
+        <button class="collapse-btn" @click="toggleCollapse" title="收起/展开导航">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path :d="collapsed ? 'M9 18l6-6-6-6' : 'M15 18l-6-6 6-6'" />
+          </svg>
+        </button>
+      </div>
+
+      <div class="nav-scroll">
+        <div class="nav-section-label">生图</div>
+        <router-link
+          v-for="item in topItems"
+          :key="item.id"
+          :to="item.path"
+          class="nav-item"
+          :title="item.title"
+          active-class="active"
+        >
+          <span class="nav-icon" v-html="item.icon"></span>
+          <span class="nav-text">{{ item.title }}</span>
+        </router-link>
+
+        <div class="nav-sep"></div>
+        <div class="nav-section-label">设置</div>
+        <router-link
+          v-for="item in bottomItems"
+          :key="item.id"
+          :to="item.path"
+          class="nav-item"
+          :title="item.title"
+          active-class="active"
+        >
+          <span class="nav-icon" v-html="item.icon"></span>
+          <span class="nav-text">{{ item.title }}</span>
+        </router-link>
+      </div>
+
+      <button class="nav-item" @click="toggleTheme" :title="isDark ? '白天模式' : '黑夜模式'">
+        <span class="nav-icon" v-html="isDark ? sunIcon : moonIcon"></span>
+        <span class="nav-text">{{ isDark ? '白天模式' : '黑夜模式' }}</span>
+      </button>
+    </aside>
+
+    <div class="main">
+      <router-view v-slot="{ Component }">
+        <component :is="Component" />
+      </router-view>
+    </div>
+  </div>
+</template>
+
+<script setup>
+import { computed, ref, onMounted } from 'vue';
+import { navItems } from './nav';
+import { useSettings } from './composables/useSettings';
+
+const { settings } = useSettings();
+
+const topItems = navItems.filter((i) => i.group === 'top');
+const bottomItems = navItems.filter((i) => i.group === 'bottom');
+
+const collapsed = ref(localStorage.getItem('sb_collapsed') === '1');
+const isDark = ref(settings.theme === 'dark');
+
+const moonIcon = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.8A9 9 0 1 1 11.2 3 7 7 0 0 0 21 12.8z"/></svg>';
+const sunIcon = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>';
+
+function toggleCollapse() {
+  collapsed.value = !collapsed.value;
+  localStorage.setItem('sb_collapsed', collapsed.value ? '1' : '0');
+}
+
+function toggleTheme() {
+  isDark.value = !isDark.value;
+  settings.theme = isDark.value ? 'dark' : 'light';
+  window.WB.settings.set('theme', settings.theme);
+}
+</script>

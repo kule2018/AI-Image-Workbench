@@ -1,1 +1,40 @@
-aW1wb3J0IHsgSW5qZWN0YWJsZSB9IGZyb20gJ0BuZXN0anMvY29tbW9uJzsNCmltcG9ydCB7IEluamVjdFJlcG9zaXRvcnkgfSBmcm9tICdAbmVzdGpzL3R5cGVvcm0nOw0KaW1wb3J0IHsgUmVwb3NpdG9yeSB9IGZyb20gJ3R5cGVvcm0nOw0KaW1wb3J0IHsgTGlicmFyeUl0ZW0gfSBmcm9tICcuL2xpYnJhcnkuZW50aXR5JzsNCmltcG9ydCB7IERJUlMgfSBmcm9tICcuLi9jb21tb24vcGF0aHMnOw0KaW1wb3J0IHsgZGVjb2RlRGF0YVVybCwgZXh0RnJvbU1pbWUsIGdlbkltYWdlTmFtZSwgc2FmZU5hbWUgfSBmcm9tICcuLi9jb21tb24vdXRpbHMvZmlsZS51dGlsJzsNCmltcG9ydCAqIGFzIGZzIGZyb20gJ2ZzJzsNCg0KQEluamVjdGFibGUoKQ0KZXhwb3J0IGNsYXNzIExpYnJhcnlTZXJ2aWNlIHsNCiAgY29uc3RydWN0b3IoDQogICAgQEluamVjdFJlcG9zaXRvcnkoTGlicmFyeUl0ZW0pDQogICAgcHJpdmF0ZSByZWFkb25seSByZXBvOiBSZXBvc2l0b3J5PExpYnJhcnlJdGVtPiwNCiAgKSB7fQ0KDQogIC8vIOS4iuS8oOe0oOadkO+8iGRhdGFVcmwgLT4g6JC955uYICsg5YWl5bqT77yJDQogIGFzeW5jIHVwbG9hZChkYXRhVXJsOiBzdHJpbmcpOiBQcm9taXNlPHsgdXJsOiBzdHJpbmc7IGZpbGU6IHN0cmluZyB9PiB7DQogICAgY29uc3QgZGVjb2RlZCA9IGRlY29kZURhdGFVcmwoZGF0YVVybCk7DQogICAgaWYgKCFkZWNvZGVkKSB0aHJvdyBuZXcgRXJyb3IoJ2RhdGFVcmwg5peg5pWIJyk7DQogICAgY29uc3QgZXh0ID0gZXh0RnJvbU1pbWUoZGVjb2RlZC5taW1lKTsNCiAgICBjb25zdCBuYW1lID0gRGF0ZS5ub3coKSArICdfJyArIGdlbkltYWdlTmFtZShleHQpLnNwbGl0KCdfJykucG9wKCk7DQogICAgY29uc3Qgc2FmZSA9IHNhZmVOYW1lKG5hbWUpOw0KICAgIGZzLndyaXRlRmlsZVN5bmMoRElSUy5saWJyYXJ5ICsgJy8nICsgc2FmZSwgZGVjb2RlZC5idWZmZXIpOw0KICAgIGNvbnN0IHVybCA9ICcvbGlicmFyeS8nICsgc2FmZTsNCiAgICBjb25zdCBpdGVtID0gdGhpcy5yZXBvLmNyZWF0ZSh7IGZpbGU6IHNhZmUsIHVybCwgbmFtZTogc2FmZSwgY3JlYXRlZF9hdDogRGF0ZS5ub3coKSB9KTsNCiAgICBhd2FpdCB0aGlzLnJlcG8uc2F2ZShpdGVtKTsNCiAgICByZXR1cm4geyB1cmwsIGZpbGU6IHNhZmUgfTsNCiAgfQ0KDQogIGFzeW5jIGZpbmRBbGwoKTogUHJvbWlzZTxMaWJyYXJ5SXRlbVtdPiB7DQogICAgcmV0dXJuIHRoaXMucmVwby5maW5kKHsgb3JkZXI6IHsgY3JlYXRlZF9hdDogJ0RFU0MnIH0gfSk7DQogIH0NCg0KICBhc3luYyBkZWxldGVGaWxlKGZpbGU6IHN0cmluZyk6IFByb21pc2U8dm9pZD4gew0KICAgIGNvbnN0IHNhZmUgPSBzYWZlTmFtZShmaWxlKTsNCiAgICBjb25zdCBmdWxsID0gRElSUy5saWJyYXJ5ICsgJy8nICsgc2FmZTsNCiAgICB0cnkgeyBpZiAoZnMuZXhpc3RzU3luYyhmdWxsKSkgZnMudW5saW5rU3luYyhmdWxsKTsgfSBjYXRjaCAoZSkgeyAvKiDlv73nlaUgKi8gfQ0KICAgIGF3YWl0IHRoaXMucmVwby5kZWxldGUoeyBmaWxlOiBzYWZlIH0pOw0KICB9DQp9DQo=
+import { Injectable } from '@nestjs/common';
+import { InjectRepository } from '@nestjs/typeorm';
+import { Repository } from 'typeorm';
+import { LibraryItem } from './library.entity';
+import { DIRS } from '../common/paths';
+import { decodeDataUrl, extFromMime, genImageName, safeName } from '../common/utils/file.util';
+import * as fs from 'fs';
+
+@Injectable()
+export class LibraryService {
+  constructor(
+    @InjectRepository(LibraryItem)
+    private readonly repo: Repository<LibraryItem>,
+  ) {}
+
+  // 上传素材（dataUrl -> 落盘 + 入库）
+  async upload(dataUrl: string): Promise<{ url: string; file: string }> {
+    const decoded = decodeDataUrl(dataUrl);
+    if (!decoded) throw new Error('dataUrl 无效');
+    const ext = extFromMime(decoded.mime);
+    const name = Date.now() + '_' + genImageName(ext).split('_').pop();
+    const safe = safeName(name);
+    fs.writeFileSync(DIRS.library + '/' + safe, decoded.buffer);
+    const url = '/library/' + safe;
+    const item = this.repo.create({ file: safe, url, name: safe, created_at: Date.now() });
+    await this.repo.save(item);
+    return { url, file: safe };
+  }
+
+  async findAll(): Promise<LibraryItem[]> {
+    return this.repo.find({ order: { created_at: 'DESC' } });
+  }
+
+  async deleteFile(file: string): Promise<void> {
+    const safe = safeName(file);
+    const full = DIRS.library + '/' + safe;
+    try { if (fs.existsSync(full)) fs.unlinkSync(full); } catch (e) { /* 忽略 */ }
+    await this.repo.delete({ file: safe });
+  }
+}

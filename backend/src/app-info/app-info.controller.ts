@@ -1,1 +1,16 @@
-aW1wb3J0IHsgQ29udHJvbGxlciwgR2V0LCBSZXMgfSBmcm9tICdAbmVzdGpzL2NvbW1vbic7DQppbXBvcnQgeyBSZXNwb25zZSB9IGZyb20gJ2V4cHJlc3MnOw0KDQpAQ29udHJvbGxlcignYXBpL2FwcC1pbmZvJykNCmV4cG9ydCBjbGFzcyBBcHBJbmZvQ29udHJvbGxlciB7DQogIEBHZXQoKQ0KICBhcHBJbmZvKEBSZXMoKSByZXM6IFJlc3BvbnNlKSB7DQogICAgcmVzLmpzb24oew0KICAgICAgbmFtZTogJ0FJ5Zu+54mH5bel5L2c5Y+wJywNCiAgICAgIHZlcnNpb246ICcxLjUuMCcsDQogICAgICBzZXJ2ZXJUaW1lOiBEYXRlLm5vdygpLA0KICAgICAgZGF0YURpcjogJ2RhdGEvJywNCiAgICAgIG91dHB1dERpcjogJ291dHB1dC8nLA0KICAgIH0pOw0KICB9DQp9DQo=
+import { Controller, Get, Res } from '@nestjs/common';
+import { Response } from 'express';
+
+@Controller('api/app-info')
+export class AppInfoController {
+  @Get()
+  appInfo(@Res() res: Response) {
+    res.json({
+      name: 'AI图片工作台',
+      version: '1.5.0',
+      serverTime: Date.now(),
+      dataDir: 'data/',
+      outputDir: 'output/',
+    });
+  }
+}

@@ -1,1 +1,81 @@
-Ly8gPT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09Ci8vIEFJ5Zu+54mH5bel5L2c5Y+wIC0g5Y6G5Y+y6K6w5b2V77ya6JC955uYIGhpc3RvcnkuanNvbu+8jOadoeebruWQqyBlbmdpbmUg5a2X5q615L6b5ZCE6aG16L+H5rukCi8vID09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PQondXNlIHN0cmljdCc7CgpXQi5oaXN0b3J5ID0gKGZ1bmN0aW9uICgpIHsKCiAgY29uc3QgS0VFUF9EQVlTID0geyAnMCc6IEluZmluaXR5LCAnMSc6IDEsICc3JzogNywgJzMwJzogMzAsICczNjUnOiAzNjUgfTsKCiAgLy8g6L+95Yqg5LiA5p2h5Y6G5Y+y77ya5Zu+54mH6Ieq5Yqo6JC955uYIG91dHB1dC/vvIzljoblj7LlhpkgaGlzdG9yeS5qc29uCiAgYXN5bmMgZnVuY3Rpb24gYWRkKGVudHJ5KSB7CiAgICAvLyBlbnRyeTogeyBlbmdpbmUsIHByb21wdCwgbmVnYXRpdmVQcm9tcHQsIG1vZGVsLCBwYXJhbXMsIGltYWdlczpbZGF0YVVSTHx1cmxdIH0KICAgIGNvbnN0IGltYWdlSXRlbXMgPSBbXTsKICAgIGNvbnN0IHVybHMgPSBbXTsKICAgIGZvciAoY29uc3QgaW1nIG9mIChlbnRyeS5pbWFnZXMgfHwgW10pKSB7CiAgICAgIHRyeSB7CiAgICAgICAgbGV0IHVybCA9IGltZzsKICAgICAgICBpZiAoaW1nLnN0YXJ0c1dpdGgoJ2RhdGE6JykpIHsKICAgICAgICAgIGNvbnN0IHNhdmVkID0gYXdhaXQgV0IuYXBpLnNhdmVJbWFnZShpbWcpOwogICAgICAgICAgdXJsID0gc2F2ZWQudXJsOwogICAgICAgIH0KICAgICAgICB1cmxzLnB1c2godXJsKTsKICAgICAgICBjb25zdCBzaXplID0gYXdhaXQgV0IudXRpbC5pbWFnZVNpemUoaW1nLnN0YXJ0c1dpdGgoJ2RhdGE6JykgPyBpbWcgOiB1cmwpOwogICAgICAgIGltYWdlSXRlbXMucHVzaCh7IHVybCwgd2lkdGg6IHNpemUudywgaGVpZ2h0OiBzaXplLmggfSk7CiAgICAgIH0gY2F0Y2ggKGUpIHsKICAgICAgICBjb25zb2xlLndhcm4oJ+WOhuWPsuWbvueJh+iQveebmOWksei0pTonLCBlKTsKICAgICAgfQogICAgfQogICAgY29uc3QgaXRlbSA9IHsKICAgICAgcHJvbXB0OiBlbnRyeS5wcm9tcHQgfHwgJycsCiAgICAgIGZpbmFsUHJvbXB0OiBlbnRyeS5maW5hbFByb21wdCB8fCAnJywKICAgICAgbmVnYXRpdmVQcm9tcHQ6IGVudHJ5Lm5lZ2F0aXZlUHJvbXB0IHx8ICcnLAogICAgICBpbWFnZXM6IHVybHMsCiAgICAgIGltYWdlX2l0ZW1zOiBpbWFnZUl0ZW1zLAogICAgICB0aW1lc3RhbXA6IERhdGUubm93KCksCiAgICAgIGVuZ2luZTogZW50cnkuZW5naW5lIHx8ICcnLAogICAgICBtb2RlbDogZW50cnkubW9kZWwgfHwgJycsCiAgICAgIHBhcmFtczogZW50cnkucGFyYW1zIHx8IHt9CiAgICB9OwogICAgdHJ5IHsgYXdhaXQgV0IuYXBpLmhpc3RvcnlBcHBlbmQoaXRlbSk7IH0gY2F0Y2ggKGUpIHsgY29uc29sZS53YXJuKCfljoblj7LlhpnlhaXlpLHotKU6JywgZSk7IH0KICAgIHJldHVybiBpdGVtOwogIH0KCiAgYXN5bmMgZnVuY3Rpb24gbGlzdChlbmdpbmUsIGxpbWl0KSB7CiAgICB0cnkgeyByZXR1cm4gYXdhaXQgV0IuYXBpLmhpc3RvcnlMaXN0KGVuZ2luZSwgbGltaXQpOyB9IGNhdGNoIChlKSB7IHJldHVybiBbXTsgfQogIH0KCiAgYXN5bmMgZnVuY3Rpb24gcmVtb3ZlKHRpbWVzdGFtcHMpIHsgcmV0dXJuIFdCLmFwaS5oaXN0b3J5RGVsZXRlKHRpbWVzdGFtcHMpOyB9CiAgYXN5bmMgZnVuY3Rpb24gY2xlYXIoKSB7IHJldHVybiBXQi5hcGkuaGlzdG9yeUNsZWFyKCk7IH0KCiAgLy8g5riF55CG6L+H5pyf5Y6G5Y+y77yI5oyJIGNhY2hlRGF5cyDorr7nva7vvIkKICBhc3luYyBmdW5jdGlvbiBjbGVhbnVwKCkgewogICAgY29uc3QgZGF5cyA9IEtFRVBfREFZU1tXQi5zZXR0aW5ncy5nZXQoJ2NhY2hlRGF5cycpXSA/PyAzMDsKICAgIGlmIChkYXlzID09PSBJbmZpbml0eSkgcmV0dXJuOwogICAgY29uc3QgY3V0b2ZmID0gRGF0ZS5ub3coKSAtIGRheXMgKiA4NjQwMDAwMDsKICAgIHRyeSB7CiAgICAgIGNvbnN0IGl0ZW1zID0gYXdhaXQgV0IuYXBpLmhpc3RvcnlMaXN0KCcnLCAwKTsKICAgICAgY29uc3QgZXhwaXJlZCA9IGl0ZW1zLmZpbHRlcihpID0+IChpLnRpbWVzdGFtcCB8fCAwKSA8IGN1dG9mZikubWFwKGkgPT4gaS50aW1lc3RhbXApOwogICAgICBpZiAoZXhwaXJlZC5sZW5ndGgpIGF3YWl0IFdCLmFwaS5oaXN0b3J5RGVsZXRlKGV4cGlyZWQpOwogICAgfSBjYXRjaCAoZSkgeyAvKiDlv73nlaUgKi8gfQogIH0KCiAgLy8g55Sf5oiQ5YmN57yT5a2Y5ZG95Lit5qOA5p+l77yI5a+56b2Q5o+S5Lu277ya6ZSuPeacgOe7iOaPkOekuuivje+8jOWMuemFjeWOhuWPsuaPkOekuuivjeS4lOWcqOacieaViOacn+WGhe+8iQogIGFzeW5jIGZ1bmN0aW9uIGZpbmRCeVByb21wdChwcm9tcHQpIHsKICAgIGlmICghcHJvbXB0KSByZXR1cm4gbnVsbDsKICAgIGNvbnN0IGRheXMgPSBLRUVQX0RBWVNbV0Iuc2V0dGluZ3MuZ2V0KCdjYWNoZURheXMnKV0gPz8gMzA7CiAgICBjb25zdCBjdXRvZmYgPSBkYXlzID09PSBJbmZpbml0eSA/IDAgOiBEYXRlLm5vdygpIC0gZGF5cyAqIDg2NDAwMDAwOwogICAgdHJ5IHsKICAgICAgY29uc3QgaXRlbXMgPSBhd2FpdCBXQi5hcGkuaGlzdG9yeUxpc3QoJycsIDApOwogICAgICBmb3IgKGNvbnN0IGl0ZW0gb2YgaXRlbXMpIHsKICAgICAgICBpZiAoaXRlbS5wcm9tcHQgPT09IHByb21wdCAmJiAoaXRlbS50aW1lc3RhbXAgfHwgMCkgPj0gY3V0b2ZmKSB7CiAgICAgICAgICBjb25zdCBmaXJzdCA9IGl0ZW0uaW1hZ2VfaXRlbXMgJiYgaXRlbS5pbWFnZV9pdGVtc1swXTsKICAgICAgICAgIGlmIChmaXJzdCAmJiBmaXJzdC51cmwpIHJldHVybiBmaXJzdC51cmw7CiAgICAgICAgfQogICAgICB9CiAgICB9IGNhdGNoIChlKSB7IC8qIOW/veeVpSAqLyB9CiAgICByZXR1cm4gbnVsbDsKICB9CgogIHJldHVybiB7IGFkZCwgbGlzdCwgcmVtb3ZlLCBjbGVhciwgY2xlYW51cCwgZmluZEJ5UHJvbXB0IH07Cn0pKCk7Cg==
+// ============================================================
+// AI图片工作台 - 历史记录：落盘 history.json，条目含 engine 字段供各页过滤
+// ============================================================
+'use strict';
+
+WB.history = (function () {
+
+  const KEEP_DAYS = { '0': Infinity, '1': 1, '7': 7, '30': 30, '365': 365 };
+
+  // 追加一条历史：图片自动落盘 output/，历史写 history.json
+  async function add(entry) {
+    // entry: { engine, prompt, negativePrompt, model, params, images:[dataURL|url] }
+    const imageItems = [];
+    const urls = [];
+    for (const img of (entry.images || [])) {
+      try {
+        let url = img;
+        if (img.startsWith('data:')) {
+          const saved = await WB.api.saveImage(img);
+          url = saved.url;
+        }
+        urls.push(url);
+        const size = await WB.util.imageSize(img.startsWith('data:') ? img : url);
+        imageItems.push({ url, width: size.w, height: size.h });
+      } catch (e) {
+        console.warn('历史图片落盘失败:', e);
+      }
+    }
+    const item = {
+      prompt: entry.prompt || '',
+      finalPrompt: entry.finalPrompt || '',
+      negativePrompt: entry.negativePrompt || '',
+      images: urls,
+      image_items: imageItems,
+      timestamp: Date.now(),
+      engine: entry.engine || '',
+      model: entry.model || '',
+      params: entry.params || {}
+    };
+    try { await WB.api.historyAppend(item); } catch (e) { console.warn('历史写入失败:', e); }
+    return item;
+  }
+
+  async function list(engine, limit) {
+    try { return await WB.api.historyList(engine, limit); } catch (e) { return []; }
+  }
+
+  async function remove(timestamps) { return WB.api.historyDelete(timestamps); }
+  async function clear() { return WB.api.historyClear(); }
+
+  // 清理过期历史（按 cacheDays 设置）
+  async function cleanup() {
+    const days = KEEP_DAYS[WB.settings.get('cacheDays')] ?? 30;
+    if (days === Infinity) return;
+    const cutoff = Date.now() - days * 86400000;
+    try {
+      const items = await WB.api.historyList('', 0);
+      const expired = items.filter(i => (i.timestamp || 0) < cutoff).map(i => i.timestamp);
+      if (expired.length) await WB.api.historyDelete(expired);
+    } catch (e) { /* 忽略 */ }
+  }
+
+  // 生成前缓存命中检查（对齐插件：键=最终提示词，匹配历史提示词且在有效期内）
+  async function findByPrompt(prompt) {
+    if (!prompt) return null;
+    const days = KEEP_DAYS[WB.settings.get('cacheDays')] ?? 30;
+    const cutoff = days === Infinity ? 0 : Date.now() - days * 86400000;
+    try {
+      const items = await WB.api.historyList('', 0);
+      for (const item of items) {
+        if (item.prompt === prompt && (item.timestamp || 0) >= cutoff) {
+          const first = item.image_items && item.image_items[0];
+          if (first && first.url) return first.url;
+        }
+      }
+    } catch (e) { /* 忽略 */ }
+    return null;
+  }
+
+  return { add, list, remove, clear, cleanup, findByPrompt };
+})();

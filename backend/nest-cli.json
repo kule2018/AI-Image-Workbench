@@ -1,1 +1,11 @@
-ew0KICAiJHNjaGVtYSI6ICJodHRwczovL2pzb24uc2NoZW1hc3RvcmUub3JnL25lc3QtY2xpIiwNCiAgImNvbGxlY3Rpb24iOiAiQG5lc3Rqcy9zY2hlbWF0aWNzIiwNCiAgInNvdXJjZVJvb3QiOiAic3JjIiwNCiAgImNvbXBpbGVyT3B0aW9ucyI6IHsNCiAgICAiZGVsZXRlT3V0RGlyIjogdHJ1ZSwNCiAgICAiYXNzZXRzIjogWw0KICAgICAgeyAiaW5jbHVkZSI6ICJwcmVzZXRzLyoqLyoiLCAib3V0RGlyIjogImRpc3QiIH0NCiAgICBdDQogIH0NCn0NCg==
+{
+  "$schema": "https://json.schemastore.org/nest-cli",
+  "collection": "@nestjs/schematics",
+  "sourceRoot": "src",
+  "compilerOptions": {
+    "deleteOutDir": true,
+    "assets": [
+      { "include": "presets/**/*", "outDir": "dist" }
+    ]
+  }
+}

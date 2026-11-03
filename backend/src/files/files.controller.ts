@@ -1,1 +1,43 @@
-aW1wb3J0IHsgQ29udHJvbGxlciwgR2V0LCBSZXEsIFJlcyB9IGZyb20gJ0BuZXN0anMvY29tbW9uJzsNCmltcG9ydCB7IFJlcXVlc3QsIFJlc3BvbnNlIH0gZnJvbSAnZXhwcmVzcyc7DQppbXBvcnQgKiBhcyBmcyBmcm9tICdmcyc7DQppbXBvcnQgKiBhcyBwYXRoIGZyb20gJ3BhdGgnOw0KaW1wb3J0IHsgRElSUyB9IGZyb20gJy4uL2NvbW1vbi9wYXRocyc7DQoNCmNvbnN0IE1JTUU6IFJlY29yZDxzdHJpbmcsIHN0cmluZz4gPSB7DQogICcuaHRtbCc6ICd0ZXh0L2h0bWw7IGNoYXJzZXQ9dXRmLTgnLCAnLmpzJzogJ3RleHQvamF2YXNjcmlwdDsgY2hhcnNldD11dGYtOCcsDQogICcuY3NzJzogJ3RleHQvY3NzOyBjaGFyc2V0PXV0Zi04JywgJy5qc29uJzogJ2FwcGxpY2F0aW9uL2pzb247IGNoYXJzZXQ9dXRmLTgnLA0KICAnLnN2Zyc6ICdpbWFnZS9zdmcreG1sJywgJy5wbmcnOiAnaW1hZ2UvcG5nJywgJy5qcGcnOiAnaW1hZ2UvanBlZycsDQogICcuanBlZyc6ICdpbWFnZS9qcGVnJywgJy5naWYnOiAnaW1hZ2UvZ2lmJywgJy53ZWJwJzogJ2ltYWdlL3dlYnAnLA0KICAnLmljbyc6ICdpbWFnZS94LWljb24nLCAnLndvZmYnOiAnZm9udC93b2ZmJywgJy53b2ZmMic6ICdmb250L3dvZmYyJywNCn07DQoNCkBDb250cm9sbGVyKCkNCmV4cG9ydCBjbGFzcyBGaWxlc0NvbnRyb2xsZXIgew0KICBAR2V0KCdvdXRwdXQvKicpDQogIHNlcnZlT3V0cHV0KEBSZXEoKSByZXE6IFJlcXVlc3QsIEBSZXMoKSByZXM6IFJlc3BvbnNlKSB7DQogICAgY29uc3QgcGF0aG5hbWUgPSBTdHJpbmcocmVxLnVybCkuc3BsaXQoJz8nKVswXTsNCiAgICBjb25zdCByZWwgPSBwYXRobmFtZS5zbGljZSgnL291dHB1dC8nLmxlbmd0aCk7DQogICAgY29uc3QgZnVsbCA9IHBhdGgucmVzb2x2ZShESVJTLm91dHB1dCwgcmVsKTsNCiAgICBpZiAoZnVsbCAhPT0gRElSUy5vdXRwdXQgJiYgIWZ1bGwuc3RhcnRzV2l0aChESVJTLm91dHB1dCArIHBhdGguc2VwKSkgeyByZXMuc3RhdHVzKDQwMykuZW5kKCk7IHJldHVybjsgfQ0KICAgIHRoaXMuc2VuZChyZXMsIGZ1bGwpOw0KICB9DQoNCiAgQEdldCgnbGlicmFyeS8qJykNCiAgc2VydmVMaWJyYXJ5KEBSZXEoKSByZXE6IFJlcXVlc3QsIEBSZXMoKSByZXM6IFJlc3BvbnNlKSB7DQogICAgY29uc3QgcGF0aG5hbWUgPSBTdHJpbmcocmVxLnVybCkuc3BsaXQoJz8nKVswXTsNCiAgICBjb25zdCByZWwgPSBwYXRobmFtZS5zbGljZSgnL2xpYnJhcnkvJy5sZW5ndGgpOw0KICAgIGNvbnN0IGZ1bGwgPSBwYXRoLnJlc29sdmUoRElSUy5saWJyYXJ5LCByZWwpOw0KICAgIGlmIChmdWxsICE9PSBESVJTLmxpYnJhcnkgJiYgIWZ1bGwuc3RhcnRzV2l0aChESVJTLmxpYnJhcnkgKyBwYXRoLnNlcCkpIHsgcmVzLnN0YXR1cyg0MDMpLmVuZCgpOyByZXR1cm47IH0NCiAgICB0aGlzLnNlbmQocmVzLCBmdWxsKTsNCiAgfQ0KDQogIHByaXZhdGUgc2VuZChyZXM6IFJlc3BvbnNlLCBmdWxsOiBzdHJpbmcpIHsNCiAgICBmcy5yZWFkRmlsZShmdWxsLCAoZXJyLCBkYXRhKSA9PiB7DQogICAgICBpZiAoZXJyKSB7IHJlcy5zdGF0dXMoNDA0KS5zZW5kKCc0MDQgTm90IEZvdW5kJyk7IHJldHVybjsgfQ0KICAgICAgY29uc3QgZXh0ID0gcGF0aC5leHRuYW1lKGZ1bGwpLnRvTG93ZXJDYXNlKCk7DQogICAgICByZXMuc2V0SGVhZGVyKCdDb250ZW50LVR5cGUnLCBNSU1FW2V4dF0gfHwgJ2FwcGxpY2F0aW9uL29jdGV0LXN0cmVhbScpOw0KICAgICAgcmVzLmVuZChkYXRhKTsNCiAgICB9KTsNCiAgfQ0KfQ0K
+import { Controller, Get, Req, Res } from '@nestjs/common';
+import { Request, Response } from 'express';
+import * as fs from 'fs';
+import * as path from 'path';
+import { DIRS } from '../common/paths';
+
+const MIME: Record<string, string> = {
+  '.html': 'text/html; charset=utf-8', '.js': 'text/javascript; charset=utf-8',
+  '.css': 'text/css; charset=utf-8', '.json': 'application/json; charset=utf-8',
+  '.svg': 'image/svg+xml', '.png': 'image/png', '.jpg': 'image/jpeg',
+  '.jpeg': 'image/jpeg', '.gif': 'image/gif', '.webp': 'image/webp',
+  '.ico': 'image/x-icon', '.woff': 'font/woff', '.woff2': 'font/woff2',
+};
+
+@Controller()
+export class FilesController {
+  @Get('output/*')
+  serveOutput(@Req() req: Request, @Res() res: Response) {
+    const pathname = String(req.url).split('?')[0];
+    const rel = pathname.slice('/output/'.length);
+    const full = path.resolve(DIRS.output, rel);
+    if (full !== DIRS.output && !full.startsWith(DIRS.output + path.sep)) { res.status(403).end(); return; }
+    this.send(res, full);
+  }
+
+  @Get('library/*')
+  serveLibrary(@Req() req: Request, @Res() res: Response) {
+    const pathname = String(req.url).split('?')[0];
+    const rel = pathname.slice('/library/'.length);
+    const full = path.resolve(DIRS.library, rel);
+    if (full !== DIRS.library && !full.startsWith(DIRS.library + path.sep)) { res.status(403).end(); return; }
+    this.send(res, full);
+  }
+
+  private send(res: Response, full: string) {
+    fs.readFile(full, (err, data) => {
+      if (err) { res.status(404).send('404 Not Found'); return; }
+      const ext = path.extname(full).toLowerCase();
+      res.setHeader('Content-Type', MIME[ext] || 'application/octet-stream');
+      res.end(data);
+    });
+  }
+}

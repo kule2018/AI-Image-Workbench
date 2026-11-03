@@ -1,1 +1,112 @@
-Ly8gPT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09Ci8vIEFJ5Zu+54mH5bel5L2c5Y+wIC0gU0QgV2ViVUkg5byV5pOO77yI56e75qSN6Ieq5paH55Sf5Zu+5bel5YW3Mi4wIOeahCBzZCgp77yJCi8vIOaUr+aMgeaWh+eUn+WbvuS4jiBpbWcyaW1n77yI56ys5LiA5byg5Y+C6ICD5Zu+5YGa5bqV5Zu+77yM5Y+C6ICD5by65bqmPemHjee7mOW5heW6pu+8iQovLyA9PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT0KJ3VzZSBzdHJpY3QnOwoKKGZ1bmN0aW9uICgpIHsKICBjb25zdCB7IHRvYXN0IH0gPSBXQi51dGlsOwogIGNvbnN0IFMgPSAoKSA9PiBXQi5zZXR0aW5ncy5hbGwoKTsKCiAgLy8gTG9SQSDmi7zmjqXliLDmj5DnpLror43vvIjnp7vmpI3oh6rmj5Lku7YgYnVpbGRTZExvcmFQcm9tcHTvvIxTRCDlj6rnlKjmqKHlnovlvLrluqbvvIkKICAvLyBsb3Jhc092ZXJyaWRl77ya6YCQ5Zu+IExvUkEg6KaG55uW77yI5p2l6IeqIHRhc2subG9yYXPvvIzlvaLlpoIgW3tuYW1lLCBtb2RlbH1d77yJ77yb5Li656m65YiZ5Zue6YCA6K6+572u6aG1IHNkTG9yYTEtNAogIGZ1bmN0aW9uIGJ1aWxkU2RMb3JhUHJvbXB0KGxvcmFzT3ZlcnJpZGUpIHsKICAgIGxldCBsb3JhUHJvbXB0ID0gJyc7CiAgICBpZiAoQXJyYXkuaXNBcnJheShsb3Jhc092ZXJyaWRlKSAmJiBsb3Jhc092ZXJyaWRlLmxlbmd0aCkgewogICAgICBsb3Jhc092ZXJyaWRlLmZvckVhY2goKGwpID0+IHsKICAgICAgICBpZiAobCAmJiBsLm5hbWUgJiYgbC5uYW1lICE9PSAnbm9uZScgJiYgbC5uYW1lICE9PSAnJykgewogICAgICAgICAgY29uc3Qgc3RyZW5ndGggPSBOdW1iZXIobC5tb2RlbCA/PyBsLm1vZGVsU3RyZW5ndGgpIHx8IDE7CiAgICAgICAgICBsb3JhUHJvbXB0ICs9IGA8bG9yYToke2wubmFtZX06JHtzdHJlbmd0aH0+YDsKICAgICAgICB9CiAgICAgIH0pOwogICAgfSBlbHNlIHsKICAgICAgZm9yIChsZXQgaSA9IDE7IGkgPD0gNDsgaSsrKSB7CiAgICAgICAgY29uc3QgbG9yYU5hbWUgPSBTKClbYHNkTG9yYSR7aX1gXTsKICAgICAgICBpZiAobG9yYU5hbWUgJiYgbG9yYU5hbWUgIT09ICdub25lJyAmJiBsb3JhTmFtZSAhPT0gJycpIHsKICAgICAgICAgIGNvbnN0IHN0cmVuZ3RoID0gUygpW2BzZExvcmEke2l9TW9kZWxTdHJlbmd0aGBdIHx8IDE7CiAgICAgICAgICBsb3JhUHJvbXB0ICs9IGA8bG9yYToke2xvcmFOYW1lfToke3N0cmVuZ3RofT5gOwogICAgICAgIH0KICAgICAgfQogICAgfQogICAgcmV0dXJuIGxvcmFQcm9tcHQ7CiAgfQoKICBhc3luYyBmdW5jdGlvbiBnZW5lcmF0ZSh0YXNrKSB7CiAgICBjb25zdCBzZFVybCA9IChTKCkuc2RVcmwgfHwgJ2h0dHA6Ly9sb2NhbGhvc3Q6Nzg2MCcpLnRyaW0oKS5yZXBsYWNlKC9cLyskLywgJycpOwogICAgaWYgKCFzZFVybCkgdGhyb3cgbmV3IEVycm9yKCfor7flhYjlnKjjgIxTRCBXZWJVSSDorr7nva7jgI3kuK3phY3nva4gQVBJIOWcsOWdgCcpOwoKICAgIC8vIOWPguaVsO+8mnRhc2sg6KaG55uWID4gc2V0dGluZ3MKICAgIGNvbnN0IG92ID0gdGFzay5vdmVycmlkZXMgfHwge307CiAgICBjb25zdCBzdGVwcyA9IHBhcnNlSW50KG92LnN0ZXBzID8/IFMoKS5zZFN0ZXBzKSB8fCAyMDsKICAgIGNvbnN0IGNmZ1NjYWxlID0gcGFyc2VGbG9hdChvdi5jZmcgPz8gUygpLnNkQ2ZnU2NhbGUpIHx8IDc7CiAgICBjb25zdCB3aWR0aCA9IHBhcnNlSW50KG92LndpZHRoID8/IFMoKS5zZFdpZHRoKSB8fCA1MTI7CiAgICBjb25zdCBoZWlnaHQgPSBwYXJzZUludChvdi5oZWlnaHQgPz8gUygpLnNkSGVpZ2h0KSB8fCA3Njg7CiAgICBjb25zdCBzYW1wbGVyTmFtZSA9IG92LnNhbXBsZXIgPz8gUygpLnNkU2FtcGxlck5hbWUgPz8gJ0RQTSsrIDJNJzsKICAgIGNvbnN0IHNjaGVkdWxlciA9IG92LnNjaGVkdWxlciA/PyBTKCkuc2RTY2hlZHVsZXIgPz8gJ0thcnJhcyc7CiAgICBjb25zdCBzZWVkUmF3ID0gb3Yuc2VlZCA/PyBTKCkuc2RTZWVkID8/IC0xOwogICAgY29uc3Qgc2VlZCA9IChzZWVkUmF3ID09PSAnJyB8fCBzZWVkUmF3ID09PSAwIHx8IHNlZWRSYXcgPT09ICcwJykgPyAtMSA6IHBhcnNlSW50KHNlZWRSYXcpIHx8IC0xOwoKICAgIGxldCBwcm9tcHQgPSB0YXNrLnByb21wdCB8fCAnJzsKICAgIGNvbnN0IGxvcmFQcm9tcHQgPSBidWlsZFNkTG9yYVByb21wdCh0YXNrLmxvcmFzKTsKICAgIGlmIChsb3JhUHJvbXB0KSBwcm9tcHQgPSBwcm9tcHQgKyAnLCAnICsgbG9yYVByb21wdDsKICAgIGNvbnN0IG5lZ2F0aXZlX3Byb21wdCA9IHRhc2submVnYXRpdmVQcm9tcHQgfHwgJyc7CgogICAgY29uc3QgcGF5bG9hZCA9IHsKICAgICAgcHJvbXB0LCBuZWdhdGl2ZV9wcm9tcHQsCiAgICAgIHN0ZXBzOiBOdW1iZXIoc3RlcHMpLAogICAgICBzYW1wbGVyX25hbWU6IHNhbXBsZXJOYW1lLAogICAgICBzY2hlZHVsZXIsCiAgICAgIHdpZHRoOiBOdW1iZXIod2lkdGgpLCBoZWlnaHQ6IE51bWJlcihoZWlnaHQpLAogICAgICBjZmdfc2NhbGU6IE51bWJlcihjZmdTY2FsZSksCiAgICAgIHNlZWQKICAgIH07CgogICAgLy8gaW1nMmltZ++8muesrOS4gOW8oOWPguiAg+WbvuWBmuW6leWbvgogICAgY29uc3QgcmVmSW1hZ2VzID0gdGFzay5yZWZJbWFnZXMgfHwgW107CiAgICBsZXQgZW5kcG9pbnQgPSAnL3NkYXBpL3YxL3R4dDJpbWcnOwogICAgaWYgKHJlZkltYWdlcy5sZW5ndGggPiAwKSB7CiAgICAgIGVuZHBvaW50ID0gJy9zZGFwaS92MS9pbWcyaW1nJzsKICAgICAgcGF5bG9hZC5pbml0X2ltYWdlcyA9IFtyZWZJbWFnZXNbMF1dOwogICAgICBwYXlsb2FkLmRlbm9pc2luZ19zdHJlbmd0aCA9IE1hdGgubWluKE1hdGgubWF4KHBhcnNlRmxvYXQodGFzay5yZWZTdHJlbmd0aCA/PyAwLjc1KSwgMC4wNSksIDAuOTkpOwogICAgfQoKICAgIGNvbnN0IHIgPSBhd2FpdCBXQi5odHRwLnJlcXVlc3QoewogICAgICBtZXRob2Q6ICdQT1NUJywgdXJsOiBzZFVybCArIGVuZHBvaW50LAogICAgICBkYXRhOiBKU09OLnN0cmluZ2lmeShwYXlsb2FkKSwgdGltZW91dDogMzAwMDAwCiAgICB9KTsKICAgIGNvbnN0IHJlc3AgPSBKU09OLnBhcnNlKHIudGV4dCk7CiAgICBpZiAoIXJlc3AuaW1hZ2VzIHx8ICFyZXNwLmltYWdlcy5sZW5ndGgpIHRocm93IG5ldyBFcnJvcignU0QgV2ViVUkg5pyq6L+U5Zue5Zu+54mH5pWw5o2uJyk7CgogICAgY29uc3QgaW1hZ2VzID0gcmVzcC5pbWFnZXMubWFwKGkgPT4gJ2RhdGE6aW1hZ2UvcG5nO2Jhc2U2NCwnICsgaSk7CiAgICByZXR1cm4geyBpbWFnZXMsIG1ldGE6IHsgZW5naW5lOiAnc2QnLCBlbmRwb2ludCwgaW5mbzogcmVzcC5pbmZvIHx8ICcnIH0gfTsKICB9CgogIC8vIOi/nuaOpeW5tuWIt+aWsOaooeWeiy/ph4fmoLflmagvTG9SQeWIl+ihqO+8iOenu+akjeiHquaPkuS7tiBzZENvbm5lY3RIYW5kbGVyIOeahOivt+axgumDqOWIhu+8iQogIGFzeW5jIGZ1bmN0aW9uIGNvbm5lY3Qoc2lsZW50KSB7CiAgICBjb25zdCBzZFVybCA9IChTKCkuc2RVcmwgfHwgJ2h0dHA6Ly9sb2NhbGhvc3Q6Nzg2MCcpLnRyaW0oKS5yZXBsYWNlKC9cLyskLywgJycpOwogICAgY29uc3QgZ2V0ID0gYXN5bmMgKHBhdGgpID0+IHsKICAgICAgY29uc3QgciA9IGF3YWl0IFdCLmh0dHAucmVxdWVzdCh7IG1ldGhvZDogJ0dFVCcsIHVybDogc2RVcmwgKyBwYXRoLCB0aW1lb3V0OiAxNTAwMCB9KTsKICAgICAgcmV0dXJuIEpTT04ucGFyc2Uoci50ZXh0KTsKICAgIH07CiAgICBjb25zdCBtb2RlbHMgPSBhd2FpdCBnZXQoJy9zZGFwaS92MS9zZC1tb2RlbHMnKTsKICAgIGNvbnN0IG1vZGVsTGlzdCA9IG1vZGVscy5tYXAobSA9PiBtLm1vZGVsX25hbWUgfHwgbS50aXRsZSkuZmlsdGVyKEJvb2xlYW4pLnNvcnQoKGEsIGIpID0+IHsgYSA9IFN0cmluZyhhKS50b0xvd2VyQ2FzZSgpOyBiID0gU3RyaW5nKGIpLnRvTG93ZXJDYXNlKCk7IHJldHVybiBhIDwgYiA/IC0xIDogYSA+IGIgPyAxIDogMDsgfSk7CiAgICBsZXQgc2FtcGxlckxpc3QgPSBbXTsKICAgIHRyeSB7IHNhbXBsZXJMaXN0ID0gKGF3YWl0IGdldCgnL3NkYXBpL3YxL3NhbXBsZXJzJykpLm1hcChzID0+IHMubmFtZSkuc29ydCgoYSwgYikgPT4geyBhID0gU3RyaW5nKGEpLnRvTG93ZXJDYXNlKCk7IGIgPSBTdHJpbmcoYikudG9Mb3dlckNhc2UoKTsgcmV0dXJuIGEgPCBiID8gLTEgOiBhID4gYiA/IDEgOiAwOyB9KTsgfSBjYXRjaCAoZSkgeyAvKiDlj6/pgIkgKi8gfQogICAgbGV0IGxvcmFMaXN0ID0gW107CiAgICB0cnkgeyBsb3JhTGlzdCA9IChhd2FpdCBnZXQoJy9zZGFwaS92MS9sb3JhcycpKS5tYXAobCA9PiBsLm5hbWUpLnNvcnQoKGEsIGIpID0+IHsgYSA9IFN0cmluZyhhKS50b0xvd2VyQ2FzZSgpOyBiID0gU3RyaW5nKGIpLnRvTG93ZXJDYXNlKCk7IHJldHVybiBhIDwgYiA/IC0xIDogYSA+IGIgPyAxIDogMDsgfSk7IH0gY2F0Y2ggKGUpIHsgLyog5Y+v6YCJICovIH0KCiAgICBjb25zdCBrZXlzID0gW107CiAgICBXQi5zZXR0aW5ncy5zZXQoJ3NkTW9kZWxMaXN0JywgbW9kZWxMaXN0LCBmYWxzZSk7CiAgICBXQi5zZXR0aW5ncy5zZXQoJ3NkU2FtcGxlckxpc3QnLCBzYW1wbGVyTGlzdCwgZmFsc2UpOwogICAgV0Iuc2V0dGluZ3Muc2V0KCdzZExvcmFMaXN0JywgbG9yYUxpc3QsIGZhbHNlKTsKICAgIGlmIChtb2RlbExpc3QubGVuZ3RoICYmICFtb2RlbExpc3QuaW5jbHVkZXMoUygpLnNkTW9kZWwpKSB7CiAgICAgIFdCLnNldHRpbmdzLnNldCgnc2RNb2RlbCcsIG1vZGVsTGlzdFswXSwgZmFsc2UpOyBrZXlzLnB1c2goJ3NkTW9kZWwnKTsKICAgIH0KICAgIFdCLnNldHRpbmdzLnNldCgnc2RDb25uZWN0ZWQnLCB0cnVlLCBmYWxzZSk7CiAgICBXQi5zZXR0aW5ncy5zYXZlKFsnc2RNb2RlbExpc3QnLCAnc2RTYW1wbGVyTGlzdCcsICdzZExvcmFMaXN0JywgJ3NkQ29ubmVjdGVkJ10uY29uY2F0KGtleXMpKTsKICAgIGlmICghc2lsZW50KSBXQi51dGlsLnRvYXN0KCdTRCBXZWJVSSDov57mjqXmiJDlip/vvIzojrflj5bliLAgJyArIG1vZGVsTGlzdC5sZW5ndGggKyAnIOS4quaooeWeiycpOwogICAgcmV0dXJuIHRydWU7CiAgfQoKICBXQi5lbmdpbmVzLnJlZ2lzdGVyKCdzZCcsIHsgZ2VuZXJhdGUsIGNvbm5lY3QsIGlkOiAnc2QnLCBsYWJlbDogJ1NEIFdlYlVJJyB9KTsKfSkoKTsK
+// ============================================================
+// AI图片工作台 - SD WebUI 引擎（移植自文生图工具2.0 的 sd()）
+// 支持文生图与 img2img（第一张参考图做底图，参考强度=重绘幅度）
+// ============================================================
+'use strict';
+
+(function () {
+  const { toast } = WB.util;
+  const S = () => WB.settings.all();
+
+  // LoRA 拼接到提示词（移植自插件 buildSdLoraPrompt，SD 只用模型强度）
+  // lorasOverride：逐图 LoRA 覆盖（来自 task.loras，形如 [{name, model}]）；为空则回退设置页 sdLora1-4
+  function buildSdLoraPrompt(lorasOverride) {
+    let loraPrompt = '';
+    if (Array.isArray(lorasOverride) && lorasOverride.length) {
+      lorasOverride.forEach((l) => {
+        if (l && l.name && l.name !== 'none' && l.name !== '') {
+          const strength = Number(l.model ?? l.modelStrength) || 1;
+          loraPrompt += `<lora:${l.name}:${strength}>`;
+        }
+      });
+    } else {
+      for (let i = 1; i <= 4; i++) {
+        const loraName = S()[`sdLora${i}`];
+        if (loraName && loraName !== 'none' && loraName !== '') {
+          const strength = S()[`sdLora${i}ModelStrength`] || 1;
+          loraPrompt += `<lora:${loraName}:${strength}>`;
+        }
+      }
+    }
+    return loraPrompt;
+  }
+
+  async function generate(task) {
+    const sdUrl = (S().sdUrl || 'http://localhost:7860').trim().replace(/\/+$/, '');
+    if (!sdUrl) throw new Error('请先在「SD WebUI 设置」中配置 API 地址');
+
+    // 参数：task 覆盖 > settings
+    const ov = task.overrides || {};
+    const steps = parseInt(ov.steps ?? S().sdSteps) || 20;
+    const cfgScale = parseFloat(ov.cfg ?? S().sdCfgScale) || 7;
+    const width = parseInt(ov.width ?? S().sdWidth) || 512;
+    const height = parseInt(ov.height ?? S().sdHeight) || 768;
+    const samplerName = ov.sampler ?? S().sdSamplerName ?? 'DPM++ 2M';
+    const scheduler = ov.scheduler ?? S().sdScheduler ?? 'Karras';
+    const seedRaw = ov.seed ?? S().sdSeed ?? -1;
+    const seed = (seedRaw === '' || seedRaw === 0 || seedRaw === '0') ? -1 : parseInt(seedRaw) || -1;
+
+    let prompt = task.prompt || '';
+    const loraPrompt = buildSdLoraPrompt(task.loras);
+    if (loraPrompt) prompt = prompt + ', ' + loraPrompt;
+    const negative_prompt = task.negativePrompt || '';
+
+    const payload = {
+      prompt, negative_prompt,
+      steps: Number(steps),
+      sampler_name: samplerName,
+      scheduler,
+      width: Number(width), height: Number(height),
+      cfg_scale: Number(cfgScale),
+      seed
+    };
+
+    // img2img：第一张参考图做底图
+    const refImages = task.refImages || [];
+    let endpoint = '/sdapi/v1/txt2img';
+    if (refImages.length > 0) {
+      endpoint = '/sdapi/v1/img2img';
+      payload.init_images = [refImages[0]];
+      payload.denoising_strength = Math.min(Math.max(parseFloat(task.refStrength ?? 0.75), 0.05), 0.99);
+    }
+
+    const r = await WB.http.request({
+      method: 'POST', url: sdUrl + endpoint,
+      data: JSON.stringify(payload), timeout: 300000
+    });
+    const resp = JSON.parse(r.text);
+    if (!resp.images || !resp.images.length) throw new Error('SD WebUI 未返回图片数据');
+
+    const images = resp.images.map(i => 'data:image/png;base64,' + i);
+    return { images, meta: { engine: 'sd', endpoint, info: resp.info || '' } };
+  }
+
+  // 连接并刷新模型/采样器/LoRA列表（移植自插件 sdConnectHandler 的请求部分）
+  async function connect(silent) {
+    const sdUrl = (S().sdUrl || 'http://localhost:7860').trim().replace(/\/+$/, '');
+    const get = async (path) => {
+      const r = await WB.http.request({ method: 'GET', url: sdUrl + path, timeout: 15000 });
+      return JSON.parse(r.text);
+    };
+    const models = await get('/sdapi/v1/sd-models');
+    const modelList = models.map(m => m.model_name || m.title).filter(Boolean).sort((a, b) => { a = String(a).toLowerCase(); b = String(b).toLowerCase(); return a < b ? -1 : a > b ? 1 : 0; });
+    let samplerList = [];
+    try { samplerList = (await get('/sdapi/v1/samplers')).map(s => s.name).sort((a, b) => { a = String(a).toLowerCase(); b = String(b).toLowerCase(); return a < b ? -1 : a > b ? 1 : 0; }); } catch (e) { /* 可选 */ }
+    let loraList = [];
+    try { loraList = (await get('/sdapi/v1/loras')).map(l => l.name).sort((a, b) => { a = String(a).toLowerCase(); b = String(b).toLowerCase(); return a < b ? -1 : a > b ? 1 : 0; }); } catch (e) { /* 可选 */ }
+
+    const keys = [];
+    WB.settings.set('sdModelList', modelList, false);
+    WB.settings.set('sdSamplerList', samplerList, false);
+    WB.settings.set('sdLoraList', loraList, false);
+    if (modelList.length && !modelList.includes(S().sdModel)) {
+      WB.settings.set('sdModel', modelList[0], false); keys.push('sdModel');
+    }
+    WB.settings.set('sdConnected', true, false);
+    WB.settings.save(['sdModelList', 'sdSamplerList', 'sdLoraList', 'sdConnected'].concat(keys));
+    if (!silent) WB.util.toast('SD WebUI 连接成功，获取到 ' + modelList.length + ' 个模型');
+    return true;
+  }
+
+  WB.engines.register('sd', { generate, connect, id: 'sd', label: 'SD WebUI' });
+})();

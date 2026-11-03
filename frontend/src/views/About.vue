@@ -1,1 +1,23 @@
-PHRlbXBsYXRlPg0KICA8ZGl2IGNsYXNzPSJ3b3Jrc3BhY2UiPg0KICAgIDxkaXYgY2xhc3M9ImFib3V0LXBhZ2UiIHYtaWY9ImluZm8iPg0KICAgICAgPGgyPuWFs+S6jiBBSSDlm77niYflt6XkvZzlj7A8L2gyPg0KICAgICAgPHVsIGNsYXNzPSJhYm91dC1tZXRhIj4NCiAgICAgICAgPGxpPjxiPuWQjeensO+8mjwvYj57eyBpbmZvLm5hbWUgfX08L2xpPg0KICAgICAgICA8bGk+PGI+54mI5pys77yaPC9iPnt7IGluZm8udmVyc2lvbiB9fTwvbGk+DQogICAgICAgIDxsaT48Yj7mlbDmja7nm67lvZXvvJo8L2I+e3sgaW5mby5kYXRhRGlyIH19PC9saT4NCiAgICAgICAgPGxpPjxiPui+k+WHuuebruW9le+8mjwvYj57eyBpbmZvLm91dHB1dERpciB9fTwvbGk+DQogICAgICAgIDxsaT48Yj7mnI3liqHlmajml7bpl7TvvJo8L2I+e3sgbmV3IERhdGUoaW5mby5zZXJ2ZXJUaW1lKS50b0xvY2FsZVN0cmluZygpIH19PC9saT4NCiAgICAgIDwvdWw+DQogICAgICA8cCBjbGFzcz0iaGludCI+5YmN56uv77yaVnVlMyArIFZpdGXvvJvlkI7nq6/vvJpOZXN0SlMgKyBUeXBlT1JNICsgTXlTUUzjgIJVSSDmqKHlnZfmraPpgJDmraXku6UgVnVlIOe7hOS7tumHjeWGmeOAgjwvcD4NCiAgICA8L2Rpdj4NCiAgICA8ZGl2IHYtZWxzZSBjbGFzcz0icGFnZS1wbGFjZWhvbGRlciI+PHA+5Yqg6L295Lit4oCmPC9wPjwvZGl2Pg0KICA8L2Rpdj4NCjwvdGVtcGxhdGU+DQo8c2NyaXB0IHNldHVwPg0KaW1wb3J0IHsgcmVmLCBvbk1vdW50ZWQgfSBmcm9tICd2dWUnOw0KY29uc3QgaW5mbyA9IHJlZihudWxsKTsNCm9uTW91bnRlZChhc3luYyAoKSA9PiB7DQogIHRyeSB7IGluZm8udmFsdWUgPSBhd2FpdCB3aW5kb3cuV0IuYXBpLmFwcEluZm8oKTsgfSBjYXRjaCAoZSkgeyAvKiBpZ25vcmUgKi8gfQ0KfSk7DQo8L3NjcmlwdD4NCg==
+<template>
+  <div class="workspace">
+    <div class="about-page" v-if="info">
+      <h2>关于 AI 图片工作台</h2>
+      <ul class="about-meta">
+        <li><b>名称：</b>{{ info.name }}</li>
+        <li><b>版本：</b>{{ info.version }}</li>
+        <li><b>数据目录：</b>{{ info.dataDir }}</li>
+        <li><b>输出目录：</b>{{ info.outputDir }}</li>
+        <li><b>服务器时间：</b>{{ new Date(info.serverTime).toLocaleString() }}</li>
+      </ul>
+      <p class="hint">前端：Vue3 + Vite；后端：NestJS + TypeORM + MySQL。UI 模块正逐步以 Vue 组件重写。</p>
+    </div>
+    <div v-else class="page-placeholder"><p>加载中…</p></div>
+  </div>
+</template>
+<script setup>
+import { ref, onMounted } from 'vue';
+const info = ref(null);
+onMounted(async () => {
+  try { info.value = await window.WB.api.appInfo(); } catch (e) { /* ignore */ }
+});
+</script>

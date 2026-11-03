@@ -1,1 +1,46 @@
-aW1wb3J0IHsgUmVxdWVzdCB9IGZyb20gJ2V4cHJlc3MnOw0KaW1wb3J0ICogYXMgY3J5cHRvIGZyb20gJ2NyeXB0byc7DQoNCi8vIOWkh+S7veWMheWvvOWFpeeahOivt+axguS9k+S4iumZkO+8muWkh+S7vSB6aXAg5Lya6ZqP55Sf5oiQ5Zu+5LiN5pat5aKe6ZW/77yM5pmu6YCa5o6l5Y+j5rK/55So6buY6K6k5LiK6ZmQDQpleHBvcnQgY29uc3QgSU1QT1JUX0JPRFlfTElNSVQgPSAyICogMTAyNCAqIDEwMjQgKiAxMDI0Ow0KDQovLyDlsIbku7vmhI/mlofku7blkI3muIXmtJfkuLrlronlhajmlofku7blkI3vvIjmm7/mjaIgV2luZG93cy9Vbml4IOmdnuazleWtl+espu+8iQ0KZXhwb3J0IGZ1bmN0aW9uIHNhZmVOYW1lKG5hbWU6IHN0cmluZyk6IHN0cmluZyB7DQogIHJldHVybiAoU3RyaW5nKG5hbWUgfHwgJycpLnJlcGxhY2UoL1tcXC86Kj8iPD58XS9nLCAnXycpLnNsaWNlKDAsIDEyMCkpIHx8ICdmaWxlJzsNCn0NCg0KLy8g5LuOIGRhdGFVcmwg6Kej5p6Q5Ye6IG1pbWUg5LiO5LqM6L+b5Yi2DQpleHBvcnQgZnVuY3Rpb24gZGVjb2RlRGF0YVVybChkYXRhVXJsOiBzdHJpbmcpOiB7IG1pbWU6IHN0cmluZzsgYnVmZmVyOiBCdWZmZXIgfSB8IG51bGwgew0KICBjb25zdCBtID0gL15kYXRhOihbXjtdKyk7YmFzZTY0LCguKikkL3MuZXhlYyhTdHJpbmcoZGF0YVVybCB8fCAnJykpOw0KICBpZiAoIW0pIHJldHVybiBudWxsOw0KICByZXR1cm4geyBtaW1lOiBtWzFdLCBidWZmZXI6IEJ1ZmZlci5mcm9tKG1bMl0sICdiYXNlNjQnKSB9Ow0KfQ0KDQovLyDmoLnmja4gbWltZSDmjqjmlq3mianlsZXlkI0NCmV4cG9ydCBmdW5jdGlvbiBleHRGcm9tTWltZShtaW1lOiBzdHJpbmcsIGZhbGxiYWNrID0gJy5wbmcnKTogc3RyaW5nIHsNCiAgaWYgKG1pbWUuaW5jbHVkZXMoJ2pwZWcnKSkgcmV0dXJuICcuanBnJzsNCiAgaWYgKG1pbWUuaW5jbHVkZXMoJ3dlYnAnKSkgcmV0dXJuICcud2VicCc7DQogIGlmIChtaW1lLmluY2x1ZGVzKCdnaWYnKSkgcmV0dXJuICcuZ2lmJzsNCiAgcmV0dXJuIGZhbGxiYWNrOw0KfQ0KDQovLyDnlJ/miJDllK/kuIDlm77niYfmlofku7blkI3vvIjml7bpl7TmiLMgKyDpmo/mnLrvvIkNCmV4cG9ydCBmdW5jdGlvbiBnZW5JbWFnZU5hbWUoZXh0OiBzdHJpbmcpOiBzdHJpbmcgew0KICByZXR1cm4gbmV3IERhdGUoKS50b0lTT1N0cmluZygpLnJlcGxhY2UoL1stOlRdL2csICcnKS5zbGljZSgwLCAxNCkNCiAgICArICdfJyArIGNyeXB0by5yYW5kb21CeXRlcygzKS50b1N0cmluZygnaGV4JykgKyBleHQ7DQp9DQoNCi8vIOivu+WPluWOn+Wni+ivt+axguS9k++8iOeUqOS6juS6jOi/m+WItuS4iuS8oO+8jOWmguWkh+S7vSB6aXDvvIkNCmV4cG9ydCBmdW5jdGlvbiByZWFkUmF3Qm9keShyZXE6IFJlcXVlc3QsIGxpbWl0ID0gSU1QT1JUX0JPRFlfTElNSVQpOiBQcm9taXNlPEJ1ZmZlcj4gew0KICByZXR1cm4gbmV3IFByb21pc2UoKHJlc29sdmUsIHJlamVjdCkgPT4gew0KICAgIGNvbnN0IGNodW5rczogQnVmZmVyW10gPSBbXTsNCiAgICBsZXQgc2l6ZSA9IDA7DQogICAgcmVxLm9uKCdkYXRhJywgKGM6IEJ1ZmZlcikgPT4gew0KICAgICAgc2l6ZSArPSBjLmxlbmd0aDsNCiAgICAgIGlmIChzaXplID4gbGltaXQpIHsgcmVqZWN0KG5ldyBFcnJvcign6K+35rGC5L2T6L+H5aSnJykpOyByZXEuZGVzdHJveSgpOyByZXR1cm47IH0NCiAgICAgIGNodW5rcy5wdXNoKGMpOw0KICAgIH0pOw0KICAgIHJlcS5vbignZW5kJywgKCkgPT4gcmVzb2x2ZShCdWZmZXIuY29uY2F0KGNodW5rcykpKTsNCiAgICByZXEub24oJ2Vycm9yJywgcmVqZWN0KTsNCiAgfSk7DQp9DQo=
+import { Request } from 'express';
+import * as crypto from 'crypto';
+
+// 备份包导入的请求体上限：备份 zip 会随生成图不断增长，普通接口沿用默认上限
+export const IMPORT_BODY_LIMIT = 2 * 1024 * 1024 * 1024;
+
+// 将任意文件名清洗为安全文件名（替换 Windows/Unix 非法字符）
+export function safeName(name: string): string {
+  return (String(name || '').replace(/[\\/:*?"<>|]/g, '_').slice(0, 120)) || 'file';
+}
+
+// 从 dataUrl 解析出 mime 与二进制
+export function decodeDataUrl(dataUrl: string): { mime: string; buffer: Buffer } | null {
+  const m = /^data:([^;]+);base64,(.*)$/s.exec(String(dataUrl || ''));
+  if (!m) return null;
+  return { mime: m[1], buffer: Buffer.from(m[2], 'base64') };
+}
+
+// 根据 mime 推断扩展名
+export function extFromMime(mime: string, fallback = '.png'): string {
+  if (mime.includes('jpeg')) return '.jpg';
+  if (mime.includes('webp')) return '.webp';
+  if (mime.includes('gif')) return '.gif';
+  return fallback;
+}
+
+// 生成唯一图片文件名（时间戳 + 随机）
+export function genImageName(ext: string): string {
+  return new Date().toISOString().replace(/[-:T]/g, '').slice(0, 14)
+    + '_' + crypto.randomBytes(3).toString('hex') + ext;
+}
+
+// 读取原始请求体（用于二进制上传，如备份 zip）
+export function readRawBody(req: Request, limit = IMPORT_BODY_LIMIT): Promise<Buffer> {
+  return new Promise((resolve, reject) => {
+    const chunks: Buffer[] = [];
+    let size = 0;
+    req.on('data', (c: Buffer) => {
+      size += c.length;
+      if (size > limit) { reject(new Error('请求体过大')); req.destroy(); return; }
+      chunks.push(c);
+    });
+    req.on('end', () => resolve(Buffer.concat(chunks)));
+    req.on('error', reject);
+  });
+}

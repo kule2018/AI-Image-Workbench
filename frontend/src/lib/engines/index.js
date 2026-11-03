@@ -1,1 +1,78 @@
-Ly8gPT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09Ci8vIEFJ5Zu+54mH5bel5L2c5Y+wIC0g5byV5pOO5rOo5YaM6KGoICsg57uf5LiA55Sf5oiQ5YWl5Y+jCi8vIOeUn+WbvuWHveaVsOe7n+S4gOetvuWQje+8mmdlbmVyYXRlKHRhc2spIOKGkiBQcm9taXNlPHtpbWFnZXM6W2RhdGFVUkxdLCBtZXRhfT4KLy8gdGFzayA9IHsgcHJvbXB0KOeUqOaIt+i+k+WFpSksIHJlZkltYWdlczpbZGF0YVVSTF0sIHJlZlN0cmVuZ3RoLCBvdmVycmlkZXM6ey4uLn0gfQovLyDmoLjlv4PnlJ/lm77pgLvovpHnp7vmpI3oh6rmlofnlJ/lm77lt6XlhbcyLjDvvIzljrvpmaQgRE9NIOS+nei1lu+8jOaUueS4uue6ryBQcm9taXNlCi8vID09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PQondXNlIHN0cmljdCc7CgpXQi5lbmdpbmVzID0gV0IuZW5naW5lcyB8fCB7fTsKCldCLmVuZ2luZXMucmVnaXN0cnkgPSB7fTsKV0IuZW5naW5lcy5yZWdpc3RlciA9IGZ1bmN0aW9uIChpZCwgZW5naW5lKSB7IFdCLmVuZ2luZXMucmVnaXN0cnlbaWRdID0gZW5naW5lOyB9OwoKLy8g6Z2Z6buY6Ieq5Yqo6L+e5o6l77yI5a+56b2Q5o+S5Lu2IGF1dG9Db25uZWN0Rm9yTW9kZe+8ie+8muWQr+WKqC/miZPlvIDpobXpnaLml7bph43ov57lubbph43miavmqKHlnovliJfooajjgIIKLy8g5LiN5L6d6LWWIGNvbWZ5Q29ubmVjdGVkL3NkQ29ubmVjdGVkIOagh+iusOaLpuaIquKAlOKAlOavj+asoeiwg+eUqOmDvemHjeaWsOi/nuaOpemHjeaJq++8jOehruS/neWIl+ihqOacgOaWsO+8mwovLyDlkIzkuIDmqKHlvI/ov5vooYzkuK3kuI3ph43lpI3lj5HotbfvvIjlubblj5HpmLLmipbvvInvvJvlnLDlnYDmnKrphY3nva7miJbov57mjqXlpLHotKXml7bpnZnpu5jov5Tlm54gZmFsc2XjgIIKY29uc3QgX2F1dG9Db25uZWN0SW5GbGlnaHQgPSB7fTsKV0IuZW5naW5lcy5hdXRvQ29ubmVjdCA9IGZ1bmN0aW9uIChtb2RlKSB7CiAgaWYgKF9hdXRvQ29ubmVjdEluRmxpZ2h0W21vZGVdKSByZXR1cm4gUHJvbWlzZS5yZXNvbHZlKGZhbHNlKTsKICBjb25zdCBzID0gV0Iuc2V0dGluZ3MuYWxsKCk7CiAgY29uc3QgdXJsID0gU3RyaW5nKChtb2RlID09PSAnY29tZnl1aScgPyBzLmNvbWZ5VXJsIDogcy5zZFVybCkgfHwgJycpLnRyaW0oKTsKICBjb25zdCBjb25uS2V5ID0gbW9kZSA9PT0gJ2NvbWZ5dWknID8gJ2NvbWZ5Q29ubmVjdGVkJyA6ICdzZENvbm5lY3RlZCc7CiAgY29uc3QgbWFya0Rpc2Nvbm5lY3RlZCA9ICgpID0+IHsgaWYgKFdCLnNldHRpbmdzLmdldChjb25uS2V5KSkgV0Iuc2V0dGluZ3Muc2V0KGNvbm5LZXksIGZhbHNlKTsgfTsKICBpZiAoIXVybCkgeyBtYXJrRGlzY29ubmVjdGVkKCk7IHJldHVybiBQcm9taXNlLnJlc29sdmUoZmFsc2UpOyB9CiAgY29uc3QgZW5nID0gV0IuZW5naW5lcy5yZWdpc3RyeVttb2RlXTsKICBpZiAoIWVuZyB8fCAhZW5nLmNvbm5lY3QpIHsgbWFya0Rpc2Nvbm5lY3RlZCgpOyByZXR1cm4gUHJvbWlzZS5yZXNvbHZlKGZhbHNlKTsgfQogIF9hdXRvQ29ubmVjdEluRmxpZ2h0W21vZGVdID0gdHJ1ZTsKICByZXR1cm4gZW5nLmNvbm5lY3QodHJ1ZSkKICAgIC50aGVuKCgpID0+IHRydWUpCiAgICAuY2F0Y2goKCkgPT4geyBtYXJrRGlzY29ubmVjdGVkKCk7IHJldHVybiBmYWxzZTsgfSkKICAgIC5maW5hbGx5KCgpID0+IHsgX2F1dG9Db25uZWN0SW5GbGlnaHRbbW9kZV0gPSBmYWxzZTsgfSk7Cn07CgovLyDnu5/kuIDlhaXlj6MKV0IuZW5naW5lcy5nZW5lcmF0ZSA9IGFzeW5jIGZ1bmN0aW9uICh0YXNrKSB7CiAgY29uc3QgZW5naW5lSWQgPSB0YXNrLmVuZ2luZSB8fCAnY29tZnl1aSc7CiAgY29uc3QgZW5naW5lID0gV0IuZW5naW5lcy5yZWdpc3RyeVtlbmdpbmVJZF07CiAgaWYgKCFlbmdpbmUpIHRocm93IG5ldyBFcnJvcign5pyq55+l5byV5pOOOiAnICsgZW5naW5lSWQpOwoKICAvLyDmj5DnpLror43nu4Too4XvvIjpooTorr7mi7zoo4UgKyDop5LoibLmm7/mjaIgKyBBUVQg6LSo6YeP5qCH562+77yM56e75qSN5o+S5Lu2IHpoZW5nbWlhbi9mdW1pYW7vvIkKICBjb25zdCBwcm9tcHQgPSBXQi5wcmVzZXRzLm1hbmFnZXIuYnVpbGRQb3NpdGl2ZSh0YXNrLnByb21wdCB8fCAnJyk7CiAgLy8g55S75biD6IqC54K555qE5pi+5byP6LSf5ZCR5o+Q56S66K+N5ou85Zyo5YWo5bGA6aKE6K6+6LSf5ZCR5LmL5YmN77yb5pyq5Lyg77yIdGFzay5uZWdhdGl2ZVByb21wdCDkuLrnqbrvvInml7bnu5PmnpzkuI7ljp/pgLvovpHlrozlhajkuIDoh7QKICBjb25zdCBuZWdhdGl2ZVByb21wdCA9IFt0YXNrLm5lZ2F0aXZlUHJvbXB0LCBXQi5wcmVzZXRzLm1hbmFnZXIuYnVpbGROZWdhdGl2ZSgpXQogICAgLmZpbHRlcihzID0+IHMgJiYgU3RyaW5nKHMpLnRyaW0oKSkuam9pbignLCAnKTsKICBjb25zdCBmdWxsID0gT2JqZWN0LmFzc2lnbih7fSwgdGFzaywgeyBwcm9tcHQsIG5lZ2F0aXZlUHJvbXB0IH0pOwoKICAvLyDnlJ/miJDliY3nvJPlrZjlkb3kuK3vvIjlr7npvZDmj5Lku7bvvJrmjInmnIDnu4jmj5DnpLror43ljLnphY3vvIzmnInmlYjmnJ/lhoXnm7TmjqXov5Tlm57ljoblj7Llm77vvJvnlLvluIMv6ISa5pys6LCD55So5Y+v55SoIG5vQ2FjaGUg6Lez6L+H77yJCiAgLy8g5bim6JKZ54mI55qE55Sf5oiQ77yIaW5wYWludO+8ieW8uuWItui3s+i/h+e8k+WtmO+8mue8k+WtmOmUruWPquacieaPkOekuuivje+8jOS4jeWQjOiSmeeJiOS8muivr+WRveS4reS4iuS4gOasoee7k+aenO+8iOinhOWIkuaWueahiCDCpzUuNu+8iQogIGNvbnN0IGhhc01hc2sgPSBBcnJheS5pc0FycmF5KHRhc2sucmVmTWFza3MpICYmIHRhc2sucmVmTWFza3Muc29tZShtID0+IG0pOwogIGlmIChXQi5zZXR0aW5ncy5nZXQoJ2NhY2hlSGl0JykgIT09IGZhbHNlICYmICF0YXNrLm5vQ2FjaGUgJiYgIWhhc01hc2spIHsKICAgIGNvbnN0IGNhY2hlZCA9IGF3YWl0IFdCLmhpc3RvcnkuZmluZEJ5UHJvbXB0KHByb21wdCk7CiAgICBpZiAoY2FjaGVkKSB7CiAgICAgIHJldHVybiB7IGltYWdlczogW2NhY2hlZF0sIG1ldGE6IHsgY2FjaGVkOiB0cnVlLCBlbmdpbmU6IGVuZ2luZUlkIH0gfTsKICAgIH0KICB9CgogIGNvbnN0IHJlc3VsdCA9IGF3YWl0IGVuZ2luZS5nZW5lcmF0ZShmdWxsKTsKICBpZiAoIXJlc3VsdCB8fCAhcmVzdWx0LmltYWdlcyB8fCAhcmVzdWx0LmltYWdlcy5sZW5ndGgpIHRocm93IG5ldyBFcnJvcign5byV5pOO5pyq6L+U5Zue5Zu+54mHJyk7CiAgLy8g5pC65bim5pyA57uI5o+Q56S66K+N77yI5ZCr6KeS6Imy5pu/5o2iL+mihOiuvuaLvOijhe+8ie+8jOS+m+WOhuWPsuS4jueBr+euseWxleekuiLlrp7pmYXlj5HpgIHnu5nlvJXmk47nmoTmj5DnpLror40iCiAgcmVzdWx0Lm1ldGEgPSByZXN1bHQubWV0YSB8fCB7fTsKICByZXN1bHQubWV0YS5maW5hbFByb21wdCA9IHByb21wdDsKICByZXN1bHQubWV0YS5maW5hbE5lZ2F0aXZlUHJvbXB0ID0gbmVnYXRpdmVQcm9tcHQ7CiAgcmV0dXJuIHJlc3VsdDsKfTsKCi8vIOaPkOekuuivjeS4rSA8bG9yYTrlkI065by65bqmPiDmoIfnrb7op4TojIPljJbvvIjnp7vmpI3oh6rmj5Lku7YgcmVwbGFjZUxvcmFUYWdz77ya6KGlIC5zYWZldGVuc29ycyDlkI7nvIDvvIkKV0IuZW5naW5lcy5ub3JtYWxpemVMb3JhVGFncyA9IGZ1bmN0aW9uIChpbnB1dCkgewogIHJldHVybiBTdHJpbmcoaW5wdXQgfHwgJycpLnJlcGxhY2UoLzxsb3JhOihbXjpdKykoPzpcLnNhZmV0ZW5zb3JzKT86KFtePl0rKT8+L2csIChtYXRjaCwgZmlsZW5hbWUsIHZhbHVlKSA9PiB7CiAgICByZXR1cm4gYDxsb3JhOiR7ZmlsZW5hbWV9LnNhZmV0ZW5zb3JzOiR7dmFsdWV9OjE+YDsKICB9KTsKfTsKCi8vIOaooeWei+aWh+S7tuWQjeinhOiMg+WMlu+8muacquWQq+aJqeWxleWQjeaXtuihpSAuc2FmZXRlbnNvcnPvvIjnp7vmpI3oh6rmj5Lku7YgbW9kZWxGaWxlTmFtZVdpdGhFeHTvvIkKV0IuZW5naW5lcy5tb2RlbEZpbGVOYW1lV2l0aEV4dCA9IGZ1bmN0aW9uIChuYW1lKSB7CiAgY29uc3QgbiA9IChuYW1lIHx8ICcnKS50cmltKCk7CiAgaWYgKCFuKSByZXR1cm4gbjsKICByZXR1cm4gL1wuKHNhZmV0ZW5zb3JzfGNrcHR8cHR8cHRofGJpbnxnZ3VmfHNmdCkkL2kudGVzdChuKSA/IG4gOiBuICsgJy5zYWZldGVuc29ycyc7Cn07Cg==
+// ============================================================
+// AI图片工作台 - 引擎注册表 + 统一生成入口
+// 生图函数统一签名：generate(task) → Promise<{images:[dataURL], meta}>
+// task = { prompt(用户输入), refImages:[dataURL], refStrength, overrides:{...} }
+// 核心生图逻辑移植自文生图工具2.0，去除 DOM 依赖，改为纯 Promise
+// ============================================================
+'use strict';
+
+WB.engines = WB.engines || {};
+
+WB.engines.registry = {};
+WB.engines.register = function (id, engine) { WB.engines.registry[id] = engine; };
+
+// 静默自动连接（对齐插件 autoConnectForMode）：启动/打开页面时重连并重扫模型列表。
+// 不依赖 comfyConnected/sdConnected 标记拦截——每次调用都重新连接重扫，确保列表最新；
+// 同一模式进行中不重复发起（并发防抖）；地址未配置或连接失败时静默返回 false。
+const _autoConnectInFlight = {};
+WB.engines.autoConnect = function (mode) {
+  if (_autoConnectInFlight[mode]) return Promise.resolve(false);
+  const s = WB.settings.all();
+  const url = String((mode === 'comfyui' ? s.comfyUrl : s.sdUrl) || '').trim();
+  const connKey = mode === 'comfyui' ? 'comfyConnected' : 'sdConnected';
+  const markDisconnected = () => { if (WB.settings.get(connKey)) WB.settings.set(connKey, false); };
+  if (!url) { markDisconnected(); return Promise.resolve(false); }
+  const eng = WB.engines.registry[mode];
+  if (!eng || !eng.connect) { markDisconnected(); return Promise.resolve(false); }
+  _autoConnectInFlight[mode] = true;
+  return eng.connect(true)
+    .then(() => true)
+    .catch(() => { markDisconnected(); return false; })
+    .finally(() => { _autoConnectInFlight[mode] = false; });
+};
+
+// 统一入口
+WB.engines.generate = async function (task) {
+  const engineId = task.engine || 'comfyui';
+  const engine = WB.engines.registry[engineId];
+  if (!engine) throw new Error('未知引擎: ' + engineId);
+
+  // 提示词组装（预设拼装 + 角色替换 + AQT 质量标签，移植插件 zhengmian/fumian）
+  const prompt = WB.presets.manager.buildPositive(task.prompt || '');
+  // 画布节点的显式负向提示词拼在全局预设负向之前；未传（task.negativePrompt 为空）时结果与原逻辑完全一致
+  const negativePrompt = [task.negativePrompt, WB.presets.manager.buildNegative()]
+    .filter(s => s && String(s).trim()).join(', ');
+  const full = Object.assign({}, task, { prompt, negativePrompt });
+
+  // 生成前缓存命中（对齐插件：按最终提示词匹配，有效期内直接返回历史图；画布/脚本调用可用 noCache 跳过）
+  // 带蒙版的生成（inpaint）强制跳过缓存：缓存键只有提示词，不同蒙版会误命中上一次结果（规划方案 §5.6）
+  const hasMask = Array.isArray(task.refMasks) && task.refMasks.some(m => m);
+  if (WB.settings.get('cacheHit') !== false && !task.noCache && !hasMask) {
+    const cached = await WB.history.findByPrompt(prompt);
+    if (cached) {
+      return { images: [cached], meta: { cached: true, engine: engineId } };
+    }
+  }
+
+  const result = await engine.generate(full);
+  if (!result || !result.images || !result.images.length) throw new Error('引擎未返回图片');
+  // 携带最终提示词（含角色替换/预设拼装），供历史与灯箱展示"实际发送给引擎的提示词"
+  result.meta = result.meta || {};
+  result.meta.finalPrompt = prompt;
+  result.meta.finalNegativePrompt = negativePrompt;
+  return result;
+};
+
+// 提示词中 <lora:名:强度> 标签规范化（移植自插件 replaceLoraTags：补 .safetensors 后缀）
+WB.engines.normalizeLoraTags = function (input) {
+  return String(input || '').replace(/<lora:([^:]+)(?:\.safetensors)?:([^>]+)?>/g, (match, filename, value) => {
+    return `<lora:${filename}.safetensors:${value}:1>`;
+  });
+};
+
+// 模型文件名规范化：未含扩展名时补 .safetensors（移植自插件 modelFileNameWithExt）
+WB.engines.modelFileNameWithExt = function (name) {
+  const n = (name || '').trim();
+  if (!n) return n;
+  return /\.(safetensors|ckpt|pt|pth|bin|gguf|sft)$/i.test(n) ? n : n + '.safetensors';
+};

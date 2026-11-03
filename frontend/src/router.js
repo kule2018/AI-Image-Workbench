@@ -1,1 +1,31 @@
-aW1wb3J0IHsgY3JlYXRlUm91dGVyLCBjcmVhdGVXZWJIYXNoSGlzdG9yeSB9IGZyb20gJ3Z1ZS1yb3V0ZXInOw0KDQppbXBvcnQgR2VuZXJhdGVWaWV3IGZyb20gJy4vdmlld3MvR2VuZXJhdGVWaWV3LnZ1ZSc7DQppbXBvcnQgQ2FudmFzIGZyb20gJy4vdmlld3MvQ2FudmFzLnZ1ZSc7DQppbXBvcnQgQXNzZXRzIGZyb20gJy4vdmlld3MvQXNzZXRzLnZ1ZSc7DQppbXBvcnQgQ2hhcmFjdGVycyBmcm9tICcuL3ZpZXdzL0NoYXJhY3RlcnMudnVlJzsNCmltcG9ydCBCYXNpY1NldHRpbmdzIGZyb20gJy4vdmlld3MvQmFzaWNTZXR0aW5ncy52dWUnOw0KaW1wb3J0IENvbWZ5dWlTZXR0aW5ncyBmcm9tICcuL3ZpZXdzL0NvbWZ5dWlTZXR0aW5ncy52dWUnOw0KaW1wb3J0IFNkU2V0dGluZ3MgZnJvbSAnLi92aWV3cy9TZFNldHRpbmdzLnZ1ZSc7DQppbXBvcnQgQXBpU2V0dGluZ3MgZnJvbSAnLi92aWV3cy9BcGlTZXR0aW5ncy52dWUnOw0KaW1wb3J0IEFib3V0IGZyb20gJy4vdmlld3MvQWJvdXQudnVlJzsNCg0KY29uc3Qgcm91dGVzID0gWw0KICB7IHBhdGg6ICcvJywgcmVkaXJlY3Q6ICcvY29tZnl1aScgfSwNCiAgeyBwYXRoOiAnL2NvbWZ5dWknLCBjb21wb25lbnQ6IEdlbmVyYXRlVmlldywgbWV0YTogeyBuYXY6ICdjb21meXVpJywgZW5naW5lOiAnY29tZnl1aScgfSB9LA0KICB7IHBhdGg6ICcvc2QnLCBjb21wb25lbnQ6IEdlbmVyYXRlVmlldywgbWV0YTogeyBuYXY6ICdzZCcsIGVuZ2luZTogJ3NkJyB9IH0sDQogIHsgcGF0aDogJy9hcGknLCBjb21wb25lbnQ6IEdlbmVyYXRlVmlldywgbWV0YTogeyBuYXY6ICdhcGknLCBlbmdpbmU6ICdhcGknIH0gfSwNCiAgeyBwYXRoOiAnL2NhbnZhcycsIGNvbXBvbmVudDogQ2FudmFzLCBtZXRhOiB7IG5hdjogJ2NhbnZhcycgfSB9LA0KICB7IHBhdGg6ICcvYXNzZXRzJywgY29tcG9uZW50OiBBc3NldHMsIG1ldGE6IHsgbmF2OiAnYXNzZXRzJyB9IH0sDQogIHsgcGF0aDogJy9jaGFyYWN0ZXJzJywgY29tcG9uZW50OiBDaGFyYWN0ZXJzLCBtZXRhOiB7IG5hdjogJ2NoYXJhY3RlcnMnIH0gfSwNCiAgeyBwYXRoOiAnL2Jhc2ljLXNldHRpbmdzJywgY29tcG9uZW50OiBCYXNpY1NldHRpbmdzLCBtZXRhOiB7IG5hdjogJ2Jhc2ljLXNldHRpbmdzJyB9IH0sDQogIHsgcGF0aDogJy9jb21meXVpLXNldHRpbmdzJywgY29tcG9uZW50OiBDb21meXVpU2V0dGluZ3MsIG1ldGE6IHsgbmF2OiAnY29tZnl1aS1zZXR0aW5ncycgfSB9LA0KICB7IHBhdGg6ICcvc2Qtc2V0dGluZ3MnLCBjb21wb25lbnQ6IFNkU2V0dGluZ3MsIG1ldGE6IHsgbmF2OiAnc2Qtc2V0dGluZ3MnIH0gfSwNCiAgeyBwYXRoOiAnL2FwaS1zZXR0aW5ncycsIGNvbXBvbmVudDogQXBpU2V0dGluZ3MsIG1ldGE6IHsgbmF2OiAnYXBpLXNldHRpbmdzJyB9IH0sDQogIHsgcGF0aDogJy9hYm91dCcsIGNvbXBvbmVudDogQWJvdXQsIG1ldGE6IHsgbmF2OiAnYWJvdXQnIH0gfSwNCl07DQoNCmV4cG9ydCBkZWZhdWx0IGNyZWF0ZVJvdXRlcih7DQogIGhpc3Rvcnk6IGNyZWF0ZVdlYkhhc2hIaXN0b3J5KCksDQogIHJvdXRlcywNCn0pOw0K
+import { createRouter, createWebHashHistory } from 'vue-router';
+
+import GenerateView from './views/GenerateView.vue';
+import Canvas from './views/Canvas.vue';
+import Assets from './views/Assets.vue';
+import Characters from './views/Characters.vue';
+import BasicSettings from './views/BasicSettings.vue';
+import ComfyuiSettings from './views/ComfyuiSettings.vue';
+import SdSettings from './views/SdSettings.vue';
+import ApiSettings from './views/ApiSettings.vue';
+import About from './views/About.vue';
+
+const routes = [
+  { path: '/', redirect: '/comfyui' },
+  { path: '/comfyui', component: GenerateView, meta: { nav: 'comfyui', engine: 'comfyui' } },
+  { path: '/sd', component: GenerateView, meta: { nav: 'sd', engine: 'sd' } },
+  { path: '/api', component: GenerateView, meta: { nav: 'api', engine: 'api' } },
+  { path: '/canvas', component: Canvas, meta: { nav: 'canvas' } },
+  { path: '/assets', component: Assets, meta: { nav: 'assets' } },
+  { path: '/characters', component: Characters, meta: { nav: 'characters' } },
+  { path: '/basic-settings', component: BasicSettings, meta: { nav: 'basic-settings' } },
+  { path: '/comfyui-settings', component: ComfyuiSettings, meta: { nav: 'comfyui-settings' } },
+  { path: '/sd-settings', component: SdSettings, meta: { nav: 'sd-settings' } },
+  { path: '/api-settings', component: ApiSettings, meta: { nav: 'api-settings' } },
+  { path: '/about', component: About, meta: { nav: 'about' } },
+];
+
+export default createRouter({
+  history: createWebHashHistory(),
+  routes,
+});

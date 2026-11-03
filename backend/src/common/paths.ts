@@ -1,1 +1,26 @@
-aW1wb3J0ICogYXMgcGF0aCBmcm9tICdwYXRoJzsNCmltcG9ydCAqIGFzIGZzIGZyb20gJ2ZzJzsNCg0KZnVuY3Rpb24gcmVzb2x2ZUVudihrZXk6IHN0cmluZywgZmFsbGJhY2s6IHN0cmluZyk6IHN0cmluZyB7DQogIGNvbnN0IHYgPSBwcm9jZXNzLmVudltrZXldOw0KICBpZiAoIXYpIHJldHVybiBmYWxsYmFjazsNCiAgcmV0dXJuIHBhdGguaXNBYnNvbHV0ZSh2KSA/IHYgOiBwYXRoLnJlc29sdmUocHJvY2Vzcy5jd2QoKSwgdik7DQp9DQoNCmNvbnN0IHJvb3QgPSBwcm9jZXNzLmN3ZCgpOw0KY29uc3QgZGF0YURpciA9IHJlc29sdmVFbnYoJ0RBVEFfRElSJywgcGF0aC5qb2luKHJvb3QsICdkYXRhJykpOw0KY29uc3Qgb3V0cHV0RGlyID0gcmVzb2x2ZUVudignT1VUUFVUX0RJUicsIHBhdGguam9pbihyb290LCAnb3V0cHV0JykpOw0KDQpleHBvcnQgY29uc3QgRElSUyA9IHsNCiAgZGF0YTogZGF0YURpciwNCiAgb3V0cHV0OiBvdXRwdXREaXIsDQogIGltcG9ydGVkOiBwYXRoLmpvaW4ob3V0cHV0RGlyLCAnaW1wb3J0ZWQnKSwgICAvLyDlpIfku73ljIXlr7zlhaXnmoTnvJPlrZjlm77niYcNCiAgbGlicmFyeTogcGF0aC5qb2luKGRhdGFEaXIsICdsaWJyYXJ5JyksICAgICAgICAvLyDntKDmnZDlupMNCiAgY2FudmFzZXM6IHBhdGguam9pbihkYXRhRGlyLCAnY2FudmFzZXMnKSwgICAgICAvLyDnlLvluIMNCn07DQoNCmV4cG9ydCBmdW5jdGlvbiBlbnN1cmVEaXJzKCk6IHZvaWQgew0KICBbRElSUy5kYXRhLCBESVJTLm91dHB1dCwgRElSUy5pbXBvcnRlZCwgRElSUy5saWJyYXJ5LCBESVJTLmNhbnZhc2VzXS5mb3JFYWNoKChkKSA9PiB7DQogICAgdHJ5IHsgZnMubWtkaXJTeW5jKGQsIHsgcmVjdXJzaXZlOiB0cnVlIH0pOyB9IGNhdGNoIChlKSB7IC8qIOW3suWtmOWcqCAqLyB9DQogIH0pOw0KfQ0K
+import * as path from 'path';
+import * as fs from 'fs';
+
+function resolveEnv(key: string, fallback: string): string {
+  const v = process.env[key];
+  if (!v) return fallback;
+  return path.isAbsolute(v) ? v : path.resolve(process.cwd(), v);
+}
+
+const root = process.cwd();
+const dataDir = resolveEnv('DATA_DIR', path.join(root, 'data'));
+const outputDir = resolveEnv('OUTPUT_DIR', path.join(root, 'output'));
+
+export const DIRS = {
+  data: dataDir,
+  output: outputDir,
+  imported: path.join(outputDir, 'imported'),   // 备份包导入的缓存图片
+  library: path.join(dataDir, 'library'),        // 素材库
+  canvases: path.join(dataDir, 'canvases'),      // 画布
+};
+
+export function ensureDirs(): void {
+  [DIRS.data, DIRS.output, DIRS.imported, DIRS.library, DIRS.canvases].forEach((d) => {
+    try { fs.mkdirSync(d, { recursive: true }); } catch (e) { /* 已存在 */ }
+  });
+}

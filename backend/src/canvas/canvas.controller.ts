@@ -1,1 +1,32 @@
-aW1wb3J0IHsgQ29udHJvbGxlciwgR2V0LCBQb3N0LCBEZWxldGUsIEJvZHksIFBhcmFtLCBSZXMgfSBmcm9tICdAbmVzdGpzL2NvbW1vbic7DQppbXBvcnQgeyBSZXNwb25zZSB9IGZyb20gJ2V4cHJlc3MnOw0KaW1wb3J0IHsgQ2FudmFzU2VydmljZSB9IGZyb20gJy4vY2FudmFzLnNlcnZpY2UnOw0KDQpAQ29udHJvbGxlcignYXBpL2NhbnZhc2VzJykNCmV4cG9ydCBjbGFzcyBDYW52YXNDb250cm9sbGVyIHsNCiAgY29uc3RydWN0b3IocHJpdmF0ZSByZWFkb25seSBzZXJ2aWNlOiBDYW52YXNTZXJ2aWNlKSB7fQ0KDQogIEBHZXQoKQ0KICBhc3luYyBsaXN0KEBSZXMoKSByZXM6IFJlc3BvbnNlKSB7DQogICAgcmVzLmpzb24oYXdhaXQgdGhpcy5zZXJ2aWNlLmxpc3QoKSk7DQogIH0NCg0KICBAUG9zdCgpDQogIGFzeW5jIHNhdmUoQEJvZHkoKSBib2R5OiBhbnksIEBSZXMoKSByZXM6IFJlc3BvbnNlKSB7DQogICAgYXdhaXQgdGhpcy5zZXJ2aWNlLnNhdmUoYm9keSk7DQogICAgcmVzLmpzb24oeyBvazogdHJ1ZSB9KTsNCiAgfQ0KDQogIEBHZXQoJzppZCcpDQogIGFzeW5jIGdldChAUGFyYW0oJ2lkJykgaWQ6IHN0cmluZywgQFJlcygpIHJlczogUmVzcG9uc2UpIHsNCiAgICBjb25zdCBkYXRhID0gYXdhaXQgdGhpcy5zZXJ2aWNlLmdldChpZCk7DQogICAgaWYgKCFkYXRhKSB7IHJlcy5zdGF0dXMoNDA0KS5qc29uKHsgZXJyb3I6ICfnlLvluIPkuI3lrZjlnKgnIH0pOyByZXR1cm47IH0NCiAgICByZXMuanNvbihkYXRhKTsNCiAgfQ0KDQogIEBEZWxldGUoJzppZCcpDQogIGFzeW5jIHJlbW92ZShAUGFyYW0oJ2lkJykgaWQ6IHN0cmluZywgQFJlcygpIHJlczogUmVzcG9uc2UpIHsNCiAgICBhd2FpdCB0aGlzLnNlcnZpY2UuZGVsZXRlKGlkKTsNCiAgICByZXMuanNvbih7IG9rOiB0cnVlIH0pOw0KICB9DQp9DQo=
+import { Controller, Get, Post, Delete, Body, Param, Res } from '@nestjs/common';
+import { Response } from 'express';
+import { CanvasService } from './canvas.service';
+
+@Controller('api/canvases')
+export class CanvasController {
+  constructor(private readonly service: CanvasService) {}
+
+  @Get()
+  async list(@Res() res: Response) {
+    res.json(await this.service.list());
+  }
+
+  @Post()
+  async save(@Body() body: any, @Res() res: Response) {
+    await this.service.save(body);
+    res.json({ ok: true });
+  }
+
+  @Get(':id')
+  async get(@Param('id') id: string, @Res() res: Response) {
+    const data = await this.service.get(id);
+    if (!data) { res.status(404).json({ error: '画布不存在' }); return; }
+    res.json(data);
+  }
+
+  @Delete(':id')
+  async remove(@Param('id') id: string, @Res() res: Response) {
+    await this.service.delete(id);
+    res.json({ ok: true });
+  }
+}

@@ -1,1 +1,64 @@
-Ly8gPT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09Ci8vIEFJ5Zu+54mH5bel5L2c5Y+wIC0g6aG16Z2i55Sf5ZG95ZGo5pyf77ya57uf5LiA44CM6aG16Z2i5Y2z5bCG56a75byA44CN55qE5pS25bC+5pe25py6Ci8vCi8vIOebrueahO+8muiuqeWQhOaooeWdl+iDveazqOWGjOWNuOi9veWbnuiwg++8jOmBv+WFjeebkeWQrOWZqOaui+eVmeS4juWQjuWPsOW5veeBtei/nuaOpeOAggovLwovLyDog4zmma/vvIjouKnov4fnmoTlnZHvvInvvJrph4fmoLfpooTop4jnlKjnmoTmmK/kuI4gQ29tZnlVSSDlhbHnlKjnmoTlm7rlrpogY2xpZW50SWQg5bi46am7IFdlYlNvY2tldOOAggovLyAgIMK3IOWIh+mhte+8muWNlemhteW6lOeUqOWGhei3r+eUse+8jOS4jeS8muinpuWPkSBwYWdlaGlkZe+8jOWPquiDvemdoOi3r+eUseaYvuW8j+iwg+eUqOmhtemdoueahCBkZXN0cm95KCnvvJsKLy8gICAgIGFwcC5qcyDnmoTot6/nlLHnoa7lrp7mnIkgZGVzdHJveSgpIOiwg+eUqO+8jOS9huaOp+WItuWPsOmHjOS4gOaXpuWHuueOsOS7u+S9leacquaNleiOt+mUmeivr++8jAovLyAgICAg6Lev55Sx5YiH5o2i5bCx5Lya5Lit5pat5Zyo5riy5p+T6Zi25q61IOKAlOKAlCDmraTml7bjgIzlhYggZGVzdHJveSDlho0gcmVuZGVy44CN55qE6aG65bqP5LuN5pyJ5L+d6Zqc77yMCi8vICAgICDnnJ/mraPnmoTnvLrlj6PlnKjkuIvpnaLkuKTnp43lnLrmma/jgIIKLy8gICDCtyDliLfmlrAgLyDlhbPpl63moIfnrb7pobUgLyBiZmNhY2hlIOi/m+ejgeebmOe8k+WtmO+8muWPquS8muinpuWPkSBwYWdlZnJlZXplIC8gcGFnZWhpZGXvvIwKLy8gICAgIOmhtemdoueahCBkZXN0cm95KCkg5LiN5Lya6KKr6LCD55So77yb5pen6L+e5o6l5rue55WZ5ZyoIENvbWZ5VUkg5L6n77yM5paw6aG16Z2i55So5ZCM5LiAIGNsaWVudElkCi8vICAgICDov57kuIrml7bmnI3liqHnq6/kvJrmiorml6fov57mjqXpobbmjonvvIhzZXJ2ZXIucHkg55qEIHdlYnNvY2tldF9oYW5kbGVyIOmHjAovLyAgICAgc2VsZi5zb2NrZXRzLnBvcChzaWQsIE5vbmUp77yJ77yM5pen6L+e5o6l5LiK5q2j5Zyo5o6o6YCB55qE6aKE6KeI5bin6ZqP5Y2z6K6pIGFpb2h0dHAg5oqbCi8vICAgICBDbGllbnRDb25uZWN0aW9uUmVzZXRFcnJvciDihpIgQ29tZnlVSSDmjqfliLblj7DliLcKLy8gICAgICJzZW5kIGVycm9yOiBDYW5ub3Qgd3JpdGUgdG8gY2xvc2luZyB0cmFuc3BvcnQi44CCCi8vIOWboOatpOi/memHjOWcqCB3aW5kb3cg5LiK5oyCIERPTSDnuqfnm5HlkKzvvIzku7vkvZXmqKHlnZfpg73og73ms6jlhozljbjovb3lm57osIPjgIIKLy8KLy8g5Yqg6L295pa55byP77yaaW5kZXguaHRtbCDnmoQgPHNjcmlwdD7vvIzlhajlsYDlkb3lkI3nqbrpl7QgV0LvvIjmnKzpobnnm67kuLrnuq/lhajlsYDohJrmnKzjgIHml6DmqKHlnZfvvIkKLy8gPT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09Cid1c2Ugc3RyaWN0JzsKCldCLnBhZ2VMaWZlY3ljbGUgPSAoZnVuY3Rpb24gKCkgewoKICBjb25zdCBsaXN0ZW5lcnMgPSBbXTsgICAgIC8vIOmhtemdouWNuOi9veWbnuiwgwogIGxldCBmaXJlZCA9IGZhbHNlOyAgICAgICAgLy8g5bey6Kem5Y+R6L+H5Y246L2977ya6YG/5YWN6YeN5aSN5omn6KGMCgogIC8vIOazqOWGjOOAjOmhtemdouWNs+Wwhuemu+W8gOOAjeWbnuiwg+OAgui/lOWbnuWPlua2iOWHveaVsOOAggogIGZ1bmN0aW9uIG9uUGFnZVVubG9hZChmbikgewogICAgaWYgKHR5cGVvZiBmbiAhPT0gJ2Z1bmN0aW9uJykgcmV0dXJuICgpID0+IHt9OwogICAgbGlzdGVuZXJzLnB1c2goZm4pOwogICAgcmV0dXJuICgpID0+IHsKICAgICAgY29uc3QgaSA9IGxpc3RlbmVycy5pbmRleE9mKGZuKTsKICAgICAgaWYgKGkgPj0gMCkgbGlzdGVuZXJzLnNwbGljZShpLCAxKTsKICAgIH07CiAgfQoKICAvLyDkuLvliqjop6blj5HmiYDmnInljbjovb3lm57osIPvvIjluYLnrYnvvJrlt7Lop6blj5Hov4fliJnnm7TmjqXov5Tlm57vvInjgIIKICAvLyDpgIbluo/miafooYwg4oCU4oCUIOWQjuazqOWGjOeahOWFiOWbnuaUtu+8jOS4jui1hOa6kOWIm+W7uumhuuW6j+ebuOWPjeOAggogIGZ1bmN0aW9uIHJ1blBhZ2VVbmxvYWQoKSB7CiAgICBpZiAoZmlyZWQpIHJldHVybjsKICAgIGZpcmVkID0gdHJ1ZTsKICAgIGZvciAobGV0IGkgPSBsaXN0ZW5lcnMubGVuZ3RoIC0gMTsgaSA+PSAwOyBpLS0pIHsKICAgICAgdHJ5IHsgbGlzdGVuZXJzW2ldKCk7IH0gY2F0Y2ggKGUpIHsgLyog5Y2V5Liq5Zue6LCD5aSx6LSl5LiN5b2x5ZON5YW25LuWICovIH0KICAgIH0KICAgIGxpc3RlbmVycy5sZW5ndGggPSAwOwogIH0KCiAgLy8gcGFnZWZyZWV6Ze+8iENocm9tZe+8ie+8muagh+etvumhtei/myBiZmNhY2hlIC8g6KKr5Ya757uT5pe25pyA5pep5Lmf5pyA5Y+v6Z2g55qE5pS25bC+5pe25py644CCCiAgLy8g5b+F6aG75Zyo5q2k5pat5byA6ZW/6L+e5o6l77ya5Ya757uT5ZCO5LiN5YaN5pyJIHBhZ2VoaWRl77yM6Iul5LuN5oyC552AIFdlYlNvY2tldO+8jAogIC8vIOacjeWKoeerr+S8muS4gOebtOaKiuaIkeS7rOW9k+a0u+i3g+i/nuaOpe+8iOato+aYryAiY2xvc2luZyB0cmFuc3BvcnQiIOitpuWRiueahOa4qeW6iu+8ieOAggogIHdpbmRvdy5hZGRFdmVudExpc3RlbmVyKCdwYWdlZnJlZXplJywgcnVuUGFnZVVubG9hZCk7CgogIC8vIHBhZ2VoaWRl77ya5Yi35pawIC8g5YWz6Zet5qCH562+6aG1IC8g56e75Yqo56uv5YiH5ZCO5Y+w77yI546w5Luj5rWP6KeI5Zmo55So5a6D5pu/5Luj5bey6L+H5pe255qEIHVubG9hZO+8iQogIHdpbmRvdy5hZGRFdmVudExpc3RlbmVyKCdwYWdlaGlkZScsIHJ1blBhZ2VVbmxvYWQpOwoKICAvLyBiZWZvcmV1bmxvYWTvvJrogIHmtY/op4jlmaggLyDpg6jliIbnp7vliqjnq6/lhZzlupUKICB3aW5kb3cuYWRkRXZlbnRMaXN0ZW5lcignYmVmb3JldW5sb2FkJywgcnVuUGFnZVVubG9hZCk7CgogIC8vIOeUqOaIt+S7jiBiZmNhY2hlIOWIh+WbnuacrOmhte+8muWkjeS9jeWNuOi9veagh+iusO+8jOWFgeiuuOWQhOaooeWdl+aMiemcgOmHjeaWsOW7uueri+i/nuaOpQogIHdpbmRvdy5hZGRFdmVudExpc3RlbmVyKCdwYWdlc2hvdycsIChlKSA9PiB7IGlmIChlICYmIGUucGVyc2lzdGVkKSBmaXJlZCA9IGZhbHNlOyB9KTsKCiAgcmV0dXJuIHsgb25QYWdlVW5sb2FkLCBydW5QYWdlVW5sb2FkIH07Cn0pKCk7Cg==
+// ============================================================
+// AI图片工作台 - 页面生命周期：统一「页面即将离开」的收尾时机
+//
+// 目的：让各模块能注册卸载回调，避免监听器残留与后台幽灵连接。
+//
+// 背景（踩过的坑）：采样预览用的是与 ComfyUI 共用的固定 clientId 常驻 WebSocket。
+//   · 切页：单页应用内路由，不会触发 pagehide，只能靠路由显式调用页面的 destroy()；
+//     app.js 的路由确实有 destroy() 调用，但控制台里一旦出现任何未捕获错误，
+//     路由切换就会中断在渲染阶段 —— 此时「先 destroy 再 render」的顺序仍有保障，
+//     真正的缺口在下面两种场景。
+//   · 刷新 / 关闭标签页 / bfcache 进磁盘缓存：只会触发 pagefreeze / pagehide，
+//     页面的 destroy() 不会被调用；旧连接滞留在 ComfyUI 侧，新页面用同一 clientId
+//     连上时服务端会把旧连接顶掉（server.py 的 websocket_handler 里
+//     self.sockets.pop(sid, None)），旧连接上正在推送的预览帧随即让 aiohttp 抛
+//     ClientConnectionResetError → ComfyUI 控制台刷
+//     "send error: Cannot write to closing transport"。
+// 因此这里在 window 上挂 DOM 级监听，任何模块都能注册卸载回调。
+//
+// 加载方式：index.html 的 <script>，全局命名空间 WB（本项目为纯全局脚本、无模块）
+// ============================================================
+'use strict';
+
+WB.pageLifecycle = (function () {
+
+  const listeners = [];     // 页面卸载回调
+  let fired = false;        // 已触发过卸载：避免重复执行
+
+  // 注册「页面即将离开」回调。返回取消函数。
+  function onPageUnload(fn) {
+    if (typeof fn !== 'function') return () => {};
+    listeners.push(fn);
+    return () => {
+      const i = listeners.indexOf(fn);
+      if (i >= 0) listeners.splice(i, 1);
+    };
+  }
+
+  // 主动触发所有卸载回调（幂等：已触发过则直接返回）。
+  // 逆序执行 —— 后注册的先回收，与资源创建顺序相反。
+  function runPageUnload() {
+    if (fired) return;
+    fired = true;
+    for (let i = listeners.length - 1; i >= 0; i--) {
+      try { listeners[i](); } catch (e) { /* 单个回调失败不影响其他 */ }
+    }
+    listeners.length = 0;
+  }
+
+  // pagefreeze（Chrome）：标签页进 bfcache / 被冻结时最早也最可靠的收尾时机。
+  // 必须在此断开长连接：冻结后不再有 pagehide，若仍挂着 WebSocket，
+  // 服务端会一直把我们当活跃连接（正是 "closing transport" 警告的温床）。
+  window.addEventListener('pagefreeze', runPageUnload);
+
+  // pagehide：刷新 / 关闭标签页 / 移动端切后台（现代浏览器用它替代已过时的 unload）
+  window.addEventListener('pagehide', runPageUnload);
+
+  // beforeunload：老浏览器 / 部分移动端兜底
+  window.addEventListener('beforeunload', runPageUnload);
+
+  // 用户从 bfcache 切回本页：复位卸载标记，允许各模块按需重新建立连接
+  window.addEventListener('pageshow', (e) => { if (e && e.persisted) fired = false; });
+
+  return { onPageUnload, runPageUnload };
+})();

@@ -1,1 +1,36 @@
-aW1wb3J0IHsgQ29udHJvbGxlciwgUG9zdCwgQm9keSwgUmVzIH0gZnJvbSAnQG5lc3Rqcy9jb21tb24nOw0KaW1wb3J0IHsgUmVzcG9uc2UgfSBmcm9tICdleHByZXNzJzsNCmltcG9ydCB7IFByb3h5U2VydmljZSB9IGZyb20gJy4vcHJveHkuc2VydmljZSc7DQoNCkBDb250cm9sbGVyKCdhcGkvcHJveHknKQ0KZXhwb3J0IGNsYXNzIFByb3h5Q29udHJvbGxlciB7DQogIGNvbnN0cnVjdG9yKHByaXZhdGUgcmVhZG9ubHkgc2VydmljZTogUHJveHlTZXJ2aWNlKSB7fQ0KDQogIEBQb3N0KCkNCiAgYXN5bmMgcHJveHkoQEJvZHkoKSBjZmc6IGFueSwgQFJlcygpIHJlczogUmVzcG9uc2UpIHsNCiAgICBpZiAoIWNmZz8udXJsKSByZXR1cm4gcmVzLnN0YXR1cyg0MDApLmpzb24oeyBlcnJvcjogJ+e8uuWwkSB1cmwnIH0pOw0KICAgIGNvbnN0IGhlYWRlcnMgPSBPYmplY3QuYXNzaWduKHt9LCBjZmcuaGVhZGVycyB8fCB7fSk7DQogICAgbGV0IGJvZHlCdWY6IEJ1ZmZlciB8IG51bGwgPSBudWxsOw0KICAgIGlmIChjZmcuYm9keUJhc2U2NCAhPSBudWxsKSB7DQogICAgICBib2R5QnVmID0gQnVmZmVyLmZyb20oU3RyaW5nKGNmZy5ib2R5QmFzZTY0KSwgJ2Jhc2U2NCcpOw0KICAgIH0gZWxzZSBpZiAoY2ZnLmJvZHkgIT0gbnVsbCkgew0KICAgICAgYm9keUJ1ZiA9IEJ1ZmZlci5pc0J1ZmZlcihjZmcuYm9keSkgPyBjZmcuYm9keQ0KICAgICAgICA6IEJ1ZmZlci5mcm9tKHR5cGVvZiBjZmcuYm9keSA9PT0gJ3N0cmluZycgPyBjZmcuYm9keSA6IEpTT04uc3RyaW5naWZ5KGNmZy5ib2R5KSwgJ3V0Zi04Jyk7DQogICAgICBpZiAoIWhlYWRlcnNbJ0NvbnRlbnQtVHlwZSddICYmICFoZWFkZXJzWydjb250ZW50LXR5cGUnXSkgaGVhZGVyc1snQ29udGVudC1UeXBlJ10gPSAnYXBwbGljYXRpb24vanNvbic7DQogICAgfQ0KICAgIHRyeSB7DQogICAgICBjb25zdCByID0gYXdhaXQgdGhpcy5zZXJ2aWNlLnByb3h5UmVxdWVzdChjZmcudXJsLCBjZmcubWV0aG9kIHx8ICdHRVQnLCBoZWFkZXJzLCBib2R5QnVmKTsNCiAgICAgIGNvbnN0IGN0ID0gci5jb250ZW50VHlwZSB8fCAnJzsNCiAgICAgIGNvbnN0IGlzQmluYXJ5ID0gL14oaW1hZ2VcL3xhcHBsaWNhdGlvblwvb2N0ZXR8YXBwbGljYXRpb25cL3ppcCkvLnRlc3QoY3QpOw0KICAgICAgaWYgKGNmZy5yZXNwb25zZVR5cGUgPT09ICdhcnJheWJ1ZmZlcicgfHwgaXNCaW5hcnkpIHsNCiAgICAgICAgcmV0dXJuIHJlcy5qc29uKHsNCiAgICAgICAgICBzdGF0dXM6IHIuc3RhdHVzLCBjb250ZW50VHlwZTogY3QsIGJpbmFyeTogdHJ1ZSwNCiAgICAgICAgICBiYXNlNjQ6IHIuYnVmZmVyLnRvU3RyaW5nKCdiYXNlNjQnKSwNCiAgICAgICAgfSk7DQogICAgICB9DQogICAgICByZXR1cm4gcmVzLmpzb24oeyBzdGF0dXM6IHIuc3RhdHVzLCBjb250ZW50VHlwZTogY3QsIHRleHQ6IHIuYnVmZmVyLnRvU3RyaW5nKCd1dGYtOCcpIH0pOw0KICAgIH0gY2F0Y2ggKGUpIHsNCiAgICAgIHJldHVybiByZXMuc3RhdHVzKDUwMikuanNvbih7IGVycm9yOiAn5Luj55CG6K+35rGC5aSx6LSlOiAnICsgZS5tZXNzYWdlIH0pOw0KICAgIH0NCiAgfQ0KfQ0K
+import { Controller, Post, Body, Res } from '@nestjs/common';
+import { Response } from 'express';
+import { ProxyService } from './proxy.service';
+
+@Controller('api/proxy')
+export class ProxyController {
+  constructor(private readonly service: ProxyService) {}
+
+  @Post()
+  async proxy(@Body() cfg: any, @Res() res: Response) {
+    if (!cfg?.url) return res.status(400).json({ error: '缺少 url' });
+    const headers = Object.assign({}, cfg.headers || {});
+    let bodyBuf: Buffer | null = null;
+    if (cfg.bodyBase64 != null) {
+      bodyBuf = Buffer.from(String(cfg.bodyBase64), 'base64');
+    } else if (cfg.body != null) {
+      bodyBuf = Buffer.isBuffer(cfg.body) ? cfg.body
+        : Buffer.from(typeof cfg.body === 'string' ? cfg.body : JSON.stringify(cfg.body), 'utf-8');
+      if (!headers['Content-Type'] && !headers['content-type']) headers['Content-Type'] = 'application/json';
+    }
+    try {
+      const r = await this.service.proxyRequest(cfg.url, cfg.method || 'GET', headers, bodyBuf);
+      const ct = r.contentType || '';
+      const isBinary = /^(image\/|application\/octet|application\/zip)/.test(ct);
+      if (cfg.responseType === 'arraybuffer' || isBinary) {
+        return res.json({
+          status: r.status, contentType: ct, binary: true,
+          base64: r.buffer.toString('base64'),
+        });
+      }
+      return res.json({ status: r.status, contentType: ct, text: r.buffer.toString('utf-8') });
+    } catch (e) {
+      return res.status(502).json({ error: '代理请求失败: ' + e.message });
+    }
+  }
+}

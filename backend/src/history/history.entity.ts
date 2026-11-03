@@ -1,1 +1,17 @@
-aW1wb3J0IHsgRW50aXR5LCBQcmltYXJ5R2VuZXJhdGVkQ29sdW1uLCBDb2x1bW4gfSBmcm9tICd0eXBlb3JtJzsNCg0KLy8g5Y6G5Y+y6K6w5b2V77ya5q+P5LiA5p2h55Sf5Zu+6K6w5b2V5LiA6KGM77yI5a+55bqU5Y6fIGhpc3RvcnkuanNvbiDmlbDnu4TkuK3nmoTkuIDpobnvvIkNCkBFbnRpdHkoJ2hpc3RvcnknKQ0KZXhwb3J0IGNsYXNzIEhpc3RvcnlJdGVtIHsNCiAgQFByaW1hcnlHZW5lcmF0ZWRDb2x1bW4oKQ0KICBpZDogbnVtYmVyOw0KDQogIEBDb2x1bW4oJ3ZhcmNoYXInLCB7IGxlbmd0aDogNjQsIG51bGxhYmxlOiB0cnVlIH0pDQogIGVuZ2luZTogc3RyaW5nOw0KDQogIEBDb2x1bW4oJ2JpZ2ludCcsIHsgbnVsbGFibGU6IHRydWUgfSkNCiAgdGltZXN0YW1wOiBudW1iZXI7DQoNCiAgQENvbHVtbignanNvbicsIHsgbnVsbGFibGU6IHRydWUgfSkNCiAgZGF0YTogUmVjb3JkPHN0cmluZywgYW55PjsNCn0NCg==
+import { Entity, PrimaryGeneratedColumn, Column } from 'typeorm';
+
+// 历史记录：每一条生图记录一行（对应原 history.json 数组中的一项）
+@Entity('history')
+export class HistoryItem {
+  @PrimaryGeneratedColumn()
+  id: number;
+
+  @Column('varchar', { length: 64, nullable: true })
+  engine: string;
+
+  @Column('bigint', { nullable: true })
+  timestamp: number;
+
+  @Column('json', { nullable: true })
+  data: Record<string, any>;
+}

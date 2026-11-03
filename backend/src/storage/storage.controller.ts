@@ -1,1 +1,56 @@
-aW1wb3J0IHsgQ29udHJvbGxlciwgR2V0LCBQb3N0LCBRdWVyeSwgQm9keSwgUmVzIH0gZnJvbSAnQG5lc3Rqcy9jb21tb24nOw0KaW1wb3J0IHsgUmVzcG9uc2UgfSBmcm9tICdleHByZXNzJzsNCmltcG9ydCAqIGFzIGZzIGZyb20gJ2ZzJzsNCmltcG9ydCB7IERJUlMgfSBmcm9tICcuLi9jb21tb24vcGF0aHMnOw0KaW1wb3J0IHsgc2FmZU5hbWUgfSBmcm9tICcuLi9jb21tb24vdXRpbHMvZmlsZS51dGlsJzsNCmltcG9ydCB7IExpYnJhcnlTZXJ2aWNlIH0gZnJvbSAnLi4vbGlicmFyeS9saWJyYXJ5LnNlcnZpY2UnOw0KDQpAQ29udHJvbGxlcignYXBpL3N0b3JhZ2UtZmlsZXMnKQ0KZXhwb3J0IGNsYXNzIFN0b3JhZ2VDb250cm9sbGVyIHsNCiAgY29uc3RydWN0b3IocHJpdmF0ZSByZWFkb25seSBsaWJyYXJ5U2VydmljZTogTGlicmFyeVNlcnZpY2UpIHt9DQoNCiAgQEdldCgpDQogIGFzeW5jIGxpc3QoDQogICAgQFF1ZXJ5KCdkaXInKSBkaXI6IHN0cmluZywNCiAgICBAUXVlcnkoJ3N1YicpIHN1Yjogc3RyaW5nLA0KICAgIEBSZXMoKSByZXM6IFJlc3BvbnNlLA0KICApIHsNCiAgICBpZiAoZGlyID09PSAnbGlicmFyeScpIHsNCiAgICAgIGNvbnN0IHJvd3MgPSBhd2FpdCB0aGlzLmxpYnJhcnlTZXJ2aWNlLmZpbmRBbGwoKTsNCiAgICAgIHJldHVybiByZXMuanNvbih7DQogICAgICAgIGl0ZW1zOiByb3dzLm1hcCgocikgPT4gKHsNCiAgICAgICAgICBuYW1lOiByLmZpbGUsDQogICAgICAgICAgc2l6ZTogMCwNCiAgICAgICAgICBtdGltZTogci5jcmVhdGVkX2F0LA0KICAgICAgICAgIHVybDogci51cmwsDQogICAgICAgIH0pKSwNCiAgICAgIH0pOw0KICAgIH0NCiAgICBjb25zdCBiYXNlID0gc3ViID09PSAnaW1wb3J0ZWQnID8gRElSUy5pbXBvcnRlZCA6IERJUlMub3V0cHV0Ow0KICAgIGNvbnN0IGl0ZW1zOiBhbnlbXSA9IFtdOw0KICAgIHRyeSB7DQogICAgICBmb3IgKGNvbnN0IGYgb2YgZnMucmVhZGRpclN5bmMoYmFzZSkpIHsNCiAgICAgICAgY29uc3QgZnVsbCA9IGJhc2UgKyAnLycgKyBmOw0KICAgICAgICBjb25zdCBzdCA9IGZzLnN0YXRTeW5jKGZ1bGwpOw0KICAgICAgICBpZiAoc3QuaXNGaWxlKCkpIGl0ZW1zLnB1c2goeyBuYW1lOiBmLCBzaXplOiBzdC5zaXplLCBtdGltZTogc3QubXRpbWVNcyB9KTsNCiAgICAgIH0NCiAgICB9IGNhdGNoIChlKSB7IC8qIOepuuebruW9lSAqLyB9DQogICAgaXRlbXMuc29ydCgoYSwgYikgPT4gYi5tdGltZSAtIGEubXRpbWUpOw0KICAgIHJlcy5qc29uKHsgaXRlbXMgfSk7DQogIH0NCg0KICBAUG9zdCgnZGVsZXRlJykNCiAgYXN5bmMgZGVsZXRlKEBCb2R5KCkgYm9keTogYW55LCBAUmVzKCkgcmVzOiBSZXNwb25zZSkgew0KICAgIGNvbnN0IHN1YiA9IGJvZHk/LnN1YiB8fCAnJzsNCiAgICBpZiAoYm9keT8uZGlyID09PSAnbGlicmFyeScpIHsNCiAgICAgIGZvciAoY29uc3QgbmFtZSBvZiAoYm9keS5uYW1lcyB8fCBbXSkpIGF3YWl0IHRoaXMubGlicmFyeVNlcnZpY2UuZGVsZXRlRmlsZShuYW1lKTsNCiAgICB9IGVsc2Ugew0KICAgICAgY29uc3QgYmFzZSA9IHN1YiA9PT0gJ2ltcG9ydGVkJyA/IERJUlMuaW1wb3J0ZWQgOiBESVJTLm91dHB1dDsNCiAgICAgIGZvciAoY29uc3QgbmFtZSBvZiAoYm9keS5uYW1lcyB8fCBbXSkpIHsNCiAgICAgICAgY29uc3QgZnVsbCA9IGJhc2UgKyAnLycgKyBzYWZlTmFtZShuYW1lKTsNCiAgICAgICAgdHJ5IHsgaWYgKGZzLmV4aXN0c1N5bmMoZnVsbCkpIGZzLnVubGlua1N5bmMoZnVsbCk7IH0gY2F0Y2ggKGUpIHsgLyog5b+955WlICovIH0NCiAgICAgIH0NCiAgICB9DQogICAgcmVzLmpzb24oeyBvazogdHJ1ZSB9KTsNCiAgfQ0KfQ0K
+import { Controller, Get, Post, Query, Body, Res } from '@nestjs/common';
+import { Response } from 'express';
+import * as fs from 'fs';
+import { DIRS } from '../common/paths';
+import { safeName } from '../common/utils/file.util';
+import { LibraryService } from '../library/library.service';
+
+@Controller('api/storage-files')
+export class StorageController {
+  constructor(private readonly libraryService: LibraryService) {}
+
+  @Get()
+  async list(
+    @Query('dir') dir: string,
+    @Query('sub') sub: string,
+    @Res() res: Response,
+  ) {
+    if (dir === 'library') {
+      const rows = await this.libraryService.findAll();
+      return res.json({
+        items: rows.map((r) => ({
+          name: r.file,
+          size: 0,
+          mtime: r.created_at,
+          url: r.url,
+        })),
+      });
+    }
+    const base = sub === 'imported' ? DIRS.imported : DIRS.output;
+    const items: any[] = [];
+    try {
+      for (const f of fs.readdirSync(base)) {
+        const full = base + '/' + f;
+        const st = fs.statSync(full);
+        if (st.isFile()) items.push({ name: f, size: st.size, mtime: st.mtimeMs });
+      }
+    } catch (e) { /* 空目录 */ }
+    items.sort((a, b) => b.mtime - a.mtime);
+    res.json({ items });
+  }
+
+  @Post('delete')
+  async delete(@Body() body: any, @Res() res: Response) {
+    const sub = body?.sub || '';
+    if (body?.dir === 'library') {
+      for (const name of (body.names || [])) await this.libraryService.deleteFile(name);
+    } else {
+      const base = sub === 'imported' ? DIRS.imported : DIRS.output;
+      for (const name of (body.names || [])) {
+        const full = base + '/' + safeName(name);
+        try { if (fs.existsSync(full)) fs.unlinkSync(full); } catch (e) { /* 忽略 */ }
+      }
+    }
+    res.json({ ok: true });
+  }
+}

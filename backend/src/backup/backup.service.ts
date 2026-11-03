@@ -1,1 +1,129 @@
-aW1wb3J0IHsgSW5qZWN0YWJsZSB9IGZyb20gJ0BuZXN0anMvY29tbW9uJzsNCmltcG9ydCB7IEluamVjdFJlcG9zaXRvcnkgfSBmcm9tICdAbmVzdGpzL3R5cGVvcm0nOw0KaW1wb3J0IHsgUmVwb3NpdG9yeSB9IGZyb20gJ3R5cGVvcm0nOw0KaW1wb3J0IHsgU2V0dGluZ3MgfSBmcm9tICcuLi9zZXR0aW5ncy9zZXR0aW5ncy5lbnRpdHknOw0KaW1wb3J0IHsgQ2FudmFzIH0gZnJvbSAnLi4vY2FudmFzL2NhbnZhcy5lbnRpdHknOw0KaW1wb3J0IHsgTGlicmFyeUl0ZW0gfSBmcm9tICcuLi9saWJyYXJ5L2xpYnJhcnkuZW50aXR5JzsNCmltcG9ydCB7IERJUlMgfSBmcm9tICcuLi9jb21tb24vcGF0aHMnOw0KaW1wb3J0IHsgemlwQ3JlYXRlLCB6aXBSZWFkIH0gZnJvbSAnLi4vY29tbW9uL3V0aWxzL3ppcC51dGlsJzsNCmltcG9ydCB7IHNhZmVOYW1lIH0gZnJvbSAnLi4vY29tbW9uL3V0aWxzL2ZpbGUudXRpbCc7DQppbXBvcnQgKiBhcyBmcyBmcm9tICdmcyc7DQoNCkBJbmplY3RhYmxlKCkNCmV4cG9ydCBjbGFzcyBCYWNrdXBTZXJ2aWNlIHsNCiAgY29uc3RydWN0b3IoDQogICAgQEluamVjdFJlcG9zaXRvcnkoU2V0dGluZ3MpIHByaXZhdGUgc2V0dGluZ3NSZXBvOiBSZXBvc2l0b3J5PFNldHRpbmdzPiwNCiAgICBASW5qZWN0UmVwb3NpdG9yeShDYW52YXMpIHByaXZhdGUgY2FudmFzUmVwbzogUmVwb3NpdG9yeTxDYW52YXM+LA0KICAgIEBJbmplY3RSZXBvc2l0b3J5KExpYnJhcnlJdGVtKSBwcml2YXRlIGxpYnJhcnlSZXBvOiBSZXBvc2l0b3J5PExpYnJhcnlJdGVtPiwNCiAgKSB7fQ0KDQogIC8vIOWFqOmHj+WvvOWHuu+8mnNldHRpbmdzKERCKSArIOWbvueJhyhvdXRwdXQvaW1wb3J0ZWQpICsg55S75biDKERCKSArIOe0oOadkOW6kyjno4Hnm5gpIC0+IHppcA0KICBhc3luYyBjb2xsZWN0RXhwb3J0WmlwKCk6IFByb21pc2U8QnVmZmVyPiB7DQogICAgY29uc3Qgc2V0dGluZ3NSb3cgPSBhd2FpdCB0aGlzLnNldHRpbmdzUmVwby5maW5kT25lKHsgd2hlcmU6IHsgaWQ6IDEgfSB9KTsNCiAgICBjb25zdCBzZXR0aW5ncyA9IHNldHRpbmdzUm93Py5kYXRhIHx8IHt9Ow0KICAgIChzZXR0aW5ncyBhcyBhbnkpLndvcmtiZW5jaEZvcm1hdCA9IHRydWU7DQoNCiAgICBjb25zdCBtYW5pZmVzdCA9IHsNCiAgICAgIHZlcnNpb246ICcxLjAnLA0KICAgICAgZXhwb3J0VGltZTogbmV3IERhdGUoKS50b0lTT1N0cmluZygpLA0KICAgICAgd29ya2JlbmNoOiB0cnVlLA0KICAgICAgc2V0dGluZ0NvdW50OiBPYmplY3Qua2V5cyhzZXR0aW5ncykubGVuZ3RoLA0KICAgICAgaW1hZ2VDb3VudDogMCwNCiAgICAgIGltYWdlczoge30sDQogICAgICBjYW52YXNlczogW10sDQogICAgICBsaWJyYXJ5OiBbXSwNCiAgICB9Ow0KDQogICAgY29uc3QgZW50cmllczogeyBuYW1lOiBzdHJpbmc7IGRhdGE6IEJ1ZmZlciB9W10gPSBbDQogICAgICB7IG5hbWU6ICdzZXR0aW5ncy5qc29uJywgZGF0YTogQnVmZmVyLmZyb20oSlNPTi5zdHJpbmdpZnkoc2V0dGluZ3MsIG51bGwsIDIpLCAndXRmLTgnKSB9LA0KICAgIF07DQoNCiAgICBjb25zdCBpbWFnZURpcnM6IFtzdHJpbmcsIHN0cmluZ11bXSA9IFtbRElSUy5vdXRwdXQsICcnXSwgW0RJUlMuaW1wb3J0ZWQsICdpbXBvcnRlZF8nXV07DQogICAgZm9yIChjb25zdCBbZGlyLCBwcmVmaXhdIG9mIGltYWdlRGlycykgew0KICAgICAgbGV0IGZpbGVzOiBzdHJpbmdbXSA9IFtdOw0KICAgICAgdHJ5IHsgZmlsZXMgPSBmcy5yZWFkZGlyU3luYyhkaXIpOyB9IGNhdGNoIChlKSB7IC8qIOepuiAqLyB9DQogICAgICBmb3IgKGNvbnN0IGYgb2YgZmlsZXMpIHsNCiAgICAgICAgY29uc3QgZnVsbCA9IGRpciArICcvJyArIGY7DQogICAgICAgIGlmICghZnMuc3RhdFN5bmMoZnVsbCkuaXNGaWxlKCkpIGNvbnRpbnVlOw0KICAgICAgICBlbnRyaWVzLnB1c2goeyBuYW1lOiAnaW1hZ2VzLycgKyBwcmVmaXggKyBmLCBkYXRhOiBmcy5yZWFkRmlsZVN5bmMoZnVsbCkgfSk7DQogICAgICAgIG1hbmlmZXN0LmltYWdlc1twcmVmaXggKyBmLnJlcGxhY2UoL1wuW14uXSskLywgJycpXSA9IHsgZmlsZTogJ2ltYWdlcy8nICsgcHJlZml4ICsgZiB9Ow0KICAgICAgICBtYW5pZmVzdC5pbWFnZUNvdW50Kys7DQogICAgICB9DQogICAgfQ0KDQogICAgY29uc3QgY2FudmFzZXMgPSBhd2FpdCB0aGlzLmNhbnZhc1JlcG8uZmluZCgpOw0KICAgIGZvciAoY29uc3QgYyBvZiBjYW52YXNlcykgew0KICAgICAgZW50cmllcy5wdXNoKHsgbmFtZTogJ2NhbnZhc2VzLycgKyBjLmlkICsgJy5qc29uJywgZGF0YTogQnVmZmVyLmZyb20oSlNPTi5zdHJpbmdpZnkoYy5kYXRhLCBudWxsLCAyKSwgJ3V0Zi04JykgfSk7DQogICAgICBtYW5pZmVzdC5jYW52YXNlcy5wdXNoKGMuaWQgKyAnLmpzb24nKTsNCiAgICB9DQoNCiAgICBjb25zdCBsaWJyYXJ5Um93cyA9IGF3YWl0IHRoaXMubGlicmFyeVJlcG8uZmluZCgpOw0KICAgIGZvciAoY29uc3QgciBvZiBsaWJyYXJ5Um93cykgew0KICAgICAgY29uc3QgZnVsbCA9IERJUlMubGlicmFyeSArICcvJyArIHIuZmlsZTsNCiAgICAgIGlmIChmcy5leGlzdHNTeW5jKGZ1bGwpKSB7DQogICAgICAgIGVudHJpZXMucHVzaCh7IG5hbWU6ICdsaWJyYXJ5LycgKyByLmZpbGUsIGRhdGE6IGZzLnJlYWRGaWxlU3luYyhmdWxsKSB9KTsNCiAgICAgICAgbWFuaWZlc3QubGlicmFyeS5wdXNoKHIuZmlsZSk7DQogICAgICB9DQogICAgfQ0KDQogICAgZW50cmllcy5wdXNoKHsgbmFtZTogJ21hbmlmZXN0Lmpzb24nLCBkYXRhOiBCdWZmZXIuZnJvbShKU09OLnN0cmluZ2lmeShtYW5pZmVzdCwgbnVsbCwgMiksICd1dGYtOCcpIH0pOw0KICAgIHJldHVybiB6aXBDcmVhdGUoZW50cmllcyk7DQogIH0NCg0KICAvLyDlhajph4/lr7zlhaXvvJrop6PljIXlubbokL3nm5jvvIxzZXR0aW5ncyDlhpnlhaUgREIg5bm26L+U5Zue57uZ5YmN56uv5pig5bCEDQogIGFzeW5jIGFwcGx5SW1wb3J0WmlwKGJ1ZjogQnVmZmVyKTogUHJvbWlzZTxhbnk+IHsNCiAgICBjb25zdCBlbnRyaWVzID0gemlwUmVhZChidWYpOw0KICAgIGNvbnN0IGJ5TmFtZTogUmVjb3JkPHN0cmluZywgQnVmZmVyPiA9IHt9Ow0KICAgIGZvciAoY29uc3QgZSBvZiBlbnRyaWVzKSBieU5hbWVbZS5uYW1lXSA9IGUuZGF0YTsNCiAgICBpZiAoIWJ5TmFtZVsnbWFuaWZlc3QuanNvbiddKSB0aHJvdyBuZXcgRXJyb3IoJ+aXoOaViOeahOWkh+S7veaWh+S7tu+8mue8uuWwkSBtYW5pZmVzdC5qc29uJyk7DQogICAgY29uc3QgbWFuaWZlc3QgPSBKU09OLnBhcnNlKGJ5TmFtZVsnbWFuaWZlc3QuanNvbiddLnRvU3RyaW5nKCd1dGYtOCcpKTsNCg0KICAgIGxldCBzZXR0aW5nczogUmVjb3JkPHN0cmluZywgYW55PiA9IHt9Ow0KICAgIGlmIChieU5hbWVbJ3NldHRpbmdzLmpzb24nXSkgew0KICAgICAgdHJ5IHsgc2V0dGluZ3MgPSBKU09OLnBhcnNlKGJ5TmFtZVsnc2V0dGluZ3MuanNvbiddLnRvU3RyaW5nKCd1dGYtOCcpKTsgfSBjYXRjaCAoZSkgeyBzZXR0aW5ncyA9IHt9OyB9DQogICAgfQ0KICAgIC8vIOWGmeWFpSBEQu+8iOWJjeerr+maj+WQjuS8muWQiOW5tuWGhee9rumihOiuvuWGjeasoeS/neWtmO+8iQ0KICAgIGxldCByb3cgPSBhd2FpdCB0aGlzLnNldHRpbmdzUmVwby5maW5kT25lKHsgd2hlcmU6IHsgaWQ6IDEgfSB9KTsNCiAgICBpZiAoIXJvdykgcm93ID0gdGhpcy5zZXR0aW5nc1JlcG8uY3JlYXRlKHsgaWQ6IDEsIGRhdGE6IHt9IH0pOw0KICAgIHJvdy5kYXRhID0geyAuLi4ocm93LmRhdGEgfHwge30pLCAuLi5zZXR0aW5ncyB9Ow0KICAgIGF3YWl0IHRoaXMuc2V0dGluZ3NSZXBvLnNhdmUocm93KTsNCg0KICAgIGNvbnN0IGltcG9ydGVkSW1hZ2VzOiBhbnlbXSA9IFtdOw0KICAgIGZvciAoY29uc3QgW2tleSwgaW5mb10gb2YgT2JqZWN0LmVudHJpZXMobWFuaWZlc3QuaW1hZ2VzIHx8IHt9KSkgew0KICAgICAgY29uc3QgZW50cnkgPSBieU5hbWVbKGluZm8gYXMgYW55KS5maWxlXSB8fCBieU5hbWVbJ2ltYWdlcy8nICsga2V5XTsNCiAgICAgIGlmICghZW50cnkpIGNvbnRpbnVlOw0KICAgICAgY29uc3QgZm5hbWUgPSAnaW1wb3J0ZWRfJyArIHNhZmVOYW1lKGtleSkucmVwbGFjZSgvW1xcLzoqPyI8PnxdL2csICdfJykgKyAnLnBuZyc7DQogICAgICBmcy53cml0ZUZpbGVTeW5jKERJUlMuaW1wb3J0ZWQgKyAnLycgKyBmbmFtZSwgZW50cnkpOw0KICAgICAgaW1wb3J0ZWRJbWFnZXMucHVzaCh7IGZpbGU6IGZuYW1lLCB1cmw6ICcvb3V0cHV0L2ltcG9ydGVkLycgKyBmbmFtZSwgcHJvbXB0OiAoaW5mbyBhcyBhbnkpLnByb21wdCB8fCAnJywgdGltZXN0YW1wOiAoaW5mbyBhcyBhbnkpLnRpbWVzdGFtcCB8fCBEYXRlLm5vdygpIH0pOw0KICAgIH0NCg0KICAgIGxldCBjYW52YXNDb3VudCA9IDA7DQogICAgZm9yIChjb25zdCBbbmFtZSwgZGF0YV0gb2YgT2JqZWN0LmVudHJpZXMoYnlOYW1lKSkgew0KICAgICAgaWYgKG5hbWUuc3RhcnRzV2l0aCgnY2FudmFzZXMvJykgJiYgbmFtZS5lbmRzV2l0aCgnLmpzb24nKSkgew0KICAgICAgICB0cnkgew0KICAgICAgICAgIGNvbnN0IGMgPSBKU09OLnBhcnNlKGRhdGEudG9TdHJpbmcoJ3V0Zi04JykpOw0KICAgICAgICAgIGlmIChjICYmIGMuaWQpIHsNCiAgICAgICAgICAgIGxldCBjciA9IGF3YWl0IHRoaXMuY2FudmFzUmVwby5maW5kT25lKHsgd2hlcmU6IHsgaWQ6IGMuaWQgfSB9KTsNCiAgICAgICAgICAgIGlmICghY3IpIGNyID0gdGhpcy5jYW52YXNSZXBvLmNyZWF0ZSh7IGlkOiBjLmlkIH0pOw0KICAgICAgICAgICAgY3IudGl0bGUgPSBjLnRpdGxlOyBjci51cGRhdGVkX2F0ID0gYy51cGRhdGVkX2F0IHx8IERhdGUubm93KCk7IGNyLmRhdGEgPSBjOw0KICAgICAgICAgICAgYXdhaXQgdGhpcy5jYW52YXNSZXBvLnNhdmUoY3IpOw0KICAgICAgICAgICAgY2FudmFzQ291bnQrKzsNCiAgICAgICAgICB9DQogICAgICAgIH0gY2F0Y2ggKGUpIHsgLyog6Lez6L+H5o2f5Z2PICovIH0NCiAgICAgIH0NCiAgICB9DQoNCiAgICBsZXQgbGliQ291bnQgPSAwOw0KICAgIGZvciAoY29uc3QgW25hbWUsIGRhdGFdIG9mIE9iamVjdC5lbnRyaWVzKGJ5TmFtZSkpIHsNCiAgICAgIGlmIChuYW1lLnN0YXJ0c1dpdGgoJ2xpYnJhcnkvJykgJiYgL1wuKHBuZ3xqcGd8anBlZ3x3ZWJwfGdpZikkL2kudGVzdChuYW1lKSkgew0KICAgICAgICBjb25zdCBmbiA9IHNhZmVOYW1lKG5hbWUuc3BsaXQoJy8nKS5wb3AoKSBhcyBzdHJpbmcpOw0KICAgICAgICBmcy53cml0ZUZpbGVTeW5jKERJUlMubGlicmFyeSArICcvJyArIGZuLCBkYXRhKTsNCiAgICAgICAgY29uc3QgaXRlbSA9IHRoaXMubGlicmFyeVJlcG8uY3JlYXRlKHsgZmlsZTogZm4sIHVybDogJy9saWJyYXJ5LycgKyBmbiwgbmFtZTogZm4gfSk7DQogICAgICAgIGF3YWl0IHRoaXMubGlicmFyeVJlcG8uc2F2ZShpdGVtKTsNCiAgICAgICAgbGliQ291bnQrKzsNCiAgICAgIH0NCiAgICB9DQoNCiAgICByZXR1cm4geyBzZXR0aW5ncywgaW1wb3J0ZWRJbWFnZXMsIGNhbnZhc0NvdW50LCBsaWJDb3VudCwgd29ya2JlbmNoRm9ybWF0OiAhIW1hbmlmZXN0LndvcmtiZW5jaCB9Ow0KICB9DQp9DQo=
+import { Injectable } from '@nestjs/common';
+import { InjectRepository } from '@nestjs/typeorm';
+import { Repository } from 'typeorm';
+import { Settings } from '../settings/settings.entity';
+import { Canvas } from '../canvas/canvas.entity';
+import { LibraryItem } from '../library/library.entity';
+import { DIRS } from '../common/paths';
+import { zipCreate, zipRead } from '../common/utils/zip.util';
+import { safeName } from '../common/utils/file.util';
+import * as fs from 'fs';
+
+@Injectable()
+export class BackupService {
+  constructor(
+    @InjectRepository(Settings) private settingsRepo: Repository<Settings>,
+    @InjectRepository(Canvas) private canvasRepo: Repository<Canvas>,
+    @InjectRepository(LibraryItem) private libraryRepo: Repository<LibraryItem>,
+  ) {}
+
+  // 全量导出：settings(DB) + 图片(output/imported) + 画布(DB) + 素材库(磁盘) -> zip
+  async collectExportZip(): Promise<Buffer> {
+    const settingsRow = await this.settingsRepo.findOne({ where: { id: 1 } });
+    const settings = settingsRow?.data || {};
+    (settings as any).workbenchFormat = true;
+
+    const manifest = {
+      version: '1.0',
+      exportTime: new Date().toISOString(),
+      workbench: true,
+      settingCount: Object.keys(settings).length,
+      imageCount: 0,
+      images: {},
+      canvases: [],
+      library: [],
+    };
+
+    const entries: { name: string; data: Buffer }[] = [
+      { name: 'settings.json', data: Buffer.from(JSON.stringify(settings, null, 2), 'utf-8') },
+    ];
+
+    const imageDirs: [string, string][] = [[DIRS.output, ''], [DIRS.imported, 'imported_']];
+    for (const [dir, prefix] of imageDirs) {
+      let files: string[] = [];
+      try { files = fs.readdirSync(dir); } catch (e) { /* 空 */ }
+      for (const f of files) {
+        const full = dir + '/' + f;
+        if (!fs.statSync(full).isFile()) continue;
+        entries.push({ name: 'images/' + prefix + f, data: fs.readFileSync(full) });
+        manifest.images[prefix + f.replace(/\.[^.]+$/, '')] = { file: 'images/' + prefix + f };
+        manifest.imageCount++;
+      }
+    }
+
+    const canvases = await this.canvasRepo.find();
+    for (const c of canvases) {
+      entries.push({ name: 'canvases/' + c.id + '.json', data: Buffer.from(JSON.stringify(c.data, null, 2), 'utf-8') });
+      manifest.canvases.push(c.id + '.json');
+    }
+
+    const libraryRows = await this.libraryRepo.find();
+    for (const r of libraryRows) {
+      const full = DIRS.library + '/' + r.file;
+      if (fs.existsSync(full)) {
+        entries.push({ name: 'library/' + r.file, data: fs.readFileSync(full) });
+        manifest.library.push(r.file);
+      }
+    }
+
+    entries.push({ name: 'manifest.json', data: Buffer.from(JSON.stringify(manifest, null, 2), 'utf-8') });
+    return zipCreate(entries);
+  }
+
+  // 全量导入：解包并落盘，settings 写入 DB 并返回给前端映射
+  async applyImportZip(buf: Buffer): Promise<any> {
+    const entries = zipRead(buf);
+    const byName: Record<string, Buffer> = {};
+    for (const e of entries) byName[e.name] = e.data;
+    if (!byName['manifest.json']) throw new Error('无效的备份文件：缺少 manifest.json');
+    const manifest = JSON.parse(byName['manifest.json'].toString('utf-8'));
+
+    let settings: Record<string, any> = {};
+    if (byName['settings.json']) {
+      try { settings = JSON.parse(byName['settings.json'].toString('utf-8')); } catch (e) { settings = {}; }
+    }
+    // 写入 DB（前端随后会合并内置预设再次保存）
+    let row = await this.settingsRepo.findOne({ where: { id: 1 } });
+    if (!row) row = this.settingsRepo.create({ id: 1, data: {} });
+    row.data = { ...(row.data || {}), ...settings };
+    await this.settingsRepo.save(row);
+
+    const importedImages: any[] = [];
+    for (const [key, info] of Object.entries(manifest.images || {})) {
+      const entry = byName[(info as any).file] || byName['images/' + key];
+      if (!entry) continue;
+      const fname = 'imported_' + safeName(key).replace(/[\\/:*?"<>|]/g, '_') + '.png';
+      fs.writeFileSync(DIRS.imported + '/' + fname, entry);
+      importedImages.push({ file: fname, url: '/output/imported/' + fname, prompt: (info as any).prompt || '', timestamp: (info as any).timestamp || Date.now() });
+    }
+
+    let canvasCount = 0;
+    for (const [name, data] of Object.entries(byName)) {
+      if (name.startsWith('canvases/') && name.endsWith('.json')) {
+        try {
+          const c = JSON.parse(data.toString('utf-8'));
+          if (c && c.id) {
+            let cr = await this.canvasRepo.findOne({ where: { id: c.id } });
+            if (!cr) cr = this.canvasRepo.create({ id: c.id });
+            cr.title = c.title; cr.updated_at = c.updated_at || Date.now(); cr.data = c;
+            await this.canvasRepo.save(cr);
+            canvasCount++;
+          }
+        } catch (e) { /* 跳过损坏 */ }
+      }
+    }
+
+    let libCount = 0;
+    for (const [name, data] of Object.entries(byName)) {
+      if (name.startsWith('library/') && /\.(png|jpg|jpeg|webp|gif)$/i.test(name)) {
+        const fn = safeName(name.split('/').pop() as string);
+        fs.writeFileSync(DIRS.library + '/' + fn, data);
+        const item = this.libraryRepo.create({ file: fn, url: '/library/' + fn, name: fn });
+        await this.libraryRepo.save(item);
+        libCount++;
+      }
+    }
+
+    return { settings, importedImages, canvasCount, libCount, workbenchFormat: !!manifest.workbench };
+  }
+}

@@ -1,1 +1,122 @@
-PHRlbXBsYXRlPg0KICA8ZGl2IGNsYXNzPSJnZW4tYm94IiA6ZGF0YS1nZW49ImtpbmQiPg0KICAgIDxkaXYgY2xhc3M9ImZpZWxkLXJvdyBnZW4tcm93Ij4NCiAgICAgIDxkaXYgY2xhc3M9ImZpZWxkIiBzdHlsZT0iZmxleDowIDAgMTMycHgiPg0KICAgICAgICA8bGFiZWwgY2xhc3M9ImZvcm0tbGFiZWwiPnt7IGNmZy50aXRsZSB9feW8leaTjjwvbGFiZWw+DQogICAgICAgIDxzZWxlY3QgY2xhc3M9ImZvcm0tc2VsZWN0IiA6dmFsdWU9InNldHRpbmdzW2NmZy5lbmdpbmVLZXldIiBAY2hhbmdlPSJ1cGRhdGUoY2ZnLmVuZ2luZUtleSwgJGV2ZW50LnRhcmdldC52YWx1ZSkiPg0KICAgICAgICAgIDxvcHRpb24gdmFsdWU9ImNvbWZ5dWkiIDpzZWxlY3RlZD0ic2V0dGluZ3NbY2ZnLmVuZ2luZUtleV0gIT09ICdvZmYnIj5Db21meVVJPC9vcHRpb24+DQogICAgICAgICAgPG9wdGlvbiB2YWx1ZT0ib2ZmIiA6c2VsZWN0ZWQ9InNldHRpbmdzW2NmZy5lbmdpbmVLZXldID09PSAnb2ZmJyI+5YWz6ZetPC9vcHRpb24+DQogICAgICAgIDwvc2VsZWN0Pg0KICAgICAgPC9kaXY+DQogICAgICA8ZGl2IGNsYXNzPSJmaWVsZCIgc3R5bGU9ImZsZXg6MSAxIGF1dG87bWluLXdpZHRoOjE0MHB4Ij4NCiAgICAgICAgPGxhYmVsIGNsYXNzPSJmb3JtLWxhYmVsIj57eyBjZmcubW9kZWxMYWJlbCB9fTwvbGFiZWw+DQogICAgICAgIDxzZWxlY3QgY2xhc3M9ImZvcm0tc2VsZWN0IiA6dmFsdWU9Im1vZGVsVmFsIiBAY2hhbmdlPSJvbk1vZGVsQ2hhbmdlIj4NCiAgICAgICAgICA8b3B0aW9uIHYtaWY9IiFwcm9iZU9rIiB2YWx1ZT0iIj57eyBwcm9iZU1zZyB8fCAn5q2j5Zyo6K+75Y+WIENvbWZ5VUkg5qih5Z6L4oCmJyB9fTwvb3B0aW9uPg0KICAgICAgICAgIDx0ZW1wbGF0ZSB2LWZvcj0idCBpbiB0ZW1wbGF0ZXMiIDprZXk9InQuaWQiPg0KICAgICAgICAgICAgPG9wdGdyb3VwIDpsYWJlbD0idC5sYWJlbCI+DQogICAgICAgICAgICAgIDxvcHRpb24gdi1mb3I9Im0gaW4gdC5tb2RlbHMiIDprZXk9InQuaWQgKyAnOjonICsgbS52YWx1ZSIgOnZhbHVlPSJ0LmlkICsgJzo6JyArIG0udmFsdWUiPnt7IG0ubGFiZWwgfX08L29wdGlvbj4NCiAgICAgICAgICAgIDwvb3B0Z3JvdXA+DQogICAgICAgICAgPC90ZW1wbGF0ZT4NCiAgICAgICAgICA8b3B0aW9uIHYtaWY9Im1vZGVsVmFsICYmICFtb2RlbEluTGlzdCIgOnZhbHVlPSJtb2RlbFZhbCIgZGlzYWJsZWQ+5pyq5qOA5rWL5Yiw5a+55bqU5qih5Z6L44CMe3sgY3VyTW9kZWxMYWJlbCB9feOAjTwvb3B0aW9uPg0KICAgICAgICA8L3NlbGVjdD4NCiAgICAgIDwvZGl2Pg0KICAgICAgPGRpdiBjbGFzcz0iZmllbGQiIHN0eWxlPSJmbGV4OjAgMCAxNzZweCI+DQogICAgICAgIDxsYWJlbCBjbGFzcz0iZm9ybS1sYWJlbCI+Q0xJUCDnsbvlnos8L2xhYmVsPg0KICAgICAgICA8c2VsZWN0IGNsYXNzPSJmb3JtLXNlbGVjdCIgOnZhbHVlPSJzZXR0aW5nc1tjZmcuY2xpcFR5cGVLZXldIiBAY2hhbmdlPSJ1cGRhdGUoY2ZnLmNsaXBUeXBlS2V5LCAkZXZlbnQudGFyZ2V0LnZhbHVlKSI+DQogICAgICAgICAgPG9wdGlvbiB2LWlmPSIhY2xpcE9wdGlvbnMubGVuZ3RoIiB2YWx1ZT0iIj7mnKrov57mjqUgQ29tZnlVSTwvb3B0aW9uPg0KICAgICAgICAgIDxvcHRpb24gdi1mb3I9Im8gaW4gY2xpcE9wdGlvbnMiIDprZXk9Im8iIDp2YWx1ZT0ibyIgOnNlbGVjdGVkPSJzZXR0aW5nc1tjZmcuY2xpcFR5cGVLZXldID09PSBvIj57eyBvIH19PC9vcHRpb24+DQogICAgICAgIDwvc2VsZWN0Pg0KICAgICAgPC9kaXY+DQogICAgICA8ZGl2IGNsYXNzPSJmaWVsZCIgc3R5bGU9ImZsZXg6MCAwIDEwNHB4Ij4NCiAgICAgICAgPGxhYmVsIGNsYXNzPSJmb3JtLWxhYmVsIj7lhpnlhaXmlrnlvI88L2xhYmVsPg0KICAgICAgICA8c2VsZWN0IGNsYXNzPSJmb3JtLXNlbGVjdCIgOnZhbHVlPSJ3cml0ZU1vZGUiIEBjaGFuZ2U9InVwZGF0ZShjZmcud3JpdGVNb2RlS2V5LCAkZXZlbnQudGFyZ2V0LnZhbHVlKSI+DQogICAgICAgICAgPG9wdGlvbiB2YWx1ZT0iYXBwZW5kIiA6c2VsZWN0ZWQ9IndyaXRlTW9kZSAhPT0gJ3JlcGxhY2UnIj7ov73liqA8L29wdGlvbj4NCiAgICAgICAgICA8b3B0aW9uIHZhbHVlPSJyZXBsYWNlIiA6c2VsZWN0ZWQ9IndyaXRlTW9kZSA9PT0gJ3JlcGxhY2UnIj7mm7/mjaI8L29wdGlvbj4NCiAgICAgICAgPC9zZWxlY3Q+DQogICAgICA8L2Rpdj4NCiAgICA8L2Rpdj4NCiAgICA8ZGl2IGNsYXNzPSJmaWVsZCIgc3R5bGU9Im1hcmdpbi10b3A6OHB4Ij4NCiAgICAgIDxsYWJlbCBjbGFzcz0iZm9ybS1sYWJlbCI+e3sgY2ZnLnByb21wdExhYmVsIH19PC9sYWJlbD4NCiAgICAgIDx0ZXh0YXJlYSBjbGFzcz0iZm9ybS10ZXh0YXJlYSIgcm93cz0iMyIgOnZhbHVlPSJzZXR0aW5nc1tjZmcucHJvbXB0S2V5XSIgQGNoYW5nZT0idXBkYXRlKGNmZy5wcm9tcHRLZXksICRldmVudC50YXJnZXQudmFsdWUpIj48L3RleHRhcmVhPg0KICAgIDwvZGl2Pg0KICAgIDxwIGNsYXNzPSJoaW50IiBzdHlsZT0ibWFyZ2luOjZweCAwIDAiPnt7IHN0YXR1c1RleHQgfX08L3A+DQogIDwvZGl2Pg0KPC90ZW1wbGF0ZT4NCg0KPHNjcmlwdCBzZXR1cD4NCmltcG9ydCB7IHJlZiwgY29tcHV0ZWQsIG9uTW91bnRlZCB9IGZyb20gJ3Z1ZSc7DQppbXBvcnQgeyB1c2VTZXR0aW5ncyB9IGZyb20gJy4uL2NvbXBvc2FibGVzL3VzZVNldHRpbmdzJzsNCg0KY29uc3QgcHJvcHMgPSBkZWZpbmVQcm9wcyh7IGtpbmQ6IHsgdHlwZTogU3RyaW5nLCByZXF1aXJlZDogdHJ1ZSB9IH0pOw0KY29uc3QgeyBzZXR0aW5ncywgdXBkYXRlIH0gPSB1c2VTZXR0aW5ncygpOw0KDQpjb25zdCBDRkcgPSB7DQogIHJld3JpdGU6IHsNCiAgICB0aXRsZTogJ+aPkOekuuivjeS8mOWMlicsIG1vZGVsTGFiZWw6ICfkvJjljJbmqKHlnosnLCBwcm9tcHRMYWJlbDogJ+S8mOWMluaMh+S7pCcsDQogICAgZW5naW5lS2V5OiAncmV3cml0ZUVuZ2luZScsIG1vZGVsS2V5OiAncmV3cml0ZU1vZGVsJywgdGVtcGxhdGVLZXk6ICdyZXdyaXRlVGVtcGxhdGUnLA0KICAgIGNsaXBUeXBlS2V5OiAncmV3cml0ZUNsaXBUeXBlJywgd3JpdGVNb2RlS2V5OiAncmV3cml0ZVdyaXRlTW9kZScsIHByb21wdEtleTogJ3Jld3JpdGVQcm9tcHQnLA0KICAgIHdyaXRlRGVmYXVsdDogJ3JlcGxhY2UnLA0KICB9LA0KICBjYXB0aW9uOiB7DQogICAgdGl0bGU6ICflm77niYflj43mjqgnLCBtb2RlbExhYmVsOiAn5Y+N5o6o5qih5Z6LJywgcHJvbXB0TGFiZWw6ICflj43mjqjmjIfku6QnLA0KICAgIGVuZ2luZUtleTogJ2NhcHRpb25FbmdpbmUnLCBtb2RlbEtleTogJ2NhcHRpb25Nb2RlbCcsIHRlbXBsYXRlS2V5OiAnY2FwdGlvblRlbXBsYXRlJywNCiAgICBjbGlwVHlwZUtleTogJ2NhcHRpb25DbGlwVHlwZScsIHdyaXRlTW9kZUtleTogJ2NhcHRpb25Xcml0ZU1vZGUnLCBwcm9tcHRLZXk6ICdjYXB0aW9uUHJvbXB0JywNCiAgICB3cml0ZURlZmF1bHQ6ICdhcHBlbmQnLA0KICB9LA0KfTsNCmNvbnN0IGNmZyA9IENGR1twcm9wcy5raW5kXTsNCg0KY29uc3QgdGVtcGxhdGVzID0gcmVmKFtdKTsNCmNvbnN0IHByb2JlT2sgPSByZWYoZmFsc2UpOw0KY29uc3QgcHJvYmVNc2cgPSByZWYoJycpOw0KY29uc3Qgc3RhdHVzVGV4dCA9IHJlZignJyk7DQoNCmNvbnN0IHdyaXRlTW9kZSA9IGNvbXB1dGVkKCgpID0+IFN0cmluZyhzZXR0aW5nc1tjZmcud3JpdGVNb2RlS2V5XSB8fCBjZmcud3JpdGVEZWZhdWx0KSk7DQpjb25zdCBtb2RlbFZhbCA9IGNvbXB1dGVkKCgpID0+IHsNCiAgY29uc3QgdCA9IHNldHRpbmdzW2NmZy50ZW1wbGF0ZUtleV07DQogIGNvbnN0IG0gPSBzZXR0aW5nc1tjZmcubW9kZWxLZXldOw0KICByZXR1cm4gdCAmJiBtID8gdCArICc6OicgKyBtIDogJyc7DQp9KTsNCmNvbnN0IGN1ck1vZGVsTGFiZWwgPSBjb21wdXRlZCgoKSA9PiBzZXR0aW5nc1tjZmcubW9kZWxLZXldIHx8ICcnKTsNCmNvbnN0IG1vZGVsSW5MaXN0ID0gY29tcHV0ZWQoKCkgPT4gew0KICBjb25zdCB2ID0gc2V0dGluZ3NbY2ZnLm1vZGVsS2V5XTsNCiAgaWYgKCF2KSByZXR1cm4gdHJ1ZTsNCiAgcmV0dXJuIHRlbXBsYXRlcy52YWx1ZS5zb21lKHQgPT4gdC5pZCA9PT0gc2V0dGluZ3NbY2ZnLnRlbXBsYXRlS2V5XSAmJiB0Lm1vZGVscy5zb21lKG0gPT4gbS52YWx1ZSA9PT0gdikpOw0KfSk7DQoNCmNvbnN0IGNsaXBPcHRpb25zID0gY29tcHV0ZWQoKCkgPT4gew0KICBjb25zdCBzZXQgPSBuZXcgU2V0KCk7DQogIGZvciAoY29uc3QgdCBvZiB0ZW1wbGF0ZXMudmFsdWUpIHsNCiAgICBjb25zdCBmID0gKHQuZmllbGRzIHx8IFtdKS5maW5kKHggPT4geC5rZXkgPT09ICdjYXB0aW9uQ2xpcFR5cGUnKTsNCiAgICBpZiAoZiAmJiBmLm9wdGlvbnMpIGYub3B0aW9ucy5mb3JFYWNoKG8gPT4gc2V0LmFkZChvKSk7DQogIH0NCiAgcmV0dXJuIEFycmF5LmZyb20oc2V0KTsNCn0pOw0KDQpmdW5jdGlvbiBvbk1vZGVsQ2hhbmdlKGUpIHsNCiAgY29uc3QgdmFsID0gZS50YXJnZXQudmFsdWU7DQogIGNvbnN0IGkgPSBTdHJpbmcodmFsKS5pbmRleE9mKCc6OicpOw0KICBpZiAoaSA8IDApIHJldHVybjsNCiAgdXBkYXRlKGNmZy50ZW1wbGF0ZUtleSwgdmFsLnNsaWNlKDAsIGkpKTsNCiAgdXBkYXRlKGNmZy5tb2RlbEtleSwgdmFsLnNsaWNlKGkgKyAyKSk7DQp9DQoNCm9uTW91bnRlZChhc3luYyAoKSA9PiB7DQogIGlmICghd2luZG93LldCLmNhcHRpb24pIHsgcHJvYmVNc2cudmFsdWUgPSAn5Y+N5o6o5qih5Z2X5pyq5Yqg6L29JzsgcmV0dXJuOyB9DQogIHRyeSB7DQogICAgY29uc3QgcmVzID0gYXdhaXQgd2luZG93LldCLmNhcHRpb24ucHJvYmUodHJ1ZSk7DQogICAgaWYgKCFyZXMgfHwgIXJlcy5vaykgew0KICAgICAgcHJvYmVNc2cudmFsdWUgPSByZXM/Lm1lc3NhZ2UgfHwgJ+acquivu+WPliBDb21meVVJIOaooeWeiyc7DQogICAgICBzdGF0dXNUZXh0LnZhbHVlID0gcHJvYmVNc2cudmFsdWU7DQogICAgICByZXR1cm47DQogICAgfQ0KICAgIHRlbXBsYXRlcy52YWx1ZSA9IHJlcy50ZW1wbGF0ZXMgfHwgW107DQogICAgcHJvYmVPay52YWx1ZSA9IHRydWU7DQogICAgY29uc3QgY291bnQgPSB0ZW1wbGF0ZXMudmFsdWUucmVkdWNlKChuLCB0KSA9PiBuICsgKHQubW9kZWxzID8gdC5tb2RlbHMubGVuZ3RoIDogMCksIDApOw0KICAgIHN0YXR1c1RleHQudmFsdWUgPSBg5bey5LuOIENvbWZ5VUkg6K+75Y+WICR7dGVtcGxhdGVzLnZhbHVlLmxlbmd0aH0g57G75paH5pys55Sf5oiQ6IqC54K544CB5YWxICR7Y291bnR9IOS4quaooeWei++8iOa4heWNleS4jeiQveebmO+8jOmajyBDb21meVVJIOWunuaXtuWPmOWMlu+8iWA7DQogIH0gY2F0Y2ggKGUpIHsNCiAgICBwcm9iZU1zZy52YWx1ZSA9IGUubWVzc2FnZTsNCiAgICBzdGF0dXNUZXh0LnZhbHVlID0gZS5tZXNzYWdlOw0KICB9DQp9KTsNCjwvc2NyaXB0Pg0K
+<template>
+  <div class="gen-box" :data-gen="kind">
+    <div class="field-row gen-row">
+      <div class="field" style="flex:0 0 132px">
+        <label class="form-label">{{ cfg.title }}引擎</label>
+        <select class="form-select" :value="settings[cfg.engineKey]" @change="update(cfg.engineKey, $event.target.value)">
+          <option value="comfyui" :selected="settings[cfg.engineKey] !== 'off'">ComfyUI</option>
+          <option value="off" :selected="settings[cfg.engineKey] === 'off'">关闭</option>
+        </select>
+      </div>
+      <div class="field" style="flex:1 1 auto;min-width:140px">
+        <label class="form-label">{{ cfg.modelLabel }}</label>
+        <select class="form-select" :value="modelVal" @change="onModelChange">
+          <option v-if="!probeOk" value="">{{ probeMsg || '正在读取 ComfyUI 模型…' }}</option>
+          <template v-for="t in templates" :key="t.id">
+            <optgroup :label="t.label">
+              <option v-for="m in t.models" :key="t.id + '::' + m.value" :value="t.id + '::' + m.value">{{ m.label }}</option>
+            </optgroup>
+          </template>
+          <option v-if="modelVal && !modelInList" :value="modelVal" disabled>未检测到对应模型「{{ curModelLabel }}」</option>
+        </select>
+      </div>
+      <div class="field" style="flex:0 0 176px">
+        <label class="form-label">CLIP 类型</label>
+        <select class="form-select" :value="settings[cfg.clipTypeKey]" @change="update(cfg.clipTypeKey, $event.target.value)">
+          <option v-if="!clipOptions.length" value="">未连接 ComfyUI</option>
+          <option v-for="o in clipOptions" :key="o" :value="o" :selected="settings[cfg.clipTypeKey] === o">{{ o }}</option>
+        </select>
+      </div>
+      <div class="field" style="flex:0 0 104px">
+        <label class="form-label">写入方式</label>
+        <select class="form-select" :value="writeMode" @change="update(cfg.writeModeKey, $event.target.value)">
+          <option value="append" :selected="writeMode !== 'replace'">追加</option>
+          <option value="replace" :selected="writeMode === 'replace'">替换</option>
+        </select>
+      </div>
+    </div>
+    <div class="field" style="margin-top:8px">
+      <label class="form-label">{{ cfg.promptLabel }}</label>
+      <textarea class="form-textarea" rows="3" :value="settings[cfg.promptKey]" @change="update(cfg.promptKey, $event.target.value)"></textarea>
+    </div>
+    <p class="hint" style="margin:6px 0 0">{{ statusText }}</p>
+  </div>
+</template>
+
+<script setup>
+import { ref, computed, onMounted } from 'vue';
+import { useSettings } from '../composables/useSettings';
+
+const props = defineProps({ kind: { type: String, required: true } });
+const { settings, update } = useSettings();
+
+const CFG = {
+  rewrite: {
+    title: '提示词优化', modelLabel: '优化模型', promptLabel: '优化指令',
+    engineKey: 'rewriteEngine', modelKey: 'rewriteModel', templateKey: 'rewriteTemplate',
+    clipTypeKey: 'rewriteClipType', writeModeKey: 'rewriteWriteMode', promptKey: 'rewritePrompt',
+    writeDefault: 'replace',
+  },
+  caption: {
+    title: '图片反推', modelLabel: '反推模型', promptLabel: '反推指令',
+    engineKey: 'captionEngine', modelKey: 'captionModel', templateKey: 'captionTemplate',
+    clipTypeKey: 'captionClipType', writeModeKey: 'captionWriteMode', promptKey: 'captionPrompt',
+    writeDefault: 'append',
+  },
+};
+const cfg = CFG[props.kind];
+
+const templates = ref([]);
+const probeOk = ref(false);
+const probeMsg = ref('');
+const statusText = ref('');
+
+const writeMode = computed(() => String(settings[cfg.writeModeKey] || cfg.writeDefault));
+const modelVal = computed(() => {
+  const t = settings[cfg.templateKey];
+  const m = settings[cfg.modelKey];
+  return t && m ? t + '::' + m : '';
+});
+const curModelLabel = computed(() => settings[cfg.modelKey] || '');
+const modelInList = computed(() => {
+  const v = settings[cfg.modelKey];
+  if (!v) return true;
+  return templates.value.some(t => t.id === settings[cfg.templateKey] && t.models.some(m => m.value === v));
+});
+
+const clipOptions = computed(() => {
+  const set = new Set();
+  for (const t of templates.value) {
+    const f = (t.fields || []).find(x => x.key === 'captionClipType');
+    if (f && f.options) f.options.forEach(o => set.add(o));
+  }
+  return Array.from(set);
+});
+
+function onModelChange(e) {
+  const val = e.target.value;
+  const i = String(val).indexOf('::');
+  if (i < 0) return;
+  update(cfg.templateKey, val.slice(0, i));
+  update(cfg.modelKey, val.slice(i + 2));
+}
+
+onMounted(async () => {
+  if (!window.WB.caption) { probeMsg.value = '反推模块未加载'; return; }
+  try {
+    const res = await window.WB.caption.probe(true);
+    if (!res || !res.ok) {
+      probeMsg.value = res?.message || '未读取 ComfyUI 模型';
+      statusText.value = probeMsg.value;
+      return;
+    }
+    templates.value = res.templates || [];
+    probeOk.value = true;
+    const count = templates.value.reduce((n, t) => n + (t.models ? t.models.length : 0), 0);
+    statusText.value = `已从 ComfyUI 读取 ${templates.value.length} 类文本生成节点、共 ${count} 个模型（清单不落盘，随 ComfyUI 实时变化）`;
+  } catch (e) {
+    probeMsg.value = e.message;
+    statusText.value = e.message;
+  }
+});
+</script>

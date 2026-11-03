@@ -1,1 +1,91 @@
-PHRlbXBsYXRlPg0KICA8ZGl2IGNsYXNzPSJ3b3Jrc3BhY2UiPg0KICAgIDxkaXYgY2xhc3M9ImNoLXBhZ2UiPg0KICAgICAgPGRpdiBjbGFzcz0iY2gtdG9vbGJhciI+DQogICAgICAgIDxoMyBjbGFzcz0iY2gtdGl0bGUiPuinkuiJsuWIl+ihqDwvaDM+DQogICAgICAgIDxidXR0b24gY2xhc3M9ImJ0biBidG4tcHJpbWFyeSIgQGNsaWNrPSJhZGQiPuKelSDmlrDlop7op5LoibI8L2J1dHRvbj4NCiAgICAgIDwvZGl2Pg0KICAgICAgPHAgY2xhc3M9ImhpbnQiIHN0eWxlPSJtYXJnaW46MCAwIDEycHgiPuinkuiJsueUqOS6juW/q+aNt+Whq+WFheeUn+WbvumhteeahOato+mdoi/otJ/pnaLmj5DnpLror43kuI7lj4LogIPlm77vvIzpmo/orr7nva7kv53lrZjliLDlkI7nq6/jgII8L3A+DQogICAgICA8ZGl2IGNsYXNzPSJjaC1ncmlkIj4NCiAgICAgICAgPGRpdiB2LWZvcj0iYyBpbiBjaGFyYWN0ZXJzIiA6a2V5PSJjLmlkIiBjbGFzcz0iY2gtY2FyZCI+DQogICAgICAgICAgPGRpdiBjbGFzcz0iY2gtcHJldiIgQGNsaWNrPSJzZXRQcmV2aWV3KGMpIj4NCiAgICAgICAgICAgIDxpbWcgdi1pZj0iYy5wcmV2aWV3SW1hZ2UiIDpzcmM9ImMucHJldmlld0ltYWdlIiBhbHQ9IiI+DQogICAgICAgICAgICA8c3BhbiB2LWVsc2UgY2xhc3M9ImNoLXByZXYtcGgiPueCueWHu+iuvue9rumihOiniOWbvjwvc3Bhbj4NCiAgICAgICAgICA8L2Rpdj4NCiAgICAgICAgICA8ZGl2IGNsYXNzPSJjaC1pbmZvIj4NCiAgICAgICAgICAgIDxpbnB1dCBjbGFzcz0iZm9ybS1pbnB1dCIgOnZhbHVlPSJjLm5hbWUiIEBjaGFuZ2U9InJlbmFtZShjLCAkZXZlbnQudGFyZ2V0LnZhbHVlKSIgcGxhY2Vob2xkZXI9IuinkuiJsuWQjeensCIgLz4NCiAgICAgICAgICAgIDx0ZXh0YXJlYSBjbGFzcz0iZm9ybS10ZXh0YXJlYSIgcm93cz0iMyIgOnZhbHVlPSJjLnByb21wdCIgQGNoYW5nZT0ic2V0RmllbGQoYywgJ3Byb21wdCcsICRldmVudC50YXJnZXQudmFsdWUpIiBwbGFjZWhvbGRlcj0i5q2j6Z2i5o+Q56S66K+NIj48L3RleHRhcmVhPg0KICAgICAgICAgICAgPHRleHRhcmVhIGNsYXNzPSJmb3JtLXRleHRhcmVhIiByb3dzPSIyIiA6dmFsdWU9ImMubmVnYXRpdmVQcm9tcHQiIEBjaGFuZ2U9InNldEZpZWxkKGMsICduZWdhdGl2ZVByb21wdCcsICRldmVudC50YXJnZXQudmFsdWUpIiBwbGFjZWhvbGRlcj0i6LSf6Z2i5o+Q56S66K+NIj48L3RleHRhcmVhPg0KICAgICAgICAgIDwvZGl2Pg0KICAgICAgICAgIDxkaXYgY2xhc3M9ImNoLWFjdGlvbnMiPg0KICAgICAgICAgICAgPGJ1dHRvbiBjbGFzcz0iYnRuIGJ0bi1zbSIgQGNsaWNrPSJzZXRQcmV2aWV3KGMpIj7wn5a8IOmihOiniOWbvjwvYnV0dG9uPg0KICAgICAgICAgICAgPGJ1dHRvbiBjbGFzcz0iYnRuIGJ0bi1zbSIgQGNsaWNrPSJlZGl0QWxsKGMpIj7inI/vuI8g57yW6L6RPC9idXR0b24+DQogICAgICAgICAgICA8YnV0dG9uIGNsYXNzPSJidG4gYnRuLXNtIGJ0bi1kYW5nZXIiIEBjbGljaz0iZGVsKGMpIj7wn5eRIOWIoOmZpDwvYnV0dG9uPg0KICAgICAgICAgIDwvZGl2Pg0KICAgICAgICA8L2Rpdj4NCiAgICAgICAgPGRpdiB2LWlmPSIhY2hhcmFjdGVycy5sZW5ndGgiIGNsYXNzPSJlbXB0eSI+5pqC5peg6KeS6Imy77yM54K55Ye744CM5paw5aKe6KeS6Imy44CN5byA5aeLPC9kaXY+DQogICAgICA8L2Rpdj4NCiAgICA8L2Rpdj4NCiAgPC9kaXY+DQo8L3RlbXBsYXRlPg0KDQo8c2NyaXB0IHNldHVwPg0KaW1wb3J0IHsgcmVmLCBvbk1vdW50ZWQgfSBmcm9tICd2dWUnOw0KaW1wb3J0IHsgdXNlVWkgfSBmcm9tICcuLi9jb21wb3NhYmxlcy91c2VVaSc7DQppbXBvcnQgeyB1c2VTZXR0aW5ncyB9IGZyb20gJy4uL2NvbXBvc2FibGVzL3VzZVNldHRpbmdzJzsNCg0KY29uc3QgeyB0b2FzdCwgY29uZmlybSwgcHJvbXB0LCBwaWNrRmlsZSwgZmlsZVRvRGF0YVVybCB9ID0gdXNlVWkoKTsNCmNvbnN0IHsgc2V0dGluZ3MsIHVwZGF0ZSB9ID0gdXNlU2V0dGluZ3MoKTsNCmNvbnN0IFdCID0gd2luZG93LldCOw0KDQpjb25zdCBjaGFyYWN0ZXJzID0gcmVmKFtdKTsNCg0KZnVuY3Rpb24gc3luYygpIHsgdXBkYXRlKCdjaGFyYWN0ZXJMaXN0JywgY2hhcmFjdGVycy52YWx1ZSk7IH0NCg0Kb25Nb3VudGVkKCgpID0+IHsgY2hhcmFjdGVycy52YWx1ZSA9IEFycmF5LmlzQXJyYXkoc2V0dGluZ3MuY2hhcmFjdGVyTGlzdCkgPyBzZXR0aW5ncy5jaGFyYWN0ZXJMaXN0LnNsaWNlKCkgOiBbXTsgfSk7DQoNCmFzeW5jIGZ1bmN0aW9uIGFkZCgpIHsNCiAgY29uc3QgbmFtZSA9IGF3YWl0IHByb21wdCgn6KeS6Imy5ZCN56ew77yaJywgJ+aWsOinkuiJsicpOw0KICBpZiAoIW5hbWUpIHJldHVybjsNCiAgY2hhcmFjdGVycy52YWx1ZS5wdXNoKHsgaWQ6IFN0cmluZyhEYXRlLm5vdygpKSwgbmFtZSwgcHJvbXB0OiAnJywgbmVnYXRpdmVQcm9tcHQ6ICcnLCBwcmV2aWV3SW1hZ2U6IG51bGwgfSk7DQogIHN5bmMoKTsNCiAgdG9hc3QoJ+W3suaWsOWinuinkuiJsuOAjCcgKyBuYW1lICsgJ+OAjScpOw0KfQ0KYXN5bmMgZnVuY3Rpb24gcmVuYW1lKGMsIHYpIHsgYy5uYW1lID0gdjsgc3luYygpOyB9DQpmdW5jdGlvbiBzZXRGaWVsZChjLCBrLCB2KSB7IGNba10gPSB2OyBzeW5jKCk7IH0NCmFzeW5jIGZ1bmN0aW9uIHNldFByZXZpZXcoYykgew0KICBwaWNrRmlsZSgnaW1hZ2UvKicsIGFzeW5jIChmKSA9PiB7DQogICAgYy5wcmV2aWV3SW1hZ2UgPSBhd2FpdCBmaWxlVG9EYXRhVXJsKGYpOw0KICAgIHN5bmMoKTsNCiAgICB0b2FzdCgn6aKE6KeI5Zu+5bey6K6+572uJyk7DQogIH0pOw0KfQ0KYXN5bmMgZnVuY3Rpb24gZWRpdEFsbChjKSB7DQogIGNvbnN0IHAgPSBhd2FpdCBwcm9tcHQoJ+ato+mdouaPkOekuuivje+8micsIGMucHJvbXB0IHx8ICcnLCAn5q2j6Z2i5o+Q56S66K+NJyk7DQogIGlmIChwID09PSBudWxsKSByZXR1cm47DQogIGNvbnN0IG4gPSBhd2FpdCBwcm9tcHQoJ+i0n+mdouaPkOekuuivje+8micsIGMubmVnYXRpdmVQcm9tcHQgfHwgJycsICfotJ/pnaLmj5DnpLror40nKTsNCiAgaWYgKG4gPT09IG51bGwpIHJldHVybjsNCiAgYy5wcm9tcHQgPSBwOyBjLm5lZ2F0aXZlUHJvbXB0ID0gbjsgc3luYygpOw0KICB0b2FzdCgn5bey5pu05paw6KeS6Imy44CMJyArIGMubmFtZSArICfjgI0nKTsNCn0NCmFzeW5jIGZ1bmN0aW9uIGRlbChjKSB7DQogIGlmICghKGF3YWl0IGNvbmZpcm0oJ+ehruWumuWIoOmZpOinkuiJsuOAjCcgKyBjLm5hbWUgKyAn44CN77yfJykpKSByZXR1cm47DQogIGNoYXJhY3RlcnMudmFsdWUgPSBjaGFyYWN0ZXJzLnZhbHVlLmZpbHRlcigoeCkgPT4geC5pZCAhPT0gYy5pZCk7DQogIHN5bmMoKTsNCiAgdG9hc3QoJ+W3suWIoOmZpCcpOw0KfQ0KPC9zY3JpcHQ+DQoNCjxzdHlsZSBzY29wZWQ+DQouY2gtcGFnZSB7IGhlaWdodDogMTAwJTsgb3ZlcmZsb3c6IGF1dG87IH0NCi5jaC10b29sYmFyIHsgZGlzcGxheTogZmxleDsgYWxpZ24taXRlbXM6IGNlbnRlcjsganVzdGlmeS1jb250ZW50OiBzcGFjZS1iZXR3ZWVuOyBtYXJnaW4tYm90dG9tOiA2cHg7IH0NCi5jaC10aXRsZSB7IG1hcmdpbjogMDsgZm9udC1zaXplOiAxNnB4OyB9DQouY2gtZ3JpZCB7IGRpc3BsYXk6IGdyaWQ7IGdyaWQtdGVtcGxhdGUtY29sdW1uczogcmVwZWF0KGF1dG8tZmlsbCwgbWlubWF4KDI2MHB4LCAxZnIpKTsgZ2FwOiAxNHB4OyBhbGlnbi1jb250ZW50OiBzdGFydDsgfQ0KLmNoLWNhcmQgeyBiYWNrZ3JvdW5kOiB2YXIoLS1wYW5lbCk7IGJvcmRlcjogMXB4IHNvbGlkIHZhcigtLWJvcmRlcik7IGJvcmRlci1yYWRpdXM6IDEwcHg7IHBhZGRpbmc6IDEwcHg7IGRpc3BsYXk6IGZsZXg7IGZsZXgtZGlyZWN0aW9uOiBjb2x1bW47IGdhcDogOHB4OyB9DQouY2gtcHJldiB7IHdpZHRoOiAxMDAlOyBhc3BlY3QtcmF0aW86IDMvNDsgYmFja2dyb3VuZDogdmFyKC0tcGFuZWwtMik7IGJvcmRlcjogMXB4IGRhc2hlZCB2YXIoLS1ib3JkZXIpOyBib3JkZXItcmFkaXVzOiA4cHg7IG92ZXJmbG93OiBoaWRkZW47IGRpc3BsYXk6IGZsZXg7IGFsaWduLWl0ZW1zOiBjZW50ZXI7IGp1c3RpZnktY29udGVudDogY2VudGVyOyBjdXJzb3I6IHBvaW50ZXI7IH0NCi5jaC1wcmV2IGltZyB7IHdpZHRoOiAxMDAlOyBoZWlnaHQ6IDEwMCU7IG9iamVjdC1maXQ6IGNvdmVyOyB9DQouY2gtcHJldi1waCB7IGNvbG9yOiB2YXIoLS10ZXh0LTIpOyBmb250LXNpemU6IDEycHg7IH0NCi5jaC1pbmZvIHsgZGlzcGxheTogZmxleDsgZmxleC1kaXJlY3Rpb246IGNvbHVtbjsgZ2FwOiA2cHg7IH0NCi5jaC1hY3Rpb25zIHsgZGlzcGxheTogZmxleDsgZ2FwOiA2cHg7IGZsZXgtd3JhcDogd3JhcDsgfQ0KLmVtcHR5IHsgY29sb3I6IHZhcigtLXRleHQtMik7IHBhZGRpbmc6IDQwcHg7IHRleHQtYWxpZ246IGNlbnRlcjsgd2lkdGg6IDEwMCU7IH0NCjwvc3R5bGU+DQo=
+<template>
+  <div class="workspace">
+    <div class="ch-page">
+      <div class="ch-toolbar">
+        <h3 class="ch-title">角色列表</h3>
+        <button class="btn btn-primary" @click="add">➕ 新增角色</button>
+      </div>
+      <p class="hint" style="margin:0 0 12px">角色用于快捷填充生图页的正面/负面提示词与参考图，随设置保存到后端。</p>
+      <div class="ch-grid">
+        <div v-for="c in characters" :key="c.id" class="ch-card">
+          <div class="ch-prev" @click="setPreview(c)">
+            <img v-if="c.previewImage" :src="c.previewImage" alt="">
+            <span v-else class="ch-prev-ph">点击设置预览图</span>
+          </div>
+          <div class="ch-info">
+            <input class="form-input" :value="c.name" @change="rename(c, $event.target.value)" placeholder="角色名称" />
+            <textarea class="form-textarea" rows="3" :value="c.prompt" @change="setField(c, 'prompt', $event.target.value)" placeholder="正面提示词"></textarea>
+            <textarea class="form-textarea" rows="2" :value="c.negativePrompt" @change="setField(c, 'negativePrompt', $event.target.value)" placeholder="负面提示词"></textarea>
+          </div>
+          <div class="ch-actions">
+            <button class="btn btn-sm" @click="setPreview(c)">🖼 预览图</button>
+            <button class="btn btn-sm" @click="editAll(c)">✏️ 编辑</button>
+            <button class="btn btn-sm btn-danger" @click="del(c)">🗑 删除</button>
+          </div>
+        </div>
+        <div v-if="!characters.length" class="empty">暂无角色，点击「新增角色」开始</div>
+      </div>
+    </div>
+  </div>
+</template>
+
+<script setup>
+import { ref, onMounted } from 'vue';
+import { useUi } from '../composables/useUi';
+import { useSettings } from '../composables/useSettings';
+
+const { toast, confirm, prompt, pickFile, fileToDataUrl } = useUi();
+const { settings, update } = useSettings();
+const WB = window.WB;
+
+const characters = ref([]);
+
+function sync() { update('characterList', characters.value); }
+
+onMounted(() => { characters.value = Array.isArray(settings.characterList) ? settings.characterList.slice() : []; });
+
+async function add() {
+  const name = await prompt('角色名称：', '新角色');
+  if (!name) return;
+  characters.value.push({ id: String(Date.now()), name, prompt: '', negativePrompt: '', previewImage: null });
+  sync();
+  toast('已新增角色「' + name + '」');
+}
+async function rename(c, v) { c.name = v; sync(); }
+function setField(c, k, v) { c[k] = v; sync(); }
+async function setPreview(c) {
+  pickFile('image/*', async (f) => {
+    c.previewImage = await fileToDataUrl(f);
+    sync();
+    toast('预览图已设置');
+  });
+}
+async function editAll(c) {
+  const p = await prompt('正面提示词：', c.prompt || '', '正面提示词');
+  if (p === null) return;
+  const n = await prompt('负面提示词：', c.negativePrompt || '', '负面提示词');
+  if (n === null) return;
+  c.prompt = p; c.negativePrompt = n; sync();
+  toast('已更新角色「' + c.name + '」');
+}
+async function del(c) {
+  if (!(await confirm('确定删除角色「' + c.name + '」？'))) return;
+  characters.value = characters.value.filter((x) => x.id !== c.id);
+  sync();
+  toast('已删除');
+}
+</script>
+
+<style scoped>
+.ch-page { height: 100%; overflow: auto; }
+.ch-toolbar { display: flex; align-items: center; justify-content: space-between; margin-bottom: 6px; }
+.ch-title { margin: 0; font-size: 16px; }
+.ch-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 14px; align-content: start; }
+.ch-card { background: var(--panel); border: 1px solid var(--border); border-radius: 10px; padding: 10px; display: flex; flex-direction: column; gap: 8px; }
+.ch-prev { width: 100%; aspect-ratio: 3/4; background: var(--panel-2); border: 1px dashed var(--border); border-radius: 8px; overflow: hidden; display: flex; align-items: center; justify-content: center; cursor: pointer; }
+.ch-prev img { width: 100%; height: 100%; object-fit: cover; }
+.ch-prev-ph { color: var(--text-2); font-size: 12px; }
+.ch-info { display: flex; flex-direction: column; gap: 6px; }
+.ch-actions { display: flex; gap: 6px; flex-wrap: wrap; }
+.empty { color: var(--text-2); padding: 40px; text-align: center; width: 100%; }
+</style>

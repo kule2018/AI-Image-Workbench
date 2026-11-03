@@ -1,1 +1,12 @@
-aW1wb3J0IHsgTW9kdWxlIH0gZnJvbSAnQG5lc3Rqcy9jb21tb24nOw0KaW1wb3J0IHsgVHlwZU9ybU1vZHVsZSB9IGZyb20gJ0BuZXN0anMvdHlwZW9ybSc7DQppbXBvcnQgeyBTZXR0aW5ncyB9IGZyb20gJy4vc2V0dGluZ3MuZW50aXR5JzsNCmltcG9ydCB7IFNldHRpbmdzU2VydmljZSB9IGZyb20gJy4vc2V0dGluZ3Muc2VydmljZSc7DQppbXBvcnQgeyBTZXR0aW5nc0NvbnRyb2xsZXIgfSBmcm9tICcuL3NldHRpbmdzLmNvbnRyb2xsZXInOw0KDQpATW9kdWxlKHsNCiAgaW1wb3J0czogW1R5cGVPcm1Nb2R1bGUuZm9yRmVhdHVyZShbU2V0dGluZ3NdKV0sDQogIGNvbnRyb2xsZXJzOiBbU2V0dGluZ3NDb250cm9sbGVyXSwNCiAgcHJvdmlkZXJzOiBbU2V0dGluZ3NTZXJ2aWNlXSwNCn0pDQpleHBvcnQgY2xhc3MgU2V0dGluZ3NNb2R1bGUge30NCg==
+import { Module } from '@nestjs/common';
+import { TypeOrmModule } from '@nestjs/typeorm';
+import { Settings } from './settings.entity';
+import { SettingsService } from './settings.service';
+import { SettingsController } from './settings.controller';
+
+@Module({
+  imports: [TypeOrmModule.forFeature([Settings])],
+  controllers: [SettingsController],
+  providers: [SettingsService],
+})
+export class SettingsModule {}

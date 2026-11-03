@@ -1,1 +1,20 @@
-aW1wb3J0IHsgRW50aXR5LCBQcmltYXJ5R2VuZXJhdGVkQ29sdW1uLCBDb2x1bW4gfSBmcm9tICd0eXBlb3JtJzsNCg0KLy8g57Sg5p2Q5bqT77ya5q+P5Liq5LiK5Lyg57Sg5p2Q5LiA6KGM77yI5LqM6L+b5Yi25paH5Lu26JC955uY77yM5YWD5pWw5o2u5a2YIE15U1FM77yJDQpARW50aXR5KCdsaWJyYXJ5JykNCmV4cG9ydCBjbGFzcyBMaWJyYXJ5SXRlbSB7DQogIEBQcmltYXJ5R2VuZXJhdGVkQ29sdW1uKCkNCiAgaWQ6IG51bWJlcjsNCg0KICBAQ29sdW1uKCd2YXJjaGFyJywgeyBsZW5ndGg6IDI1NSB9KQ0KICBmaWxlOiBzdHJpbmc7DQoNCiAgQENvbHVtbigndmFyY2hhcicsIHsgbGVuZ3RoOiAyNTUgfSkNCiAgdXJsOiBzdHJpbmc7DQoNCiAgQENvbHVtbigndmFyY2hhcicsIHsgbGVuZ3RoOiAyNTUsIG51bGxhYmxlOiB0cnVlIH0pDQogIG5hbWU6IHN0cmluZzsNCg0KICBAQ29sdW1uKCdiaWdpbnQnKQ0KICBjcmVhdGVkX2F0OiBudW1iZXI7DQp9DQo=
+import { Entity, PrimaryGeneratedColumn, Column } from 'typeorm';
+
+// 素材库：每个上传素材一行（二进制文件落盘，元数据存 MySQL）
+@Entity('library')
+export class LibraryItem {
+  @PrimaryGeneratedColumn()
+  id: number;
+
+  @Column('varchar', { length: 255 })
+  file: string;
+
+  @Column('varchar', { length: 255 })
+  url: string;
+
+  @Column('varchar', { length: 255, nullable: true })
+  name: string;
+
+  @Column('bigint')
+  created_at: number;
+}

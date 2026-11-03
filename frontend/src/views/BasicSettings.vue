@@ -1,1 +1,115 @@
-PHRlbXBsYXRlPg0KICA8ZGl2IGNsYXNzPSJ3b3Jrc3BhY2UiPg0KICAgIDxkaXYgY2xhc3M9InNldHRpbmdzLXBhZ2Ugc2luZ2xlIj4NCiAgICAgIDwhLS0g6YCa55So6K6+572uIC0tPg0KICAgICAgPHNlY3Rpb24gY2xhc3M9InNlY3Rpb24iPg0KICAgICAgICA8ZGl2IGNsYXNzPSJzZWN0aW9uLXRpdGxlIj7pgJrnlKjorr7nva48L2Rpdj4NCiAgICAgICAgPGRpdiBjbGFzcz0iZ2VuZXJhbC1yb3ciPg0KICAgICAgICAgIDxkaXYgY2xhc3M9ImZpZWxkIGdyLWZpZWxkIj4NCiAgICAgICAgICAgIDxsYWJlbCBjbGFzcz0iZm9ybS1sYWJlbCI+57yT5a2Y5pyJ5pWI5pyfPC9sYWJlbD4NCiAgICAgICAgICAgIDxzZWxlY3QgY2xhc3M9ImZvcm0tc2VsZWN0IiA6dmFsdWU9InNldHRpbmdzLmNhY2hlRGF5cyIgQGNoYW5nZT0idXBkYXRlKCdjYWNoZURheXMnLCAkZXZlbnQudGFyZ2V0LnZhbHVlKSI+DQogICAgICAgICAgICAgIDxvcHRpb24gdi1mb3I9Ilt2LCB0XSBpbiBjYWNoZU9wdGlvbnMiIDprZXk9InYiIDp2YWx1ZT0idiIgOnNlbGVjdGVkPSJTdHJpbmcoc2V0dGluZ3MuY2FjaGVEYXlzKSA9PT0gdiI+e3sgdCB9fTwvb3B0aW9uPg0KICAgICAgICAgICAgPC9zZWxlY3Q+DQogICAgICAgICAgPC9kaXY+DQogICAgICAgICAgPGRpdiBjbGFzcz0iZ3ItdG9nZ2xlcyI+DQogICAgICAgICAgICA8c3BhbiBjbGFzcz0iZ2VuLXRvZ2dsZSIgdi1mb3I9InRnIGluIHRvZ2dsZXMiIDprZXk9InRnLmtleSI+DQogICAgICAgICAgICAgIDxzcGFuIGNsYXNzPSJndC1sYWJlbCI+e3sgdGcubGFiZWwgfX08L3NwYW4+DQogICAgICAgICAgICAgIDxidXR0b24gY2xhc3M9InRvZ2dsZSIgOmNsYXNzPSJ7IG9uOiAhIXNldHRpbmdzW3RnLmtleV0gfSIgQGNsaWNrPSJ0b2dnbGUodGcua2V5KSI+PC9idXR0b24+DQogICAgICAgICAgICA8L3NwYW4+DQogICAgICAgICAgPC9kaXY+DQogICAgICAgIDwvZGl2Pg0KICAgICAgPC9zZWN0aW9uPg0KDQogICAgICA8c2VjdGlvbiBjbGFzcz0ic2VjdGlvbiI+DQogICAgICAgIDxkaXYgY2xhc3M9InNlY3Rpb24tdGl0bGUiPnt7IGNmZy5yZXdyaXRlLnRpdGxlIH19PC9kaXY+DQogICAgICAgIDxnZW4tc2VjdGlvbiA6a2luZD0iJ3Jld3JpdGUnIiAvPg0KICAgICAgPC9zZWN0aW9uPg0KDQogICAgICA8c2VjdGlvbiBjbGFzcz0ic2VjdGlvbiI+DQogICAgICAgIDxkaXYgY2xhc3M9InNlY3Rpb24tdGl0bGUiPnt7IGNmZy5jYXB0aW9uLnRpdGxlIH19PC9kaXY+DQogICAgICAgIDxnZW4tc2VjdGlvbiA6a2luZD0iJ2NhcHRpb24nIiAvPg0KICAgICAgPC9zZWN0aW9uPg0KDQogICAgICA8IS0tIOaPkOekuuivjemihOiuviAtLT4NCiAgICAgIDxzZWN0aW9uIGNsYXNzPSJzZWN0aW9uIj4NCiAgICAgICAgPGRpdiBjbGFzcz0ic2VjdGlvbi10aXRsZSI+5q2j6Z2iL+i0n+mdouaPkOekuuivjemihOiuvjwvZGl2Pg0KICAgICAgICA8cHJlc2V0LWVkaXRvciBraW5kPSJwcm9tcHQiIC8+DQogICAgICA8L3NlY3Rpb24+DQoNCiAgICAgIDxzZWN0aW9uIGNsYXNzPSJzZWN0aW9uIj4NCiAgICAgICAgPGRpdiBjbGFzcz0ic2VjdGlvbi10aXRsZSI+6aOO5qC85o+Q56S66K+N6aKE6K6+PC9kaXY+DQogICAgICAgIDxwcmVzZXQtZWRpdG9yIGtpbmQ9InN0eWxlIiAvPg0KICAgICAgPC9zZWN0aW9uPg0KDQogICAgICA8IS0tIOWFqOmHj+aVsOaNriAtLT4NCiAgICAgIDxzZWN0aW9uIGNsYXNzPSJzZWN0aW9uIj4NCiAgICAgICAgPGRpdiBjbGFzcz0ic2VjdGlvbi10aXRsZSI+5YWo6YeP5pWw5o2u77yI5aSH5Lu9L+aBouWkje+8iTwvZGl2Pg0KICAgICAgICA8cCBjbGFzcz0iaGludCI+5aSH5Lu9IHppcCDkuI7mlofnlJ/lm77lt6Xlhbfmj5Lku7bnmoTjgIzlhajph4/lr7zlh7rjgI3moLzlvI/kupLpgJrvvIzlubbpop3lpJbljIXlkKvnlLvluIPkuI7kuIrkvKDntKDmnZDvvJvlj6/nm7TmjqXlr7zlhaXmj5Lku7blpIfku73ljIXvvIznvJPlrZjlm77niYflvZLlhaXntKDmnZDlupPjgIzlr7zlhaXnvJPlrZjjgI3liIbnu4TjgII8L3A+DQogICAgICAgIDxkaXYgY2xhc3M9InByZXNldC1hY3Rpb25zIj4NCiAgICAgICAgICA8YnV0dG9uIGNsYXNzPSJidG4gYnRuLXNtIGJ0bi1wcmltYXJ5IiBAY2xpY2s9ImV4cG9ydFppcCI+8J+TpiDmlbDmja7lr7zlh7rvvIh6aXDvvIk8L2J1dHRvbj4NCiAgICAgICAgICA8YnV0dG9uIGNsYXNzPSJidG4gYnRuLXNtIiBAY2xpY2s9ImltcG9ydFppcCI+8J+TpSDmlbDmja7lr7zlhaXvvIh6aXDvvIk8L2J1dHRvbj4NCiAgICAgICAgICA8YnV0dG9uIGNsYXNzPSJidG4gYnRuLXNtIGJ0bi1kYW5nZXIiIEBjbGljaz0iY2xlYXJBbGwiPvCfl5Eg5pWw5o2u5riF56m6PC9idXR0b24+DQogICAgICAgIDwvZGl2Pg0KICAgICAgPC9zZWN0aW9uPg0KICAgIDwvZGl2Pg0KICA8L2Rpdj4NCjwvdGVtcGxhdGU+DQoNCjxzY3JpcHQgc2V0dXA+DQppbXBvcnQgeyByZWFjdGl2ZSB9IGZyb20gJ3Z1ZSc7DQppbXBvcnQgeyB1c2VTZXR0aW5ncyB9IGZyb20gJy4uL2NvbXBvc2FibGVzL3VzZVNldHRpbmdzJzsNCmltcG9ydCB7IHVzZVVpIH0gZnJvbSAnLi4vY29tcG9zYWJsZXMvdXNlVWknOw0KaW1wb3J0IEdlblNlY3Rpb24gZnJvbSAnLi4vY29tcG9uZW50cy9HZW5TZWN0aW9uLnZ1ZSc7DQppbXBvcnQgUHJlc2V0RWRpdG9yIGZyb20gJy4uL2NvbXBvbmVudHMvUHJlc2V0RWRpdG9yLnZ1ZSc7DQoNCmNvbnN0IHsgc2V0dGluZ3MsIHVwZGF0ZSwgdG9nZ2xlIH0gPSB1c2VTZXR0aW5ncygpOw0KY29uc3QgdWkgPSB1c2VVaSgpOw0KDQpjb25zdCBjYWNoZU9wdGlvbnMgPSBbDQogIFsnMCcsICfkuI3nvJPlrZjvvIjmsLjkuYXkv53nlZnljoblj7LvvIknXSwgWycxJywgJ+S4gOWkqSddLCBbJzcnLCAn5LiA5pif5pyfJ10sDQogIFsnMzAnLCAn5LiA5Liq5pyIJ10sIFsnMzY1JywgJ+S4gOW5tCddLA0KXTsNCmNvbnN0IHRvZ2dsZXMgPSBbDQogIHsga2V5OiAnc291bmRFbmFibGVkJywgbGFiZWw6ICfnlJ/lm77miJDlip/pn7PmlYgnIH0sDQogIHsga2V5OiAnYXV0b0Rvd25sb2FkJywgbGFiZWw6ICfnlJ/lm77oh6rliqjkuIvovb0nIH0sDQogIHsga2V5OiAnY2FjaGVIaXQnLCBsYWJlbDogJ+eUn+Wbvue8k+WtmOWRveS4rScgfSwNCiAgeyBrZXk6ICdjb21wYXJlT24nLCBsYWJlbDogJ+WbvuWDj+WvueavlCcgfSwNCiAgeyBrZXk6ICdzYW1wbGVQcmV2aWV3JywgbGFiZWw6ICfph4fmoLfpooTop4gnIH0sDQpdOw0KDQpjb25zdCBjZmcgPSB7DQogIHJld3JpdGU6IHsgdGl0bGU6ICfmj5DnpLror43kvJjljJYnIH0sDQogIGNhcHRpb246IHsgdGl0bGU6ICflm77niYflj43mjqgnIH0sDQp9Ow0KDQphc3luYyBmdW5jdGlvbiBleHBvcnRaaXAoKSB7DQogIGF3YWl0IHdpbmRvdy5XQi5hcGkuZXhwb3J0QWxsKCk7DQp9DQoNCmFzeW5jIGZ1bmN0aW9uIGltcG9ydFppcCgpIHsNCiAgdWkucGlja0ZpbGUoJy56aXAsYXBwbGljYXRpb24vemlwJywgYXN5bmMgKGYpID0+IHsNCiAgICBpZiAoIShhd2FpdCB1aS5jb25maXJtKCfimqDvuI8g5a+85YWl5aSH5Lu95YyF5bCG5ZCI5bm25YW25Lit55qE6K6+572u5LiO6aKE6K6+77yM57yT5a2Y5Zu+54mH5b2S5YWl44CM5a+85YWl57yT5a2Y44CN5YiG57uE44CCXG7nu6fnu63vvJ8nKSkpIHJldHVybjsNCiAgICB0cnkgew0KICAgICAgY29uc3QgcmVzdWx0ID0gYXdhaXQgd2luZG93LldCLmFwaS5pbXBvcnRBbGxaaXAoZik7DQogICAgICBpZiAocmVzdWx0LnNldHRpbmdzICYmIE9iamVjdC5rZXlzKHJlc3VsdC5zZXR0aW5ncykubGVuZ3RoKSB7DQogICAgICAgIGF3YWl0IHdpbmRvdy5XQi5zZXR0aW5ncy5hcHBseUltcG9ydGVkU2V0dGluZ3MocmVzdWx0LnNldHRpbmdzKTsNCiAgICAgIH0NCiAgICAgIGZvciAoY29uc3QgaW1nIG9mIChyZXN1bHQuaW1wb3J0ZWRJbWFnZXMgfHwgW10pKSB7DQogICAgICAgIGF3YWl0IHdpbmRvdy5XQi5oaXN0b3J5LmFkZCh7IGVuZ2luZTogJ2ltcG9ydGVkJywgcHJvbXB0OiBpbWcucHJvbXB0IHx8ICcnLCBtb2RlbDogJ+aPkuS7tue8k+WtmOWvvOWFpScsIHBhcmFtczoge30sIGltYWdlczogW2ltZy51cmxdIH0pOw0KICAgICAgfQ0KICAgICAgdWkudG9hc3QoYOWvvOWFpeWujOaIkO+8muiuvue9ruW3suWQiOW5tu+8jOe8k+WtmOWbvueJhyAke3Jlc3VsdC5pbXBvcnRlZEltYWdlcz8ubGVuZ3RoIHx8IDB9IOW8oO+8jOeUu+W4gyAke3Jlc3VsdC5jYW52YXNDb3VudH0g5Liq77yM57Sg5p2QICR7cmVzdWx0LmxpYkNvdW50fSDkuKrjgILpobXpnaLljbPlsIbliLfmlrBgKTsNCiAgICAgIHNldFRpbWVvdXQoKCkgPT4gbG9jYXRpb24ucmVsb2FkKCksIDEyMDApOw0KICAgIH0gY2F0Y2ggKGUpIHsNCiAgICAgIHVpLnRvYXN0KCflr7zlhaXlpLHotKXvvJonICsgZS5tZXNzYWdlICsgJ1xu5Y6f5pWw5o2u5pyq5L+u5pS5JywgJ2Vycm9yJyk7DQogICAgfQ0KICB9KTsNCn0NCg0KYXN5bmMgZnVuY3Rpb24gY2xlYXJBbGwoKSB7DQogIGNvbnN0IHYgPSBhd2FpdCB1aS5jb25maXJtKCfmraTmk43kvZzlsIbmuIXnqbrmiYDmnInorr7nva7kuI7pooTorr7mlbDmja7vvIjkuI3lvbHlk40gb3V0cHV0LyDlm77niYfmlofku7bvvInjgIJcbuehruiupOivt+i+k+WFpSBSRVNFVO+8micsIHsgd2l0aElucHV0OiB0cnVlIH0pOw0KICBpZiAodiA9PT0gbnVsbCkgcmV0dXJuOw0KICBpZiAodiAhPT0gJ1JFU0VUJykgeyB1aS50b2FzdCgn6L6T5YWl5LiN5Yy56YWN77yM5bey5Y+W5raIJywgJ2Vycm9yJyk7IHJldHVybjsgfQ0KICBhd2FpdCB3aW5kb3cuV0IuYXBpLnNldHRpbmdzU2F2ZSh3aW5kb3cuV0Iuc2V0dGluZ3MuZGVmYXVsdFNldHRpbmdzKTsNCiAgbG9jYXRpb24ucmVsb2FkKCk7DQp9DQo8L3NjcmlwdD4NCg==
+<template>
+  <div class="workspace">
+    <div class="settings-page single">
+      <!-- 通用设置 -->
+      <section class="section">
+        <div class="section-title">通用设置</div>
+        <div class="general-row">
+          <div class="field gr-field">
+            <label class="form-label">缓存有效期</label>
+            <select class="form-select" :value="settings.cacheDays" @change="update('cacheDays', $event.target.value)">
+              <option v-for="[v, t] in cacheOptions" :key="v" :value="v" :selected="String(settings.cacheDays) === v">{{ t }}</option>
+            </select>
+          </div>
+          <div class="gr-toggles">
+            <span class="gen-toggle" v-for="tg in toggles" :key="tg.key">
+              <span class="gt-label">{{ tg.label }}</span>
+              <button class="toggle" :class="{ on: !!settings[tg.key] }" @click="toggle(tg.key)"></button>
+            </span>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="section-title">{{ cfg.rewrite.title }}</div>
+        <gen-section :kind="'rewrite'" />
+      </section>
+
+      <section class="section">
+        <div class="section-title">{{ cfg.caption.title }}</div>
+        <gen-section :kind="'caption'" />
+      </section>
+
+      <!-- 提示词预设 -->
+      <section class="section">
+        <div class="section-title">正面/负面提示词预设</div>
+        <preset-editor kind="prompt" />
+      </section>
+
+      <section class="section">
+        <div class="section-title">风格提示词预设</div>
+        <preset-editor kind="style" />
+      </section>
+
+      <!-- 全量数据 -->
+      <section class="section">
+        <div class="section-title">全量数据（备份/恢复）</div>
+        <p class="hint">备份 zip 与文生图工具插件的「全量导出」格式互通，并额外包含画布与上传素材；可直接导入插件备份包，缓存图片归入素材库「导入缓存」分组。</p>
+        <div class="preset-actions">
+          <button class="btn btn-sm btn-primary" @click="exportZip">📦 数据导出（zip）</button>
+          <button class="btn btn-sm" @click="importZip">📥 数据导入（zip）</button>
+          <button class="btn btn-sm btn-danger" @click="clearAll">🗑 数据清空</button>
+        </div>
+      </section>
+    </div>
+  </div>
+</template>
+
+<script setup>
+import { reactive } from 'vue';
+import { useSettings } from '../composables/useSettings';
+import { useUi } from '../composables/useUi';
+import GenSection from '../components/GenSection.vue';
+import PresetEditor from '../components/PresetEditor.vue';
+
+const { settings, update, toggle } = useSettings();
+const ui = useUi();
+
+const cacheOptions = [
+  ['0', '不缓存（永久保留历史）'], ['1', '一天'], ['7', '一星期'],
+  ['30', '一个月'], ['365', '一年'],
+];
+const toggles = [
+  { key: 'soundEnabled', label: '生图成功音效' },
+  { key: 'autoDownload', label: '生图自动下载' },
+  { key: 'cacheHit', label: '生图缓存命中' },
+  { key: 'compareOn', label: '图像对比' },
+  { key: 'samplePreview', label: '采样预览' },
+];
+
+const cfg = {
+  rewrite: { title: '提示词优化' },
+  caption: { title: '图片反推' },
+};
+
+async function exportZip() {
+  await window.WB.api.exportAll();
+}
+
+async function importZip() {
+  ui.pickFile('.zip,application/zip', async (f) => {
+    if (!(await ui.confirm('⚠️ 导入备份包将合并其中的设置与预设，缓存图片归入「导入缓存」分组。\n继续？'))) return;
+    try {
+      const result = await window.WB.api.importAllZip(f);
+      if (result.settings && Object.keys(result.settings).length) {
+        await window.WB.settings.applyImportedSettings(result.settings);
+      }
+      for (const img of (result.importedImages || [])) {
+        await window.WB.history.add({ engine: 'imported', prompt: img.prompt || '', model: '插件缓存导入', params: {}, images: [img.url] });
+      }
+      ui.toast(`导入完成：设置已合并，缓存图片 ${result.importedImages?.length || 0} 张，画布 ${result.canvasCount} 个，素材 ${result.libCount} 个。页面即将刷新`);
+      setTimeout(() => location.reload(), 1200);
+    } catch (e) {
+      ui.toast('导入失败：' + e.message + '\n原数据未修改', 'error');
+    }
+  });
+}
+
+async function clearAll() {
+  const v = await ui.confirm('此操作将清空所有设置与预设数据（不影响 output/ 图片文件）。\n确认请输入 RESET：', { withInput: true });
+  if (v === null) return;
+  if (v !== 'RESET') { ui.toast('输入不匹配，已取消', 'error'); return; }
+  await window.WB.api.settingsSave(window.WB.settings.defaultSettings);
+  location.reload();
+}
+</script>

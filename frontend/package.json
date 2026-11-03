@@ -1,1 +1,19 @@
-ew0KICAibmFtZSI6ICJhaS1pbWFnZS13b3JrYmVuY2gtZnJvbnRlbmQiLA0KICAidmVyc2lvbiI6ICIxLjAuMCIsDQogICJwcml2YXRlIjogdHJ1ZSwNCiAgInR5cGUiOiAibW9kdWxlIiwNCiAgInNjcmlwdHMiOiB7DQogICAgImRldiI6ICJ2aXRlIiwNCiAgICAiYnVpbGQiOiAidml0ZSBidWlsZCIsDQogICAgInByZXZpZXciOiAidml0ZSBwcmV2aWV3Ig0KICB9LA0KICAiZGVwZW5kZW5jaWVzIjogew0KICAgICJ2dWUiOiAiXjMuNS4xMiIsDQogICAgInZ1ZS1yb3V0ZXIiOiAiXjQuNC41Ig0KICB9LA0KICAiZGV2RGVwZW5kZW5jaWVzIjogew0KICAgICJAdml0ZWpzL3BsdWdpbi12dWUiOiAiXjUuMS40IiwNCiAgICAidml0ZSI6ICJeNS40LjEwIg0KICB9DQp9DQo=
+{
+  "name": "ai-image-workbench-frontend",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "vue": "^3.5.12",
+    "vue-router": "^4.4.5"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.1.4",
+    "vite": "^5.4.10"
+  }
+}

@@ -1,1 +1,19 @@
-aW1wb3J0IHsgZGVmaW5lQ29uZmlnIH0gZnJvbSAndml0ZSc7DQppbXBvcnQgdnVlIGZyb20gJ0B2aXRlanMvcGx1Z2luLXZ1ZSc7DQoNCi8vIOW8gOWPkeaXtuWJjeerr+i3keWcqCA1MTcz77yM5ZCO56uvIE5lc3RKUyDot5HlnKggMzAwMOOAgg0KLy8gL2FwaeOAgS9vdXRwdXTjgIEvbGlicmFyeSDnu5/kuIDku6PnkIbliLDlkI7nq6/vvJsvYXBpL2NvbWZ5LXdz77yI6YeH5qC36aKE6KeIIFdlYlNvY2tldO+8ieWQjOagt+i1sOS7o+eQhuOAgg0KZXhwb3J0IGRlZmF1bHQgZGVmaW5lQ29uZmlnKHsNCiAgcGx1Z2luczogW3Z1ZSgpXSwNCiAgc2VydmVyOiB7DQogICAgcG9ydDogNTE3MywNCiAgICBwcm94eTogew0KICAgICAgJy9hcGknOiB7IHRhcmdldDogJ2h0dHA6Ly9sb2NhbGhvc3Q6MzAwMCcsIGNoYW5nZU9yaWdpbjogdHJ1ZSwgd3M6IHRydWUgfSwNCiAgICAgICcvb3V0cHV0JzogeyB0YXJnZXQ6ICdodHRwOi8vbG9jYWxob3N0OjMwMDAnLCBjaGFuZ2VPcmlnaW46IHRydWUgfSwNCiAgICAgICcvbGlicmFyeSc6IHsgdGFyZ2V0OiAnaHR0cDovL2xvY2FsaG9zdDozMDAwJywgY2hhbmdlT3JpZ2luOiB0cnVlIH0sDQogICAgfSwNCiAgfSwNCiAgYnVpbGQ6IHsNCiAgICBvdXREaXI6ICdkaXN0JywNCiAgfSwNCn0pOw0K
+import { defineConfig } from 'vite';
+import vue from '@vitejs/plugin-vue';
+
+// 开发时前端跑在 5173，后端 NestJS 跑在 3000。
+// /api、/output、/library 统一代理到后端；/api/comfy-ws（采样预览 WebSocket）同样走代理。
+export default defineConfig({
+  plugins: [vue()],
+  server: {
+    port: 5173,
+    proxy: {
+      '/api': { target: 'http://localhost:3000', changeOrigin: true, ws: true },
+      '/output': { target: 'http://localhost:3000', changeOrigin: true },
+      '/library': { target: 'http://localhost:3000', changeOrigin: true },
+    },
+  },
+  build: {
+    outDir: 'dist',
+  },
+});

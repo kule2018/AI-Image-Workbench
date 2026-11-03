@@ -1,1 +1,44 @@
-aW1wb3J0IHsgQ29udHJvbGxlciwgR2V0LCBQb3N0LCBSZXEsIFJlcyB9IGZyb20gJ0BuZXN0anMvY29tbW9uJzsNCmltcG9ydCB7IFJlcXVlc3QsIFJlc3BvbnNlIH0gZnJvbSAnZXhwcmVzcyc7DQppbXBvcnQgeyBCYWNrdXBTZXJ2aWNlIH0gZnJvbSAnLi9iYWNrdXAuc2VydmljZSc7DQppbXBvcnQgeyByZWFkUmF3Qm9keSwgZGVjb2RlRGF0YVVybCB9IGZyb20gJy4uL2NvbW1vbi91dGlscy9maWxlLnV0aWwnOw0KDQpAQ29udHJvbGxlcignYXBpJykNCmV4cG9ydCBjbGFzcyBCYWNrdXBDb250cm9sbGVyIHsNCiAgY29uc3RydWN0b3IocHJpdmF0ZSByZWFkb25seSBzZXJ2aWNlOiBCYWNrdXBTZXJ2aWNlKSB7fQ0KDQogIEBHZXQoJ2V4cG9ydC1hbGwnKQ0KICBhc3luYyBleHBvcnRBbGwoQFJlcygpIHJlczogUmVzcG9uc2UpIHsNCiAgICBjb25zdCB6aXBCdWYgPSBhd2FpdCB0aGlzLnNlcnZpY2UuY29sbGVjdEV4cG9ydFppcCgpOw0KICAgIHJlcy53cml0ZUhlYWQoMjAwLCB7DQogICAgICAnQ29udGVudC1UeXBlJzogJ2FwcGxpY2F0aW9uL3ppcCcsDQogICAgICAnQ29udGVudC1EaXNwb3NpdGlvbic6ICdhdHRhY2htZW50OyBmaWxlbmFtZT0id29ya2JlbmNoX2JhY2t1cF8nICsgRGF0ZS5ub3coKSArICcuemlwIicsDQogICAgfSk7DQogICAgcmVzLmVuZCh6aXBCdWYpOw0KICB9DQoNCiAgQFBvc3QoJ2ltcG9ydC1hbGwnKQ0KICBhc3luYyBpbXBvcnRBbGwoQFJlcSgpIHJlcTogUmVxdWVzdCwgQFJlcygpIHJlczogUmVzcG9uc2UpIHsNCiAgICBjb25zdCBjdCA9IFN0cmluZyhyZXEuaGVhZGVyc1snY29udGVudC10eXBlJ10gfHwgJycpLnRvTG93ZXJDYXNlKCk7DQogICAgbGV0IHppcEJ1ZjogQnVmZmVyOw0KICAgIHRyeSB7DQogICAgICBpZiAoY3QuaW5jbHVkZXMoJ2FwcGxpY2F0aW9uL2pzb24nKSkgew0KICAgICAgICBjb25zdCBib2R5ID0gcmVxLmJvZHkgJiYgcmVxLmJvZHkuZGF0YVVybCA/IHJlcS5ib2R5IDogbnVsbDsNCiAgICAgICAgY29uc3QgZGVjb2RlZCA9IGJvZHkgPyBkZWNvZGVEYXRhVXJsKGJvZHkuZGF0YVVybCkgOiBudWxsOw0KICAgICAgICBpZiAoIWRlY29kZWQpIHJldHVybiByZXMuc3RhdHVzKDQwMCkuanNvbih7IGVycm9yOiAn5paH5Lu25YaF5a655peg5pWIJyB9KTsNCiAgICAgICAgemlwQnVmID0gZGVjb2RlZC5idWZmZXI7DQogICAgICB9IGVsc2Ugew0KICAgICAgICB6aXBCdWYgPSBhd2FpdCByZWFkUmF3Qm9keShyZXEpOw0KICAgICAgfQ0KICAgIH0gY2F0Y2ggKGUpIHsNCiAgICAgIHJldHVybiByZXMuc3RhdHVzKDQxMykuanNvbih7IGVycm9yOiAn5aSH5Lu95YyF6L+H5aSn5oiW5LiK5Lyg5Lit5pat77yaJyArIGUubWVzc2FnZSB9KTsNCiAgICB9DQogICAgaWYgKCF6aXBCdWYgfHwgIXppcEJ1Zi5sZW5ndGgpIHJldHVybiByZXMuc3RhdHVzKDQwMCkuanNvbih7IGVycm9yOiAn5aSH5Lu95YyF5Li656m6JyB9KTsNCiAgICB0cnkgew0KICAgICAgY29uc3QgcmVzdWx0ID0gYXdhaXQgdGhpcy5zZXJ2aWNlLmFwcGx5SW1wb3J0WmlwKHppcEJ1Zik7DQogICAgICByZXR1cm4gcmVzLmpzb24ocmVzdWx0KTsNCiAgICB9IGNhdGNoIChlKSB7DQogICAgICByZXR1cm4gcmVzLnN0YXR1cyg0MDApLmpzb24oeyBlcnJvcjogZS5tZXNzYWdlIH0pOw0KICAgIH0NCiAgfQ0KfQ0K
+import { Controller, Get, Post, Req, Res } from '@nestjs/common';
+import { Request, Response } from 'express';
+import { BackupService } from './backup.service';
+import { readRawBody, decodeDataUrl } from '../common/utils/file.util';
+
+@Controller('api')
+export class BackupController {
+  constructor(private readonly service: BackupService) {}
+
+  @Get('export-all')
+  async exportAll(@Res() res: Response) {
+    const zipBuf = await this.service.collectExportZip();
+    res.writeHead(200, {
+      'Content-Type': 'application/zip',
+      'Content-Disposition': 'attachment; filename="workbench_backup_' + Date.now() + '.zip"',
+    });
+    res.end(zipBuf);
+  }
+
+  @Post('import-all')
+  async importAll(@Req() req: Request, @Res() res: Response) {
+    const ct = String(req.headers['content-type'] || '').toLowerCase();
+    let zipBuf: Buffer;
+    try {
+      if (ct.includes('application/json')) {
+        const body = req.body && req.body.dataUrl ? req.body : null;
+        const decoded = body ? decodeDataUrl(body.dataUrl) : null;
+        if (!decoded) return res.status(400).json({ error: '文件内容无效' });
+        zipBuf = decoded.buffer;
+      } else {
+        zipBuf = await readRawBody(req);
+      }
+    } catch (e) {
+      return res.status(413).json({ error: '备份包过大或上传中断：' + e.message });
+    }
+    if (!zipBuf || !zipBuf.length) return res.status(400).json({ error: '备份包为空' });
+    try {
+      const result = await this.service.applyImportZip(zipBuf);
+      return res.json(result);
+    } catch (e) {
+      return res.status(400).json({ error: e.message });
+    }
+  }
+}

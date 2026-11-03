@@ -1,1 +1,13 @@
-aW1wb3J0IHsgTW9kdWxlIH0gZnJvbSAnQG5lc3Rqcy9jb21tb24nOw0KaW1wb3J0IHsgVHlwZU9ybU1vZHVsZSB9IGZyb20gJ0BuZXN0anMvdHlwZW9ybSc7DQppbXBvcnQgeyBMaWJyYXJ5SXRlbSB9IGZyb20gJy4vbGlicmFyeS5lbnRpdHknOw0KaW1wb3J0IHsgTGlicmFyeVNlcnZpY2UgfSBmcm9tICcuL2xpYnJhcnkuc2VydmljZSc7DQppbXBvcnQgeyBMaWJyYXJ5Q29udHJvbGxlciB9IGZyb20gJy4vbGlicmFyeS5jb250cm9sbGVyJzsNCg0KQE1vZHVsZSh7DQogIGltcG9ydHM6IFtUeXBlT3JtTW9kdWxlLmZvckZlYXR1cmUoW0xpYnJhcnlJdGVtXSldLA0KICBjb250cm9sbGVyczogW0xpYnJhcnlDb250cm9sbGVyXSwNCiAgcHJvdmlkZXJzOiBbTGlicmFyeVNlcnZpY2VdLA0KICBleHBvcnRzOiBbTGlicmFyeVNlcnZpY2VdLA0KfSkNCmV4cG9ydCBjbGFzcyBMaWJyYXJ5TW9kdWxlIHt9DQo=
+import { Module } from '@nestjs/common';
+import { TypeOrmModule } from '@nestjs/typeorm';
+import { LibraryItem } from './library.entity';
+import { LibraryService } from './library.service';
+import { LibraryController } from './library.controller';
+
+@Module({
+  imports: [TypeOrmModule.forFeature([LibraryItem])],
+  controllers: [LibraryController],
+  providers: [LibraryService],
+  exports: [LibraryService],
+})
+export class LibraryModule {}
